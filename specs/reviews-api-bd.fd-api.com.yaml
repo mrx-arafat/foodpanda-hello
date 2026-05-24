@@ -1,0 +1,458 @@
+openapi: 3.0.0
+info:
+  title: captures/foodpanda.mitm Mitmproxy2Swagger
+  version: 1.0.0
+servers:
+- url: https://reviews-api-bd.fd-api.com
+  description: The default server
+paths:
+  /reviews/vendor/biq9:
+    options:
+      summary: OPTIONS biq9
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: global_entity_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: number
+      - name: has_dish
+        in: query
+        required: false
+        schema:
+          type: string
+    get:
+      summary: GET biq9
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        uuid:
+                          type: string
+                        createdAt:
+                          type: string
+                        updatedAt:
+                          type: string
+                        text:
+                          type: string
+                        isAnonymous:
+                          type: boolean
+                        reviewerName:
+                          type: string
+                        reviewerId:
+                          type: string
+                        ratings:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              topic:
+                                type: string
+                              score:
+                                type: number
+                        type:
+                          type: string
+                        replies:
+                          type: array
+                          items: {}
+                        commentPrettyDate:
+                          type: object
+                          properties:
+                            translationKey:
+                              type: string
+                            timeDuration:
+                              type: string
+                        likeCount:
+                          type: number
+                        isLiked:
+                          type: boolean
+                        productVariations:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: string
+                              defaultTitle:
+                                type: string
+                              title:
+                                type: object
+                                properties: {}
+                              unitPrice:
+                                type: number
+                              product:
+                                type: object
+                                properties:
+                                  id:
+                                    type: string
+                                  defaultTitle:
+                                    type: string
+                                  title:
+                                    type: object
+                                    properties:
+                                      en_BD:
+                                        type: string
+                                  description:
+                                    type: string
+                                  active:
+                                    type: boolean
+                                  imageUrls:
+                                    type: array
+                                    items:
+                                      type: string
+                        topReviewerTranslationKey:
+                          type: string
+                  pageKey:
+                    type: string
+                  heroImage:
+                    type: string
+              example:
+                data:
+                - uuid: 2caa4fce-dfda-466a-b868-3ffff2f11e8c
+                  createdAt: '2026-05-08T19:54:57Z'
+                  updatedAt: '2026-05-08T19:54:57Z'
+                  text: we ordered 2 americano, 1 capaccino, and 1 latte, 1 pizza
+                    and fries. The packaging was so bad that coffee was all over the
+                    packet and even the fries got soaked in coffee
+                  isAnonymous: false
+                  reviewerName: Nusrat
+                  reviewerId: w2fyn4yk
+                  ratings:
+                  - topic: overall
+                    score: 1
+                  - topic: restaurant_food
+                    score: 1
+                  - topic: rider
+                    score: 1
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '2'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations:
+                  - id: '9911883'
+                    defaultTitle: BBQ Chicken Sausage Pizza
+                    title: {}
+                    unitPrice: 1269
+                    product:
+                      id: '9089127'
+                      defaultTitle: BBQ Chicken Sausage Pizza
+                      title:
+                        en_BD: BBQ Chicken Sausage Pizza
+                      description: 9 inch - A smoky & savory pizza on a croissant
+                        base with bbq chicken, sausage & mozzarella
+                      active: true
+                      imageUrls:
+                      - https://images.deliveryhero.io/image/fd-bd/Products/9088592.jpg
+                  topReviewerTranslationKey: ''
+                - uuid: 6f4eda80-ec71-4c1a-89ee-c985f770a0e0
+                  createdAt: '2026-05-07T16:22:01Z'
+                  updatedAt: '2026-05-07T16:22:01Z'
+                  text: Was very "jewish" with the egg mayo!
+                  isAnonymous: false
+                  reviewerName: Taneem
+                  reviewerId: g8chr9sd
+                  ratings:
+                  - topic: overall
+                    score: 3
+                  - topic: restaurant_food
+                    score: 3
+                  - topic: rider
+                    score: 5
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '2'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations:
+                  - id: '9911858'
+                    defaultTitle: Tin Loaf Egg Sandwich
+                    title: {}
+                    unitPrice: 369
+                    product:
+                      id: '9089102'
+                      defaultTitle: Tin Loaf Egg Sandwich
+                      title:
+                        en_BD: Tin Loaf Egg Sandwich
+                      description: 1 pc - A simple & classic sandwich prepared with
+                        a savory egg mayonnaise filling on soft tin loaf bread
+                      active: true
+                      imageUrls:
+                      - https://images.deliveryhero.io/image/fd-bd/Products/9088500.jpg
+                  topReviewerTranslationKey: NEXTGEN_KEY_REVIEWS_LABEL
+                - uuid: 5fb8ab4a-dd7c-453c-b0aa-5a8f69f453eb
+                  createdAt: '2026-05-07T02:15:08Z'
+                  updatedAt: '2026-05-07T02:15:08Z'
+                  text: Favourite breakfast deal
+                  isAnonymous: false
+                  reviewerName: Shadman
+                  reviewerId: g3rfs3ei
+                  ratings:
+                  - topic: overall
+                    score: 5
+                  - topic: restaurant_food
+                    score: 5
+                  - topic: rider
+                    score: 5
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '2'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations:
+                  - id: '9911791'
+                    defaultTitle: Bacon Omelette, Hash Brown & Sausage with Croissant
+                    title: {}
+                    unitPrice: 769
+                    product:
+                      id: '9089035'
+                      defaultTitle: Bacon Omelette, Hash Brown & Sausage with Croissant
+                      title: {}
+                      description: 1:1 - Consists of a savory bacon omelette, a crispy
+                        hash brown, savory sausage & a butter croissant
+                      active: true
+                      imageUrls:
+                      - https://images.deliveryhero.io/image/fd-bd/Products/9088483.jpg
+                  topReviewerTranslationKey: ''
+                - uuid: da7a0c72-bf10-4795-8b5e-771e1928ff08
+                  createdAt: '2026-05-05T17:37:04Z'
+                  updatedAt: '2026-05-05T17:37:04Z'
+                  text: Very tiny slice of cake not worth 400 taka
+                  isAnonymous: false
+                  reviewerName: Adit
+                  reviewerId: j1omi9nf
+                  ratings:
+                  - topic: overall
+                    score: 1
+                  - topic: restaurant_food
+                    score: 1
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '2'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations: []
+                  topReviewerTranslationKey: ''
+                - uuid: f8726808-66a0-40c3-b099-05721b7ecfaf
+                  createdAt: '2026-05-01T17:57:14Z'
+                  updatedAt: '2026-05-01T17:57:14Z'
+                  text: 'the mushroom soup was horrible. '
+                  isAnonymous: false
+                  reviewerName: Marina
+                  reviewerId: bdq4kvr5
+                  ratings:
+                  - topic: overall
+                    score: 1
+                  - topic: restaurant_food
+                    score: 1
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '3'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations: []
+                  topReviewerTranslationKey: ''
+                - uuid: d9982b63-fb89-4cab-94f4-b154292bb97a
+                  createdAt: '2026-04-27T07:22:02Z'
+                  updatedAt: '2026-04-27T07:22:02Z'
+                  text: The almond  fillings was burnt
+                  isAnonymous: false
+                  reviewerName: Proteeti
+                  reviewerId: p7bsl1ui
+                  ratings:
+                  - topic: overall
+                    score: 1
+                  - topic: restaurant_food
+                    score: 1
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '3'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations: []
+                  topReviewerTranslationKey: ''
+                - uuid: 548984d4-3949-4fe0-8518-9b142606e428
+                  createdAt: '2026-04-26T05:07:26Z'
+                  updatedAt: '2026-04-26T05:07:26Z'
+                  text: 'delicious '
+                  isAnonymous: false
+                  reviewerName: Dr
+                  reviewerId: bdwwv3n3
+                  ratings:
+                  - topic: overall
+                    score: 5
+                  - topic: restaurant_food
+                    score: 5
+                  - topic: rider
+                    score: 5
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_X_WEEKS_AGO
+                    timeDuration: '4'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations:
+                  - id: '9911796'
+                    defaultTitle: Breakfast Combo - 2
+                    title: {}
+                    unitPrice: 1019
+                    product:
+                      id: '9089040'
+                      defaultTitle: Breakfast Combo - 2
+                      title:
+                        en_BD: Breakfast Combo - 2
+                      description: 1:1 - Consists of butter croissant, 2 pcs hash
+                        browns, choice of egg - bacon omlette, scrambled egg or egg
+                        omelette, 1 pc chicken sausage, butter, strawberry jam & choice
+                        of coffee - americano or cappuccino
+                      active: true
+                      imageUrls:
+                      - https://images.deliveryhero.io/image/fd-bd/Products/9088569.jpg
+                  - id: '9911800'
+                    defaultTitle: Chicken Sausage Omelette
+                    title: {}
+                    unitPrice: 619
+                    product:
+                      id: '9089044'
+                      defaultTitle: Chicken Sausage Omelette
+                      title: {}
+                      description: 1:1 - An omelette filled with sauteed capsicum,
+                        chicken sausage, mushrooms and mozzarella cheese served with
+                        hash brown & butter croissant
+                      active: true
+                      imageUrls:
+                      - https://images.deliveryhero.io/image/fd-bd/Products/9088573.jpg
+                  topReviewerTranslationKey: NEXTGEN_KEY_REVIEWS_LABEL
+                - uuid: c6970f1e-e013-4a04-a8b7-c870279b46f6
+                  createdAt: '2026-04-16T10:46:41Z'
+                  updatedAt: '2026-04-16T10:46:41Z'
+                  text: I asked no spicy at all...It was !!!!
+                  isAnonymous: false
+                  reviewerName: Isabelle
+                  reviewerId: bdwtmco8
+                  ratings:
+                  - topic: overall
+                    score: 3
+                  - topic: restaurant_food
+                    score: 3
+                  - topic: rider
+                    score: 5
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_1_MONTH_AGO
+                    timeDuration: '1'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations:
+                  - id: '9911980'
+                    defaultTitle: ABCDF Juice
+                    title: {}
+                    unitPrice: 419
+                    product:
+                      id: '9089190'
+                      defaultTitle: ABCDF Juice
+                      title: {}
+                      description: 1:1 - A healthy & delicious juice blend of apple,
+                        banana & carrot
+                      active: true
+                      imageUrls:
+                      - https://images.deliveryhero.io/image/fd-bd/Products/9088456.jpg
+                  topReviewerTranslationKey: ''
+                - uuid: 68aeccc8-9055-48c4-bcc0-43ba2745f341
+                  createdAt: '2026-04-13T12:36:20Z'
+                  updatedAt: '2026-04-13T12:36:20Z'
+                  text: It tasted bland
+                  isAnonymous: false
+                  reviewerName: Tamanna
+                  reviewerId: bd1w8qj0
+                  ratings:
+                  - topic: overall
+                    score: 2
+                  - topic: restaurant_food
+                    score: 2
+                  - topic: rider
+                    score: 5
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_1_MONTH_AGO
+                    timeDuration: '1'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations: []
+                  topReviewerTranslationKey: ''
+                - uuid: 5dcb6c86-7cc3-45dd-ba68-cc7614cfccd8
+                  createdAt: '2026-04-13T03:06:29Z'
+                  updatedAt: '2026-04-13T03:06:29Z'
+                  text: impossibly oily i dont know how a crossiant be this much oily
+                  isAnonymous: false
+                  reviewerName: Mourin
+                  reviewerId: s5cio3ux
+                  ratings:
+                  - topic: overall
+                    score: 1
+                  - topic: restaurant_food
+                    score: 1
+                  type: user
+                  replies: []
+                  commentPrettyDate:
+                    translationKey: NEXTGEN_REVIEWS_1_MONTH_AGO
+                    timeDuration: '1'
+                  likeCount: 0
+                  isLiked: false
+                  productVariations: []
+                  topReviewerTranslationKey: ''
+                pageKey: 
+                  eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc1MTE3MDc5MiM2NTYyMzg3OC1hYTdhLTRkYjEtYjRhYy1lN2IxOWY2OTY2YzIifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI2JpcTkifX0%3D
+                heroImage: https://images.deliveryhero.io/image/fd-bd/LH/biq9-hero.jpg
+      parameters:
+      - name: global_entity_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: number
+      - name: has_dish
+        in: query
+        required: false
+        schema:
+          type: string
+x-path-templates:
+# Remove the ignore: prefix to generate an endpoint with its URL
+# Lines that are closer to the top take precedence, the matching is greedy
+  []

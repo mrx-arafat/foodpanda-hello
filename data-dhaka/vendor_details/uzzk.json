@@ -1,0 +1,4239 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 94398,
+    "code": "uzzk",
+    "accepts_instructions": true,
+    "address": "Baridhara Diplomatic zone, Sarwardi aveneu , house no 55 , lift 5",
+    "address_line2": "",
+    "budget": 3,
+    "deals": [
+      {
+        "id": 607650,
+        "code": "607650",
+        "offer_type": "percentage",
+        "type": "discount",
+        "voucher_type": "",
+        "minimum_order_value": 100,
+        "maximum_discount_amount": 0,
+        "value": 15,
+        "title": "15% off Tk. 100",
+        "description": "",
+        "start_date": "2026-05-16T00:00:00+06:00",
+        "end_date": "2051-05-16T00:00:00+06:00",
+        "is_pro": false,
+        "is_new_customer": false,
+        "seq_priority": 1000,
+        "additional_info": {
+          "should_override": [
+            "dps"
+          ],
+          "calculation": {
+            "baseOn": null
+          }
+        },
+        "tc": [
+          "Valid for a minimum order of Tk100",
+          "Applicable for Delivery.",
+          "Additional T&C can apply"
+        ],
+        "action": {
+          "type": "",
+          "name": "",
+          "description": ""
+        },
+        "source": "incentives",
+        "conditions": null,
+        "quantity": 0,
+        "used_quantity": 0,
+        "is_full_basket_applicable": true,
+        "construct_id": "",
+        "is_bogo": false
+      }
+    ],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 240,
+        "name": "Dumpling",
+        "url_key": "dumpling",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "17:32",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-24",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "17:32",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-24",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      },
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "23:59",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 15,
+        "discount_type": "percentage",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2051-05-16",
+        "file_name": "",
+        "id": 607650,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 100,
+        "name": "15% off Tk. 100",
+        "opening_time": "00:00",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-16",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "should_override": [
+            "dps"
+          ]
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 36,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/uzzk-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/uzzk-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2025-12-11T15:09:21Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.805322,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.421653,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 30,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Sichuan Hotpot",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 240,
+    "rating": 4.6,
+    "topic_ratings": null,
+    "review_number": 44,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "08:30",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "07:30",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "07:30",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "08:30",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "07:30",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "07:30",
+        "closing_time": "23:59"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Sichuan Hotpot",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2025-10-14",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-10-14"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "sichuan-hotpot",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 240,
+          "name": "Dumpling",
+          "url_key": "dumpling",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 240,
+        "name": "Dumpling",
+        "url_key": "dumpling",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Sichuan Hotpot",
+      "address_line_1": "Baridhara Diplomatic zone, Sarwardi aveneu , house no 55 , lift 5"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/uzzk/sichuan-hotpot",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801304407783",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 251879,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2460380,
+            "code": "ef473b09-f0ad-4051-9e7f-94968fcaaacc",
+            "name": "Snacks",
+            "description": "",
+            "products": [
+              {
+                "id": 9335520,
+                "code": "39412e8b-cad4-43ea-ada7-8e6faac4efa2",
+                "name": "Dragon chicken ",
+                "description": "Dragon chicken. Indian &chinese  testy snacks ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f68b33db-68bf-4e33-87c7-c607463511ee.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f68b33db-68bf-4e33-87c7-c607463511ee.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f68b33db-68bf-4e33-87c7-c607463511ee.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10207589,
+                    "code": "4af413aa-4faf-4f80-8bad-5f45385a36d0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9373001,
+                "code": "202aa489-983e-468c-aed5-a3a610df7525",
+                "name": "Chicken  lollipop.",
+                "description": "8. Pcs.crispy golden and chilli perfect balance of crunch and flavor.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/3530bec8-bb45-4fd2-8c55-c4cfdad28260.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/3530bec8-bb45-4fd2-8c55-c4cfdad28260.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/3530bec8-bb45-4fd2-8c55-c4cfdad28260.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10257066,
+                    "code": "66fda210-83ed-436d-87d1-ff092d44c16d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284902,
+                "code": "569a9f07-824f-4aa8-a79b-e5aab0e82f32",
+                "name": "Fried Chicken - Leg",
+                "description": "1:1 - A crispy & juicy fried chicken leg prepared with a secret blend of herb & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284902.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284902.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284902.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147450,
+                    "code": "ab00bcfb-d19a-423c-b5de-6ce2eef4e501",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 297.5,
+                    "price_before_discount": 350,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516092"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284903,
+                "code": "dbc8d2b0-c453-4740-8df3-e68ba824ce1e",
+                "name": "Fried Chicken Wings",
+                "description": "1:1 -(8. pic) A crispy & juicy fried chicken wing prepared with a secret blend of herb & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284903.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284903.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284903.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147451,
+                    "code": "6c417866-cc94-4c30-be16-0138298ed367",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516093"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2462063,
+            "code": "2160ca4f-475d-496e-a908-0a4b88761bb1",
+            "name": " Chines Sichuan hotpot ",
+            "description": "You must come to the restaurant with a reservation. Delivery is not available.",
+            "products": [
+              {
+                "id": 9661109,
+                "code": "60968b49-4ad0-4cf8-b886-e2bf27a28540",
+                "name": "Kung Pao Beef",
+                "description": "Kung pao beef with wok hei so strong it sichuan  spicy. ",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/14f317e3-4d42-4d95-8ae7-b00fba19444f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/14f317e3-4d42-4d95-8ae7-b00fba19444f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/14f317e3-4d42-4d95-8ae7-b00fba19444f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10586771,
+                    "code": "e2f1d5ff-d5c4-4f7b-9465-661c234e89c6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 552.5,
+                    "price_before_discount": 650,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9679303,
+                "code": "360699ed-8381-4ea4-a37c-b3cd56ca9b22",
+                "name": "Chines chicken salad.",
+                "description": "1.1 chickne salad Prepare  by.  Chicken, Cucumber.  And  sichuan chilli oil & juice ",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/835ff560-bd14-4dd7-88d0-afcc1f038928.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/835ff560-bd14-4dd7-88d0-afcc1f038928.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/835ff560-bd14-4dd7-88d0-afcc1f038928.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10607278,
+                    "code": "7392f89a-3189-4912-afdf-01ba5109b46a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 297.5,
+                    "price_before_discount": 350,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9301163,
+                "code": "940b3a99-6727-4bfb-89c7-9e72ff3b7f8e",
+                "name": "Chines Hotpot Fry",
+                "description": "Chinese hotpot fryAuthontic flavor full &juicy chinese food ",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/1dc74b71-63be-45b2-b46d-d67aa816f879.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/1dc74b71-63be-45b2-b46d-d67aa816f879.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/1dc74b71-63be-45b2-b46d-d67aa816f879.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10167776,
+                    "code": "d0db0f99-bef2-4479-b19b-598f7654ddc6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1275,
+                    "price_before_discount": 1500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9298181,
+                "code": "f3ec9839-9c19-4206-80c2-c06f74a96782",
+                "name": "Hotpot",
+                "description": "1.1 You must come to the restaurant with a reservation. Delivery is not available.",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/176cfed7-7c1f-40f4-9c87-d4aa3f91d3c7.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/176cfed7-7c1f-40f4-9c87-d4aa3f91d3c7.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/176cfed7-7c1f-40f4-9c87-d4aa3f91d3c7.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10164447,
+                    "code": "c32d98b2-d2f0-47f1-ad46-29303c3c76e1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1700,
+                    "price_before_discount": 2000,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2465572,
+            "code": "88167e86-f759-452f-bad2-059bfc0725ef",
+            "name": "Sichuan spicy boiled fish& pickle soup ",
+            "description": "Dori fish & pickle soup ",
+            "products": [
+              {
+                "id": 9414357,
+                "code": "0868e1bc-4fa6-47e4-aca5-75faf5acbedf",
+                "name": "Kung Pao Fish With Dried Chilies",
+                "description": "1.1.Kung Pao Fish With Dried Chilies and Sichuan Peppercorns. ",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/06ac58be-4fc6-470a-876a-c7eb8b10fdd3.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/06ac58be-4fc6-470a-876a-c7eb8b10fdd3.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/06ac58be-4fc6-470a-876a-c7eb8b10fdd3.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10305677,
+                    "code": "035e16c6-eaf6-46b1-ad4c-e1859de6f7a1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9641592,
+                "code": "79f317df-8ad1-4f96-a4b8-41caec935ae1",
+                "name": "Sea food fry.",
+                "description": "Authontic sichuan pepper  flavour, making, with Karaf, squit, shrimp, corn & Mashroom ",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/d4f06fd9-62eb-4d79-a196-e50252a8f427.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/d4f06fd9-62eb-4d79-a196-e50252a8f427.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/d4f06fd9-62eb-4d79-a196-e50252a8f427.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10564769,
+                    "code": "9b879800-234e-4c24-a8cd-0416d99e52bc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 552.5,
+                    "price_before_discount": 650,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9318681,
+                "code": "ecf0266a-c5e0-43f8-bb71-df4d4e25adbc",
+                "name": "Sichuan spicy  fish soup ",
+                "description": "Sichuan spicy boiled pickle & fish soup ",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/316cbf0a-108e-4cb8-8916-43369004f170.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/316cbf0a-108e-4cb8-8916-43369004f170.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/316cbf0a-108e-4cb8-8916-43369004f170.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10187898,
+                    "code": "21c0a089-8da1-48a7-9fe0-f5f5cebc9bf5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2465637,
+            "code": "8935e920-391e-4034-b126-a3cd1164f8e9",
+            "name": "Chinese- Filipino  soup noodles ",
+            "description": "1.1 Chinese  Filipino egg & vegetables  noodles. ",
+            "products": [
+              {
+                "id": 9654041,
+                "code": "d387e280-168a-44dc-95d5-e20c6f958316",
+                "name": "Beef ball soup noodles ",
+                "description": "Beef ball soup noodles, Authontic chines, sichuan  spicy noodles & vegetables.  ",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/645e1f82-1622-4bc2-b4db-16cb51d24e33.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/645e1f82-1622-4bc2-b4db-16cb51d24e33.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/645e1f82-1622-4bc2-b4db-16cb51d24e33.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10579055,
+                    "code": "4dd3632d-8586-47de-b67e-852f422b4983",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9319315,
+                "code": "4fe4ebac-2247-4624-8f92-1d7fe29d7fef",
+                "name": "Chines egg& vegetables noodles ",
+                "description": "1.1.Vegetables  soup noodles ",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ef7efbc1-1efa-4cb4-bd1b-9e9bced101f0.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ef7efbc1-1efa-4cb4-bd1b-9e9bced101f0.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ef7efbc1-1efa-4cb4-bd1b-9e9bced101f0.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10188587,
+                    "code": "ab715eaf-b6fa-4a2f-a55a-1d6d193d1175",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2510215,
+            "code": "07ae69d9-a853-4019-a8f0-e0af8f7f1933",
+            "name": "Chinese see food fry ",
+            "description": "Sichuan pepper with karaf, squit,shrimp corn, juice  & spicy flavour. ",
+            "products": [
+              {
+                "id": 9676903,
+                "code": "128e0e44-4b7b-4b43-87fa-d3efccc27f27",
+                "name": "Hotpot bowl ",
+                "description": "1.1 Hotpot bowl.Chinese Hotpot bowl.Authentic Chinese Flavor,making.shrimp, karaf stick, beef,sweet conr.mashroom and vegetables. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/67342554-78d9-41c8-b2c8-d076ac6acc7c.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/67342554-78d9-41c8-b2c8-d076ac6acc7c.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/67342554-78d9-41c8-b2c8-d076ac6acc7c.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10604382,
+                    "code": "f211c75f-13fc-448e-92f5-56f90716c7b0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 552.5,
+                    "price_before_discount": 650,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2510219,
+            "code": "391ebd86-5587-4a1a-958a-fa1dd1a6dec1",
+            "name": "Mutton  Rezalla with paratha. ",
+            "description": "Mutton Rezala & paratha Break fast min, garlic flavour Mutton Rezala.",
+            "products": [
+              {
+                "id": 9641684,
+                "code": "c7d3157a-7f55-4e98-a069-56b35f60c760",
+                "name": "Chicken Sausage Chow Mein",
+                "description": "sichuan spicy flavour, sausage with noolds, nad vegetables. ",
+                "display_price": "",
+                "master_category_id": 6,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10564861/6794aa9c-e247-499e-9b33-97d447fc411b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10564861/6794aa9c-e247-499e-9b33-97d447fc411b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10564861/6794aa9c-e247-499e-9b33-97d447fc411b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10564861,
+                    "code": "e7b31048-3f2c-4ec3-8935-53aefbc3a3d3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2460372,
+            "code": "935c9608-4eff-472c-bf7a-a7ad29ba3569",
+            "name": "Momo ",
+            "description": "",
+            "products": [
+              {
+                "id": 9641645,
+                "code": "432f0e64-ba88-4a20-a8ee-0342e649e6b5",
+                "name": "Seafood  BBQ. platter",
+                "description": "Chinese  sichuan  spicy seafood  BBQ.wiht karaf, squit, shrimp,corn. Sichuan pepper flavour.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/313aa170-ebda-4998-ab59-0b79f7777687.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/313aa170-ebda-4998-ab59-0b79f7777687.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/313aa170-ebda-4998-ab59-0b79f7777687.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10564822,
+                    "code": "7731dd9f-4a59-4d57-a4d3-62c87e9cbab4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 680,
+                    "price_before_discount": 800,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9381170,
+                "code": "0aba5214-9038-46df-b5fa-bfa11b38cacc",
+                "name": "Chicken dumpling  soup noodles. ",
+                "description": "4pic. chicken  momo/dumpling, soup noodles and vegetables, sichuan spicy flavour test is best ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10266856/4d135fe1-aa6f-405c-bca6-7bb3cac03e01.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10266856/4d135fe1-aa6f-405c-bca6-7bb3cac03e01.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10266856/4d135fe1-aa6f-405c-bca6-7bb3cac03e01.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10266856,
+                    "code": "5da70ff5-a762-4a18-a2cb-9aeefe44269b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9381171,
+                "code": "d61c8afd-7186-4ace-83ed-1d6265ad0fbd",
+                "name": " Gravy Beef momo.",
+                "description": "8. pic  gravy beef  momo.sweet  tomata soss.  and mayonnaise,mixed",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/897dda8a-f9c8-48b7-a9af-a8f663c07663.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/897dda8a-f9c8-48b7-a9af-a8f663c07663.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/897dda8a-f9c8-48b7-a9af-a8f663c07663.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10266857,
+                    "code": "812acfdd-bd96-4694-a90f-8a88c44b5eb2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9412670,
+                "code": "6dca61d7-b198-41a1-aa78-7a55a3d0eeef",
+                "name": "Shrimp dimpling soup.",
+                "description": "4.pic shrimp and chicken maggi flavour soup.withe chicken momo.. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/83565352-3f39-4e75-b010-45f9c5a1b51d.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/83565352-3f39-4e75-b010-45f9c5a1b51d.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/83565352-3f39-4e75-b010-45f9c5a1b51d.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10303489,
+                    "code": "c53dafaa-47dd-45cb-b88c-c2cffca0d5fe",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9440319,
+                "code": "cf227fe6-9551-4e73-a305-450243c21a1e",
+                "name": "Gilick leaves with egg dumpling. ",
+                "description": "8. pic.Gilick leaves with egg dumpling. And with silly sauce.👌",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/752e12b7-1eba-40d3-b9a6-84a566f53148.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/752e12b7-1eba-40d3-b9a6-84a566f53148.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/752e12b7-1eba-40d3-b9a6-84a566f53148.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10336834,
+                    "code": "49b6b6d5-073e-428b-9cd0-1a6b103baec0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9453177,
+                "code": "d31bf64a-3c13-4a4e-999b-d292c9198fd4",
+                "name": "Karaf mashla. ",
+                "description": "1.1. Karaf mashla chinese style, spicy sweet & juicy. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ee158409-c89f-43fa-8997-dd7fe0fce4eb.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ee158409-c89f-43fa-8997-dd7fe0fce4eb.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ee158409-c89f-43fa-8997-dd7fe0fce4eb.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10351374,
+                    "code": "aeed74ed-4d44-4efe-ae4b-60478b31b860",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9326442,
+                "code": "e6e286d3-10f9-43ca-beaa-4543ee78eda4",
+                "name": "Chicken pan fri dimpling ",
+                "description": "10 pic dumpling fry.and with chilli oil. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f3795572-3948-459a-bc92-3c8efa3517ae.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f3795572-3948-459a-bc92-3c8efa3517ae.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f3795572-3948-459a-bc92-3c8efa3517ae.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10196857,
+                    "code": "211b1f6c-2d9f-4461-9f3a-713c7d5fb76d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9641677,
+                "code": "4cb149ca-49e2-4f06-bd84-4fe0c7515754",
+                "name": "Brised Chicken soup noodles ",
+                "description": "Brised chicken soup noodles with mashroom, & sichuan chilli oil.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/6fa2cf31-b518-45d3-84f4-f2e04c2256dd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/6fa2cf31-b518-45d3-84f4-f2e04c2256dd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/6fa2cf31-b518-45d3-84f4-f2e04c2256dd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10564854,
+                    "code": "fe3c148b-f631-4795-96a4-de14cabaff6e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9644307,
+                "code": "a5f4b146-d221-4f21-b2fb-d18ff9963c3c",
+                "name": "Chines  Stream bun ",
+                "description": " (6) pic. Steamed  bun making  with milk and surge, salt. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/d4615780-12d1-4f15-8961-07c311b307b1.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/d4615780-12d1-4f15-8961-07c311b307b1.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/d4615780-12d1-4f15-8961-07c311b307b1.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10568034,
+                    "code": "ad415a9f-fe41-4f09-b805-2e4f2bfac4dd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 255,
+                    "price_before_discount": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9654612,
+                "code": "822dded4-922c-4402-bab3-77bce92001c1",
+                "name": "Dianping squit ",
+                "description": "Squit dianping Authontic chines style.sweet and spicy ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/2923c533-203f-4eb3-8677-2467f59940cd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/2923c533-203f-4eb3-8677-2467f59940cd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/2923c533-203f-4eb3-8677-2467f59940cd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10579738,
+                    "code": "ebfb1f1f-d075-4fb2-a230-0e7897d3e8ee",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9661072,
+                "code": "e6fdbd56-ef1b-4800-a25c-6abfd01b0c0d",
+                "name": "Ret Bean Steam Buns",
+                "description": "6 pic.Ret Bean steam bans prepared by  (Sweet) ret Bean.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/5571b893-d10b-4cc8-99cb-adf183441050.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/5571b893-d10b-4cc8-99cb-adf183441050.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/5571b893-d10b-4cc8-99cb-adf183441050.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10586734,
+                    "code": "43b78c78-32d2-478c-94c5-7e1e4a7c79d7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9663576,
+                "code": "2c8b82ff-6c37-43a2-92ab-ffa27369e618",
+                "name": "Chines glass  noodles. ",
+                "description": "1.1. Chicken  glass  noodles, withe vegetables & chicken kima. Test for sichuan style.  ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/154325c2-53a8-459f-b644-a66c494df12b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/154325c2-53a8-459f-b644-a66c494df12b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/154325c2-53a8-459f-b644-a66c494df12b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10589325,
+                    "code": "a2fde17b-34c5-4887-9ccf-7adedca9db72",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 297.5,
+                    "price_before_discount": 350,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9668650,
+                "code": "c09cbcbb-680f-4328-a934-2e0691d176a1",
+                "name": "Vegetables & egg soup  ",
+                "description": "1.1 vegetables &egg soup, prepared by.  Fresh Mashroom. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ce3eb76e-5592-4cc3-af9f-a682d350d206.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ce3eb76e-5592-4cc3-af9f-a682d350d206.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/ce3eb76e-5592-4cc3-af9f-a682d350d206.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10595122,
+                    "code": "716054a8-ffe1-41c8-b7e8-d46275f6bd79",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9679249,
+                "code": "c629d7df-ae76-48d2-b09f-4da0f8f467b9",
+                "name": "Sichuan Spicy Beef Salad.",
+                "description": "1.1, Beef salad, prepared by sichuan  special chilli oil,nad cucumber  peanut, & Juicy. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f81f85e0-e580-4307-9557-9a2a2d7510db.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f81f85e0-e580-4307-9557-9a2a2d7510db.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/f81f85e0-e580-4307-9557-9a2a2d7510db.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10607224,
+                    "code": "cd0a2afe-7135-4f76-becb-3a135984b596",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9300602,
+                "code": "d823a8f2-fb55-4dd9-9225-6557e47deda7",
+                "name": "Brised Beef Soup Noodles.",
+                "description": "1.1.  Beef & noodles with sichuan chilli oil.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/6a23e1b3-94c0-40a8-9656-cc2f6ba00b09.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/6a23e1b3-94c0-40a8-9656-cc2f6ba00b09.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/6a23e1b3-94c0-40a8-9656-cc2f6ba00b09.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10167159,
+                    "code": "55de910e-37b4-420c-8d3a-1582757b0971",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9291513,
+                "code": "e4894666-a70c-4c2e-9538-59087982c686",
+                "name": "Chicken dumpling soup.",
+                "description": "1.1(6.pic).with thai soup. tasty and flavour full",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/86a5db21-c9a9-4b10-8725-95cbb15307f4.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/86a5db21-c9a9-4b10-8725-95cbb15307f4.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/86a5db21-c9a9-4b10-8725-95cbb15307f4.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10154820,
+                    "code": "d3b1fb52-bed9-4840-98df-5c0e63b1215e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284887,
+                "code": "9cc657f0-fda6-463c-9a80-c15b2bc95103",
+                "name": "Chicken Momo",
+                "description": " 8.pic. Chicken momo\n.clear  of two.best test of sichuan  flovour. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147435/ebd500e2-8e6b-49b6-8d15-1de4a158b6a3.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147435/ebd500e2-8e6b-49b6-8d15-1de4a158b6a3.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147435/ebd500e2-8e6b-49b6-8d15-1de4a158b6a3.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147435,
+                    "code": "c0f2127d-2121-4d9c-90c8-5b211632091b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516091"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9284888,
+                "code": "e2c03b4f-423d-4d73-b35f-6c6d89b50691",
+                "name": "Beef Momo",
+                "description": " 10. pic.beef dumpling. With special mayonnaise. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284888.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284888.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284888.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147436,
+                    "code": "99107a3a-6c62-468f-b155-769242528e15",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516090"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284890,
+                "code": "acd36462-8517-435c-aba6-5b2f67c99648",
+                "name": "Vegetable Momo",
+                "description": " (8.pic)A healthy steamed dumpling prepared with a savory filling of mixed vegetable, tofu & light seasoning",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284890.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284890.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284890.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147438,
+                    "code": "e6ec4b8f-de27-4587-9665-b4337dc87c20",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 255,
+                    "price_before_discount": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516091"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284889,
+                "code": "bd7c4b63-d9ad-40a9-a0e8-e98d4725da3c",
+                "name": "Shrimp Momo",
+                "description": "8.pcs momo. In the one order. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147437/d361f2f9-083d-4f31-a684-eb466c07ebe6.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147437/d361f2f9-083d-4f31-a684-eb466c07ebe6.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147437/d361f2f9-083d-4f31-a684-eb466c07ebe6.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147437,
+                    "code": "51342d96-95b9-4a1b-8a63-ce80bb89c1ce",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284892,
+                "code": "e01e9d26-2e99-4fac-ae42-dab24ec93c34",
+                "name": "Beef Dumplings",
+                "description": " 10.pic.momo in the order. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147440/2ad6ca05-eacf-47ca-9e89-b4a9bb6700f0.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147440/2ad6ca05-eacf-47ca-9e89-b4a9bb6700f0.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147440/2ad6ca05-eacf-47ca-9e89-b4a9bb6700f0.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147440,
+                    "code": "066aec1c-54c1-47a2-982d-7ac341b8cea5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284893,
+                "code": "5cb73918-97f6-429f-baed-1487984e5c9c",
+                "name": "Chicken Dumplings",
+                "description": "10.pic. - A delicious steamed dumpling prepared with a savory filling of minced chicken, chive & soy sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284893.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284893.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284893.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147441,
+                    "code": "77e5f01a-fb92-4bd1-9a6a-ad59045dba74",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516091"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2460377,
+            "code": "27f51e7d-5617-4690-8924-9dd7c541a89b",
+            "name": "Chowmein",
+            "description": "",
+            "products": [
+              {
+                "id": 9412586,
+                "code": "3e85b53c-7962-4d67-9cd4-473e2dce1e92",
+                "name": "Sichuan special Mixed,chowmein.",
+                "description": "1.1.Sichuan Flavor, Mushroom, Shrimp,  Chicken,beef,  &Vegetable",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b311161e-1bec-4dc8-90cc-d4a4512946b2.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b311161e-1bec-4dc8-90cc-d4a4512946b2.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b311161e-1bec-4dc8-90cc-d4a4512946b2.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10303395,
+                    "code": "42145230-8cb6-4585-9913-568128d517a0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 509.15,
+                    "price_before_discount": 599,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9480819,
+                "code": "2a2d37fa-4b60-44fb-a4b1-178a38d88402",
+                "name": "Chicken chilli with noodles.",
+                "description": "1.1Chicken chilli with noodles.  The chicken Prepared onion and Chili sauce it’s  betst test for sichuan  style  good. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/5e99ba84-a9c2-4922-aaea-3253ac4bfc80.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/5e99ba84-a9c2-4922-aaea-3253ac4bfc80.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/5e99ba84-a9c2-4922-aaea-3253ac4bfc80.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10382846,
+                    "code": "1a542eab-b639-41f2-ac7c-e823f51629c2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284895,
+                "code": "fc9dc64a-2418-482b-ad12-4204e71d40f7",
+                "name": "Chicken Chowmein",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284895.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284895.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284895.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147443,
+                    "code": "b0565bf2-616f-47c0-899d-546ef23ecd57",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516091"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284896,
+                "code": "04c91160-6db5-45e2-8af4-c4a452748399",
+                "name": "Seafood Chowmein",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284896.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284896.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284896.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147444,
+                    "code": "48cdf3de-08ad-4cb4-b236-02b47211ee30",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516091"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284897,
+                "code": "03104e17-9ea0-47af-b95d-69a89a55c38a",
+                "name": "Beef Chowmein",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284897.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284897.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284897.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147445,
+                    "code": "fe841c2c-5b52-4abe-a919-0a37ea6af357",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516091"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2460382,
+            "code": "8a64e289-93b3-4605-b87c-45740f79457a",
+            "name": "BBQ",
+            "description": "",
+            "products": [
+              {
+                "id": 9333949,
+                "code": "cfb1ae56-73e3-4add-bb93-27a79eb6923c",
+                "name": "Chef Nyasha.Mangwiro. ",
+                "description": "8. pic thi.chicken  meat. Crispy and. Naga chili sauce.&mango",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b4ef5483-3315-4f11-8f77-d17e279f91ba.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b4ef5483-3315-4f11-8f77-d17e279f91ba.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b4ef5483-3315-4f11-8f77-d17e279f91ba.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10205881,
+                    "code": "bb8a48d1-773c-4c54-a674-6c08cd4db0be",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 595,
+                    "price_before_discount": 700,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9661059,
+                "code": "4a1e14b7-2501-49d2-a0d9-aafcfac27fab",
+                "name": "BBQ.chicken dumpling . ",
+                "description": "8.pic. Chinec dumpling girlick flavour &flavour and test juicy. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/9a7f1282-6a36-46e8-b243-f088ef732ec0.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/9a7f1282-6a36-46e8-b243-f088ef732ec0.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/9a7f1282-6a36-46e8-b243-f088ef732ec0.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10586721,
+                    "code": "add42635-34d1-46a7-bf19-f32747964135",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9673091,
+                "code": "dde47a03-8ed6-4ece-ad53-688e79071af3",
+                "name": "Sweet chilli  crispy Beef.",
+                "description": "SSweet chilli crispy beef, chinese  chilli flex & chilli  oil. And  sweet juice. 🔥🔥👈",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/e2f40876-17f3-4314-a944-9304df65021c.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/e2f40876-17f3-4314-a944-9304df65021c.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/e2f40876-17f3-4314-a944-9304df65021c.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10600210,
+                    "code": "040b18a4-b387-4c6f-a90d-6c289419b975",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 637.5,
+                    "price_before_discount": 750,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284905,
+                "code": "138184f4-7e8a-4961-8d3c-de3875b58395",
+                "name": "BBQ Chicken - Leg",
+                "description": "3.Pcs.A succulent grilled chicken leg, marinated in a sweet & smoky BBQ sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147453/8931ff67-87d3-4cbf-ba20-6612c6d59801.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147453/8931ff67-87d3-4cbf-ba20-6612c6d59801.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147453/8931ff67-87d3-4cbf-ba20-6612c6d59801.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147453,
+                    "code": "a44ae322-a0d9-4568-a521-aa8d032beb50",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284906,
+                "code": "d96edc13-1fae-4b38-9cfd-d694852246e6",
+                "name": "BBQ Chicken Wings",
+                "description": "1.1A succulent grilled chicken wing, marinated in a sweet & smoky BBQ sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284906.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284906.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284906.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147454,
+                    "code": "716bef24-d879-445e-b09f-5a9d67239f42",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516092"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284907,
+                "code": "cae546fa-25d4-43c8-80f8-cd03b3049819",
+                "name": "BBQ Spicy Chicken",
+                "description": " Grilled chicken coated in a tangy, spicy barbecue sauce, served with sides",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147455/0d8aa9a6-525f-41f0-b443-772cef6879d6.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147455/0d8aa9a6-525f-41f0-b443-772cef6879d6.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147455/0d8aa9a6-525f-41f0-b443-772cef6879d6.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147455,
+                    "code": "b330dfd1-0d23-4537-b538-43cf1b731e31",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284908,
+                "code": "e5652d03-50a8-4dc3-9b65-b32d1beed5e1",
+                "name": "BBQ Sliced Lamb",
+                "description": "1:1 - A tender sliced lamb marinated in aromatic spice & grilled to perfection",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147456,
+                    "code": "e6fc7831-d7e8-4b6c-b752-8b83b002f969",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 510,
+                    "price_before_discount": 600,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284909,
+                "code": "b251ec26-0e93-40d0-a048-62c32e73bc32",
+                "name": "BBQ Sliced Beef with Onions",
+                "description": "Beef sliced, with onions, like juice and  sichuan chilli, Girlick Flavor, ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147457/b193d148-8905-4e12-acd3-07ae42046c5f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147457/b193d148-8905-4e12-acd3-07ae42046c5f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147457/b193d148-8905-4e12-acd3-07ae42046c5f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147457,
+                    "code": "cd2a5ba9-0dbd-4a90-88ac-457e7b8c6fae",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 510,
+                    "price_before_discount": 600,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284910,
+                "code": "1be01706-2fd2-48d5-8dbc-39f919b76855",
+                "name": "BBQ Shrimp",
+                "description": "1:1 - A delicious skewer of juicy shrimp, marinated in garlic & herb, then grilled",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147458,
+                    "code": "34689069-709d-426e-a6d9-bc63c8a54397",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 510,
+                    "price_before_discount": 600,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2460383,
+            "code": "19691ceb-8900-480d-ba70-2b39b3396179",
+            "name": "Curry & Vegetable",
+            "description": "",
+            "products": [
+              {
+                "id": 9414656,
+                "code": "4aaef28d-2dca-4edb-9646-1b1d3d92cd64",
+                "name": "Chinese Garlic Shrimp w/ Glass Noodles",
+                "description": "6 pic shrimp. And glass  noodles  streamed. Garlic and chilli & juicy. ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/160628d0-1083-459b-928f-390fb4c3c65b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/160628d0-1083-459b-928f-390fb4c3c65b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/160628d0-1083-459b-928f-390fb4c3c65b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10306036,
+                    "code": "2b2b56c2-d584-4d08-b691-da7d87cddf31",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 425,
+                    "price_before_discount": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9318799,
+                "code": "cbdef5e6-9878-4474-bf2f-696d664949c6",
+                "name": "Chines -Filipino noodles ",
+                "description": "Chines -filipino vegetables  Thick soup noodles ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/696df2ad-dbb1-4501-b725-b473cabe27ce.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/696df2ad-dbb1-4501-b725-b473cabe27ce.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/696df2ad-dbb1-4501-b725-b473cabe27ce.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10188040,
+                    "code": "7575969d-4dd5-4885-a427-92f3ce1fe424",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9298335,
+                "code": "f7033dc4-d941-4d66-97f9-49293b68c73f",
+                "name": "Sichuan  spicy chicken  fry.",
+                "description": "1.1  sichuan authentic  spicy  test chicken fry.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b8b14fc7-806c-4b72-ab2d-63ade90cbda9.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b8b14fc7-806c-4b72-ab2d-63ade90cbda9.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/b8b14fc7-806c-4b72-ab2d-63ade90cbda9.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10164604,
+                    "code": "9dbe8f42-465b-4de2-90e4-3a9c0ecf1120",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284900,
+                "code": "6a127d56-f3a3-4e87-ba6b-2d9dd0fc915c",
+                "name": "Sichuan Stir Fried Beef",
+                "description": "Beef & spicy chilli. Sichuan chilli  pepper ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147448/02c03f71-7650-4106-b569-4b9b6ea451ab.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147448/02c03f71-7650-4106-b569-4b9b6ea451ab.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/10147448/02c03f71-7650-4106-b569-4b9b6ea451ab.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147448,
+                    "code": "fc5e1689-181c-4f0c-bca5-855add9ff989",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 510,
+                    "price_before_discount": 600,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284901,
+                "code": "0d828478-0005-4566-a122-79ca53a298f9",
+                "name": "Chinese Style Vegetables",
+                "description": "1:1 - A healthy stir-fry of mixed vegetable prepared in a light & flavorful chinese-style sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284901.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284901.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284901.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147449,
+                    "code": "8a56972c-e241-42b7-b9a0-50a9a93dee43",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 255,
+                    "price_before_discount": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516092"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2460378,
+            "code": "2856bf00-3987-4726-9c42-26e342029452",
+            "name": "Rice",
+            "description": "",
+            "products": [
+              {
+                "id": 9412629,
+                "code": "f54abbce-53b1-4832-80fe-a79afd3c95c1",
+                "name": "Sichuan special Mixed fry  Rice.",
+                "description": "1.2 sichuan special,mixed in mashroom. Chicken, Corn,prown&Vegetables. ",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/57aa3abc-277a-4087-baa1-f0e1ddbbac34.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/57aa3abc-277a-4087-baa1-f0e1ddbbac34.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/uzzk/product/57aa3abc-277a-4087-baa1-f0e1ddbbac34.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10303438,
+                    "code": "51350d0c-e075-43bb-8b24-ae9990da3458",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9284898,
+                "code": "6517db32-40e5-4514-a700-56db300c7971",
+                "name": "Egg Fried Rice",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284898.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284898.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284898.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147446,
+                    "code": "386952b4-8462-4ddb-bc7a-ee75e1db5584",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 297.5,
+                    "price_before_discount": 350,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516092"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9284899,
+                "code": "9880a69b-c62f-4b6e-a9c1-90d46cbb7250",
+                "name": "Seafood Fried Rice",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284899.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284899.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284899.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147447,
+                    "code": "9fa559a9-5a77-4fec-ab91-172df035597f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516092"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2460379,
+            "code": "a96cab6e-d182-4cd9-845d-1a9a47ccf23f",
+            "name": "Sides",
+            "description": "",
+            "products": [
+              {
+                "id": 9284904,
+                "code": "5d751519-e13d-40ca-bfcc-87832162de4c",
+                "name": "Poached Egg",
+                "description": "2 pcs - A simple & classic fried egg, cooked to your liking",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284904.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9284904.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9284904.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10147452,
+                    "code": "c78ff071-c6c9-496b-97fa-f70abcddc55a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 68,
+                    "price_before_discount": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1760516092"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9300602,
+                9412586,
+                9291513,
+                9298335,
+                9284900,
+                9326442
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

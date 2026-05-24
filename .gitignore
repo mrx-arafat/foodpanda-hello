@@ -1,0 +1,123 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+credentials.json
+secrets.yml
+
+# API Captures (contain auth headers & cookies)
+captures/
+*.mitm
+*.pcap
+*.har
+
+# Node modules & package managers
+node_modules/
+.npm
+.yarn/cache
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.logs
+/tmp/
+/temp/
+
+# Data that shouldn't be public
+# Keep the code & structure, hide large raw downloads
+data-*/vendor_details/      # Raw API responses with possibly sensitive menu data
+data-*/vendor_reviews/      # Raw review JSON files (keep CSVs instead)
+
+# But DO NOT ignore these (they're useful & anonymized):
+# - data-*/all_vendors.json (public data)
+# - data-*/restaurants.csv (processed public data)
+# - data-*/vendor_reviews_summary.csv (aggregated reviews)
+# - data-*/vendor_menus.csv (menu data)
+# - data-*/by_area/, by_city/, by_chain/ (organized data)
+# - data-*/summary.json (statistics)
+
+# mitmproxy config (contains session data)
+.mitmproxy/
+.mitmproxy/mitmproxy-ca-cert.pem
+.mitmproxy/mitmproxy-ca-key.pem
+.mitmproxy/mitmproxy-ca.p12
+
+# Browser profiles (contain cookies/sessions)
+user_data/
+profile/
+.chrome/
+
+# OS-specific
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# TypeScript
+tsconfig.json.build
+
+# Git
+.git/
+.gitattributes
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# CI/CD
+.github/workflows/*.log
+
+# Misc
+.cache/
+.tmp/
+.venv/
+venv/
+ENV/
+env/

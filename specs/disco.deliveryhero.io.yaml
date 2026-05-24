@@ -1,0 +1,1507 @@
+openapi: 3.0.0
+info:
+  title: captures/foodpanda.mitm Mitmproxy2Swagger
+  version: 1.0.0
+servers:
+- url: https://disco.deliveryhero.io
+  description: The default server
+paths:
+  /search/api/v3/autocomplete:
+    options:
+      summary: OPTIONS autocomplete
+      responses:
+        '200':
+          description: OK
+          content: {}
+    post:
+      summary: POST autocomplete
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  suggestions:
+                    type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            headline:
+                              type: string
+                            suggestion_type:
+                              type: string
+                            items:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  keyword:
+                                    type: string
+                                  tracking_code:
+                                    type: string
+                  deeplinks:
+                    type: object
+                    properties:
+                      vendors:
+                        type: array
+                        items: {}
+              example:
+                suggestions:
+                  items:
+                  - headline: Popular
+                    suggestion_type: popular
+                    items:
+                    - keyword: pizza
+                      tracking_code: popular:pizza
+                    - keyword: burger
+                      tracking_code: popular:burger
+                    - keyword: kfc
+                      tracking_code: popular:kfc
+                    - keyword: burger king
+                      tracking_code: popular:burger king
+                    - keyword: pizza hut
+                      tracking_code: popular:pizza hut
+                    - keyword: dominos
+                      tracking_code: popular:dominos
+                    - keyword: khichuri
+                      tracking_code: popular:khichuri
+                    - keyword: cake
+                      tracking_code: popular:cake
+                    - keyword: biryani
+                      tracking_code: popular:biryani
+                    - keyword: pasta
+                      tracking_code: popular:pasta
+                deeplinks:
+                  vendors: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                brand:
+                  type: string
+                country_code:
+                  type: string
+                language_id:
+                  type: string
+                customer_id:
+                  type: string
+                location:
+                  type: object
+                  properties:
+                    point:
+                      type: object
+                      properties:
+                        latitude:
+                          type: number
+                        longitude:
+                          type: number
+                opening_type:
+                  type: string
+                vertical_types:
+                  type: array
+                  items:
+                    type: string
+                use_free_delivery_label:
+                  type: boolean
+                tag_label_metadata:
+                  type: boolean
+            example:
+              query: ''
+              brand: foodpanda
+              country_code: bd
+              language_id: '1'
+              customer_id: ''
+              location:
+                point:
+                  latitude: 23.803782
+                  longitude: 90.414964
+              opening_type: delivery
+              vertical_types:
+              - restaurants
+              use_free_delivery_label: true
+              tag_label_metadata: false
+  /search/autocomplete/api/v3/homescreen:
+    options:
+      summary: OPTIONS homescreen
+      responses:
+        '200':
+          description: OK
+          content: {}
+    post:
+      summary: POST homescreen
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  classified_suggestions:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        search_term:
+                          type: string
+                        vertical_types:
+                          type: array
+                          items:
+                            type: string
+                  deeplinks:
+                    type: object
+                    properties:
+                      vendors:
+                        type: array
+                        items: {}
+              example:
+                classified_suggestions:
+                - search_term: mirinda
+                  vertical_types:
+                  - shop
+                - search_term: mirzapore tea
+                  vertical_types:
+                  - shop
+                - search_term: mirakof
+                  vertical_types:
+                  - shop
+                - search_term: mirzapore tea bags
+                  vertical_types:
+                  - shop
+                - search_term: mirzapore
+                  vertical_types:
+                  - shop
+                - search_term: mirakof sr
+                  vertical_types:
+                  - shop
+                - search_term: mirch
+                  vertical_types:
+                  - shop
+                - search_term: miraba
+                  vertical_types:
+                  - shop
+                - search_term: mirzapore best leaf
+                  vertical_types:
+                  - shop
+                - search_term: mirakof pediatric drops
+                  vertical_types:
+                  - shop
+                deeplinks:
+                  vendors: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                customer_id:
+                  type: string
+                global_entity_id:
+                  type: string
+                language_id:
+                  type: number
+                location:
+                  type: object
+                  properties:
+                    point:
+                      type: object
+                      properties:
+                        latitude:
+                          type: number
+                        longitude:
+                          type: number
+                opening_type:
+                  type: string
+                query:
+                  type: string
+                vertical_types:
+                  type: array
+                  items:
+                    type: string
+            example:
+              customer_id: '4101800'
+              global_entity_id: FP_BD
+              language_id: 1
+              location:
+                point:
+                  latitude: 23.7886
+                  longitude: 90.41647
+              opening_type: delivery
+              query: mir
+              vertical_types:
+              - restaurants
+              - shop
+              - darkstores
+  /core/api/v1/swimlanes:
+    options:
+      summary: OPTIONS swimlanes
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: brand
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: config
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: latitude
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: longitude
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language_code
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language_id
+        in: query
+        required: false
+        schema:
+          type: number
+      - name: country_code
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: vertical_type
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: opening_type
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: use_free_delivery_label
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: tag_label_metadata
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: customer_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: customer_hash
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: customer_type
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: ncr_screen
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: ncr_place
+        in: query
+        required: false
+        schema:
+          type: string
+    get:
+      summary: GET swimlanes
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: number
+                  request_id:
+                    type: string
+                  data:
+                    type: object
+                    properties:
+                      items:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            headline:
+                              type: string
+                            sub_headline:
+                              type: string
+                            ranking:
+                              type: number
+                            content_type:
+                              type: string
+                            sorting_strategy:
+                              type: string
+                            template:
+                              type: string
+                            layout:
+                              type: string
+                            min_items:
+                              type: number
+                            min_inventory:
+                              type: number
+                            products:
+                              type: array
+                              items: {}
+                            vendors:
+                              type: array
+                              items: {}
+                            filters:
+                              type: array
+                              items: {}
+                            custom_strategy:
+                              type: string
+                            failed_restaurants:
+                              type: array
+                              items: {}
+                            disco_meta:
+                              type: object
+                              properties:
+                                reco_config:
+                                  type: object
+                                  properties:
+                                    flags:
+                                      type: array
+                                      items: {}
+                                traces:
+                                  type: array
+                                  items:
+                                    type: string
+                            meta:
+                              type: object
+                              properties:
+                                custom_layout:
+                                  type: string
+                                custom_field1:
+                                  type: string
+                            total_vendors:
+                              type: number
+                            recommendation_strategy:
+                              type: string
+                            traces:
+                              type: array
+                              items:
+                                type: string
+                            exclude_closed_restaurants:
+                              type: boolean
+                      aggregations:
+                        type: object
+                        properties:
+                          partners:
+                            type: array
+                            items: {}
+                  meta:
+                    type: object
+                    properties:
+                      config_name:
+                        type: string
+                      took:
+                        type: number
+                      traces:
+                        type: array
+                        items: {}
+              example:
+                status: 200
+                request_id: d5b199f6f9f5e94e1e9c39b7d5f47e09
+                data:
+                  items:
+                  - headline: Order again
+                    sub_headline: ''
+                    ranking: 1
+                    content_type: Vendor
+                    sorting_strategy: None
+                    template: '[NEVER EDIT!!!] Shops - past orders'
+                    layout: Horizontal
+                    min_items: 1
+                    min_inventory: 1
+                    products: []
+                    vendors: []
+                    filters: []
+                    custom_strategy: pd-slp-bd-order_again
+                    failed_restaurants: []
+                    disco_meta:
+                      reco_config:
+                        flags: []
+                      traces:
+                      - min_items_failed
+                      - no_matches
+                    meta:
+                      custom_layout: horizontal
+                      custom_field1: fixed-1
+                    total_vendors: 0
+                    recommendation_strategy: 89445c66-c43b-4cb4-a94c-8c993039beca
+                    traces:
+                    - min_items_failed
+                    - no_matches
+                    exclude_closed_restaurants: true
+                  - headline: Recommended for You
+                    sub_headline: ''
+                    ranking: 2
+                    content_type: Vendor
+                    sorting_strategy: None
+                    template: Personalized Vendor Swimlane Template
+                    layout: Horizontal
+                    min_items: 1
+                    min_inventory: 1
+                    products: []
+                    vendors: []
+                    filters: []
+                    custom_strategy: pd-slp-bd-personalized_vendor_swimlane
+                    failed_restaurants: []
+                    disco_meta:
+                      reco_config:
+                        flags: []
+                      traces:
+                      - min_items_failed
+                      - no_matches
+                    meta:
+                      background_color: ''
+                      background_image: ''
+                      font_color: ''
+                      gender: ''
+                      custom_layout: ''
+                      custom_field1: ''
+                      custom_field2: ''
+                      custom_field3: ''
+                      custom_field4: ''
+                      custom_field5: ''
+                    total_vendors: 0
+                    recommendation_strategy: 1fbdcda6-0c0a-4f24-b21a-45cda54ad1e6
+                    traces:
+                    - min_items_failed
+                    - no_matches
+                    exclude_closed_restaurants: true
+                  - headline: Deals & More
+                    sub_headline: ''
+                    ranking: 3
+                    content_type: Vendor
+                    sorting_strategy: None
+                    template: ''
+                    layout: Horizontal
+                    min_items: 1
+                    min_inventory: 1
+                    products: []
+                    vendors:
+                    - id: 56683
+                      code: vbpl
+                      accepts_instructions: true
+                      address: Plot#12A, Block-CWN(A), North Avenue (Kamal Ataturk
+                        Avenue), Gulshan-2,
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: cm0ds
+                        name: Pandamart
+                        main_vendor_code: ta7z
+                        url_key: pandamart
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 0.714
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/cm0ds-listing.jpg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/cm0ds-listing.jpg
+                      is_new_until: '2022-06-23T00:00:00Z'
+                      premium_position: 0
+                      latitude: 23.7938757
+                      logo: ''
+                      longitude: 90.41247081
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: true
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 45.99
+                      delivery_fee_delta: -0.01
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 25.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 15
+                        upper_limit_in_minutes: 30
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: pandamart (Gulshan Banani)
+                      payment_types: []
+                      post_code: '1212'
+                      primary_cuisine_id: 0
+                      rating: 5.0
+                      redirection_url: https://foodpanda.com.bd/restaurant/vbpl/pandamart-gulshan-banani
+                      review_number: 2
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: 'Tk. 135 off Tk. 450: dealnao'
+                      tags:
+                      - code: VOUCHER
+                        text: 'Tk. 135 off Tk. 450: dealnao'
+                        label_metadata:
+                          voucher:
+                            code: dealnao
+                            construct_id: '177927943200'
+                      filter_only_tags:
+                      - id: t3sj8bv
+                      - id: t5fw6ni
+                      - id: t1on2gx
+                      url_key: pandamart-gulshan-banani
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: darkstores
+                      vertical_segment: darkstores
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/vbpl/pandamart-gulshan-banani
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Pandamart
+                        trade_register_number: N/A
+                      disclaimers: []
+                      customer_phone: '+8801647306451'
+                      vertical_type_ids:
+                      - supermarket
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: false
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: true
+                      is_premium: false
+                      is_preorder_enabled: true
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    - id: 73644
+                      code: pobw
+                      accepts_instructions: true
+                      address: 'Shop: 14, Unicorn Plaza (1st Floor), North Avenue,
+                        Gulshan-2, Dhaka'
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: ''
+                        name: ''
+                        main_vendor_code: ''
+                        url_key: ''
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 0.782
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/pobw-listing.jpg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/pobw-listing.jpg
+                      is_new_until: '2025-01-03T08:59:33Z'
+                      premium_position: 0
+                      latitude: 23.7955895
+                      logo: https://images.deliveryhero.io/image/fd-bd/bd-logos/pobw-logo.jpg
+                      longitude: 90.4156477
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: false
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 60.0
+                      delivery_fee_delta: 14.0
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 25.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 15
+                        upper_limit_in_minutes: 30
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: Brothers Enterprise (Gulshan 2)
+                      payment_types: []
+                      post_code: '1212'
+                      primary_cuisine_id: 0
+                      rating: 0.0
+                      redirection_url: https://foodpanda.com.bd/restaurant/pobw/brothers-enterprise-gulshan-2
+                      review_number: 0
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: 'Tk. 120 off Tk. 1000: shopnow'
+                      tags:
+                      - code: VOUCHER
+                        text: 'Tk. 120 off Tk. 1000: shopnow'
+                        label_metadata:
+                          voucher:
+                            code: shopnow
+                            construct_id: '177234429200'
+                      filter_only_tags: []
+                      url_key: brothers-enterprise-gulshan-2
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: stationery_and_books
+                      vertical_segment: stationery_and_books
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/pobw/brothers-enterprise-gulshan-2
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Brothers Enterprise
+                        trade_register_number: ''
+                      disclaimers: []
+                      customer_phone: '+8801775903987'
+                      vertical_type_ids:
+                      - household_and_living
+                      - convenience
+                      - stationery_and_books
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: false
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: false
+                      is_premium: false
+                      is_preorder_enabled: false
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    - id: 77687
+                      code: yi29
+                      accepts_instructions: true
+                      address: Shop 14, Unicron Plaza (1st Floor ) North Avenue, Gulshan
+                        2, Dhaka
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: ''
+                        name: ''
+                        main_vendor_code: ''
+                        url_key: ''
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 0.782
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/yi29-listing.jpeg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/yi29-listing.jpeg
+                      is_new_until: '2025-08-31T13:00:29Z'
+                      premium_position: 0
+                      latitude: 23.7955895
+                      logo: https://images.deliveryhero.io/image/fd-bd/bd-logos/yi29-logo.jpeg
+                      longitude: 90.4156477
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: false
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 60.0
+                      delivery_fee_delta: 14.0
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 25.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 15
+                        upper_limit_in_minutes: 30
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: Gulshan Stationary & Library
+                      payment_types: []
+                      post_code: '1212'
+                      primary_cuisine_id: 0
+                      rating: 0.0
+                      redirection_url: https://foodpanda.com.bd/restaurant/yi29/gulshan-stationary-and-library
+                      review_number: 0
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: NEXTGEN_BEST_IN_CITY_TAG
+                      tags:
+                      - code: BITC
+                        text: NEXTGEN_BEST_IN_CITY_TAG
+                      - code: VOUCHER
+                        text: 'Tk. 120 off Tk. 1000: shopnow'
+                        label_metadata:
+                          voucher:
+                            code: shopnow
+                            construct_id: '177234429200'
+                      filter_only_tags: []
+                      url_key: gulshan-stationary-and-library
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: stationery_and_books
+                      vertical_segment: stationery_and_books
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/yi29/gulshan-stationary-and-library
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Gulshan Stationary & Library
+                        trade_register_number: ''
+                      disclaimers: []
+                      customer_phone: '+8801891993593'
+                      vertical_type_ids:
+                      - household_and_living
+                      - stationery_and_books
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: true
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: false
+                      is_premium: false
+                      is_preorder_enabled: true
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    - id: 96066
+                      code: lhfw
+                      accepts_instructions: true
+                      address: 'Shop #14 Unicron Plaza (2nd Floor), North Avenue,
+                        Gulshan Circle 02, Dhaka 1212.'
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: ''
+                        name: ''
+                        main_vendor_code: ''
+                        url_key: ''
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 0.788
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/lhfw-listing.jpeg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/lhfw-listing.jpeg
+                      is_new_until: '2025-12-25T09:51:32Z'
+                      premium_position: 0
+                      latitude: 23.79565128
+                      logo: ''
+                      longitude: 90.41564975
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: false
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 60.0
+                      delivery_fee_delta: 14.0
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 25.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 15
+                        upper_limit_in_minutes: 30
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: Alibaba (Gulshan 02)
+                      payment_types: []
+                      post_code: '1212'
+                      primary_cuisine_id: 0
+                      rating: 0.0
+                      redirection_url: https://foodpanda.com.bd/restaurant/lhfw/alibaba-gulshan-02
+                      review_number: 0
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: 'Tk. 150 off Tk. 1500: shopnow'
+                      tags:
+                      - code: VOUCHER
+                        text: 'Tk. 150 off Tk. 1500: shopnow'
+                        label_metadata:
+                          voucher:
+                            code: shopnow
+                            construct_id: '177234464900'
+                      filter_only_tags: []
+                      url_key: alibaba-gulshan-02
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: convenience
+                      vertical_segment: convenience
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/lhfw/alibaba-gulshan-02
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Mini Super Shop
+                        trade_register_number: ''
+                      disclaimers: []
+                      customer_phone: '+8801891993593'
+                      vertical_type_ids:
+                      - convenience
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: false
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: false
+                      is_premium: false
+                      is_preorder_enabled: true
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    - id: 54649
+                      code: yzit
+                      accepts_instructions: true
+                      address: Khanbag Moshjid Road, Chha-51, Dhaka-1212 (01611085290)
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: ''
+                        name: ''
+                        main_vendor_code: ''
+                        url_key: ''
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 0.777
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/yzit-listing.jpg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/yzit-listing.jpg
+                      is_new_until: '2022-04-21T00:00:00Z'
+                      premium_position: 0
+                      latitude: 23.78504682
+                      logo: ''
+                      longitude: 90.42304486
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: false
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 60.0
+                      delivery_fee_delta: 14.0
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 30.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 20
+                        upper_limit_in_minutes: 35
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: Bazaar Lagbe
+                      payment_types: []
+                      post_code: '1212'
+                      primary_cuisine_id: 0
+                      rating: 3.8
+                      redirection_url: https://foodpanda.com.bd/restaurant/yzit/bazaar-lagbe
+                      review_number: 2
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: NEXTGEN_BEST_IN_CITY_TAG
+                      tags:
+                      - code: BITC
+                        text: NEXTGEN_BEST_IN_CITY_TAG
+                      - code: VOUCHER
+                        text: 'Tk. 120 off Tk. 1000: shopnow'
+                        label_metadata:
+                          voucher:
+                            code: shopnow
+                            construct_id: '177234429200'
+                      filter_only_tags:
+                      - id: t5nh0vh
+                      url_key: bazaar-lagbe
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: mini_market
+                      vertical_segment: mini_market
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/yzit/bazaar-lagbe
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Bazaar Lagbe
+                        trade_register_number: ''
+                      disclaimers: []
+                      customer_phone: '+8801611085290'
+                      vertical_type_ids:
+                      - convenience
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: true
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: false
+                      is_premium: false
+                      is_preorder_enabled: false
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    - id: 74354
+                      code: x9mr
+                      accepts_instructions: true
+                      address: Plot 57, Road 17, Block E, Banani Kacha Bazar, Banani,
+                        Dhaka
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: ''
+                        name: ''
+                        main_vendor_code: ''
+                        url_key: ''
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 1.042
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/x9mr-listing.jpg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/x9mr-listing.jpg
+                      is_new_until: '2025-02-15T13:02:05Z'
+                      premium_position: 0
+                      latitude: 23.7930206
+                      logo: https://images.deliveryhero.io/image/fd-bd/bd-logos/x9mr-logo.png
+                      longitude: 90.4074402
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: false
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 60.0
+                      delivery_fee_delta: 14.0
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 25.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 15
+                        upper_limit_in_minutes: 30
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: Rose Valley Flower Shop (Banani)
+                      payment_types: []
+                      post_code: '1213'
+                      primary_cuisine_id: 0
+                      rating: 0.0
+                      redirection_url: https://foodpanda.com.bd/restaurant/x9mr/rose-valley-flower-shop-banani
+                      review_number: 0
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: 'Tk. 120 off Tk. 1000: shopnow'
+                      tags:
+                      - code: VOUCHER
+                        text: 'Tk. 120 off Tk. 1000: shopnow'
+                        label_metadata:
+                          voucher:
+                            code: shopnow
+                            construct_id: '177234429200'
+                      filter_only_tags: []
+                      url_key: rose-valley-flower-shop-banani
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: flowers_and_plants
+                      vertical_segment: flowers_and_plants
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/x9mr/rose-valley-flower-shop-banani
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Rose Valley Flower Shop
+                        trade_register_number: ''
+                      disclaimers: []
+                      customer_phone: '+8801743958567'
+                      vertical_type_ids:
+                      - household_and_living
+                      - flowers_and_plants
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: false
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: false
+                      is_premium: false
+                      is_preorder_enabled: true
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    - id: 68046
+                      code: i64j
+                      accepts_instructions: true
+                      address: House- 9, Road- 17, Block- E
+                      address_line2: ''
+                      budget: 2
+                      chain:
+                        code: ''
+                        name: ''
+                        main_vendor_code: ''
+                        url_key: ''
+                      city:
+                        name: Dhaka
+                      cuisines: []
+                      custom_location_url: ''
+                      customer_type: all
+                      delivery_box: ''
+                      delivery_fee_type: amount
+                      description: ''
+                      distance: 0.981
+                      food_characteristics: []
+                      has_delivery_provider: true
+                      hero_image: https://images.deliveryhero.io/image/fd-bd/LH/i64j-listing.jpg
+                      hero_listing_image: https://images.deliveryhero.io/image/fd-bd/LH/i64j-listing.jpg
+                      is_new_until: '2023-12-04T05:35:45Z'
+                      premium_position: 0
+                      latitude: 23.7929772
+                      logo: https://images.deliveryhero.io/image/fd-bd/bd-logos/i64j-logo.jpeg
+                      longitude: 90.4081037
+                      loyalty_percentage_amount: 0.0
+                      loyalty_program_enabled: false
+                      maximum_express_order_amount: 0
+                      metadata:
+                        has_discount: true
+                        timezone: Asia/Dhaka
+                        close_reasons: []
+                        available_in:
+                        events: []
+                        is_delivery_available: true
+                        is_pickup_available: false
+                        is_dine_in_available: false
+                        is_express_delivery_available: false
+                        is_temporary_closed: false
+                        is_flood_feature_closed: false
+                      minimum_delivery_fee: 60.0
+                      delivery_fee_delta: 14.0
+                      has_delivery_pro_discount: false
+                      minimum_delivery_time: 30.0
+                      delivery_duration_range:
+                        lower_limit_in_minutes: 30
+                        upper_limit_in_minutes: 45
+                      minimum_order_amount: 300.0
+                      minimum_pickup_time: 15.0
+                      name: Banani Blooms (Banani)
+                      payment_types: []
+                      post_code: '1213'
+                      primary_cuisine_id: 0
+                      rating: 0.0
+                      redirection_url: https://foodpanda.com.bd/restaurant/i64j/banani-blooms-banani
+                      review_number: 0
+                      review_with_comment_number: 0
+                      score: 0.0
+                      service_fee_percentage_amount: 0
+                      service_tax_percentage_amount: 0
+                      tag: NEXTGEN_BEST_IN_CITY_TAG
+                      tags:
+                      - code: BITC
+                        text: NEXTGEN_BEST_IN_CITY_TAG
+                      - code: VOUCHER
+                        text: 'Tk. 120 off Tk. 1000: shopnow'
+                        label_metadata:
+                          voucher:
+                            code: shopnow
+                            construct_id: '177234429200'
+                      filter_only_tags: []
+                      url_key: banani-blooms-banani
+                      vat_percentage_amount: 0
+                      characteristics:
+                        cuisines: []
+                        food_characteristics: []
+                        primary_cuisine:
+                      vendor_points: 0
+                      vertical: flowers_and_plants
+                      vertical_segment: flowers_and_plants
+                      vertical_parent: Shop
+                      web_path: https://foodpanda.com.bd/restaurant/i64j/banani-blooms-banani
+                      website: ''
+                      has_online_payment: true
+                      discounts_info: []
+                      discounts: []
+                      minimum_basket_value_discount:
+                        is_free_delivery: true
+                        threshold: 1500.0
+                        is_pro: false
+                      vendor_legal_information:
+                        legal_name: Banani Blooms
+                        trade_register_number: N/A
+                      disclaimers: []
+                      customer_phone: '+8801632858814'
+                      vertical_type_ids:
+                      - household_and_living
+                      - flowers_and_plants
+                      loyalty_programs: []
+                      delivery_provider: platform_delivery
+                      is_active: true
+                      is_best_in_city: true
+                      is_checkout_comment_enabled: false
+                      is_delivery_enabled: true
+                      is_new: false
+                      is_pickup_enabled: false
+                      is_premium: false
+                      is_preorder_enabled: false
+                      is_replacement_dish_enabled: false
+                      is_service_fee_enabled: false
+                      is_service_tax_enabled: false
+                      is_service_tax_visible: false
+                      is_test: false
+                      is_vat_disabled: false
+                      is_vat_included_in_product_price: true
+                      is_vat_visible: false
+                      is_voucher_enabled: true
+                      delivery_fee_discount_mov: 1500.0
+                      is_promoted: false
+                      tag_ids: []
+                      is_meal_for_one_vendor: false
+                      is_preferred_partner: false
+                    filters: []
+                    custom_strategy: pd-slp-bd-deals_&_new_vendors
+                    failed_restaurants: []
+                    disco_meta:
+                      reco_config:
+                        flags: []
+                      traces: []
+                    meta:
+                      background_color: ''
+                      background_image: ''
+                      font_color: ''
+                      gender: ''
+                      custom_layout: ''
+                      custom_field1: ''
+                      custom_field2: ''
+                      custom_field3: ''
+                      custom_field4: ''
+                      custom_field5: ''
+                    total_vendors: 7
+                    recommendation_strategy: 25f6585c-4d97-4ebd-81c8-a6aff8cd5312
+                    traces: []
+                    exclude_closed_restaurants: true
+                  aggregations:
+                    partners: []
+                meta:
+                  config_name: shops-web
+                  took: 102
+                  traces: []
+      parameters:
+      - name: brand
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: config
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: latitude
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: longitude
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language_code
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language_id
+        in: query
+        required: false
+        schema:
+          type: number
+      - name: country_code
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: vertical_type
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: opening_type
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: use_free_delivery_label
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: tag_label_metadata
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: customer_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: customer_hash
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: customer_type
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: ncr_screen
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: ncr_place
+        in: query
+        required: false
+        schema:
+          type: string
+x-path-templates:
+# Remove the ignore: prefix to generate an endpoint with its URL
+# Lines that are closer to the top take precedence, the matching is greedy
+  []

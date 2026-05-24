@@ -1,0 +1,4931 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 45988,
+    "code": "hlup",
+    "accepts_instructions": true,
+    "address": "Kha-66 Shanti Society ( Beside of Indian Embassy & Body Shave Zone Goli, Gulshan-2 Dhaka-1212",
+    "address_line2": "",
+    "budget": 3,
+    "deals": [
+      {
+        "id": 606045,
+        "code": "606045",
+        "offer_type": "percentage",
+        "type": "discount",
+        "voucher_type": "",
+        "minimum_order_value": 0,
+        "maximum_discount_amount": 0,
+        "value": 20,
+        "title": "20% off",
+        "description": "",
+        "start_date": "2026-05-10T00:00:00+06:00",
+        "end_date": "2026-06-30T00:00:00+06:00",
+        "is_pro": false,
+        "is_new_customer": false,
+        "seq_priority": 1000,
+        "additional_info": {
+          "should_override": [
+            "dps"
+          ],
+          "calculation": {
+            "baseOn": null
+          }
+        },
+        "tc": [
+          "Applicable for Delivery, Pick-Up.",
+          "Additional T&C can apply"
+        ],
+        "action": {
+          "type": "",
+          "name": "",
+          "description": ""
+        },
+        "source": "incentives",
+        "conditions": null,
+        "quantity": 0,
+        "used_quantity": 0,
+        "is_full_basket_applicable": true,
+        "construct_id": "",
+        "is_bogo": false
+      }
+    ],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 96,
+        "name": "Korean",
+        "url_key": "korean",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "23:59",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 20,
+        "discount_type": "percentage",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2026-06-30",
+        "file_name": "",
+        "id": 606045,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "20% off",
+        "opening_time": "00:00",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-10",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "should_override": [
+            "dps"
+          ]
+        }
+      },
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "17:32",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-24",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "17:32",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-24",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 36,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/hlup-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/hlup-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2021-09-28T00:00:00Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7936269,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.4227081,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 45,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Seoul Street",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 96,
+    "rating": 4.1,
+    "topic_ratings": null,
+    "review_number": 168,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Seoul Street",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2022-04-06",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-06"
+      },
+      {
+        "date": "2022-04-06",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-06"
+      },
+      {
+        "date": "2022-04-22",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-22"
+      },
+      {
+        "date": "2022-04-22",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-22"
+      },
+      {
+        "date": "2023-04-20",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-20"
+      },
+      {
+        "date": "2023-04-20",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-20"
+      },
+      {
+        "date": "2022-04-19",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-19"
+      },
+      {
+        "date": "2022-04-19",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-19"
+      },
+      {
+        "date": "2023-04-05",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-05"
+      },
+      {
+        "date": "2023-04-05",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-05"
+      },
+      {
+        "date": "2022-04-04",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-04"
+      },
+      {
+        "date": "2022-04-04",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-04"
+      },
+      {
+        "date": "2022-04-14",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-14"
+      },
+      {
+        "date": "2022-04-14",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-14"
+      },
+      {
+        "date": "2022-04-29",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-29"
+      },
+      {
+        "date": "2022-04-29",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-29"
+      },
+      {
+        "date": "2023-03-28",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-28"
+      },
+      {
+        "date": "2023-03-28",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-28"
+      },
+      {
+        "date": "2023-04-02",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-02"
+      },
+      {
+        "date": "2023-04-02",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-02"
+      },
+      {
+        "date": "2022-04-03",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-03"
+      },
+      {
+        "date": "2022-04-03",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-03"
+      },
+      {
+        "date": "2022-04-08",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-08"
+      },
+      {
+        "date": "2022-04-08",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-08"
+      },
+      {
+        "date": "2022-04-26",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-26"
+      },
+      {
+        "date": "2022-04-26",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-26"
+      },
+      {
+        "date": "2023-04-17",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-17"
+      },
+      {
+        "date": "2023-04-17",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-17"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2022-04-28",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-28"
+      },
+      {
+        "date": "2022-04-28",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-28"
+      },
+      {
+        "date": "2022-05-01",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-05-01"
+      },
+      {
+        "date": "2022-05-01",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-05-01"
+      },
+      {
+        "date": "2023-04-16",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-16"
+      },
+      {
+        "date": "2023-04-16",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-16"
+      },
+      {
+        "date": "2022-04-15",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-15"
+      },
+      {
+        "date": "2022-04-15",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-15"
+      },
+      {
+        "date": "2022-04-30",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-30"
+      },
+      {
+        "date": "2022-04-30",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-30"
+      },
+      {
+        "date": "2023-03-27",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-27"
+      },
+      {
+        "date": "2023-03-27",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-27"
+      },
+      {
+        "date": "2023-04-08",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-08"
+      },
+      {
+        "date": "2023-04-08",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-08"
+      },
+      {
+        "date": "2023-04-19",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-19"
+      },
+      {
+        "date": "2023-04-19",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-19"
+      },
+      {
+        "date": "2025-11-06",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-11-06"
+      },
+      {
+        "date": "2022-04-07",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-07"
+      },
+      {
+        "date": "2022-04-07",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-07"
+      },
+      {
+        "date": "2022-04-20",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-20"
+      },
+      {
+        "date": "2022-04-20",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-20"
+      },
+      {
+        "date": "2022-04-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-21"
+      },
+      {
+        "date": "2022-04-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-21"
+      },
+      {
+        "date": "2022-04-27",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-27"
+      },
+      {
+        "date": "2022-04-27",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-27"
+      },
+      {
+        "date": "2023-03-30",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-30"
+      },
+      {
+        "date": "2023-03-30",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-30"
+      },
+      {
+        "date": "2023-04-18",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-18"
+      },
+      {
+        "date": "2023-04-18",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-18"
+      },
+      {
+        "date": "2023-04-06",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-06"
+      },
+      {
+        "date": "2023-04-06",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-06"
+      },
+      {
+        "date": "2023-04-09",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-09"
+      },
+      {
+        "date": "2023-04-09",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-09"
+      },
+      {
+        "date": "2023-04-12",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-12"
+      },
+      {
+        "date": "2023-04-12",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-12"
+      },
+      {
+        "date": "2022-04-12",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-12"
+      },
+      {
+        "date": "2022-04-12",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-12"
+      },
+      {
+        "date": "2022-05-02",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-05-02"
+      },
+      {
+        "date": "2022-05-02",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-05-02"
+      },
+      {
+        "date": "2023-04-03",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-03"
+      },
+      {
+        "date": "2023-04-03",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-03"
+      },
+      {
+        "date": "2023-04-11",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-11"
+      },
+      {
+        "date": "2023-04-11",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-11"
+      },
+      {
+        "date": "2023-04-15",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-15"
+      },
+      {
+        "date": "2023-04-15",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-15"
+      },
+      {
+        "date": "2022-04-05",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-05"
+      },
+      {
+        "date": "2022-04-05",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-05"
+      },
+      {
+        "date": "2022-04-13",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-13"
+      },
+      {
+        "date": "2022-04-13",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-13"
+      },
+      {
+        "date": "2023-03-26",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-26"
+      },
+      {
+        "date": "2023-03-26",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-26"
+      },
+      {
+        "date": "2023-04-13",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-13"
+      },
+      {
+        "date": "2023-04-13",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-13"
+      },
+      {
+        "date": "2023-03-24",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-24"
+      },
+      {
+        "date": "2023-03-24",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-24"
+      },
+      {
+        "date": "2022-04-11",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-11"
+      },
+      {
+        "date": "2022-04-11",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-11"
+      },
+      {
+        "date": "2022-04-17",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-17"
+      },
+      {
+        "date": "2022-04-17",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-17"
+      },
+      {
+        "date": "2022-04-18",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-18"
+      },
+      {
+        "date": "2022-04-18",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-18"
+      },
+      {
+        "date": "2022-04-25",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-25"
+      },
+      {
+        "date": "2022-04-25",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-25"
+      },
+      {
+        "date": "2023-03-25",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-25"
+      },
+      {
+        "date": "2023-03-25",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-25"
+      },
+      {
+        "date": "2022-04-24",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-24"
+      },
+      {
+        "date": "2022-04-24",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-24"
+      },
+      {
+        "date": "2023-03-29",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-29"
+      },
+      {
+        "date": "2023-03-29",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-29"
+      },
+      {
+        "date": "2023-04-04",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-04"
+      },
+      {
+        "date": "2023-04-04",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-04"
+      },
+      {
+        "date": "2022-04-10",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-10"
+      },
+      {
+        "date": "2022-04-10",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-10"
+      },
+      {
+        "date": "2022-04-16",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-16"
+      },
+      {
+        "date": "2022-04-16",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-16"
+      },
+      {
+        "date": "2022-04-23",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-23"
+      },
+      {
+        "date": "2022-04-23",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-23"
+      },
+      {
+        "date": "2023-04-07",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-07"
+      },
+      {
+        "date": "2023-04-07",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-07"
+      },
+      {
+        "date": "2023-04-10",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-10"
+      },
+      {
+        "date": "2023-04-10",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-10"
+      },
+      {
+        "date": "2023-04-01",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-01"
+      },
+      {
+        "date": "2023-04-01",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-01"
+      },
+      {
+        "date": "2022-04-09",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-09"
+      },
+      {
+        "date": "2022-04-09",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2022-04-09"
+      },
+      {
+        "date": "2023-03-31",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-31"
+      },
+      {
+        "date": "2023-03-31",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-03-31"
+      },
+      {
+        "date": "2023-04-14",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-14"
+      },
+      {
+        "date": "2023-04-14",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2023-04-14"
+      }
+    ],
+    "tag": "20% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "20% off"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "seoul-street",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 96,
+          "name": "Korean",
+          "url_key": "korean",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 96,
+        "name": "Korean",
+        "url_key": "korean",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Seoul Street",
+      "address_line_1": "Kha-66 Shanti Society ( Beside of Indian Embassy & Body Shave Zone Goli, Gulshan-2 Dhaka-1212"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/hlup/seoul-street",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 4607,
+      "main_vendor_code": "hlup",
+      "main_vendor_id": 45988,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": "Korean Bulgogi Bar",
+      "url_key": "korean-bulgogi-bar",
+      "code": "cu1un"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801919399481",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 243438,
+        "code": "",
+        "name": "Delivery Menu ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "15:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 637298,
+            "code": "153f4422dcc6e5f22b3c616a252115a9",
+            "name": "Appetizer",
+            "description": "",
+            "products": [
+              {
+                "id": 3972276,
+                "code": "eb0c593c8b65f02f90f3f40bf62c6708",
+                "name": "Marinated Fried Chicken",
+                "description": "6 pcs of spicy gochujang chicken",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3972276.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3972276.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3972276.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 4419610,
+                    "code": "d6c5e08b0bc5ef8747ee8094668aad52",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 488,
+                    "price_before_discount": 610,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746825,
+                "code": "fa80c8cb-5741-416c-9e01-37eac283a38b",
+                "name": "Heamul Pajgeon",
+                "description": "6pcs- Pan fried seafood & vegetables",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746825.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746825.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746825.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5241994,
+                    "code": "2a62997d-b7a2-4a16-93e5-eb2000a07258",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 496,
+                    "price_before_discount": 620,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746831,
+                "code": "622dfb7a-fed1-4f4c-b8db-f4c04f7dc1d3",
+                "name": "Gyelan Mari",
+                "description": "6 pcs - Korean egg roll",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746831.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746831.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746831.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 5242001,
+                    "code": "686d0f72-1f6c-4d6f-ae21-a5418aa0f778",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 392,
+                    "price_before_discount": 490,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746832,
+                "code": "a95e5618-0a92-4bfe-9334-1687afd02a71",
+                "name": "Dak Gang Jeong",
+                "description": "6 pcs- Crunchy korean fried chicken wings",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746832.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746832.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746832.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242002,
+                    "code": "999ed2f7-1e0a-4dac-85c3-d66586cd97ba",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 428,
+                    "price_before_discount": 535,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3972281,
+                "code": "b0accfe31ad41597c321c31f9642b94a",
+                "name": "Prawn Tempura",
+                "description": "6 pcs of deep fried prawn ",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3972281.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3972281.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3972281.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4419608,
+                    "code": "255a38ee4406d6fdb30b337efff4762d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 520,
+                    "price_before_discount": 650,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746827,
+                "code": "57e327ae-1f1c-4cf5-ad20-76c4d8fec403",
+                "name": "Mandu Bakeum",
+                "description": "6 pcs - Pan Fried chicken dumplings",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4746827.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4746827.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4746827.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5241996,
+                    "code": "74af147d-cfc2-48fc-81ae-e45022d3cbfd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 436,
+                    "price_before_discount": 545,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820674,
+                "code": "278abd41-504a-4554-bd7c-7265b574d20b",
+                "name": "Spicy Garlic Mushroom",
+                "description": "1:1 - Mushrooms sauteed in garlic with a dash of flavourful sauce",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820674.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820674.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820674.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8510238,
+                    "code": "eb6b5322-7993-467f-b2d0-0ceb8281a455",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 360,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820675,
+                "code": "2e0fd9d6-1024-4d40-be69-866c966ed793",
+                "name": "Fried Chicken",
+                "description": "4 pcs - Amazingly soft & juicy chicken inside, in contrast to the crunchy skin outside",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820675.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820675.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820675.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510239,
+                    "code": "e992f41b-fa1a-4ad4-aaa6-5d13e17bccb2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 360,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820677,
+                "code": "9a9e34cc-778b-4b90-a8bd-9a5506fb9e3f",
+                "name": "Chicken Cheese Wonton",
+                "description": "6 pcs - Crisp chinese appetizer prepared with flour & delicious stuffings of seasoned chicken, deep-fried in oil",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820677.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820677.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820677.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510241,
+                    "code": "2f1da815-f0da-4c07-85fd-143cf6d58d43",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 268,
+                    "price_before_discount": 335,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820680,
+                "code": "17c9d35e-6f56-49de-b453-a55356c949f9",
+                "name": "Fried Butterfly Prawn",
+                "description": "6 pcs - Crispy, succulent prawns fried to perfection, a delectable seafood delight",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820680.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820680.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820680.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510244,
+                    "code": "100e2e09-7322-4e1c-98bf-e307098a2c3b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 356,
+                    "price_before_discount": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820682,
+                "code": "c72c6e53-6319-4943-a69e-54eea469a22b",
+                "name": "Chicken Spring Roll",
+                "description": "6 pcs - Prepared with a thin wrapper filled with seasoned chicken & vegetable, deep-fried to golden perfection",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820682.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820682.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820682.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510246,
+                    "code": "4a5d2c78-bb8e-41af-8459-c9f23bb75445",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 272,
+                    "price_before_discount": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820683,
+                "code": "c80f06c7-f621-4164-ba74-fe2b8f20590b",
+                "name": "Chicken Momo",
+                "description": "6 pcs - Steamed dumplings filled with minced chicken & spices",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820683.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820683.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820683.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510247,
+                    "code": "a72fabc2-b434-42b0-8aa7-0f4ef5571657",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 328,
+                    "price_before_discount": 410,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820684,
+                "code": "33d326df-4f2b-40e8-bd11-3d8f1903884f",
+                "name": "BBQ Chicken Wings",
+                "description": "6 pcs - Prepared with chicken wings coated in a hot & tangy barbecue sauce",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820684.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820684.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820684.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8510248,
+                    "code": "e930a79d-3da0-4e56-9aa8-b1aa5e5db4bc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 332,
+                    "price_before_discount": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820685,
+                "code": "c08e38e2-4527-47c7-81b6-cbe4c2cbd956",
+                "name": "Crispy Fried Chicken",
+                "description": "4 pcs - Juicy chicken coated in a crunchy & seasoned batter, delivering irresistible flavor with every bite",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820685.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820685.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820685.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510249,
+                    "code": "be19adce-4888-41cd-9e04-c39d41818aa7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 372,
+                    "price_before_discount": 465,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 1018792,
+            "code": "80b4262e-9703-43af-a71e-d0790a89ab14",
+            "name": "Curry & Vegetable",
+            "description": "",
+            "products": [
+              {
+                "id": 7820689,
+                "code": "4dd54f48-a26e-46da-ada2-08da246970e2",
+                "name": "Chicken Chili Onion",
+                "description": "1:2 - Prepared with tender chicken cube, green chili, onion & pepper",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820689.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820689.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820689.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510254,
+                    "code": "061bc788-6565-4932-ad8d-f1426ebc513b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 332,
+                    "price_before_discount": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820757,
+                "code": "e13c9082-b3ff-4325-93d6-1ed6b7edca01",
+                "name": "Thai Basil Leaf Chicken",
+                "description": "1:2 - Chicken curry flavoured with variety of spices & basil leaf",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820757.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820757.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820757.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510323,
+                    "code": "b85ea634-340d-4b04-b807-43c39819b277",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 332,
+                    "price_before_discount": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820758,
+                "code": "2f221b0f-d184-465f-96d4-22a09a3ce214",
+                "name": "Thai Basil Leaf Beef ",
+                "description": "1:2 - Beef curry flavoured with variety of spices & basil leaf",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820758.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820758.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820758.jpg",
+                    "tags": {
+                      "hm": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510324,
+                    "code": "93404ff3-b549-4c87-8f76-3890a54ac6b0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 380,
+                    "price_before_discount": 475,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820791,
+                "code": "d8282f9b-b52e-4454-bb00-d0d907f99391",
+                "name": "Chicken Mixed Vegetable",
+                "description": "1:2 - Prepared with various seasonal vegetable, chicken cooked together, offering a colorful & nutritious medley of flavors & textures",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820791.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820791.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820791.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510357,
+                    "code": "f26b5daf-cee6-49ac-9ef3-464a6a6d745c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 332,
+                    "price_before_discount": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820792,
+                "code": "ba419338-0aa2-48ad-b787-d46dfc371ec1",
+                "name": "Stir Fried Mixed Vegetable",
+                "description": "1:2 - Simple mix of healthy vegetable that comes together effortlessly!",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820792.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820792.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820792.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8510358,
+                    "code": "57cfd194-7df4-484b-94fe-fdd1fcc9c3b8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 268,
+                    "price_before_discount": 335,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820793,
+                "code": "450b02b6-fa03-4105-aa99-f033ade8ad7b",
+                "name": "Prawn Mixed Vegetable",
+                "description": "1:2 - Prepared with various seasonal vegetable, prawn cooked together, offering a colorful & nutritious medley of flavors & textures",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820793.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820793.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820793.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510359,
+                    "code": "6b785663-7ca1-41ad-9bf9-e09a44e4923d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 404,
+                    "price_before_discount": 505,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 637299,
+            "code": "80cdca044ebdbd9108c803c373627f7c",
+            "name": "Salad",
+            "description": "",
+            "products": [
+              {
+                "id": 3972282,
+                "code": "f0eebe1c27910b2a80c609852f0eae7e",
+                "name": "Fried Calamari Salad",
+                "description": "Enjoy our Fried Calamari Salad,  1:2.",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972282.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972282.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3972282.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4419616,
+                    "code": "11dc0bb2395b006bfa96812d725c3925",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 480,
+                    "price_before_discount": 600,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3972284,
+                "code": "e16c3b7b9c59a5ed744af711f2b7ec2a",
+                "name": "Fried Ebi Salad",
+                "description": "Crispy shrimp served on a bed of fresh greens with tangy dressing",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3972284.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3972284.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3972284.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4419617,
+                    "code": "95d073101f3600fbb7f4be7d5d1fe3b2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 476,
+                    "price_before_discount": 595,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4579764,
+                "code": "a16310c4-4c00-4bfc-9f98-9b3972ec6045",
+                "name": "Kimchi",
+                "description": "Spicy fermented cabbage, a basic Korean side dish",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4579764.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4579764.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4579764.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5061879,
+                    "code": "2bdb853a-56b2-49ec-99cf-3b00737da3b6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 216,
+                    "price_before_discount": 270,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820760,
+                "code": "3bb81690-dac7-4913-9b88-dd2c96ba8e9c",
+                "name": "Chicken Cashewnut Salad",
+                "description": "1:2 - A tempting blend of delicious fire-roasted cashew nuts mixed with green veggies, lemon juice & salt",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820760.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820760.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820760.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510326,
+                    "code": "83b0e4f9-4a7f-4040-ad04-760660342c95",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 436,
+                    "price_before_discount": 545,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 637303,
+            "code": "51628e0a929f773421f84f9c5c710468",
+            "name": "Soup",
+            "description": "",
+            "products": [
+              {
+                "id": 3972299,
+                "code": "bb3cab8bd342d3340b1325da03bf6eae",
+                "name": "Kimchi Jigae",
+                "description": " 1:1 - Hot & spicy kimchi stew with beef or chicken",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3972299.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3972299.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3972299.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 4419633,
+                    "code": "aef68edf5a2910cee1f776663bff7384",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Beef",
+                    "price": 536,
+                    "price_before_discount": 670,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5061880,
+                    "code": "3b288459-2fde-44fd-9d90-9e83a4a1c10a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Chicken",
+                    "price": 536,
+                    "price_before_discount": 670,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757008540"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3972300,
+                "code": "eff64670bb13a8fc6c0bf12525de7ffa",
+                "name": "Seafood Soup",
+                "description": " 1:1 - Spicy seafood noodles soup",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972300.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972300.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3972300.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 4419634,
+                    "code": "443071d7f2a4369e97048dbc05bd6221",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 472,
+                    "price_before_discount": 590,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746868,
+                "code": "79e310df-9e04-4251-9823-baa9d844e9e1",
+                "name": "Yukgaejang",
+                "description": "1:1 - Hot & spicy beef soup with steam rice ",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4746868.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4746868.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4746868.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 5242043,
+                    "code": "fd09d7e7-b87f-493d-83c6-1124ad2c3fc7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 496,
+                    "price_before_discount": 620,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746869,
+                "code": "181c793f-9536-4f9e-b556-2a4b21c2a525",
+                "name": "Mandu Guk",
+                "description": "1:1 - Chicken dumplings soup",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746869.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746869.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746869.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242044,
+                    "code": "806895e9-c230-4aa7-b982-2bb03a6679b4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 344,
+                    "price_before_discount": 430,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746872,
+                "code": "55688438-e174-4bf3-997f-2134da384377",
+                "name": "Dake Jang",
+                "description": "1:1 - Hot & spicy chicken soup",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746872.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746872.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746872.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 5242049,
+                    "code": "7df29bcc-1e6a-4c33-95b5-6377cdf802c7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 480,
+                    "price_before_discount": 600,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820761,
+                "code": "adbaf282-101b-4e85-a6c6-089c23e38b3e",
+                "name": "Thai Thick Soup",
+                "description": "1:2 - Incredibly flavoursome thai soup prepared with chicken, prawn & spices",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820761.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820761.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820761.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510327,
+                    "code": "6c47b3b0-2c81-487f-bb2c-d086b3d5e0f4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 320,
+                    "price_before_discount": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820762,
+                "code": "554062c3-c858-44da-bdc7-079ccf48b775",
+                "name": "Special Beef Soup",
+                "description": "1:2 - Prepared with beef, herbs & mild spices",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820762.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820762.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820762.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510328,
+                    "code": "5446391e-6a2e-43ee-a107-ccc1beab0dd1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 356,
+                    "price_before_discount": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820763,
+                "code": "6cba49f7-4416-4ea8-b960-b19e11c6907f",
+                "name": "Chicken Corn Soup",
+                "description": "1:2 - Comforting, healthy & delicious dish infused with chicken, corn & veggies",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820763.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820763.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820763.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510329,
+                    "code": "bda6a57c-9ec4-44d9-826d-11f7675d43fc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 276,
+                    "price_before_discount": 345,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820766,
+                "code": "dedc1162-3d06-430d-9082-1a2c9def6315",
+                "name": "Thai Clear Soup",
+                "description": "1:2 - Healthy flavoursome soup with herbs & special ingredients",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820766.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820766.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820766.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510332,
+                    "code": "56653a5f-1a75-4ee9-811d-8cb049211ed3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 272,
+                    "price_before_discount": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 7820768,
+                "code": "39f7639b-b3bc-446c-b993-dccc4c1b03b7",
+                "name": "Spicy Seafood Noodles Soup",
+                "description": "1:2 - Soup prepared with seafood, stock & some mild spices",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820768.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820768.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820768.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510334,
+                    "code": "53c9b710-e2da-43b6-80a6-d7e1ad572c8e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 380,
+                    "price_before_discount": 475,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820771,
+                "code": "2ee58729-9430-4f32-af77-f744c52db01d",
+                "name": "Mixed Vegetable Clear Soup",
+                "description": "1:2 - Prepared with vegetable, herbs & mild spices",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820771.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820771.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820771.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8510337,
+                    "code": "e99364c7-4457-4cb2-9553-5b4ed8e99cea",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "price_before_discount": 350,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 726215,
+            "code": "9a5f4592-9a24-4193-ba75-958d8da9145c",
+            "name": "Noodles",
+            "description": "",
+            "products": [
+              {
+                "id": 4746870,
+                "code": "aa479b75-939e-4504-b9db-031d85ff3ffd",
+                "name": "Japchae ",
+                "description": "Stir fried glass noodles with vegetables beef or chicken ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746870.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746870.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746870.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242045,
+                    "code": "380d390b-4ea2-4320-8b2b-d07cde344027",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Chicken",
+                    "price": 448,
+                    "price_before_discount": 560,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5242046,
+                    "code": "ec54cf32-0f8d-4e03-9b8b-6603419adafb",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Beef",
+                    "price": 464,
+                    "price_before_discount": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746871,
+                "code": "be8f2546-7c54-48a1-ac53-1e2663869ed9",
+                "name": "Jjajang Myeon",
+                "description": "Noodles with black-bean sauce and beef or chicken",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746871.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746871.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746871.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242047,
+                    "code": "3099f12c-db81-4e4b-b4f7-223162f2c47a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Beef",
+                    "price": 476,
+                    "price_before_discount": 595,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5242048,
+                    "code": "dc44596e-dfc7-48e5-ab0f-bca547d00f0d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Chicken",
+                    "price": 468,
+                    "price_before_discount": 585,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820775,
+                "code": "3792df19-39f2-47df-903b-49d67723aa4b",
+                "name": "Mixed Chinese Fried Noodles",
+                "description": "1:2 - Wok fried noodles drenched in a chinese sauce with beef pcs & veggies",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820775.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820775.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820775.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510341,
+                    "code": "8ba176b4-16a1-49e2-ae9c-c4c08f96b382",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 352,
+                    "price_before_discount": 440,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820785,
+                "code": "248389c7-b6c3-4f23-8bbe-1eb80c01e928",
+                "name": "Seafood Fried Noodles",
+                "description": "1:2 - Seafood, noodles, pepper & onion tossed  with seasonings & special sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820785.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7820785.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7820785.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510351,
+                    "code": "6a84fd3b-e703-41a9-af7a-0752005cbf4b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 416,
+                    "price_before_discount": 520,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820786,
+                "code": "96d527c7-7c4f-4faa-b9ff-1c6a6e9a7358",
+                "name": "Fried Chicken Noodles",
+                "description": "1:2 - Fried chicken, noodles, pepper & onion tossed  with seasonings & special sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820786.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820786.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820786.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510352,
+                    "code": "b5be4ba8-60e6-4dcd-8544-17eb8cd7332b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 344,
+                    "price_before_discount": 430,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 726216,
+            "code": "352731c0-aa56-4af3-86c8-08ec6e6fd5ea",
+            "name": "Mains",
+            "description": "",
+            "products": [
+              {
+                "id": 9641397,
+                "code": "215e2dfa-3dbe-45c1-ac41-4b21cc1d94b6",
+                "name": "Mushroom Fried Rice ",
+                "description": "1.2 with Muhroom fried rice ",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/hlup/product/21009d15-d59a-4867-850d-abf984ac387b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/hlup/product/21009d15-d59a-4867-850d-abf984ac387b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/hlup/product/21009d15-d59a-4867-850d-abf984ac387b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10564574,
+                    "code": "b655201c-9a41-4b62-a316-041d342e2612",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 384,
+                    "price_before_discount": 480,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746875,
+                "code": "94152817-f4c3-4d61-ba4c-e0949548cd10",
+                "name": "Sogogi Bulgogi",
+                "description": "Korean beef bulgogi with Steam Rice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746875.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746875.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746875.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242052,
+                    "code": "dfbc64c2-ce64-4b71-9cff-0cec71e33bfc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Spicy",
+                    "price": 572,
+                    "price_before_discount": 715,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5242053,
+                    "code": "aaad2717-0521-459a-953a-59961abc0f50",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Non-Spicy",
+                    "price": 572,
+                    "price_before_discount": 715,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746876,
+                "code": "5553f8f8-6e0a-4cd4-931c-251c3e8d79b2",
+                "name": "Dak Bulgogi",
+                "description": "Korean chicken bulgogi with Steam Rice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746876.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746876.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746876.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242054,
+                    "code": "50569c7e-9ff2-45da-a4ba-256f764afb88",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Spicy",
+                    "price": 460,
+                    "price_before_discount": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5242055,
+                    "code": "71399dbb-a6c7-4436-a07b-e3756104baab",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Non-Spicy",
+                    "price": 460,
+                    "price_before_discount": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746878,
+                "code": "89de9099-9f6e-460d-8fcf-8d3ae5816b3f",
+                "name": "Garlic Fried Rice",
+                "description": "Korean garlic flavor rice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746878.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746878.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746878.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 5242058,
+                    "code": "a7d73cca-7079-40b7-be8b-2da32b55d0b6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 352,
+                    "price_before_discount": 440,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 4746879,
+                "code": "b4086642-649c-451c-88d9-caab7ed3316a",
+                "name": "Korean Mixed Vegetables",
+                "description": "Stir fried mixed vegetables",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746879.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746879.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746879.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 5242059,
+                    "code": "0bc37fb7-5b32-42d4-b6d5-4e3cead38724",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 392,
+                    "price_before_discount": 490,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772054141"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746880,
+                "code": "c952394a-bc6b-4f42-9bb6-ba55c387046a",
+                "name": "Korean Mixed Fried Rice",
+                "description": "1:1 - Korean fried rice with prawn, chicken, egg & vegetables ",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746880.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746880.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746880.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242060,
+                    "code": "7a83c378-e094-4c83-9703-1d5028cda4db",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Beef",
+                    "price": 368,
+                    "price_before_discount": 460,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5242061,
+                    "code": "12655eb6-8837-4539-862f-e780947bea50",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Chicken",
+                    "price": 360,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820787,
+                "code": "ed80a56d-7a60-47d5-b1c1-b1162f00ed78",
+                "name": "Chicken Fried Rice",
+                "description": "1:2 - Classic chinese dish featuring fluffy rice stir-fried with scrambled eggs, vegetable & a touch of soy sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820787.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820787.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820787.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8510353,
+                    "code": "de7d85b6-c18c-423a-9752-6e23cc586107",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 332,
+                    "price_before_discount": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7820789,
+                "code": "9fcedbb9-d93c-4353-8deb-0f338155c351",
+                "name": "Chinese Fried Rice",
+                "description": "1:2 - Prepared with soya sauce, mild spices & mixed vegetable",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7820789.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7820789.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7820789.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8510355,
+                    "code": "9c56a1d9-0896-4614-9d14-42d1e6a488a0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 312,
+                    "price_before_discount": 390,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 802609,
+            "code": "b12ff4b9-c80b-4949-bd9b-0cbbbf526c4b",
+            "name": "Korean Bento",
+            "description": "",
+            "products": [
+              {
+                "id": 5486569,
+                "code": "975e2895-289b-4c9a-b9e9-23e7d8b9ec3d",
+                "name": "Chicken Loves Bento",
+                "description": "Consists of fried rice, spicy chicken bulgogi, chicken dumpling 2 pcs & chicken cutlet 2 pcs",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/5486569.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/5486569.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/5486569.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 6025005,
+                    "code": "445164c9-eb6c-4441-8375-8e52e9ea55c0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 648,
+                    "price_before_discount": 810,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 5486571,
+                "code": "dda757c8-c2a7-4bde-81ab-cc92423b2723",
+                "name": "Seafood Lovers Bento",
+                "description": "Consists of egg fried rice, spicy seafood bulgogi, prawn dumplings 2pcs, prawn tempura with bread crumbs 2pcs",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/5486571.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/5486571.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/5486571.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 6025007,
+                    "code": "726ea424-e9e6-4407-80fd-85d28ccfd83e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 664,
+                    "price_before_discount": 830,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 5486572,
+                "code": "1e545091-cba4-4c06-b049-71ac3a454b9e",
+                "name": "Beef Lovers Bento",
+                "description": "Consists of fried rice, beef bulgogi, beef kimbap 2 pcs & beef dumpling 2 pcs",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5486572.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5486572.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5486572.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 6025008,
+                    "code": "95906df5-5b28-4d48-97d0-e7afd17b705c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 740,
+                    "price_before_discount": 925,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 637304,
+            "code": "6746b065225190223a81bc04169f5886",
+            "name": "Rice Bowl",
+            "description": "",
+            "products": [
+              {
+                "id": 3972304,
+                "code": "d06b33c16ff2d699afaa02e6f7ea6478",
+                "name": "Chicken Teriyaki Rice Bowl",
+                "description": "1:1 - Teriyaki chicken with sticky rice & fried egg",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3972304.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3972304.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3972304.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4419640,
+                    "code": "4e9286a5d7eed1c918490de81b258bb6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 416,
+                    "price_before_discount": 520,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3972306,
+                "code": "90093e9ad0fd9221a1a67b3f99754488",
+                "name": "Chicken Bulgogi Rice Bowl",
+                "description": "Spicy marinated chicken served over rice with vegetable & a savory sauce",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3972306.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3972306.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3972306.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 4419639,
+                    "code": "fa8d5e63e8e9416bae66cc2043bcd7d3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 432,
+                    "price_before_discount": 540,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 3972305,
+                "code": "282c7abe7cc5be2a7173607024ae44ce",
+                "name": "Stir Fried Beef Rice Bowl",
+                "description": "Savory beef stir-fried with vegetable, served over a bed of fluffy rice",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972305.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972305.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3972305.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4419638,
+                    "code": "9f7ebe3f8342e1e3d6064bdf9ab8b2c2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 436,
+                    "price_before_discount": 545,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3972303,
+                "code": "65b84cad2cc1c594ec388c2462357521",
+                "name": "Beef Bulgogi Rice Bowl",
+                "description": "Savory marinated beef served over rice, topped with vegetable & a flavorful sauce",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972303.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3972303.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3972303.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4419637,
+                    "code": "acd39068da273744ae78f90dd803789f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 452,
+                    "price_before_discount": 565,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4746873,
+                "code": "93321211-5026-4863-b6bf-f7df2eda6d5d",
+                "name": "Dolsot Bibimbap",
+                "description": "1:1 - Rice topped vegetable & beef",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4746873.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4746873.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4746873.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5242050,
+                    "code": "d651c425-9670-4f7d-8bae-df290600e612",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 500,
+                    "price_before_discount": 625,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                4746832,
+                4746870,
+                4746871
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "vendor_points": 1,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

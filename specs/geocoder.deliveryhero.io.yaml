@@ -1,0 +1,337 @@
+openapi: 3.0.0
+info:
+  title: captures/foodpanda.mitm Mitmproxy2Swagger
+  version: 1.0.0
+servers:
+- url: https://geocoder.deliveryhero.io
+  description: The default server
+paths:
+  /api/v2/autocomplete:
+    options:
+      summary: OPTIONS autocomplete
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: query
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: country
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language
+        in: query
+        required: false
+        schema:
+          type: string
+    get:
+      summary: GET autocomplete
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      request_uuid:
+                        type: string
+                      provider:
+                        type: string
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        address:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            formatted_address:
+                              type: string
+                            main_text:
+                              type: string
+                            secondary_text:
+                              type: string
+              example:
+                meta:
+                  request_uuid: 09e7abc1-e30b-42a4-9986-517962927057
+                  provider: here
+                data:
+                - address:
+                    id: gglChIJ889OK6HHVTcRqn15b679Agw
+                    formatted_address: 123 Gulshan Avenue, Gulshan, Dhaka 1212
+                    main_text: 123 Gulshan Avenue
+                    secondary_text: Gulshan, Dhaka 1212
+                - address:
+                    id: 
+                      gglEjkxMjMgR3Vsc2hhbiBOb3J0aCBBdmVudWUsIEd1bHNoYW4sIERoYWthIDEyMTIsIEJhbmdsYWRlc2giMBIuChQKEgnrEACip8dVNxG_FVee8vQJnBB7KhQKEgm1BKuMB8dVNxFAGA45EI4H7w
+                    formatted_address: 123 Gulshan North Avenue, Gulshan, Dhaka 1212
+                    main_text: 123 Gulshan North Avenue
+                    secondary_text: Gulshan, Dhaka 1212
+                - address:
+                    id: hrehere:cm:node:964329977
+                    formatted_address: Gulshan Avenue & Road 123, Dhaka
+                    main_text: Gulshan Avenue & Road 123
+                    secondary_text: Dhaka
+                - address:
+                    id: hrehere:pds:place:050wh0r3-52519ec6e5344628a888fd1b8e3b3696
+                    formatted_address: Gulshan Avenue, Gulshan Avenue, Dhaka
+                    main_text: Gulshan Avenue (Gulshan Ave, Dhaka 1212)
+                    secondary_text: Gulshan Avenue, Dhaka
+                - address:
+                    id: 
+                      gglEjExMjMgR3Vsc2hhbiBMYWtlIFdhbGsgV2F5LCBEaGFrYSAxMjEyLCBCYW5nbGFkZXNoIi4qLAoUChIJg68Wd53HVTcRK9OiXRM-Mb4SFAoSCduBCD2Fx1U3EfyBVP5rhT8k
+                    formatted_address: 123 Gulshan Lake Walk Way, Dhaka 1212
+                    main_text: 123 Gulshan Lake Walk Way
+                    secondary_text: Dhaka 1212
+                - address:
+                    id: 
+                      gglEjoxMjMgR3Vsc2hhbiBMYWtlIFdhbGsgV2F5LCBHdWxzaGFuLCBEaGFrYSAxMjEyLCBCYW5nbGFkZXNoIi4qLAoUChIJt6OuuAjHVTcRZWk24YiwXvESFAoSCXPrDfegx1U3ESP-kI9JNgwD
+                    formatted_address: 123 Gulshan Lake Walk Way, Gulshan, Dhaka 1212
+                    main_text: 123 Gulshan Lake Walk Way
+                    secondary_text: Gulshan, Dhaka 1212
+                - address:
+                    id: hrehere:af:street:Yj1QAu.S3fa0NPAlkTS8pC
+                    formatted_address: Gulshan 2, Dhaka
+                    main_text: Gulshan 2
+                    secondary_text: Dhaka
+                - address:
+                    id: hrehere:cm:node:964299571
+                    formatted_address: Gulshan 2, Dhaka
+                    main_text: Gulshan 2
+                    secondary_text: Dhaka
+                - address:
+                    id: hrehere:cm:node:964299572
+                    formatted_address: Gulshan 2, Dhaka
+                    main_text: Gulshan 2
+                    secondary_text: Dhaka
+      parameters:
+      - name: query
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: country
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language
+        in: query
+        required: false
+        schema:
+          type: string
+  /api/v2/geocode:
+    options:
+      summary: OPTIONS geocode
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: country
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: address
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language
+        in: query
+        required: false
+        schema:
+          type: string
+    get:
+      summary: GET geocode
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      request_uuid:
+                        type: string
+                      provider:
+                        type: string
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        confidence:
+                          type: string
+                        address:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            street:
+                              type: string
+                            formatted_address:
+                              type: string
+                            latitude:
+                              type: number
+                            longitude:
+                              type: number
+                            city:
+                              type: string
+                            country:
+                              type: string
+                            country_code:
+                              type: string
+                            area:
+                              type: string
+                            state:
+                              type: string
+                            place_name:
+                              type: string
+                            platform_city_id:
+                              type: string
+              example:
+                meta:
+                  request_uuid: 4e3047f4-ef27-43b2-b86a-07f8399430c1
+                  provider: here
+                data:
+                - confidence: HIGH
+                  address:
+                    id: hrehere:af:streetsection:9wAfJe1hu8FxW9VbpPvDKC
+                    street: Gulshan Avenue
+                    formatted_address: Gulshan Avenue Gulshan Avenue, Dhaka, Bangladesh
+                      Dhaka
+                    latitude: 23.7886
+                    longitude: 90.41647
+                    city: Dhaka
+                    country: Bangladesh
+                    country_code: BD
+                    area: Gulshan
+                    state: Dhaka
+                    place_name: Gulshan Avenue, Dhaka, Bangladesh
+                    platform_city_id: '11359'
+      parameters:
+      - name: country
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: address
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language
+        in: query
+        required: false
+        schema:
+          type: string
+  /api/v2/details:
+    options:
+      summary: OPTIONS details
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: query_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language
+        in: query
+        required: false
+        schema:
+          type: string
+    get:
+      summary: GET details
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  meta:
+                    type: object
+                    properties:
+                      request_uuid:
+                        type: string
+                      provider:
+                        type: string
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        address:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            formatted_address:
+                              type: string
+                            latitude:
+                              type: number
+                            longitude:
+                              type: number
+                            city:
+                              type: string
+                            country:
+                              type: string
+                            country_code:
+                              type: string
+                            area:
+                              type: string
+                            place_name:
+                              type: string
+                            platform_city_id:
+                              type: string
+              example:
+                meta:
+                  request_uuid: be23dbc0-7a4d-431a-8de6-898dd788ddca
+                  provider: google
+                data:
+                - address:
+                    id: gglChIJ-7MyNdPAVTcRDbyyHMCwJys
+                    formatted_address: ঢাকা
+                    latitude: 23.8028556
+                    longitude: 90.3748344
+                    city: Dhaka
+                    country: Bangladesh
+                    country_code: BD
+                    area: মিরপুর
+                    place_name: Mirpur-10
+                    platform_city_id: '11359'
+      parameters:
+      - name: query_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: language
+        in: query
+        required: false
+        schema:
+          type: string
+x-path-templates:
+# Remove the ignore: prefix to generate an endpoint with its URL
+# Lines that are closer to the top take precedence, the matching is greedy
+  []

@@ -1,0 +1,434 @@
+openapi: 3.0.0
+info:
+  title: captures/foodpanda.mitm Mitmproxy2Swagger
+  version: 1.0.0
+servers:
+- url: https://www.foodpanda.com.bd
+  description: The default server
+paths:
+  /:
+    get:
+      summary: 'GET '
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: cuisines
+        in: query
+        required: false
+        schema:
+          type: number
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-multicart.svg:
+    get:
+      summary: GET ic-multicart.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /lJuB4eTB/init.js:
+    get:
+      summary: GET init.js
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /service-worker.js:
+    get:
+      summary: GET service-worker.js
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /login/new/api/email-check:
+    post:
+      summary: POST email-check
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_known:
+                    type: boolean
+                  is_b2b_customer:
+                    type: boolean
+                  has_social_login:
+                    type: boolean
+                  has_password:
+                    type: boolean
+                  is_linked:
+                    type: boolean
+                  should_verify_email:
+                    type: boolean
+              example:
+                is_known: true
+                is_b2b_customer: false
+                has_social_login: false
+                has_password: true
+                is_linked: false
+                should_verify_email: true
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+            example:
+              email: arafatmrx@gmail.com
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-show.svg:
+    get:
+      summary: GET ic-show.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /login/new/api/login:
+    post:
+      summary: POST login
+      responses:
+        '400':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status_code:
+                    type: number
+                  data:
+                    type: object
+                    properties:
+                      exception_type:
+                        type: string
+                      message:
+                        type: string
+                      developer_message:
+                        type: string
+                      more_information:
+                        type: object
+                        nullable: true
+              example:
+                status_code: 400
+                data:
+                  exception_type: invalid_otp_method
+                  message: Please update to the latest version to continue.
+                  developer_message: ''
+                  more_information:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user_id:
+                    type: string
+                  code:
+                    type: string
+              example:
+                user_id: '4101800'
+                code: bdowozje
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+                platform:
+                  type: string
+                incogniaToken:
+                  type: string
+            example:
+              username: arafatmrx@gmail.com
+              password: arafat.123456
+              platform: b2c
+              incogniaToken: 
+                eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkExMjhDQkMtSFMyNTYifQ.qBvrSdliedqR_ilSR_MvoA2MUVVuntpo4P4bKO8DTg7PbxbRez7W1FUVGWYfcMO42iRvKQtS3LtIvN_UZ3_Kv0t-vTsegOrqb9N-JxgYNulUhcAQyDWhHJBqg5P0aJZ8P2R8ChQjOj1xP5Sg33rXp3yyQLU5pXMFaQUxNrX8HlJnO1Xv9kek7L6ZUYWNlSd8Zwde5dlHcP-7zOpQ1sYinOoAr_xOQUFwJ-zfJdG46OFRh1eDdRj066lUUGDeivBglYsheJQ5pMDhxb0ro4nBhjOdOv-Mn98BKHFj8taN3rPoGsGrapZQH7R8j_s2Ik3812-wKLnClzIjMLYBB7Qc5A.cLNxqRNgTVbYEZXsdsRb3Q.BCXMrSAx0UyAo-qngVNQsJTjdwGSxH4YdM4QHgF9K-f7NggEpn-57qva2zpjhGGeKtlHB8Asf1EvUemde9yncuy5MuTVae7GbJV-gdNdUFdBfdDP5utmL-cmk_8rJBHjxeyH4VytD37lbzYznHOJZWga2VCsA4CC5FGKFu_EYqN-SJ4XiW7R1bGAdLe_ksQugAbCUEpH1c22KdTPAwe35S2axjBICRziCR7599skA1E1PTwwIVEyfNkZTAepfTGmkwgs0NGZFYYolgbDbLbapJlGo-ldk5E2tQ2tR2_XvzWIOXoITJ8KKZD8M5nNS-DZrC4QXFJCrCKZkqZq6y-5VHb5KQGn8SJNlS56DCE9aY7H7-Cc2byc7Ywc-kxV7CDH-4AeWrfdxTnZ84qWkPnFsj8ulenmci2YzJZpN5VIKGChQC6JAcuZmljmxwoOQNSDLNGD7bZMrxq190uSwRtDjZpO-CUsqlHPAB3ppNcqGnYznNoDVrOr96j8FGwxVMEunNXP0x3BTRuYW2T9DitIKRDMtFBjRZMuLl8kv7gelbgzv2uBvZ51v2QkMbK_74mgk8OiYtIGcqVYyDdnJB8gvrllpCssEkY4nmQ29JmAhWL3U9D7VgoICTgczifuob1RvHIvZ4XAzDSuM21UGp1PNjqa0qxUqqqtXzZsO2RUemm9-pdYbV2AgHki0CcmvFi_sle1_5_unV-T5T7rjWbY-onjqmOLVEEuHkcvca7PTK3VCa3pFKFG8NleAyOtWYBOyBjHRt1g9joyeBYMjYPinL3DD0_1fPMSdmZQJYF8BxfSb-yUvyWdTRSaoGmLW0m-DTeLWxMq3wlb3W0qnEt8wFlTSOSbpzujFSsHw05ERLNbcbva7iubItxnvqK84MNrFsgjQzsdZXHTJhrikg376TyvIam-9sfIdE_Bxj6tYiINjNK-VVp3ANOkGNPQbqEQdnh0aGH1vATMj2Llel29dLeEQW6Olmz9WXk_0YYIo6QIEv9WJaY9OUGYyohUW6-uLc2YBY2CtD_8oYoAXohdKisvp8Ftg0IAhZGUgmRjMXHSE3qPnI52l9PBw3tQjgbsY8IUeXD3YfKDg1Qea7UCnjyIRTwz5aQxfOmatgrdxUw2MWpZXjVD0CqNX6veebIIsC4uSj50ozWCssZ6H6u7mIWOXcEhWv01qQgP_uIUqqe5va8AiMXLtS3RGgcNuxU9wlMr8rl-WWr51uCarj4RuoYPiV9EcT2MZdPUFrLLTqe6wuPK_90Ug3HSRoOR0SYvCt5F4YTNaejB5Op_l5GiIk9u-aFljG1Y09bpLEURVcpOqsFMPU0LA4wdJCV_zK20_ocMr0d3hUm6LMBUcEWfP3E0Y1iatSSoDVvvxcKVEHgbfZHxIeC9t6myXMP_kS-a-g-gAZYGtrFT8B_KYKrno9qGC_pe2jHRrdaY_l_TxBiN3wJ80RV75rWVMc6Nsf8m6fZe1GbMFpk9wsJQZvYrE8KA5MuWhKE0MYsFikB07Ftqg_qpAEF44GRq0tVIUMRj5mSXZ5ztuP4oMsT3y6uskDTxKNGWB884J4J1ljT1bIahfk1-PKHHXU7wX-Ff3kIVX2tawxHWuZaOq9xQwXAG83gq4yDHEvGzjMVsD_htgRsmucnhy5Libmtd8wyNaBAnTsXNe4p-DOn7EzuFCi2ojxdl0cmd9bEmhCvtlnlA_sSpiNz4RyhAwO8ZSBV2tWsBSgw_nbSI4BagpFBTyiJTmjNAuNSQOEGjmDhMJJ4UU5JKPhIKkSYF9WnjyU_jD2YF368SpbapC8NfUV5W7TYn33skTsCAk043ssodCJvyyzHplWujVi_RuWolz3XA-f7MZxB45efEVDTh4FA6D7hSwPZabgUOCjjowYGOw_66kOZmHqkZDQbMbO25WVlccE_so4N6Jqxem6PMZsjtjuaDXCPp9Hgv7GxTXzNbQnYdAsdkfyg34R6g7THz8nj6IuRkbXygRC5h6Nt8z5SJjCFGybgy5fJMlVegV7KnOBMZ7niTWq4YzyAEO4fpWI3qp4sYW0rcybXxYfMYAaK_I5PMZ-nROBPeW_FhM-yVNuZuXMBzsOb2k6Hxmz3J_dw8bSDTth4sTLXnhcBSv9F4hnh3GJbqWM241Jv3PzpSgEKOnT0hZGl4ADAHLSf8Hsz8bYtC83vRi2FXF0U8DWjBM85vBpafWX0gPPxoP2AMCI2_sdAQn6aMDC3fFtsUXxk1azvRnzW7Yj0fz8-_mRYd6nzTVtgaQs1DUD2FPUZoirOwZW19KroZ3U4JLuk7ttY_GPw10K0XWFdWF8WuVxq2KEWxEWKDOOIgA-fClZKRQg-1fZPEchXOpZ6m5kbl2j-RV_-Aefg19iGffVgQsLilj-l8LHP2GWqIwXc4xKtzqCq4kRB53HYQ_Ibn3vWBqK8leiiXj0MvEdl9mzx9l65Df_YZVzcz43Ku40-tVyJ5YqcScSu9-8-tNVfbiov0F3XrfSXiw2Ge29pccXn3xN8Cngc7Ljgp9qufbCOwL3rn_7GgtGYrDjPDe83QwI3edq_So-wvVfe_JJw6y62m1CZvX7_UBUjQtqOQIqSwl7oGi4tUAkzu9mFTxtMPQ12WxUn_42IyFqiRvXlMVZBUGsekLJW0i224JRmxSAMcg7_RisU67SXUOlCvGlcQuUT8ApPC3MIxE7bKceZIV04nWMOMf6-sxmMJAmglwwq4HNy0-jIIZpN-D4Cqr8eJxx_K-FbkTbHpms0-QZTmQ2zGfi6iy-79jApNd3rSVsgn3UGAZl5kYp-eT56fehY0g5JbODl4uGuNoZbEE1p7UmVliob88Tl9AhGiRztSetoJwqCFX14pJpaYdtmYWeqGdi7F1sNf9XymtbwKuyW1KqAcrUTvvxrGNX1snHWcSl-BZyfi5T7B3ePFaCLdmDgkgpxo7TUyEqkXO5_29QgqxDeTkR431Nhu5T-kcYTHAu0CpYYUFvcrjmKshvwu-pePtoJf_AZ3Now1rtCk4NXFYsDMg3bLW8gWTKv4OCBgJ_h9Ap5WAdaMe93gObmfPeto5f0EO5wPodkPhAJP9Ox_mPUn4CSU5_fqXuOvgzO4KRME7phqXIwzixy03oy5e2sTNdX2YFHLDAKKaOrETS9f2sJcJyt8nKrgqFYbVrqD6pjCuwLoDKZAe3M.WTI89nhcJ7U3KBTJKADXvQ
+  /api/v5/action-log:
+    post:
+      summary: POST action-log
+      responses:
+        '200':
+          description: OK
+          content: {}
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                request_token:
+                  type: string
+                action:
+                  type: string
+            example:
+              request_token: 
+                eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkExMjhDQkMtSFMyNTYifQ.tZPb3kvVR_zuDoThC2D9s74HOhIY7RTP06zYICK6_LGWAWapoCKnfzBguffuJgrpDdLUKIki6fhSbkCxp3etGwpcoHtUt5BOBNnrhUMxpVsdhMef37six4K9U7KcGUC9o7zMN1mhc0sKcGQW4EdAf8rRSF5Rzsog28AVH0mC-HzJfuEg2MIgxKChXeIKFp_2_UsN_OPRQbA7vp6u870HJpogNz3yZVfrfuSPTW8JSPMJYolZ_zF67H2_hm84Q0wKoXdhQjslhwu9Mk5unc3snDm3Ug5qRYYjtpBFBI-yYnoA2KSsbx78mEA1jv7GQt3EhDJR0LLof5tsfmuoKVjEBA.gBGIitArKacV8GwouaNqJw.XkdYolUwEDscXuHyt3Y3lL3shGxHkhy5ZS6LFlM_RC3BEogJdJMOtyEa2o8QUMAWUetFulO-vgJicBo_GfelsnKe8vqaLctIgyHdEfVyRnb3jSfShsYC8vN-nwu2Z_gG8jnU5v0GJ6aO18HKU3eQc1B3g_7A76aXIqLwNZR_0ifBGdoLs91lKUV-hC0CYO-hzdu-2_SW-EcwRFAjJhdZvP2AG-S8fSHnKyWCbEBb6eL3Ru1-qOU1xFvBPAhj93GpXUa33ZKZhCU3v8NWmVjE4GbCEIjb5hAJnrIyqhAqgc686x1TGz6O0t3WiboqR1aCseCognes6kW96LpNchfmWjPXog6eJTGkLI8QaQrpe5c4KAnHelDT97SG6OJeJybROLDqAmkkidBwlPkJRtOl4taSRNnZgeKDTr3Mlu4YTYpsuos0IGf9hDAW5u-gVi08dBUhzQUQX7iZe7fejPv9VDEWgsoCnaxdxsIY7y5rxbj2SwW_GYE-Pkddt823L8FrQp6HOb4Nk30OQOqXFNdO4_LgYyTF_2GcShv3fmjtsQ__c5BXL5C_2cBuuobZ6FkTWwjnltrld7zOmVeqNmNU3bEtuWzac_KdIr-NIxgahyNnP5yNVBFcqHcpGI8erS57USmafyS-SggSUAkvC4i-6etoTvCaS5YeEkU06tLdY3kA7yDAdHW9afmrtjPRBX01nGf5WAesRSaQcGPCHP1JuujtoZnxIB8WxG83GS0CoxpdoQ0q6J4thjSAMi3GxLOxZrCeWTKw_SKA6p6mc_dRNBvMoERKWwytXhesr_oy9U_R1Z7C43s5G-Rw73DeHcU1RkgXmF0ix8sVrqpSCBcz6zefOOp2wnm7oQG-s1F1i-fnURn_SzekbqAGArY8oaDSpD-GnhWdYWJWbvV_2EmHskVkfWVnDWTrCEhjvdLZNG3nSuYjd1DUEdhJdVfc47_fvDcyZf9R-FNqOQOJMl82FKrLmMRSEhtGeOiOyX-IP-uYlkS3g-bbJYLPN1p5rvUzXVzFs4sOJdFi7olePF76K6J_kBmV7i3WEOUzvZ0IpHK28LUH7gXBdv4ZJ8dL7j7Xp1sbYiOCSBSSGwIwv5WqvDqvWZp4DeuiCsnw9Ufruv2l7h54jbGodtlIqmuIDrtPfL4z4a-ptC-lzOOZyypMs2bFhpVXBYWrmbT79CdMUP9cSGRuiNjw0kuqvQcwMCPXLDMwZyzBEVJH10oGFPLxMgUCn_phws0RjSEaOL9CU7gnqXLUibWBmauJ9Au4f7bl-JKvqT0Ag5VLwIfqDGpu3G5vVy0lgRrttbLohMbG0akybjUxc_uTO46uOG8NaaakEPkCqrFtJRBOFbqws15aRSc1nIvWbUvUy0ecTj5EV-QsoVXlfjZun-uEHph5INzWFASlcyuU-C-SmMsbhsOnV1ZuC6dfc8BfR6hSHSO5AD_sFBcBYZErg5FLPWOxB3Xeh_fKshx2P3gZVt5S7agn-iQIQrygiy_B9ylO5MZHZ-tvXjc96ccqylDnGB0CY8gXy9-6N2lshN2ueAZNRr761djL3mQmx-ftL9x0blyFqX9RjmP51ORY47cptgLY2ZODiorJLp8YpoJTQ_kTYbAU6Ll5ofj6_S1ZJRNLb7rOf6UjHgQZpn4BpIjp7sgSAdBTG_Wmn2tXKd-o2QQtxdEolyn28a6gC2tEPrD3DGn3aiKd-xvR6Ez1gQSciIsqj0bL75t7S0TSMPfawBGvuvAEnQrk3tjfz26Mo6ae8SSN34gz7gUN6_OEyPUlomiL-Gxz2P9m8J-T9lVZSunGnC-uL0NVB63zqtGNPHQ5UqOY1zniuqdJ7tPXl1FDcCWZ-OX4raX0t1TPgrjXbEVt4Ho96s4NhCQb57Oem5mj1TV1XGFicXUR9J4KZe86Hw2YWw-0T0X1QwHJYHXAPuOfGmTnakTXKi11hXtLYCdusL7lP4HUathYpJ601ByEOSqCfQd7i6XpLmVc35Eon2dxhyzc-tJ3WA7CA4B-hT7u3hwKLRIONdgDSBYcchkMnJsNd3O1v4bO0G0rTlCddP1ORe7kricphEXeITNuiFCLNr-29VrFykNGkoDPblRtrWOe9L7hD3Y_CSr-VuCA0b5A7rryEcFNG2o-ZUTgRgRhFAkQbB1Pe5QYZmxRyZ5cSxhpHuzwKLHuOsQnT2nt60tPHeNdNN9MqpT5oAdzfHBI5aIlzoFlnKTCRQlLGNDWa9bx1OG4fTSxLDJxjZkN-PdR3l_EgOYg42vtxYIlbHXuJnxnjyR5wADgoTGO_AYj7r-Ox3bV3UzAZS5D2-NcVdLaNTvYn1b5S46wuHDGeJhpmb4qIeTSVQ-YVh-EQJQxUgWU4BbZhmwr2iYTMkQBVoGOJbPtjc0HjNyAVJYSQBXS30_KWlRa5yZtaXLwsakBREWEghe6eHhM5MQb1yPYOHcrgggL1HncPSmuGPY_G9YeCV0pdnk8-z3aur1R5qxsrsMZrE7JbJ5fRNm2qwz5oFPqXOhSHrK604ukiWMpUY8AENAk-23PAbx-7i9RMX-CnGm5Uil9cohfk46xZlLHiAuZrVvmsgG29wylgsD94UJMjAyo2xfeFOAIMauYziLItnYMaju73Q_vSNITiZtfCvsUN7B_4keSkqbpq4Pkz3uu5TB7J9iSJmM8lcvKiIomcNk3h6hoY5IEwqeKuWtt4C6SO6hZcmJxUW4qH79kEmtrlXgk8np7xPMZtSpyAajITig0fLkvv2iqJ9azDW4UJpGiqXzxb9D2aZ_3LhtoZbaDeLkgmdrGKOd6s9YfrchkK6Lb433-K5KKPOjK_BkLc150ndBi-_sT4UwJa175JMuUazIfEQOcxfmDxpTcnu2wjOrHSaZe7iJa0NhZmkURfqgQvGF--w7fesUfVDQEhMMwXfyayDh-obQo7-YNKBztiFlxGk5PWXJoWT5DM0Wbu8qwUvVdiQYwXxJ-4YOGC7K_G155ZrRQvZ5vYdIDz8Qz0Xnd5BdoStgcBamkURNZG7YdhzXcGLjOhJmR1lBzWkm8x_1PDn-tNVxMVRuQANMAyTy9Gfzv6cS0JHGVEWIty0i0UdlhecLzDgu5QpGTTVJ5d0J4OgY9z7aN8H-aYS-xjBkFlaCCE8n0F7Ic471rB_KyuSmaqfi3jV4XAevMjXo4i5AcNVs.GbZ79VwosAJ0hr10yYvHsA
+              action: login
+  /restaurant/biq9/delifrance-gulshan-2:
+    get:
+      summary: GET delifrance-gulshan-2
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-info.svg:
+    get:
+      summary: GET ic-info.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-pro-sm.svg:
+    get:
+      summary: GET ic-pro-sm.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-group-filled.svg:
+    get:
+      summary: GET ic-group-filled.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-minimum-delivery-fee.svg:
+    get:
+      summary: GET ic-minimum-delivery-fee.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-minimum-cart-sm.svg:
+    get:
+      summary: GET ic-minimum-cart-sm.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-flame.svg:
+    get:
+      summary: GET ic-flame.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-thumbs-up-filled-sm.svg:
+    get:
+      summary: GET ic-thumbs-up-filled-sm.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /restaurants/new:
+    get:
+      summary: GET new
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: lat
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: lng
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: expedition
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: vertical
+        in: query
+        required: false
+        schema:
+          type: string
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-plus.svg:
+    get:
+      summary: GET ic-plus.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-check-circle.svg:
+    get:
+      summary: GET ic-check-circle.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /lJuB4eTB/captcha/captcha.js:
+    get:
+      summary: GET captcha.js
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: a
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: u
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: m
+        in: query
+        required: false
+        schema:
+          type: number
+  /favicon.ico:
+    get:
+      summary: GET favicon.ico
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-vert-shops.svg:
+    get:
+      summary: GET ic-vert-shops.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /city/dhaka:
+    get:
+      summary: GET dhaka
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /city/chittagong:
+    get:
+      summary: GET chittagong
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /cuisine/burger:
+    get:
+      summary: GET burger
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /cuisine/pizza:
+    get:
+      summary: GET pizza
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /cuisine/chinese:
+    get:
+      summary: GET chinese
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /cuisine/indian:
+    get:
+      summary: GET indian
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /cuisine/bbq:
+    get:
+      summary: GET bbq
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /cuisine/bengali:
+    get:
+      summary: GET bengali
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /en/darkstore/vbpl/pandamart-gulshan-banani:
+    get:
+      summary: GET pandamart-gulshan-banani
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /darkstore/vbpl/pandamart-gulshan-banani:
+    get:
+      summary: GET pandamart-gulshan-banani
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-arrow-forward-sm.svg:
+    get:
+      summary: GET ic-arrow-forward-sm.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-discount.svg:
+    get:
+      summary: GET ic-discount.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /assets/icons/874b469fd24fe24e4cc42d76283a5507db64355e/ic-arrow-tail-forward.svg:
+    get:
+      summary: GET ic-arrow-tail-forward.svg
+      responses:
+        '200':
+          description: OK
+          content: {}
+  /restaurants/new/:
+    get:
+      summary: GET new
+      responses:
+        '200':
+          description: OK
+          content: {}
+      parameters:
+      - name: lat
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: lng
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: vertical
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: expedition
+        in: query
+        required: false
+        schema:
+          type: string
+x-path-templates:
+# Remove the ignore: prefix to generate an endpoint with its URL
+# Lines that are closer to the top take precedence, the matching is greedy
+  []
