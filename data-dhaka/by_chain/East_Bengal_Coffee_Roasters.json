@@ -34,7 +34,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.87,
+    "distance": 0.474,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/hlhv-listing.jpg",
@@ -54,7 +54,26 @@
         "event"
       ],
       "available_in": null,
-      "events": [],
+      "events": [
+        {
+          "id": "bd_40",
+          "name": "",
+          "messages": [
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -64,7 +83,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 34.0,
+    "original_delivery_fee": 49.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -149,9 +168,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.87
+    "_discovered_area": "Kuril",
+    "_area": "Jamuna Future Park",
+    "_area_distance_km": 0.28
   },
   {
     "id": 74523,
@@ -208,7 +227,26 @@
         "event"
       ],
       "available_in": null,
-      "events": [],
+      "events": [
+        {
+          "id": "bd_1546",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -218,7 +256,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 114.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -303,7 +341,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
+    "_discovered_area": "Gulshan 1",
     "_area": "Baridhara",
     "_area_distance_km": 0.57
   }

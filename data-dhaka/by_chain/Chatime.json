@@ -28,7 +28,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.107,
+    "distance": 0.263,
     "food_characteristics": [
       {
         "id": 252,
@@ -63,7 +63,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 35.0,
+    "original_delivery_fee": 49.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 25.0,
     "delivery_duration_range": {
@@ -153,7 +153,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
+    "_discovered_area": "Gulshan 2",
     "_area": "Banani",
     "_area_distance_km": 0.11
   },
@@ -186,7 +186,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.175,
+    "distance": 1.0,
     "food_characteristics": [
       {
         "id": 252,
@@ -209,19 +209,40 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T11:00:00+0600",
-      "events": [],
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_40",
+          "name": "",
+          "messages": [
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
+    "original_delivery_fee": 70.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -292,7 +313,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -307,8 +328,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
+    "_discovered_area": "Kuril",
+    "_area": "Bashundhara R/A",
     "_area_distance_km": 0.17
   },
   {
@@ -340,7 +361,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.878,
+    "distance": 1.983,
     "food_characteristics": [
       {
         "id": 252,
@@ -364,9 +385,28 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "available_in": "2026-05-25T09:30:00+0600",
+      "events": [
+        {
+          "id": "bd_1897",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -375,13 +415,9 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 50.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Chatime - Dhanmondi",
@@ -465,9 +501,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.88
+    "_discovered_area": "Rayer Bazar",
+    "_area": "Science Lab",
+    "_area_distance_km": 0.43
   },
   {
     "id": 98984,
@@ -514,25 +550,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_1546",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 54.0,
+    "original_delivery_fee": 68.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 20,
-      "upper_limit_in_minutes": 35
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Chatime - Gulshan 2",
@@ -609,9 +662,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 1.04
+    "_discovered_area": "Gulshan 1",
+    "_area": "Gulshan 2",
+    "_area_distance_km": 0.95
   },
   {
     "id": 3843,
@@ -642,7 +695,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.492,
+    "distance": 3.123,
     "food_characteristics": [
       {
         "id": 252,
@@ -677,7 +730,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 96.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -763,9 +816,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.49
+    "_discovered_area": "Kafrul",
+    "_area": "Monipur",
+    "_area_distance_km": 0.8
   },
   {
     "id": 1851,
@@ -819,25 +872,23 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 9.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 20,
-      "upper_limit_in_minutes": 35
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Chatime - Uttara",
@@ -906,7 +957,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -921,8 +972,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
+    "_discovered_area": "Uttara Sector 1",
+    "_area": "Uttara Sector 1",
     "_area_distance_km": 0.18
   }
 ]

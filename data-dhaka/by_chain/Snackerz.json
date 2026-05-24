@@ -28,13 +28,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.429,
+    "distance": 2.6,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/hpso-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/hpso-listing.jpg",
     "is_new_until": "2023-07-26T12:26:48Z",
-    "premium_position": 0,
+    "premium_position": 5,
     "latitude": 23.7529433,
     "logo": "",
     "longitude": 90.378131,
@@ -56,12 +56,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 101.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -71,13 +71,17 @@
     "primary_cuisine_id": 86,
     "rating": 4.5,
     "redirection_url": "https://foodpanda.com.bd/restaurant/hpso/snackerz-dhanmondi",
-    "review_number": 2153,
+    "review_number": 2156,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "20% off Tk. 50",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "20% off Tk. 50",
@@ -138,7 +142,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -151,11 +155,13 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "esoVxJzs05adviWI+dRQaRAk5Fq93sJ32omOHUjV4hFFmbf5hkBfM5CXKzl0Xz6vcscnHv/DdSKZmmBrhNH8jBvZRbF942P3MY2FTNmQXPUDVWdewrWUMRgAkERmtmu2QsqY6uZUWluLrTyCirSGyxyKCrkz9dSXM/c/9kfpUyehnesQfre/cyF+d3ETYkOhHFHCeP2yF5cYK8jThwdA+schRf6sw18DJxRZi27FJU6B1dFCJC7bG8eBCmrCO4KLiBvhG3DpIGSsHgHl/t4=",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.8
+    "_discovered_area": "Shyamoli",
+    "_area": "Dhanmondi 27",
+    "_area_distance_km": 0.24
   }
 ]

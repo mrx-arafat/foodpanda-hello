@@ -88,7 +88,8 @@ def main():
                 available = data.get("available_count", 0)
                 print(f"  available_count={available}")
             page_id = hashlib.md5(f"{area_name}-{offset}".encode()).hexdigest()[:8]
-            (OUT / "raw_pages" / f"{area_name.replace(' ','_')}-{offset}-{page_id}.json").write_text(json.dumps(j))
+            safe_name = area_name.replace(' ','_').replace('/', '-').replace('.', '')
+            (OUT / "raw_pages" / f"{safe_name}-{offset}-{page_id}.json").write_text(json.dumps(j))
             for v in items:
                 code = v.get("code")
                 if not code: continue

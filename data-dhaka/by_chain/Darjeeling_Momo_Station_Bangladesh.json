@@ -68,19 +68,21 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T13:00:00+0600",
+      "close_reasons": [
+        "Unreachable"
+      ],
+      "available_in": null,
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 42.0,
+    "original_delivery_fee": 24.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -183,7 +185,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,

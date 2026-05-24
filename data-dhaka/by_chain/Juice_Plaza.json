@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.626,
+    "distance": 3.636,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ntkj-listing.jpg",
@@ -56,19 +56,40 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T11:00:00+0600",
-      "events": [],
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_1008",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 100.0,
+    "original_delivery_fee": 96.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -149,7 +170,7 @@
     "is_new": false,
     "is_pickup_enabled": false,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -164,8 +185,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 2.63
+    "_discovered_area": "Dhaka Cantonment",
+    "_area": "Mirpur 12",
+    "_area_distance_km": 0.35
   }
 ]

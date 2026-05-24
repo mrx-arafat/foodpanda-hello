@@ -67,7 +67,26 @@
         "event"
       ],
       "available_in": null,
-      "events": [],
+      "events": [
+        {
+          "id": "bd_1546",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -77,7 +96,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 81.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -185,8 +204,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.75
+    "_discovered_area": "Gulshan 1",
+    "_area": "Gulshan 2",
+    "_area_distance_km": 0.7
   }
 ]

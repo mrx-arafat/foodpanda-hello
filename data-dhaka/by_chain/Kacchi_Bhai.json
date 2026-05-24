@@ -58,7 +58,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.191,
+    "distance": 1.275,
     "food_characteristics": [
       {
         "id": 252,
@@ -93,7 +93,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 45.0,
+    "original_delivery_fee": 38.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -104,7 +104,7 @@
     "primary_cuisine_id": 193,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/fdg4/kacchi-bhai-khilgaon",
-    "review_number": 9449,
+    "review_number": 9460,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -209,9 +209,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 1.19
+    "_discovered_area": "Rampura",
+    "_area": "Malibagh",
+    "_area_distance_km": 0.75
   },
   {
     "id": 13064,
@@ -272,7 +272,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.426,
+    "distance": 4.852,
     "food_characteristics": [
       {
         "id": 252,
@@ -295,19 +295,40 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T12:00:00+0600",
-      "events": [],
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_1008",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 100.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -423,8 +444,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.43
+    "_discovered_area": "Dhaka Cantonment",
+    "_area": "Monipur",
+    "_area_distance_km": 0.75
   }
 ]

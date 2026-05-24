@@ -52,7 +52,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.387,
+    "distance": 2.9,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s8mp-listing.jpg",
@@ -80,7 +80,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 101.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
@@ -183,9 +183,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.55
+    "_discovered_area": "Shyamoli",
+    "_area": "Dhanmondi 1",
+    "_area_distance_km": 0.18
   },
   {
     "id": 1755,
@@ -256,19 +256,40 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T12:00:00+0600",
-      "events": [],
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_1546",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 43.0,
+    "original_delivery_fee": 49.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -356,7 +377,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -371,8 +392,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
+    "_discovered_area": "Gulshan 1",
+    "_area": "Gulshan 1",
     "_area_distance_km": 0.68
   },
   {
@@ -445,7 +466,7 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [
-        "Unreachable"
+        "event"
       ],
       "available_in": null,
       "events": [],
@@ -458,7 +479,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
+    "original_delivery_fee": 38.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -561,8 +582,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.35
+    "_discovered_area": "Uttara Sector 1",
+    "_area": "Uttara Sector 6",
+    "_area_distance_km": 0.1
   }
 ]

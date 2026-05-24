@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.37,
+    "distance": 3.087,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/z0y9-listing.jpg",
@@ -76,7 +76,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 96.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -188,9 +188,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.37
+    "_discovered_area": "Kafrul",
+    "_area": "Monipur",
+    "_area_distance_km": 0.68
   },
   {
     "id": 77828,
@@ -239,13 +239,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.643,
+    "distance": 1.505,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/oyjb-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/oyjb-listing.jpg",
     "is_new_until": "2025-09-10T08:29:01Z",
-    "premium_position": 5,
+    "premium_position": 0,
     "latitude": 23.8091687,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ct9yq-logo.jpg",
     "longitude": 90.4315954,
@@ -255,25 +255,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_40",
+          "name": "",
+          "messages": [
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 34.0,
+    "original_delivery_fee": 70.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
-    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Wrapick - Bashundhara",
@@ -287,12 +304,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "15% off Tk. 50",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "15% off Tk. 50",
@@ -371,8 +384,8 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
-    "is_preorder_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -384,14 +397,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "XNa6yYTVbfGfvHKax2BrOGV/MODrKnbKZZBjw+MdATQp0Fcl7zNrQ1qT5VKz4sN2EqDTdnhsyEjE74+UBK9wSgdCIr0BkT1wy4XH1uDQBt2vkbzSq/sOMAuhaTxwEJeqJck461j2DW/pF6iEpVALAtapifWg13rmy8SO3vK36/Ezawz9YTDgohQcNQVZky3EJcJy8lzzEP1jjGF2BtAuy7DKH9zss2wP65fFHkuKMF6bt0X4idlqZaTN1MwiVynBQGpyuajltg+q9ylYViyK",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.64
+    "_discovered_area": "Kuril",
+    "_area": "Norda",
+    "_area_distance_km": 0.52
   },
   {
     "id": 79661,
@@ -456,25 +467,23 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 34.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 20.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 10,
-      "upper_limit_in_minutes": 25
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Wrapick - Uttara 14",
@@ -569,7 +578,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -584,8 +593,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.16
+    "_discovered_area": "Uttara Sector 1",
+    "_area": "Uttara Sector 6",
+    "_area_distance_km": 0.65
   }
 ]

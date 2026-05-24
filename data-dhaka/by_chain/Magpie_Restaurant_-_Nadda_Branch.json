@@ -52,7 +52,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.405,
+    "distance": 1.211,
     "food_characteristics": [
       {
         "id": 252,
@@ -75,25 +75,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_40",
+          "name": "",
+          "messages": [
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
+    "original_delivery_fee": 70.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
-    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Magpie Restaurant - Nadda Branch",
@@ -186,7 +203,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -201,8 +218,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
+    "_discovered_area": "Kuril",
+    "_area": "Bashundhara R/A",
     "_area_distance_km": 0.4
   }
 ]
