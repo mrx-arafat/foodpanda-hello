@@ -1,0 +1,4781 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 52097,
+    "code": "k0lc",
+    "accepts_instructions": true,
+    "address": "109/A, Road-8/A, West Dhanmondi, Dhaka 1209",
+    "address_line2": "",
+    "budget": 2,
+    "deals": [
+      {
+        "id": 600200,
+        "code": "600200",
+        "offer_type": "percentage",
+        "type": "discount",
+        "voucher_type": "",
+        "minimum_order_value": 50,
+        "maximum_discount_amount": 0,
+        "value": 15,
+        "title": "15% off Tk. 50",
+        "description": "",
+        "start_date": "2026-04-02T00:00:00+06:00",
+        "end_date": "2026-06-30T00:00:00+06:00",
+        "is_pro": false,
+        "is_new_customer": false,
+        "seq_priority": 1000,
+        "additional_info": {
+          "should_override": [
+            "dps"
+          ],
+          "calculation": {
+            "baseOn": null
+          }
+        },
+        "tc": [
+          "Valid for a minimum order of Tk50",
+          "Applicable for Delivery, Pick-Up.",
+          "Additional T&C can apply"
+        ],
+        "action": {
+          "type": "",
+          "name": "",
+          "description": ""
+        },
+        "source": "incentives",
+        "conditions": null,
+        "quantity": 0,
+        "used_quantity": 0,
+        "is_full_basket_applicable": true,
+        "construct_id": "",
+        "is_bogo": false
+      }
+    ],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      },
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "23:59",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 15,
+        "discount_type": "percentage",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2026-06-30",
+        "file_name": "",
+        "id": 600200,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 50,
+        "name": "15% off Tk. 50",
+        "opening_time": "00:00",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-04-02",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "should_override": [
+            "dps"
+          ]
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 35,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/k0lc-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/k0lc-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2022-02-17T00:00:00Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7440029,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.3678688,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 40,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Tangail Mistanno Bhandar",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 84,
+    "rating": 3.3,
+    "topic_ratings": null,
+    "review_number": 234,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "10:30",
+        "closing_time": "23:30"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Tangail Mistanno Bhandar",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2023-04-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:45",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:45",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2025-06-05",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-05"
+      },
+      {
+        "date": "2025-06-05",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-05"
+      },
+      {
+        "date": "2025-06-06",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-06"
+      },
+      {
+        "date": "2025-06-07",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-07"
+      },
+      {
+        "date": "2025-06-08",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-08"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "tangail-mistanno-bhandar",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Tangail Mistanno Bhandar",
+      "address_line_1": "109/A, Road-8/A, West Dhanmondi, Dhaka 1209"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/k0lc/tangail-mistanno-bhandar",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants",
+      "home_based_kitchen"
+    ],
+    "chain": {
+      "id": 4772,
+      "main_vendor_code": "k0lc",
+      "main_vendor_id": 52097,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": "Tangail Mistanno Bhandar",
+      "url_key": "tangail-mistanno-bhandar",
+      "code": "cn1sv"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801981133563",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 132766,
+        "code": "",
+        "name": "Delivery Menu (00:00to23:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 729872,
+            "code": "d9f503602f912ab1e714c264ef34b827",
+            "name": "Sweets",
+            "description": "",
+            "products": [
+              {
+                "id": 9499677,
+                "code": "3599aba8-49ab-4375-9b35-27ce0b5310da",
+                "name": "special, Kalojam, Mishti, 2.50mg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/4cab8cb2-6029-4ced-a499-5da3ffe48a62.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/4cab8cb2-6029-4ced-a499-5da3ffe48a62.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/4cab8cb2-6029-4ced-a499-5da3ffe48a62.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10404584,
+                    "code": "b484a92c-054f-4b85-9638-8d2b322ee168",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 119,
+                    "price_before_discount": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503845,
+                "code": "3c52d15d-9da5-4a24-aa53-87c3f11648d4",
+                "name": "special, Cream,Jam,Mist,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/93135b99-14bf-4f5a-b75b-58810871456e.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/93135b99-14bf-4f5a-b75b-58810871456e.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/93135b99-14bf-4f5a-b75b-58810871456e.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409371,
+                    "code": "cfd47c76-20a1-43bf-b149-a3822d301247",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 136,
+                    "price_before_discount": 160,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503844,
+                "code": "eb97c4d5-0aef-4fc9-9f79-b5e58e0fb70d",
+                "name": "special, Cream,Jam,Mist,500.mg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/a96e923c-382f-4ba3-aa9c-b40c6bb4fdd3.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/a96e923c-382f-4ba3-aa9c-b40c6bb4fdd3.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/a96e923c-382f-4ba3-aa9c-b40c6bb4fdd3.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409370,
+                    "code": "d9f010e3-3ec5-474e-84e1-6a20dd7cbae0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 263.5,
+                    "price_before_discount": 310,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503843,
+                "code": "30c5ef81-d444-4f93-a45f-ec765942840d",
+                "name": "special, Cream,Jam,Mist,1.kg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f5cd9a95-391d-48a7-bf81-0d0aeef7f668.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f5cd9a95-391d-48a7-bf81-0d0aeef7f668.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f5cd9a95-391d-48a7-bf81-0d0aeef7f668.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409369,
+                    "code": "11d1a1ee-40cd-459e-9fab-bc0d44421eba",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 501.5,
+                    "price_before_discount": 590,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503696,
+                "code": "165cf5fa-408d-45d1-8156-e652e6f12e1e",
+                "name": "special, shada,chomchom, 2,50g.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/de033bb3-87e1-43a7-ad73-d47956822cda.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/de033bb3-87e1-43a7-ad73-d47956822cda.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/de033bb3-87e1-43a7-ad73-d47956822cda.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409204,
+                    "code": "cc49d2ec-0586-43bb-b44c-77689f4914f4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 136,
+                    "price_before_discount": 160,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503695,
+                "code": "b62bcb27-25f6-4b26-9af0-7b7a8663ead4",
+                "name": "special, shada,chomchom, 500,mg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/12099e7e-8658-450a-af48-a4119d0f27bc.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/12099e7e-8658-450a-af48-a4119d0f27bc.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/12099e7e-8658-450a-af48-a4119d0f27bc.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409203,
+                    "code": "59b043b5-e748-4978-b230-8d6a2dcfe326",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 246.5,
+                    "price_before_discount": 290,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503691,
+                "code": "ca5c4f35-53e8-4dec-bd7c-49ee0f42f1f2",
+                "name": "special, shada,chomchom, 1,kg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/edcdb21b-2cb5-4b3a-9d02-c0b8a8d6ba1f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/edcdb21b-2cb5-4b3a-9d02-c0b8a8d6ba1f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/edcdb21b-2cb5-4b3a-9d02-c0b8a8d6ba1f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409198,
+                    "code": "66ff82a8-ac82-4e3a-9840-4aafe64eb43d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503689,
+                "code": "6cf7287f-2257-421c-a33f-a9afccb0140a",
+                "name": "special, Lal,chomchom, 2.50mg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/483a40ca-df2f-48a4-9797-5fb106eb9a4c.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/483a40ca-df2f-48a4-9797-5fb106eb9a4c.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/483a40ca-df2f-48a4-9797-5fb106eb9a4c.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409196,
+                    "code": "0363f900-8318-42ea-af84-315f113dddf1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 136,
+                    "price_before_discount": 160,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9503686,
+                "code": "b84ed01c-2da5-4ef5-a0cb-721ad9b25369",
+                "name": "special, Lal,chomchom,500,mg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/36e0229a-dd93-49d8-aa24-0ab7a6f78a8d.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/36e0229a-dd93-49d8-aa24-0ab7a6f78a8d.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/36e0229a-dd93-49d8-aa24-0ab7a6f78a8d.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409193,
+                    "code": "a5cdf884-f363-4bee-969b-2e10b4c5c91d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 246.5,
+                    "price_before_discount": 290,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503685,
+                "code": "b25b0762-9f83-49e4-9c87-ccf76d39867c",
+                "name": "special, Lal,chomchom,1,kg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/0ceb7996-615c-43c5-9bc5-c2d9f8ee079a.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/0ceb7996-615c-43c5-9bc5-c2d9f8ee079a.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/0ceb7996-615c-43c5-9bc5-c2d9f8ee079a.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409192,
+                    "code": "a4fd80f9-deba-4983-a999-89dd07ec4c3c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503847,
+                "code": "11295aaa-d67f-4a5d-a454-8f038fff9bdd",
+                "name": "special, Shada,Misti,1.kg",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/b498849c-1cbb-406c-82ac-ef0d0d12a339.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/b498849c-1cbb-406c-82ac-ef0d0d12a339.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/b498849c-1cbb-406c-82ac-ef0d0d12a339.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409373,
+                    "code": "1a8c3566-8a7e-4bb0-8d4d-24789f97ac49",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 442,
+                    "price_before_discount": 520,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9499676,
+                "code": "99c6cc84-67ee-4977-b6e0-391e7c20e607",
+                "name": "special, Kalojam, Mishti,500.mg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/89a2ed59-42b9-41af-a8fc-22af66ab0feb.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/89a2ed59-42b9-41af-a8fc-22af66ab0feb.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/89a2ed59-42b9-41af-a8fc-22af66ab0feb.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10404583,
+                    "code": "342010f7-a82d-42a2-9b93-16b4715f7a56",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9499619,
+                "code": "cae26c56-5c56-4c0a-99bf-e0240ae650a6",
+                "name": "special,Kalojam, Mishti, 1.kg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/81415e61-a3fc-4b1d-9ed5-90fd83215215.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/81415e61-a3fc-4b1d-9ed5-90fd83215215.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/81415e61-a3fc-4b1d-9ed5-90fd83215215.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10404526,
+                    "code": "615b4434-b72d-44f1-a256-d3ce6dcf3f44",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 416.5,
+                    "price_before_discount": 490,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9499567,
+                "code": "3309583d-6d14-477d-ba5f-1ecde906b988",
+                "name": "special, Sponge,Roshogolla, 500,mg.",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bdd02ffc-df0a-4207-ac26-ada56164851a.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bdd02ffc-df0a-4207-ac26-ada56164851a.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bdd02ffc-df0a-4207-ac26-ada56164851a.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10404447,
+                    "code": "525a47c9-1d26-4614-9e3e-437ceece37b7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 289,
+                    "price_before_discount": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9499565,
+                "code": "9a7b960f-5121-4fe3-aa58-deb2c7619119",
+                "name": "special,Sponge,Roshogollah, 1kg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bf6d17e1-3fae-4a39-bba5-476d2038fd3c.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bf6d17e1-3fae-4a39-bba5-476d2038fd3c.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bf6d17e1-3fae-4a39-bba5-476d2038fd3c.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10404445,
+                    "code": "f8a61323-99e4-4dd5-a554-51c62eba8d4a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 552.5,
+                    "price_before_discount": 650,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9496985,
+                "code": "13336166-e573-4475-9c02-91a874ee7ed4",
+                "name": "special Roshmalai, 2.50.mg",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f9993b35-0d45-47ba-bde8-163a5e9158e2.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f9993b35-0d45-47ba-bde8-163a5e9158e2.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f9993b35-0d45-47ba-bde8-163a5e9158e2.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10401542,
+                    "code": "786f6d61-9418-4db0-93b9-bc367c814f04",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 161.5,
+                    "price_before_discount": 190,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9496928,
+                "code": "2a6595e8-7a6f-4cb7-8c8f-0830371100aa",
+                "name": "special, Roshmalai, 500.mg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/06973837-66e7-430d-89d8-ff2e69742e02.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/06973837-66e7-430d-89d8-ff2e69742e02.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/06973837-66e7-430d-89d8-ff2e69742e02.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10401478,
+                    "code": "ce1abbee-d984-4b2f-a41c-b8ca9fefd39b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 331.5,
+                    "price_before_discount": 390,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9496926,
+                "code": "fac9ea01-3746-4c24-adb7-6a03086ab7e8",
+                "name": "Special, Rohmalai,1kg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/63e6c0ab-bc53-4e8a-b333-23b0e638aabc.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/63e6c0ab-bc53-4e8a-b333-23b0e638aabc.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/63e6c0ab-bc53-4e8a-b333-23b0e638aabc.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10401467,
+                    "code": "457b457e-e6b0-4a17-b76b-43bc55f2c34b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 671.5,
+                    "price_before_discount": 790,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506910,
+                "code": "749327df-6080-4ec6-9a6d-4d2642ad2bc5",
+                "name": "special, Gulab,Julab,Mist,1,kg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/5d94863e-2ea9-4f69-ab7e-4eb0db446391.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/5d94863e-2ea9-4f69-ab7e-4eb0db446391.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/5d94863e-2ea9-4f69-ab7e-4eb0db446391.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412724,
+                    "code": "3bb96670-2286-4893-9e10-9f304cd32ba7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 416.5,
+                    "price_before_discount": 490,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506936,
+                "code": "55c07592-645f-4f09-8e86-dab84697544e",
+                "name": "special, Baby, Sweet, Msti,2.50mg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f434866a-d1dc-422c-966a-4c3cabc2c0e8.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f434866a-d1dc-422c-966a-4c3cabc2c0e8.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f434866a-d1dc-422c-966a-4c3cabc2c0e8.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412757,
+                    "code": "6bed4d82-f9b9-428a-8701-6cffd90147b8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9506933,
+                "code": "4aff926d-7331-4e36-9ab1-31c8487b938c",
+                "name": "special, Baby,Sweet, Msti,500,mg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/05a8f816-65f7-40a1-952c-903546e6b52c.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/05a8f816-65f7-40a1-952c-903546e6b52c.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/05a8f816-65f7-40a1-952c-903546e6b52c.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412754,
+                    "code": "52d938b2-140c-4368-bfc4-15f7056e6d6e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 272,
+                    "price_before_discount": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506929,
+                "code": "dd6b4cad-9f77-4c02-a422-dfa2dc191d0e",
+                "name": "special, Baby,Sweets,Mist,1,kg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/ac4779b4-8030-4400-b70d-bca0146cb999.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/ac4779b4-8030-4400-b70d-bca0146cb999.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/ac4779b4-8030-4400-b70d-bca0146cb999.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412750,
+                    "code": "a42e2329-7285-4603-8165-9d9672bd4120",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 501.5,
+                    "price_before_discount": 590,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506912,
+                "code": "375f0db1-7f93-4369-8f10-036e98bb1677",
+                "name": "special,Gulab,Jamum,Msti,2.50.mg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/45c731ca-a296-4df4-be23-f4e1fec149f9.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/45c731ca-a296-4df4-be23-f4e1fec149f9.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/45c731ca-a296-4df4-be23-f4e1fec149f9.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412726,
+                    "code": "206afa0e-a641-466e-8227-ce79693e5e6e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 119,
+                    "price_before_discount": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9506911,
+                "code": "4805fe37-85e6-4b07-9845-d123800b02b7",
+                "name": "special, Gulab,Jamum,Mist,500,mg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/1474e211-36a2-46bb-b3fc-ebc74743f533.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/1474e211-36a2-46bb-b3fc-ebc74743f533.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/1474e211-36a2-46bb-b3fc-ebc74743f533.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412725,
+                    "code": "20015b9d-b202-48c6-b42e-31a15b41b186",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9455326,
+                "code": "497b5b1d-ab00-4cb0-ad6f-67be86b2a076",
+                "name": "Special Chana. Sandesh. 2.50mg",
+                "description": "Chana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/fe7b535f-7892-4e40-b539-3a2d83931c8a.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/fe7b535f-7892-4e40-b539-3a2d83931c8a.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/fe7b535f-7892-4e40-b539-3a2d83931c8a.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10353982,
+                    "code": "b51e287e-79a8-47bd-8b7a-a31fcf2d70a5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 161.5,
+                    "price_before_discount": 190,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506865,
+                "code": "18ffb6eb-1d3f-4f14-8628-939dd23a2a17",
+                "name": "special, Lal,Mohon,Mist,2.50,mg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/9c24ef32-256e-4415-8ca4-1d59bd735f7b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/9c24ef32-256e-4415-8ca4-1d59bd735f7b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/9c24ef32-256e-4415-8ca4-1d59bd735f7b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412676,
+                    "code": "e3eeee2e-ad41-44ae-bc70-4387d7a19f0d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 119,
+                    "price_before_discount": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506864,
+                "code": "f4c3c219-759d-4450-a1da-def022e89bd2",
+                "name": "special, Lal,Mohon,Mist,500.mg",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/096490ff-a0da-47c7-9e60-c4100085d18e.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/096490ff-a0da-47c7-9e60-c4100085d18e.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/096490ff-a0da-47c7-9e60-c4100085d18e.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412675,
+                    "code": "62c5b4b3-a918-429e-9bd5-7d165c76191a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9506863,
+                "code": "d1472f2e-44bf-466c-ab3d-14deabe3a232",
+                "name": "special, Lal,Mohon,Mist,1.kg,",
+                "description": "sana milk sogar soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/399b080e-eb61-4a68-b7a2-30f0a0929d46.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/399b080e-eb61-4a68-b7a2-30f0a0929d46.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/399b080e-eb61-4a68-b7a2-30f0a0929d46.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10412674,
+                    "code": "21b6d6ae-722c-4d0d-af5f-6462d2692bc5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 416.5,
+                    "price_before_discount": 490,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9505036,
+                "code": "0f4bacda-23e2-433e-94bc-9b528a788f1c",
+                "name": "Special, Mawa,Laddu,2.50mg,",
+                "description": "sana milk sogar Oll,Soft, ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bf00f6bb-2fe2-4ed2-ba58-6d1d910ad01a.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bf00f6bb-2fe2-4ed2-ba58-6d1d910ad01a.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/bf00f6bb-2fe2-4ed2-ba58-6d1d910ad01a.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10410670,
+                    "code": "24ac742a-e023-4452-b9d6-4e5c4635f044",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9505035,
+                "code": "4b58767b-7a2e-4007-988c-6719f05262de",
+                "name": "special, Mawa,Laddu,500.mg,",
+                "description": "Sana milk oll,soger,Maddu,Soft ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/2b9b7872-4e6d-407b-bd47-39c7fdb8d9fd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/2b9b7872-4e6d-407b-bd47-39c7fdb8d9fd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/2b9b7872-4e6d-407b-bd47-39c7fdb8d9fd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10410669,
+                    "code": "86489847-eff7-4382-ad31-29b594cefa12",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 272,
+                    "price_before_discount": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9504940,
+                "code": "8b97301c-d064-4ec7-bdaa-f5b7659988e5",
+                "name": "Special, Mawa,Laddu,1.kg.",
+                "description": "sopt,mawa,oll,milk, soger,",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/de10c405-075a-4245-bfac-68cf048bea57.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/de10c405-075a-4245-bfac-68cf048bea57.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/de10c405-075a-4245-bfac-68cf048bea57.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10410574,
+                    "code": "45d7daa5-a318-4e3b-b1f0-0f08facdb07b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 501.5,
+                    "price_before_discount": 590,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503849,
+                "code": "99e0ec49-2e83-4975-82c4-02c20babfb65",
+                "name": "special, Shada,Misti, 2.50.mg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/3ac90e62-915f-4cc4-9c45-fbe5da6a087f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/3ac90e62-915f-4cc4-9c45-fbe5da6a087f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/3ac90e62-915f-4cc4-9c45-fbe5da6a087f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409375,
+                    "code": "ed75f365-d47e-4f6b-a6a0-8678a615610d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 136,
+                    "price_before_discount": 160,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9503848,
+                "code": "72694185-0323-4408-8ca3-32a2172bde09",
+                "name": "special, Shada,Mishti,500,mg,",
+                "description": "sana milk sogar ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/8e4ff6fd-804f-44c7-b307-ce4a8e2582c1.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/8e4ff6fd-804f-44c7-b307-ce4a8e2582c1.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/8e4ff6fd-804f-44c7-b307-ce4a8e2582c1.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10409374,
+                    "code": "2a10ef67-cf2f-4ddb-858b-74d6c793d5f8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 238,
+                    "price_before_discount": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4780756,
+                "code": "ed3dac80f257eb8a673008953f4da9a5",
+                "name": "Special Gulab Jamun",
+                "description": "Prepared with milk, sugar & rose water",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780756.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780756.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780756.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279937,
+                    "code": "2ef697e90fcfb5e00fbee1c4d506efa3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 4780759,
+                "code": "0c9b811e35f1008525b205e1c1a315e7",
+                "name": "Special Chana Sandesh",
+                "description": "Chickpea-flavored cottage cheese,  sweet.",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780759.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780759.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780759.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279942,
+                    "code": "d5c9abe6e8517e8a84eeb02198c2a873",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 246.5,
+                    "price_before_discount": 290,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5279944,
+                    "code": "784bbb6af61afa5b7f8db6c4a7cf9864",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 729873,
+            "code": "1e13b6babb1f8cc6aadaceb75b781e18",
+            "name": "Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 9405197,
+                "code": "0de949f5-4a24-45f8-b7d7-1aa0f377c0d8",
+                "name": "Special Vanilla Cake.1Pound",
+                "description": "Milk. Bater.soger.",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/73e380e9-7dd8-4660-b82c-f0a92ce214f1.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/73e380e9-7dd8-4660-b82c-f0a92ce214f1.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/73e380e9-7dd8-4660-b82c-f0a92ce214f1.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10294690,
+                    "code": "6815e897-c8de-466d-a140-669978c918c7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 391,
+                    "price_before_discount": 460,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9396764,
+                "code": "9118559d-6cb3-4c94-ab47-06de9ad470c1",
+                "name": "Special  Chocolates cake. 1pound",
+                "description": "milk sugar Bazaar chocolate ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f1e5bf9f-1607-418d-9b53-493c0bc9afd0.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f1e5bf9f-1607-418d-9b53-493c0bc9afd0.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f1e5bf9f-1607-418d-9b53-493c0bc9afd0.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10285029,
+                    "code": "66450660-d2e2-40a6-8ca2-e38141bba761",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 408,
+                    "price_before_discount": 480,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9396768,
+                "code": "77c96ff7-b5fb-4467-b57b-f0b77c4d5e8f",
+                "name": "Special Red velvet / Black Forest Mix cake...1Pound",
+                "description": "milk sugar butter chocolate ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/833e9f49-db1b-43e3-bcd3-78ed2afa1197.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/833e9f49-db1b-43e3-bcd3-78ed2afa1197.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/833e9f49-db1b-43e3-bcd3-78ed2afa1197.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10285033,
+                    "code": "c444d2f7-0a32-47ae-914f-0b97cd06b6a7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 399.5,
+                    "price_before_discount": 470,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9396769,
+                "code": "b34d4645-e925-4c9a-8ac4-de117e959adc",
+                "name": "Special Red velvet coatd cake",
+                "description": "milk  sugar water chocolate ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/9814f5a6-dd2c-458c-97fe-5c80014147fa.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/9814f5a6-dd2c-458c-97fe-5c80014147fa.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/9814f5a6-dd2c-458c-97fe-5c80014147fa.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10285034,
+                    "code": "65cbc7d7-e952-4cc1-973f-b116e060d4be",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 127.5,
+                    "price_before_discount": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4780764,
+                "code": "ec3a0b65f7c7d423324cb025ee1f3a0d",
+                "name": "Special Chocolate Cake",
+                "description": "Rich cake prepared with chocolate sponge & creamy ganache",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/7315033/5456bd3b-736c-404a-93d2-d97bb29e17c6.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/7315033/5456bd3b-736c-404a-93d2-d97bb29e17c6.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/7315033/5456bd3b-736c-404a-93d2-d97bb29e17c6.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279939,
+                    "code": "fc299d10f40f6be1853260bb38107b15",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 pound",
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315033,
+                    "code": "ea6aa3a1-3c0e-4b6a-8e44-541c320ea4e8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pound ",
+                    "price": 722.5,
+                    "price_before_discount": 850,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4780758,
+                "code": "5e95f50002510a296f15fe7b2d57be1f",
+                "name": "Special Vanilla Cake",
+                "description": "Soft cake prepared with vanilla sponge & creamy frosting",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780758.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780758.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780758.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279935,
+                    "code": "d50fd0b704907c9c8125d2695e9c1fc2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 pound",
+                    "price": 365.5,
+                    "price_before_discount": 430,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315034,
+                    "code": "cff4aedb-5e88-4c3f-bb41-4c2fa8d17790",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pound",
+                    "price": 680,
+                    "price_before_discount": 800,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 4780763,
+                "code": "9431db6da3094b1035d727c466467869",
+                "name": "Special Chocolate & Vanilla Mixed Cake",
+                "description": "1 pound",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780763.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780763.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780763.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279938,
+                    "code": "0241987764a9d6f73d9fb2669c75bb30",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4780757,
+                "code": "662d2afc4ed39cfff6f4b67102c03ee4",
+                "name": "Special Red Velvet Cake",
+                "description": "1 pound",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780757.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780757.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780757.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279936,
+                    "code": "da6f458f2eef8e2753cab8a737d57023",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 408,
+                    "price_before_discount": 480,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 5786800,
+                "code": "1c9cbcf4-91f1-43d1-ba8a-a2ad7a52140f",
+                "name": "Special Black Forest Cake",
+                "description": "1.Pound",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5786800.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5786800.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5786800.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 6345123,
+                    "code": "520a75fc-3557-48fb-8956-b421b20fdb33",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 408,
+                    "price_before_discount": 480,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6029346,
+                "code": "5084bbc3-b3f9-4ae4-a712-84bc33480d90",
+                "name": "Special Vanilla & Red Velvet Mix Cake1.Pound",
+                "description": "milk bater chocolate  ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/6598134/73af89c1-2b65-472a-a9ef-e5edb4bbf519.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/6598134/73af89c1-2b65-472a-a9ef-e5edb4bbf519.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/6598134/73af89c1-2b65-472a-a9ef-e5edb4bbf519.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 6598134,
+                    "code": "9994b231-8c27-4cb9-b155-0e671605d5d3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4780762,
+                "code": "0ec2aa32ebb60ebf9aff56c9275fccb8",
+                "name": "Vanilla & Black Forest Cake",
+                "description": "1 pound",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780762.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780762.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780762.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279940,
+                    "code": "482af150e2f05da610d02cfe1b530326",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 408,
+                    "price_before_discount": 480,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6029348,
+                "code": "912bcb6e-9b6f-4ab5-9de1-83f35ce60520",
+                "name": "Special Chocolate Coated Cake",
+                "description": "Decadent cake prepared with a moist sponge, coated in rich chocolate & sprinkle",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6029348.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6029348.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6029348.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 6598136,
+                    "code": "de34859e-9f67-4f95-b4f0-bed858ffbe6d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110.5,
+                    "price_before_discount": 130,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6029347,
+                "code": "f870049c-9e76-4acb-855c-c35ac6739028",
+                "name": "Special Vanilla Coated Cake",
+                "description": "A moist vanilla cake with a special sweet coating, a delightful treat",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 6598135,
+                    "code": "f380e4fe-fe94-460c-8ea2-e10c6dc70bbc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 102,
+                    "price_before_discount": 120,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8772928,
+                "code": "fae8a999-b209-43ad-b698-774d5d449b22",
+                "name": "Special Chocolate Vanilla Mix Cake ",
+                "description": "2 pound ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8772928.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8772928.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8772928.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9520863,
+                    "code": "3fd14224-e558-4fd1-8197-722af4d55a5f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 756.5,
+                    "price_before_discount": 890,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 742651,
+            "code": "3b0ddf98-6469-4ae5-8f6d-f40ce2ea8802",
+            "name": "Doi",
+            "description": "",
+            "products": [
+              {
+                "id": 9507738,
+                "code": "9d335338-d2f9-45b3-87b7-3b9adb21bb36",
+                "name": "special,Bogra,shahi,Mishti,  Doi,1kg,",
+                "description": "milk sogar,",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f093b246-b678-411b-90bd-e52fb61256dd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f093b246-b678-411b-90bd-e52fb61256dd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/f093b246-b678-411b-90bd-e52fb61256dd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10413630,
+                    "code": "fb0a7a1a-e3ad-4f3a-9ccd-4cb141dcbcaf",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 467.5,
+                    "price_before_discount": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4780760,
+                "code": "ab7087ef79aa0ce2b4dfa135a9b64f24",
+                "name": "Special Tok Mishti Doi",
+                "description": "Prepared with chenna mixed with cocoa milk powder & shaped into chocolate treat",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780760.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4780760.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4780760.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": false,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5279943,
+                    "code": "e7db7ec2e1d12cfbe31591dec303b705",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 187,
+                    "price_before_discount": 220,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 5279945,
+                    "code": "9dfd869e598a53aa91e3639edb40aa38",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 357,
+                    "price_before_discount": 420,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4858204,
+                "code": "cd371507-832e-4317-b689-fc3647f2ee9d",
+                "name": "Special Mishti Doi",
+                "description": "Prepared with thickened sweetened yogurt flavored with cardamom & saffron",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/5362447/c0ea7422-f4ce-4735-b7b6-700e9417b15f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/5362447/c0ea7422-f4ce-4735-b7b6-700e9417b15f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/5362447/c0ea7422-f4ce-4735-b7b6-700e9417b15f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5362446,
+                    "code": "34c3d9ae-52ca-421c-8242-7ba50bd02757",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 204,
+                    "price_before_discount": 240,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4858253,
+                "code": "9a5b0da6-ce17-4c83-9561-97e86e49f1d8",
+                "name": "Special Bograr Cup Doi",
+                "description": "Favourite bengali dessert of all time!",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/4858253.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/4858253.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/4858253.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 5362495,
+                    "code": "ea5f67ee-2b55-48af-a4fa-549c649dcfc6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 51,
+                    "price_before_discount": 60,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 2,
+                  "Percentage": 50
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 870239,
+            "code": "c7607bd0-a5f5-4187-ae3a-6f50aa86b217",
+            "name": "Biscuit",
+            "description": "",
+            "products": [
+              {
+                "id": 9396795,
+                "code": "e7130203-3d72-45bb-8522-b19efc2dfa8f",
+                "name": "Special  Jaal Toast 1.Kg.",
+                "description": "Morris salt  maida oil butter ",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/94bee6a4-2cab-43ac-b780-3c4208fc734a.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/94bee6a4-2cab-43ac-b780-3c4208fc734a.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/94bee6a4-2cab-43ac-b780-3c4208fc734a.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10285060,
+                    "code": "77b6d03b-e0e0-4d17-9fed-bcdafc0e02e8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 382.5,
+                    "price_before_discount": 450,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9396839,
+                "code": "a9868708-a9a7-48fa-ba92-7809b520164a",
+                "name": "Special Dry cake biscuit. 1.Kg.",
+                "description": "milk butter sugar water dim ",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/3c68e0a5-8492-4a15-9f78-e28849204468.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/3c68e0a5-8492-4a15-9f78-e28849204468.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/k0lc/product/3c68e0a5-8492-4a15-9f78-e28849204468.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10285114,
+                    "code": "435dfc9a-ff2d-4009-b02c-33a861bb21bc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 408,
+                    "price_before_discount": 480,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710795,
+                "code": "3516b4db-680e-40a3-ac2e-c51cd10f9a50",
+                "name": "Special Sugar Free Noli   Toast Biscuit",
+                "description": "Prepared with toasted biscuit made with sugar substitute flour & light vanilla",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710795.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710795.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710795.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315043,
+                    "code": "a398d11a-c22f-4363-bf07-84d4b6b4fd4f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 144.5,
+                    "price_before_discount": 170,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315048,
+                    "code": "5c5b3761-4e16-4d36-a3f0-7bb4f0f1c3a9",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 272,
+                    "price_before_discount": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710800,
+                "code": "90697ab2-fe79-4fb3-9e3c-f44c9b7e94e4",
+                "name": "Special Finger Mishti Toast Biscuit",
+                "description": "Prepared with long toast & sweet, a delicate & delightful biscuit",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710800.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710800.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710800.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315049,
+                    "code": "9cbea238-7123-4489-b0ed-ff97e054322b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315050,
+                    "code": "32d57ea1-46e8-47b4-a468-bc8ab11f2331",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 289,
+                    "price_before_discount": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710801,
+                "code": "41b66c46-e3f4-4fb4-808f-118dc68a05ef",
+                "name": "Special Kola Mishti Toast Biscuit",
+                "description": "Prepared with sweet banana toast biscuit flavored with sugar & milk essence",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315051,
+                    "code": "16bb88d3-7a55-4777-8b9a-64b96f9d273c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315052,
+                    "code": "23b89f6e-f7dc-456c-bad5-084437ac30be",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 280.5,
+                    "price_before_discount": 330,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710802,
+                "code": "4354dcee-1125-4ceb-9812-5e1fbd02688f",
+                "name": "Special Jhuri Mishti Toast Biscuit",
+                "description": "Prepared with crunchy toast biscuit sweetened with milk powder sugar & syrup",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710802.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710802.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710802.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315053,
+                    "code": "1347b1e1-c77a-4d7d-9578-2928d0d0af2c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315054,
+                    "code": "9792ca3c-fbb2-4d30-9878-ca3da5a73fd5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 272,
+                    "price_before_discount": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710804,
+                "code": "3bdad99f-0cc2-45a6-aead-9db8132c1c95",
+                "name": "Special Butter Mishti Toast Biscuit",
+                "description": "Prepared with buttery toast & sweet, a rich & delightful biscuit",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710804.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710804.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710804.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315057,
+                    "code": "4f3706ac-8e15-4fdf-aa25-4c7d5c2886e1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315058,
+                    "code": "b79dee48-ae93-4ecc-82bf-9cd8a2f15664",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 272,
+                    "price_before_discount": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710803,
+                "code": "2432b463-7c55-44fe-ae0a-795848841842",
+                "name": "Special Tin Kona Mishti Toast Biscuit",
+                "description": "Prepared with triangle shaped toast biscuit sweetened with milk powder & syrup",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315055,
+                    "code": "859ba4e3-bfe7-441c-b3e7-eb949c712c70",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 153,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315056,
+                    "code": "d4222e4f-2e23-4094-8f3b-92029d9f6880",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 272,
+                    "price_before_discount": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710805,
+                "code": "b8e87efc-310b-4e13-b738-902dff06b819",
+                "name": "Special Solution Biscuit",
+                "description": "Prepared with crisp biscuit made from flour butter milk essence & subtle spice",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710805.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710805.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710805.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315059,
+                    "code": "8a655a19-6979-4a05-9666-6e1cabb42a32",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 195.5,
+                    "price_before_discount": 230,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315060,
+                    "code": "8e1605fd-2746-4fd3-8054-837b1e9f4a22",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 391,
+                    "price_before_discount": 460,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 899196,
+            "code": "05997be4-433c-4207-a2ac-671af85ff34d",
+            "name": "Chanachur",
+            "description": "",
+            "products": [
+              {
+                "id": 6710807,
+                "code": "173b9eeb-3d95-4b84-9337-ce8b5639b492",
+                "name": "Special Bou Jamai Chanachur",
+                "description": "Prepared with special blend, a unique & flavorful savory mix",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710807.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710807.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710807.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7315063,
+                    "code": "7218e5dd-54fe-450b-b4c0-3726c1dfcdff",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 246.5,
+                    "price_before_discount": 290,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315064,
+                    "code": "be3e934f-7dfc-48f5-ab21-df197e460d18",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 331.5,
+                    "price_before_discount": 390,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1765195179"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710808,
+                "code": "ef88092e-59f6-49fd-81b8-86b7b632157a",
+                "name": "Special Ghuri Chanachur",
+                "description": "Prepared with puffed rice chickpea nut & spice mixture in savory seasoning",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710808.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710808.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710808.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315065,
+                    "code": "c39d36e0-c1d5-4844-bbbd-1ec920ace052",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 170,
+                    "price_before_discount": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315066,
+                    "code": "d86c1b90-7ae0-4469-8a7a-48f56bd91df7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 493,
+                    "price_before_discount": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1765195846"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710809,
+                "code": "9d92420e-a48d-4c18-9b8e-3537274217c4",
+                "name": "Special Bombai Chanachur",
+                "description": "Prepared with mix pulse & spice, a zesty & crunchy snack",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710809.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710809.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710809.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315067,
+                    "code": "b8065ac6-855a-47ba-8551-c37317343828",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 255,
+                    "price_before_discount": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315068,
+                    "code": "0aa7e3a8-5ac0-442c-8a48-74283e2e5bfc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 391,
+                    "price_before_discount": 460,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1765195639"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 6710810,
+                "code": "95325db7-72db-453b-9919-5ea12a3dfdff",
+                "name": "Special Chira Bhaja",
+                "description": "Prepared with flattened rice & spice, a light & crispy snack",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710810.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/6710810.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/6710810.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7315069,
+                    "code": "ace3e1fe-e71a-4698-b0b3-03080d67061a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 195.5,
+                    "price_before_discount": 230,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7315070,
+                    "code": "27aca574-a999-4cd6-bbc4-59ccab5074fc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 391,
+                    "price_before_discount": 460,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1765194668"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9496985,
+                9455326,
+                9499567,
+                9496928,
+                9507738,
+                4858204
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "vendor_points": 1,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

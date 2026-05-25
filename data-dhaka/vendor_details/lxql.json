@@ -1,0 +1,2218 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 88776,
+    "code": "lxql",
+    "accepts_instructions": true,
+    "address": "G.P.Ga - 145 / Mohakhali school road (behind Bank Asia)",
+    "address_line2": "",
+    "budget": 1,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 40,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/lxql-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/lxql-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2026-01-31T00:00:00Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7804233,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.4034071,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 60,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Bangla Bhoj",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 195,
+    "rating": 5,
+    "topic_ratings": null,
+    "review_number": 36,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Bangla Bhoj",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2025-12-26",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-26"
+      },
+      {
+        "date": "2025-12-30",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-30"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2025-12-25",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-25"
+      },
+      {
+        "date": "2025-12-31",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-31"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-22",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:00",
+        "end_date": "2026-03-22"
+      },
+      {
+        "date": "2026-03-22",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:00",
+        "end_date": "2026-03-22"
+      },
+      {
+        "date": "2025-12-27",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-27"
+      },
+      {
+        "date": "2025-12-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-28"
+      },
+      {
+        "date": "2025-12-29",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-29"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-02-18",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-18"
+      },
+      {
+        "date": "2026-02-18",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-18"
+      },
+      {
+        "date": "2026-02-18",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-18"
+      },
+      {
+        "date": "2026-02-18",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-18"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "04:00",
+        "end_date": "2026-03-06"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "bangla-bhoj-lxql",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Bangla Bhoj",
+      "address_line_1": "G.P.Ga - 145 / Mohakhali school road (behind Bank Asia)"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/lxql/bangla-bhoj-lxql",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801729617876",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 250077,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2451621,
+            "code": "2c6f11b1-00f8-4756-b7bb-8564ff092e4b",
+            "name": "Combo",
+            "description": "",
+            "products": [
+              {
+                "id": 9225864,
+                "code": "d736e2bc-df8f-4a02-b1f8-cd57bc516187",
+                "name": "Pocket friendly - Bachelor meal",
+                "description": "1:1 - Consists of plain rice(250gm), beef curry(3pcs beef), begun bhaji, alu bhorta & fresh salad",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9225864.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9225864.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9225864.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10076189,
+                    "code": "de2e24de-dffa-4548-9ef9-264ccc757360",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 235,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757855172",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9459499,
+                "code": "14f14e5b-8038-418c-a2e4-dd2f03e1c752",
+                "name": "Plain Rice with Bhorta",
+                "description": "1:1 - Consists of plain rice, alu bhorta & egg bhorta",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10358642,
+                    "code": "3c9314a2-b47b-4b45-91d0-52df24be089a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 99,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2512189,
+            "code": "ccd17ad5-ebc0-4a69-88e6-18ccd3700a4d",
+            "name": "Bhorta & Bhaji",
+            "description": "",
+            "products": [
+              {
+                "id": 9655912,
+                "code": "6fea7645-f167-48ee-98f5-4a3963a21926",
+                "name": "Alu Bhorta",
+                "description": "1:1 - Smooth mash prepared with potato, mustard oil, onion & chili",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655912.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655912.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9655912.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581134,
+                    "code": "8c3e4d3d-e702-4ec4-a5be-bac263884910",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 35,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080293"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9655913,
+                "code": "c574677a-3212-429e-ad78-4abf5ef2f0e9",
+                "name": "Egg Bhorta",
+                "description": "1:1 - Savory mash prepared with egg, onion, chili & mustard oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655913.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655913.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9655913.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581135,
+                    "code": "072f9e93-90dc-4212-87a5-06d06a6abef8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 35,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080293"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9655914,
+                "code": "afe18045-e9b4-4d51-84e9-b3416442d887",
+                "name": "Begun Bhaji",
+                "description": "1 pc - Crispy fry prepared with eggplant, turmeric, salt & oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655914.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655914.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9655914.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581136,
+                    "code": "a6c3b400-0094-40ab-96fb-5faa1c3a8af2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 22,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080292"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9655915,
+                "code": "669a6553-988a-4060-ad69-d53e79984f8c",
+                "name": "Peyaj Morich Bhorta",
+                "description": "1:1 - Spicy mash prepared with onion, green chili & mustard oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581137,
+                    "code": "43f395c3-9b51-4c44-835b-75b6e704e82c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2512184,
+            "code": "914dfd59-c293-4aa6-b2ec-0429020541b9",
+            "name": "Curry",
+            "description": "",
+            "products": [
+              {
+                "id": 9655908,
+                "code": "4c63617b-c0d5-47de-a7fe-4e22fd70653c",
+                "name": "Alu Gosht",
+                "description": "1:1 - Traditional dish prepared with beef, potato, onion & basic spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581129,
+                    "code": "259bcc00-8b6e-4ee5-9fcf-0b56f75e8733",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 159,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9655909,
+                "code": "2bf86fef-aa89-4cc7-a420-4d6c164fa000",
+                "name": "Beef Curry",
+                "description": "1:1 - Spicy curry prepared with beef, ginger, garlic & hot spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655909.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655909.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9655909.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581130,
+                    "code": "57ab3361-423b-4df0-b211-65d883581d60",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 149,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080293",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2512185,
+            "code": "9732a687-d813-4de4-8218-8c51aea70975",
+            "name": "Rice",
+            "description": "",
+            "products": [
+              {
+                "id": 9655911,
+                "code": "1ca3f315-2ea3-4559-a1a6-843642606791",
+                "name": "Plain Rice",
+                "description": "Fine grain prepared with aromatic rice & water",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655911.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655911.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9655911.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581132,
+                    "code": "e3a8fc7d-0776-4274-b52d-0b57524440e4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 15,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10581133,
+                    "code": "3864908b-cde0-4568-8dfa-f1b75bd65fbc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080150"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 4,
+                  "TotalCount": 4,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451620,
+            "code": "0e618389-1656-430d-a87c-ddf0c5643a76",
+            "name": "Sides",
+            "description": "",
+            "products": [
+              {
+                "id": 9225875,
+                "code": "4b14404b-d8f8-44c4-af6d-c4ffb5ec7a7b",
+                "name": "Egg Omelette",
+                "description": "1 pc - Fluffy omelette prepared with an egg, onion, chili & salt, lightly fried to perfection",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9225875.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9225875.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9225875.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10076200,
+                    "code": "8693afcf-4900-4fb8-ad14-aa18dca3409a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757855173"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 4,
+                  "TotalCount": 4,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9225876,
+                "code": "6c2ae15b-312a-42ec-aaf0-0bef547857b8",
+                "name": "Poached Egg",
+                "description": "1 pc - A simple poached egg prepared by lightly cooking an egg in simmering water",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9225876.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9225876.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9225876.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10076201,
+                    "code": "cce08efd-9de6-4537-887f-53d3651d35da",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757855173",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9655910,
+                "code": "119eaec0-c9f1-4327-8d4e-ecd4b6c13a35",
+                "name": "Boiled Egg",
+                "description": "1 pc - Nutritious item prepared with egg & water",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655910.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9655910.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9655910.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10581131,
+                    "code": "827cbb60-e8a9-4b4d-afb1-cf889536b636",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080293"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9655909,
+                9225864,
+                9225876
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

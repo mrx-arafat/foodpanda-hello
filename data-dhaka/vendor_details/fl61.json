@@ -1,0 +1,2484 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 66777,
+    "code": "fl61",
+    "accepts_instructions": true,
+    "address": "94/1- B East Bashabo, Wasa Road, near of Aarong, shopno",
+    "address_line2": "",
+    "budget": 2,
+    "deals": [
+      {
+        "id": 604357,
+        "code": "604357",
+        "offer_type": "percentage",
+        "type": "discount",
+        "voucher_type": "",
+        "minimum_order_value": 50,
+        "maximum_discount_amount": 0,
+        "value": 12,
+        "title": "12% off Tk. 50",
+        "description": "",
+        "start_date": "2026-05-01T00:00:00+06:00",
+        "end_date": "2026-05-31T00:00:00+06:00",
+        "is_pro": false,
+        "is_new_customer": false,
+        "seq_priority": 1000,
+        "additional_info": {
+          "should_override": [
+            "dps"
+          ],
+          "calculation": {
+            "baseOn": null
+          }
+        },
+        "tc": [
+          "Valid for a minimum order of Tk50",
+          "Applicable for Delivery.",
+          "Additional T&C can apply"
+        ],
+        "action": {
+          "type": "",
+          "name": "",
+          "description": ""
+        },
+        "source": "incentives",
+        "conditions": null,
+        "quantity": 0,
+        "used_quantity": 0,
+        "is_full_basket_applicable": true,
+        "construct_id": "",
+        "is_bogo": false
+      }
+    ],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      },
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "23:59",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 12,
+        "discount_type": "percentage",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2026-05-31",
+        "file_name": "",
+        "id": 604357,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 50,
+        "name": "12% off Tk. 50",
+        "opening_time": "00:00",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-01",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "should_override": [
+            "dps"
+          ]
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 11,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fl61-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fl61-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2023-09-05T12:22:37Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7405784,
+    "location": "Bashabo",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.4350211,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 35,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Waffle Treat Bashabo",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1214",
+    "primary_cuisine_id": 84,
+    "rating": 4.6,
+    "topic_ratings": null,
+    "review_number": 547,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "15:15",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Waffle Treat Bashabo",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2025-03-18",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-18"
+      },
+      {
+        "date": "2025-03-18",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-18"
+      },
+      {
+        "date": "2025-03-05",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-05"
+      },
+      {
+        "date": "2025-03-05",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-05"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-04-30",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-30"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2025-03-03",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-03"
+      },
+      {
+        "date": "2025-03-03",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-03"
+      },
+      {
+        "date": "2025-06-07",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-07"
+      },
+      {
+        "date": "2025-09-25",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-09-25"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-04-29",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-29"
+      },
+      {
+        "date": "2025-03-10",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-10"
+      },
+      {
+        "date": "2025-03-10",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-10"
+      },
+      {
+        "date": "2025-03-14",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-14"
+      },
+      {
+        "date": "2025-03-14",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-14"
+      },
+      {
+        "date": "2025-03-04",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-04"
+      },
+      {
+        "date": "2025-03-04",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-04"
+      },
+      {
+        "date": "2026-04-24",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-24"
+      },
+      {
+        "date": "2026-04-27",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-27"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-04-26",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-26"
+      },
+      {
+        "date": "2025-03-16",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-16"
+      },
+      {
+        "date": "2025-03-16",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-16"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-19",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-19"
+      },
+      {
+        "date": "2026-03-19",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-19"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-04-25",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-25"
+      },
+      {
+        "date": "2025-03-15",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-15"
+      },
+      {
+        "date": "2025-03-15",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-15"
+      },
+      {
+        "date": "2025-03-06",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-06"
+      },
+      {
+        "date": "2025-03-06",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-06"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-04-22",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-22"
+      },
+      {
+        "date": "2025-03-11",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-11"
+      },
+      {
+        "date": "2025-03-11",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-11"
+      },
+      {
+        "date": "2025-03-17",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-17"
+      },
+      {
+        "date": "2025-03-17",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-17"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2025-03-13",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-13"
+      },
+      {
+        "date": "2025-03-13",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-13"
+      },
+      {
+        "date": "2025-03-08",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-08"
+      },
+      {
+        "date": "2025-03-08",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-08"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2025-03-09",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-09"
+      },
+      {
+        "date": "2025-03-09",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-09"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-21",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-21"
+      },
+      {
+        "date": "2026-03-21",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-21"
+      },
+      {
+        "date": "2026-02-12",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-12"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-04-21",
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "14:00",
+        "end_date": "2026-04-21"
+      },
+      {
+        "date": "2026-04-21",
+        "opening_type": "pickup",
+        "opening_time": "15:30",
+        "closing_time": "23:00",
+        "end_date": "2026-04-21"
+      },
+      {
+        "date": "2026-04-21",
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "14:00",
+        "end_date": "2026-04-21"
+      },
+      {
+        "date": "2026-04-21",
+        "opening_type": "delivering",
+        "opening_time": "15:30",
+        "closing_time": "23:00",
+        "end_date": "2026-04-21"
+      },
+      {
+        "date": "2026-04-23",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-23"
+      },
+      {
+        "date": "2025-03-07",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-07"
+      },
+      {
+        "date": "2025-03-07",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-07"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-04-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-04-28"
+      },
+      {
+        "date": "2025-03-12",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-12"
+      },
+      {
+        "date": "2025-03-12",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-12"
+      },
+      {
+        "date": "2025-03-02",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-02"
+      },
+      {
+        "date": "2025-03-02",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:30",
+        "end_date": "2025-03-02"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-13"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "waffle-treat-bashabo",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Waffle Treat",
+      "address_line_1": "94/1- B East Bashabo, Wasa Road, near of Aarong, shopno"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/fl61/waffle-treat-bashabo",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 5713,
+      "main_vendor_code": "g6dg",
+      "main_vendor_id": 69085,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": "Waffle Treat - Mirpur 6",
+      "url_key": "waffle-treat-mirpur-6",
+      "code": "cn9bg"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801923465954",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 234583,
+        "code": "",
+        "name": "Delivery Menu (00:00-23:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2376315,
+            "code": "a4e7cad5-721f-4642-ba07-8df9dedeb78b",
+            "name": "Waffle",
+            "description": "",
+            "products": [
+              {
+                "id": 8719962,
+                "code": "2b851f8f-7dd8-4f06-9a4b-11c1aed64d91",
+                "name": "Choco Nutella ",
+                "description": "1 pc - Crisp golden waffle generously smothered with creamy nutella & choco",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987719.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987719.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987719.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455531,
+                    "code": "303802e0-926d-4df3-89fc-3dfeb72d3394",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 145.2,
+                    "price_before_discount": 165,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 12,
+                  "TotalCount": 19,
+                  "Percentage": 63
+                }
+              },
+              {
+                "id": 8719963,
+                "code": "b80cefd3-a90c-4cec-9eda-b74aec65d1f9",
+                "name": "Nuts Mania Waffle",
+                "description": "1 pc - Indulge in the irresistible harmony of rich chocolate & creamy nutty nutella spread",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987720.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987720.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987720.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455532,
+                    "code": "caa9aed7-156f-409b-bd92-e0e859c91cfe",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 154,
+                    "price_before_discount": 175,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719964,
+                "code": "34a31e68-a7c6-4e54-aba8-6520f512a48b",
+                "name": "Red Velvet Waffle",
+                "description": "1 pc - Delectable fusion of fluffy waffle goodness infused with the iconic flavors of red velvet cake",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987721.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987721.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987721.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455533,
+                    "code": "10fc6fa6-53a5-4741-8685-83f2f76fde51",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 154,
+                    "price_before_discount": 175,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 7,
+                  "TotalCount": 11,
+                  "Percentage": 64
+                }
+              },
+              {
+                "id": 8719965,
+                "code": "99158946-07fd-48ba-8ad4-81985f7f592e",
+                "name": "Oreo Blast Waffle",
+                "description": "1 pc - Crispy waffle topped with a decadent layer of creamy oreo cookie goodness",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987722.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987722.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987722.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455534,
+                    "code": "be48ae9c-21e0-4042-bacf-d95d3bc36e5c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 176,
+                    "price_before_discount": 200,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719966,
+                "code": "63b2f8e1-b828-430d-9248-09a54d8a7775",
+                "name": "Chocolate Bomb Waffle",
+                "description": "1 pc - Indulge in a decadent delight - a crisp, golden waffle infused with rich chocolate, a heavenly fusion of sweetness & crunch",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987724.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987724.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987724.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455535,
+                    "code": "c4c216b4-1759-4f82-9aa6-cd2876cacac6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 162.8,
+                    "price_before_discount": 185,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719967,
+                "code": "0d61d3e0-ee60-4940-adbd-bbe661074d2a",
+                "name": "Chocolate Velvet Waffle",
+                "description": "1 pc - Indulge in a decadent delight - a crisp, golden waffle infused with velvety chocolate, a heavenly fusion of sweetness & crunch",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987725.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987725.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987725.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455536,
+                    "code": "11d575f7-1203-4a03-80a9-8404a385afed",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 206.8,
+                    "price_before_discount": 235,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719968,
+                "code": "5be1c52b-31e6-4e40-88fa-5ffb5f157458",
+                "name": "Stawberry Blast Waffle",
+                "description": "1 pc - Delight in fluffy waffles crowned with fresh & juicy strawberries ",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987729.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987729.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987729.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455537,
+                    "code": "030d4104-ea8f-415d-96e8-afaa6322a297",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 167.2,
+                    "price_before_discount": 190,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719969,
+                "code": "8911afd5-0741-4195-8712-e4d9324960cf",
+                "name": "Waffle with Banatella",
+                "description": "1 pc - Delectable treat featuring crisp waffles topped with creamy nutella & sliced ripe bananas",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987730.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987730.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987730.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455538,
+                    "code": "04034876-bf9b-4aef-ba6c-e8acf6f2976e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 154,
+                    "price_before_discount": 175,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719970,
+                "code": "0542c8b8-cd30-4537-8db4-d5e6c25cdbe7",
+                "name": "Blueberry Blust Waffle",
+                "description": "1 pc - Fluffy waffle infused with plump blueberries for a delightful treat",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987732.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987732.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987732.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455539,
+                    "code": "ca2191a6-0986-4a8e-b88f-cebec15a97c6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 167.2,
+                    "price_before_discount": 190,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719971,
+                "code": "71ad9d47-9146-443e-97c7-d179c2a6b759",
+                "name": "Icecream Chocolate Waffle ",
+                "description": "1 pc - Decadent chocolate blast waffle topped with luscious ice cream swirls, creating a heavenly indulgence\n\n\n\n\n\n\n",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987735.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7987735.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7987735.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455540,
+                    "code": "052c293d-6ef7-43e2-8b16-c5ef23303f7b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 189.2,
+                    "price_before_discount": 215,
+                    "topping_ids": [
+                      25052678
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25052678
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2376316,
+            "code": "a9a77f50-0fe1-4d8b-a0e3-19d2df2d3872",
+            "name": "Dumplings",
+            "description": "",
+            "products": [
+              {
+                "id": 8719972,
+                "code": "33315179-29bc-4df8-ac81-5be12155b24b",
+                "name": "Chicken Dim Sum",
+                "description": "1:1 - Succulent chicken dim sum parcels, bursting with flavorful fillings, wrapped in delicate, translucent dumpling skin",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988271.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988271.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7988271.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455541,
+                    "code": "5b69b459-4a08-4335-950b-b57be3b0f337",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 158.4,
+                    "price_before_discount": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719973,
+                "code": "db6afc60-71fd-4c10-a805-39c52ed2669b",
+                "name": "Wonton in Chili Oil",
+                "description": "1:1 - Savory wontons bathed in spicy chili oil, delivering a flavor-packed culinary delight",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988277.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988277.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7988277.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455542,
+                    "code": "b1ba3fcb-88d2-49dc-85a0-a134cb1851e8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 220,
+                    "price_before_discount": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719974,
+                "code": "69d3f7a4-f48b-448c-b2ef-50a5d5358872",
+                "name": "Naga Chicken Sui Mai ",
+                "description": "1:1 - Succulent dumplings filled with minced chicken, Naga chili &  traditional Asian spices, offering a fiery & flavorful experience",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988281.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988281.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7988281.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455543,
+                    "code": "217a44d6-33fc-4262-92dd-931dec39b990",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 184.8,
+                    "price_before_discount": 210,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8719975,
+                "code": "dd9e3b7e-919b-49a6-af9c-61d2915c8342",
+                "name": "Chicken Lemongrass Sui Mai",
+                "description": "1:1 - Savor the exquisite blend of minced chicken, aromatic lemongrass & delicate dumpling wrappers",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988285.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7988285.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7988285.JPG",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9455544,
+                    "code": "de95b7d6-01da-4786-915b-9804d8e215a7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 176,
+                    "price_before_discount": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {
+          "25052678": {
+            "id": 25052678,
+            "name": "Add Ons",
+            "description": "",
+            "quantity_minimum": 0,
+            "quantity_maximum": 6,
+            "options": [
+              {
+                "id": 25416440,
+                "product_id": 8719978,
+                "name": "Nuts",
+                "description": "",
+                "price": 44,
+                "price_before_discount": 50,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "price_map": {
+                  "9455531": 44,
+                  "9455532": 44,
+                  "9455533": 44,
+                  "9455534": 44,
+                  "9455535": 44,
+                  "9455536": 44,
+                  "9455537": 44,
+                  "9455538": 44,
+                  "9455539": 44,
+                  "9455540": 44
+                },
+                "variation_tag_map": {
+                  "popular": [
+                    9455534
+                  ]
+                }
+              },
+              {
+                "id": 25416441,
+                "product_id": 8719979,
+                "name": "Chocolate",
+                "description": "",
+                "price": 52.8,
+                "price_before_discount": 60,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "price_map": {
+                  "9455531": 52.8,
+                  "9455532": 52.8,
+                  "9455533": 52.8,
+                  "9455534": 52.8,
+                  "9455535": 52.8,
+                  "9455536": 52.8,
+                  "9455537": 52.8,
+                  "9455538": 52.8,
+                  "9455539": 52.8,
+                  "9455540": 52.8
+                }
+              },
+              {
+                "id": 25416442,
+                "product_id": 8719980,
+                "name": "Nutella",
+                "description": "",
+                "price": 52.8,
+                "price_before_discount": 60,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "price_map": {
+                  "9455531": 52.8,
+                  "9455532": 52.8,
+                  "9455533": 52.8,
+                  "9455534": 52.8,
+                  "9455535": 52.8,
+                  "9455536": 52.8,
+                  "9455537": 52.8,
+                  "9455538": 52.8,
+                  "9455539": 52.8,
+                  "9455540": 52.8
+                },
+                "variation_tag_map": {
+                  "popular": [
+                    9455535,
+                    9455531,
+                    9455533
+                  ]
+                }
+              },
+              {
+                "id": 25416443,
+                "product_id": 8719981,
+                "name": "Vanilla Icecream",
+                "description": "",
+                "price": 61.6,
+                "price_before_discount": 70,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "price_map": {
+                  "9455531": 61.6,
+                  "9455532": 61.6,
+                  "9455533": 61.6,
+                  "9455534": 61.6,
+                  "9455535": 61.6,
+                  "9455536": 61.6,
+                  "9455537": 61.6,
+                  "9455538": 61.6,
+                  "9455539": 61.6,
+                  "9455540": 61.6
+                },
+                "variation_tag_map": {
+                  "popular": [
+                    9455536
+                  ]
+                }
+              }
+            ],
+            "type": "choice-group"
+          }
+        },
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                8719966,
+                8719965,
+                8719971,
+                8719967,
+                8719970,
+                8719968
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {
+      "25052678": {
+        "id": 25052678,
+        "name": "Add Ons",
+        "description": "",
+        "quantity_minimum": 0,
+        "quantity_maximum": 6,
+        "options": [
+          {
+            "id": 25416440,
+            "product_id": 8719978,
+            "name": "Nuts",
+            "description": "",
+            "price": 44,
+            "price_before_discount": 50,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "price_map": {
+              "9455531": 44,
+              "9455532": 44,
+              "9455533": 44,
+              "9455534": 44,
+              "9455535": 44,
+              "9455536": 44,
+              "9455537": 44,
+              "9455538": 44,
+              "9455539": 44,
+              "9455540": 44
+            },
+            "variation_tag_map": {
+              "popular": [
+                9455534
+              ]
+            }
+          },
+          {
+            "id": 25416441,
+            "product_id": 8719979,
+            "name": "Chocolate",
+            "description": "",
+            "price": 52.8,
+            "price_before_discount": 60,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "price_map": {
+              "9455531": 52.8,
+              "9455532": 52.8,
+              "9455533": 52.8,
+              "9455534": 52.8,
+              "9455535": 52.8,
+              "9455536": 52.8,
+              "9455537": 52.8,
+              "9455538": 52.8,
+              "9455539": 52.8,
+              "9455540": 52.8
+            }
+          },
+          {
+            "id": 25416442,
+            "product_id": 8719980,
+            "name": "Nutella",
+            "description": "",
+            "price": 52.8,
+            "price_before_discount": 60,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "price_map": {
+              "9455531": 52.8,
+              "9455532": 52.8,
+              "9455533": 52.8,
+              "9455534": 52.8,
+              "9455535": 52.8,
+              "9455536": 52.8,
+              "9455537": 52.8,
+              "9455538": 52.8,
+              "9455539": 52.8,
+              "9455540": 52.8
+            },
+            "variation_tag_map": {
+              "popular": [
+                9455535,
+                9455531,
+                9455533
+              ]
+            }
+          },
+          {
+            "id": 25416443,
+            "product_id": 8719981,
+            "name": "Vanilla Icecream",
+            "description": "",
+            "price": 61.6,
+            "price_before_discount": 70,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "price_map": {
+              "9455531": 61.6,
+              "9455532": 61.6,
+              "9455533": 61.6,
+              "9455534": 61.6,
+              "9455535": 61.6,
+              "9455536": 61.6,
+              "9455537": 61.6,
+              "9455538": 61.6,
+              "9455539": 61.6,
+              "9455540": 61.6
+            },
+            "variation_tag_map": {
+              "popular": [
+                9455536
+              ]
+            }
+          }
+        ],
+        "type": "choice-group"
+      }
+    },
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

@@ -1,0 +1,3451 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 65219,
+    "code": "us0f",
+    "accepts_instructions": true,
+    "address": "Limited Road, 3A House 10/a, Mohammadpur - 1207",
+    "address_line2": "",
+    "budget": 1,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 70
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 29,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/us0f-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/us0f-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2023-04-26T07:43:49Z",
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.76038325,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.3536519,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 55,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Kutum Bari",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 195,
+    "rating": 4.4,
+    "topic_ratings": null,
+    "review_number": 892,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "07:00",
+        "closing_time": "23:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:30"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Kutum Bari",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2024-06-15",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-15"
+      },
+      {
+        "date": "2024-06-16",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-16"
+      },
+      {
+        "date": "2024-06-17",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-17"
+      },
+      {
+        "date": "2024-06-18",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-18"
+      },
+      {
+        "date": "2024-06-13",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-13"
+      },
+      {
+        "date": "2024-06-14",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-14"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "kutum-bari-us0f",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Kutum Bari",
+      "address_line_1": "Limited Road, 3A House 10/a, Mohammadpur - 1207"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/us0f/kutum-bari-us0f",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801611782812",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 218282,
+        "code": "",
+        "name": "Delivery Menu (00:00to23:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 935424,
+            "code": "4f372fda-19bc-4517-94a5-afd350354f27",
+            "name": "Snacks",
+            "description": "",
+            "products": [
+              {
+                "id": 7047006,
+                "code": "1442f28d-72b3-427b-8fc9-1b98c8abcc8d",
+                "name": "Egg & Vegetable Noodles",
+                "description": "1:1 - Prepared with freshly sliced vegetable & tender noodles with egg, seasoned to perfection",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047006.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047006.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047006.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7671934,
+                    "code": "56267d88-d384-4049-8128-6499e6e5af57",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7047013,
+                "code": "bffca430-9166-4bb7-a449-27f0fe602c79",
+                "name": "Chicken Noodles",
+                "description": "1:1 - A traditional chinese dish made with egg noodles, chicken & stir-fried veggies",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047013.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047013.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047013.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7671941,
+                    "code": "ce4cd1ab-f9d7-4e80-90b5-079811e5b204",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8951514,
+                "code": "c1618429-51f1-4ee2-b2a3-2d2d7742813d",
+                "name": "Piyaju",
+                "description": "3 pcs Prepared with mashed lentils, onion & chili, deep-fried in oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951514.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951514.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8951514.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9742960,
+                    "code": "5f5dd337-fd84-43d6-8711-478937e13206",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 36,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8951517,
+                "code": "d0c7784f-db48-42f2-8f96-1323bef101fd",
+                "name": "Chola Bhuna",
+                "description": "1:1-Boiled chola in a delicious gravy cooked with spices, chili & onion",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951517.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951517.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8951517.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9742963,
+                    "code": "9aa20beb-3ebc-4d7d-bbbf-0c8ad067b78c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 45,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8951518,
+                "code": "9ef40b8b-e4c0-4e37-97dc-86e8e709e946",
+                "name": "Alur Chop",
+                "description": "3Pc Prepared with mashed potato & spices, deep. Fried in oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951518.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951518.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8951518.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9742964,
+                    "code": "8ffbd496-6077-4525-9940-4ae7f4c39cb5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 36,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8951519,
+                "code": "ef552314-7a06-4515-abb7-ec6422185a35",
+                "name": "Egg Chop",
+                "description": "3Pc-Tender chunks of boiled egg in every bite",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951519.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951519.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8951519.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9742965,
+                    "code": "716e697f-1441-4f54-bb23-c122dc1955c8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8951520,
+                "code": "a5e67948-defb-4ecd-8753-76290a95ee09",
+                "name": "Beguni",
+                "description": "3Pc - Prepared with sliced eggplant dipped in batter & deep-fried in oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951520.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951520.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8951520.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9742966,
+                    "code": "25aafcc7-2274-4910-9668-ac9349b064b7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 36,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 935425,
+            "code": "ed9724fd-40d7-491d-a532-e20a427d7054",
+            "name": "Roti & Paratha",
+            "description": "",
+            "products": [
+              {
+                "id": 9236288,
+                "code": "6157bb50-ad5d-4f04-a97e-94e620e02005",
+                "name": "Plain Roti",
+                "description": "2 Pcs - Soft, homemade flatbread made with wheat flour, water, and salt.",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9236288.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9236288.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9236288.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10088451,
+                    "code": "b5aaaa52-a45a-4d9e-a28f-265614e79870",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1758440957"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 19,
+                  "TotalCount": 25,
+                  "Percentage": 76
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 935429,
+            "code": "226ad4c0-fc26-4d92-a76a-39d9c2d3d20a",
+            "name": "Bhorta & Bhaji",
+            "description": "",
+            "products": [
+              {
+                "id": 7048092,
+                "code": "a88b8e2c-ef91-45cb-bfcd-a915c9cae6e9",
+                "name": "Kolmi Shak",
+                "description": "1:1 - Prepared with kolmi shak, onion & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048092.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048092.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048092.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673033,
+                    "code": "e3ab47dd-9f40-484a-89e2-edd34e1290b5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048114,
+                "code": "5860206c-13ae-4fcf-98e2-5ca6a81b2eb7",
+                "name": "Lal Shak",
+                "description": "1:1 - Prepared with lal shak, onion & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048114.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048114.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048114.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673058,
+                    "code": "ecabc571-3101-4b1e-997c-af2c5e1ce808",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048090,
+                "code": "21bcb03f-158a-4578-b79a-ba7915bdb883",
+                "name": "Alu Bhaji",
+                "description": "1:1 - Prepared with thinly sliced potato & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048090.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048090.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048090.jpg",
+                    "tags": {
+                      "hm": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673031,
+                    "code": "24827cc3-bf63-4f60-8dc7-84896ca43515",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 45,
+                  "TotalCount": 54,
+                  "Percentage": 83
+                }
+              },
+              {
+                "id": 7048134,
+                "code": "8aafd5d8-cecc-48f8-b44b-20b1d88e8bed",
+                "name": "Dherosh Bhaji",
+                "description": "1:1 - Prepared with dherosh bhaji, onion, green chili & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048134.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048134.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048134.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673078,
+                    "code": "dcfea175-e28d-417d-9244-54d45ed9ed45",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048137,
+                "code": "b61f46a4-3f2f-43ef-b1e5-3ec03ad0685c",
+                "name": "Alu Bhorta",
+                "description": "1:1 - Mashed dish of onion, chili, seasoning & potato",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048137.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048137.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048137.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673081,
+                    "code": "42765c7a-7299-414e-8f97-8031d60c8c85",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 22,
+                  "TotalCount": 33,
+                  "Percentage": 67
+                }
+              },
+              {
+                "id": 7048132,
+                "code": "d83f0a3d-407e-485e-b277-6793861070c1",
+                "name": "Korola Bhaji",
+                "description": "1:1 - Prepared with korola, onion, green chili & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048132.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048132.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048132.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673076,
+                    "code": "a36a27ae-809e-40da-931f-74be4e7477b6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048143,
+                "code": "65c1134b-4232-45a8-92c7-2f8540962e4c",
+                "name": "Piyaj Morich Bhorta",
+                "description": "1:1 - Traditional bhorta prepared with onion, chili & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048143.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048143.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048143.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673087,
+                    "code": "90caaa55-3611-4ca1-9f43-3c4d05454010",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048117,
+                "code": "fcc3dc4b-79c4-4c37-90a6-34bb5d9f9ef5",
+                "name": "Begun Bhaji",
+                "description": "1:1 - Prepared with begun, onion, green chili & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048117.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048117.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048117.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673061,
+                    "code": "2241dedb-1156-4efc-9b7a-77829dc9b8c7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048146,
+                "code": "dabe4093-c624-4552-903c-1ecfd9d6a9ed",
+                "name": "Roshun Morich Bhorta",
+                "description": "1:1 - Prepared with onion, roshun & morich",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048146.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048146.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048146.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7673090,
+                    "code": "c692a89f-81f3-4f24-ba16-ceb39bb6b949",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048152,
+                "code": "76fe37b3-9d6c-4cfe-a9a3-d712a68d596b",
+                "name": "Kola Bhorta",
+                "description": "1:1 - Traditional bhorta prepared with kacha kola",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048152.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048152.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048152.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673096,
+                    "code": "a627f15f-df01-4c70-ade1-6625b143429b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048154,
+                "code": "ffe45b27-f998-4499-8182-1f66920046c9",
+                "name": "Masoor Dal Bhorta",
+                "description": "1:1 - Prepared with masoor dal, onion & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048154.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048154.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048154.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673098,
+                    "code": "3aa6bff4-eff8-43d7-b0a1-40dc12548d75",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048290,
+                "code": "55c703af-00cf-4188-8e12-891f83615930",
+                "name": "Begun Bhorta",
+                "description": "1:1 - Mashed begun seasoned with salt, chili, onion & mustard oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/Common DLP/7048290.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/Common DLP/7048290.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/Common DLP/7048290.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673242,
+                    "code": "07f39a5b-a422-476d-a7b3-68b837707260",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703677,
+                "code": "266d957b-e115-4052-8d13-8a32fd5874a7",
+                "name": "Kalo Jeera Bhorta",
+                "description": "1:1 - Roasting black cumin seeds grinded with chili powder",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703677.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703677.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703677.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8384189,
+                    "code": "34e878b9-7c3d-4ec1-8bcc-af1336b6cca8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 55,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703681,
+                "code": "39f5173c-17c1-471e-8616-7df52570285b",
+                "name": "Kacha Morich Bhorta",
+                "description": "1:1 - Prepared with kacha morich, chili, onion & mustard oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703681.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703681.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703681.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8384193,
+                    "code": "df4ced07-3219-4bbe-9402-ef57d9bb5089",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703682,
+                "code": "4e587c25-a666-48e0-aaee-2b2424308290",
+                "name": "Badam Bhorta",
+                "description": "1:1 - Prepared with badam, chili, onion & mustard oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703682.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703682.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703682.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8384194,
+                    "code": "4a553a2e-b047-4ef7-9d08-63aa6fa6f133",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 55,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703691,
+                "code": "854eeedb-5a6d-4706-8516-342613548927",
+                "name": "Pangash Fish Bhorta",
+                "description": "1:1 - Prepared with mashed pangash fish, chili, onion & mustard oil",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703691.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703691.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703691.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8384203,
+                    "code": "c0eaf75d-8ae1-4052-a0e8-091d1967357a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 70,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 952198,
+            "code": "7fb95af3-3a83-4ed5-88d6-85695810b648",
+            "name": "Egg",
+            "description": "",
+            "products": [
+              {
+                "id": 7047970,
+                "code": "62458abf-87ed-4c4f-bb66-d71a8d9a0fd0",
+                "name": "Egg Curry ",
+                "description": "1:1 - Traditional curry prepared with egg & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047970.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047970.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047970.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672905,
+                    "code": "3047f6e8-4eb1-4ef9-a00a-be4f2ba22dfa",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048381,
+                "code": "7bf37982-c67e-4343-9260-90fe1079ca03",
+                "name": "Egg Bhorta",
+                "description": "1:1 - Prepared with boiled egg mashed & mixed with onion & chili",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048381.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048381.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048381.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673335,
+                    "code": "c6792023-61be-438b-ac1d-291cde48f81c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7290804,
+                "code": "cd8f0b90-6792-41b7-bb31-bd072fb4126b",
+                "name": "Egg Omelette ",
+                "description": "1 pc - Egg whisked & fried with chili & onion",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7290804.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7290804.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7290804.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7925453,
+                    "code": "e5dc0b91-f7f6-431d-8ae6-00b1a955c54a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 35,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 16,
+                  "TotalCount": 18,
+                  "Percentage": 89
+                }
+              },
+              {
+                "id": 7290805,
+                "code": "f42349eb-303a-4c1b-bc70-4a23fe4de403",
+                "name": "Poached Egg",
+                "description": "1 pc - Cooked gently to keep the egg yolk moist inside",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7290805.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7290805.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7290805.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7925454,
+                    "code": "ab73df19-970c-4e14-a11e-b91e24ed672d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 35,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 952130,
+            "code": "94dd568b-a93e-4424-80f1-0b7ba5ec281c",
+            "name": "Fish",
+            "description": "",
+            "products": [
+              {
+                "id": 7047977,
+                "code": "27d06ff2-5dcd-4441-87f7-8567934cd1ee",
+                "name": "Tilapia Fish Curry",
+                "description": "1:1 - Prepared with tilapia fish, onion & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047977.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047977.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047977.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672912,
+                    "code": "ef4bb7aa-f820-4780-a974-d96418e8602d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048059,
+                "code": "3cd98f99-3846-48d4-bf4b-755f5586bccf",
+                "name": "Rui Fish Curry",
+                "description": "1:1 - Prepared with rui fish, onion, green chili & spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048059.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048059.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048059.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672994,
+                    "code": "30bfbe87-2e0c-4d74-90ea-98588de133d2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7084902,
+                "code": "62bfb7d2-d092-4f0f-bd9c-ef6f31614282",
+                "name": "Chingri Curry",
+                "description": "1:1 - Prepared with onion & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7084902.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7084902.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7084902.jpg",
+                    "tags": {
+                      "hm": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7712096,
+                    "code": "966579c6-9556-4c48-bad0-e93553507d2b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703685,
+                "code": "5e1068f1-c318-45e5-9be8-60cfc7aa4487",
+                "name": "Koi Fish Bhuna",
+                "description": "1:1 - Prepared with koi fish, tomato, onion, chili & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703685.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703685.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703685.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8384197,
+                    "code": "904fc87f-df09-46d7-88c0-d5332fc9adeb",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703697,
+                "code": "28818be2-0a9f-452c-b140-711c2aec5338",
+                "name": "Fried Rui Fish",
+                "description": "1 pc - Marinate rui fish, deep-fry for crispy delight",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703697.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703697.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703697.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8384209,
+                    "code": "346a665d-8720-4f3b-b6ad-28935b6eae98",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 90,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703687,
+                "code": "a82fb394-d921-484b-b9a5-6748d8e950cc",
+                "name": "Pangash Fish Bhuna",
+                "description": "1:1 - Prepared with pangash fish, tomato, onion, chili & spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703687.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703687.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703687.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8384199,
+                    "code": "65e753c4-4819-4dc2-9df6-986cc656897d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 105,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703688,
+                "code": "4aa4bafd-c470-4b76-9a18-504f26e1d9ad",
+                "name": "Fried Pangash Fish",
+                "description": "1:1 - Seasoned, coated fish in batter, deep fried for a crispy & flavorful dish",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703688.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703688.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703688.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8384200,
+                    "code": "f865d4ea-b7b4-4206-a3b2-dc8b6da861b7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 70,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703698,
+                "code": "1dca1b5f-ac50-47ef-8a52-c8cd3926f335",
+                "name": "Fried Tilapia Fish",
+                "description": "1 pc - Seasoned tilapia, simmer in curry prepared with various spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703698.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703698.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703698.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8384210,
+                    "code": "86b4e31e-6e72-4939-8224-e0c990f9829d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7703690,
+                "code": "52a93501-9613-4f6e-ae48-7ff676849250",
+                "name": "Fried Koi Fish",
+                "description": "1:1 - Marinated, coated fish in batter, deep fried for a crispy & delectable dish",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703690.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703690.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703690.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8384202,
+                    "code": "6b26a8e2-8895-4c3c-9a24-904f611dcfe6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 75,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 935428,
+            "code": "52300a39-4806-4077-a077-aae9194c090b",
+            "name": "Curry ",
+            "description": "",
+            "products": [
+              {
+                "id": 7047939,
+                "code": "45aada7f-fbfd-48d2-83cc-604091ef7174",
+                "name": "Chicken Curry",
+                "description": "Delicious gravy prepared with chicken mixed with potato & various spices",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047939.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047939.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047939.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672873,
+                    "code": "4dc1a108-6c80-4e8c-87bc-7030d278bec3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 7672904,
+                    "code": "2f469819-8868-43d9-8d70-c5981dbc08dc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7048086,
+                "code": "cc171afb-13d7-4cb7-8189-c56a74570a9f",
+                "name": "Plain Dal ",
+                "description": "1:1 - Masoor dal with mild spices, giving out a lovely shade of yellow",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048086.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7048086.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7048086.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7673027,
+                    "code": "f54774b0-43ec-4011-bf08-1770f3303fdc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 25,
+                  "TotalCount": 31,
+                  "Percentage": 81
+                }
+              },
+              {
+                "id": 8951515,
+                "code": "6b5cde93-d418-4140-8fea-ca19e4db651f",
+                "name": "Chicken Jhal Fry",
+                "description": "1:1-Spicy dish prepared by stir-frying marinated 2 pcs chicken in a mixture of spices & chilis",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951515.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8951515.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8951515.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9742961,
+                    "code": "12d9f93c-df05-45b6-a6bf-4dc38593c771",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 935427,
+            "code": "e98315d1-426d-46bc-b596-8f47b21534ae",
+            "name": "Rice ",
+            "description": "",
+            "products": [
+              {
+                "id": 7047934,
+                "code": "42ea0500-d94b-4e04-a087-eb2afacd2dc8",
+                "name": "Plain Rice",
+                "description": "Plain rice made by boiling rice in water",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047934.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047934.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047934.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7672868,
+                    "code": "36c02343-f278-4718-be14-16da9a09f41e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 935426,
+            "code": "d3acff0c-c0d1-4fbf-800f-ccac8f77cac8",
+            "name": "Set Menu",
+            "description": "",
+            "products": [
+              {
+                "id": 7047885,
+                "code": "e458ce67-4a60-4fe6-a64c-c479cd34ae01",
+                "name": "Set Menu - 1",
+                "description": "1:1 - Consists of plain rice, chicken curry & vegetable",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047885.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047885.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047885.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672815,
+                    "code": "06108587-c6f7-4cef-9e7e-fe7793172e2f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7047897,
+                "code": "8ddb4f7b-3158-49ec-977b-8e29556c380c",
+                "name": "Set Menu - 2",
+                "description": "1:1 - Consists of plain rice, rui fish curry & vegetable",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047897.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047897.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047897.jpg",
+                    "tags": {
+                      "Agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672829,
+                    "code": "ae925c2e-4f9f-40d6-af8b-efe3bdf40fce",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7047894,
+                "code": "0b3201af-2092-4069-ab6c-4a66f72d833d",
+                "name": "Set Menu - 3",
+                "description": "1:1 - Consists of plain rice, chicken curry & plain dal",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047894.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047894.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047894.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672826,
+                    "code": "82940d7d-a6e3-43b9-8a79-74aa0a858450",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 190,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7047899,
+                "code": "7edc2da2-2a4a-49c3-b851-28c8d35bfc41",
+                "name": "Set Menu - 4",
+                "description": "1:1 - Consists of plain rice, rui fish curry & plain dal",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047899.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047899.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047899.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672831,
+                    "code": "cb1b3121-1f6e-4ecf-893e-4ee992c41aba",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7063916,
+                "code": "6f43a24c-6919-45df-ba1a-1a527f16a84f",
+                "name": "Set Menu - 5",
+                "description": "1:1 - Prepared with plain rice, kola bhorta, alu bhorta & plain dal",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7063916.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7063916.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7063916.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 7689529,
+                    "code": "5980f09f-a562-41fe-835c-3e0a2bf16fbf",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 130,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7047931,
+                "code": "7a9cac50-2654-43e3-b8bd-3541840bae09",
+                "name": "Set Menu - 6",
+                "description": "1:1 - Consists of plain rice, egg curry & plain dal",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047931.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7047931.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7047931.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 7672863,
+                    "code": "8f9f86c7-b0a5-4108-9f45-66c6913af0ff",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 120,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 999142,
+            "code": "347e3a34-b3c6-48e8-90f3-a998c2e3c191",
+            "name": "Dessert",
+            "description": "",
+            "products": [
+              {
+                "id": 7703699,
+                "code": "2874b9bd-47ba-4828-8cea-ccc29ec73ec0",
+                "name": "Shujir Halwa",
+                "description": "1:1 - Roast semolina, cook with sugar, ghee & cardamom for a traditional sweet dessert",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703699.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7703699.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7703699.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8384211,
+                    "code": "c376e185-6eae-4c97-8da2-24193e14bc31",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                7047934,
+                7047970,
+                7048132,
+                7048134,
+                7703682,
+                7703697
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

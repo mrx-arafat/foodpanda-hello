@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.373,
+    "distance": 2.738,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/whua-listing.jpg",
@@ -68,12 +68,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 114.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 75.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 65,
-      "upper_limit_in_minutes": 90
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -83,13 +83,17 @@
     "primary_cuisine_id": 74,
     "rating": 4.3,
     "redirection_url": "https://foodpanda.com.bd/restaurant/whua/meatbox-fried-delish-dhanmondi",
-    "review_number": 116,
+    "review_number": 115,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "15% off Tk. 50",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "15% off Tk. 50",
@@ -131,7 +135,7 @@
         "main": true
       }
     },
-    "vendor_points": 10849,
+    "vendor_points": 10846,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -162,7 +166,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -175,11 +179,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "Bu/OAiWN5amNiqiMzUE3MBcReXkw6oeg0wX41AX4zL6OG0pA93q83VaDzhIYMHIfTe+by7p3UuQCArrJR1gOchEbZFXzuZz1St/9PYnowh+JCU5cyJMneBqBjO1uJO4tBT/ZAuRsarRRqc9t3g3o2o2cG/2o8qeBgnFsjxkhAWsyadcFsUFEEOK8kyfBn/LlVzgm9pHskcV/VHqF9y5uViGVdFIQzM1L+xfKsR/Tdgsjuyhfn3Wa7vsPjed/is6a6JiBy6FaqS3IkQmu6cE/",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.82
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.3
   }
 ]

@@ -1,0 +1,951 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 77554,
+    "code": "wn7u",
+    "accepts_instructions": true,
+    "address": "Shikkha board office gate no-2, 1205 Lalbagh, Dhaka, Bangladesh",
+    "address_line2": "",
+    "budget": 1,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 99,
+        "name": "Turkish",
+        "url_key": "turkish",
+        "main": false
+      },
+      {
+        "id": 113,
+        "name": "Middle Eastern",
+        "url_key": "middle-eastern",
+        "main": false
+      },
+      {
+        "id": 132,
+        "name": "Kebab",
+        "url_key": "kebab",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 85
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 9,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/wn7u-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/wn7u-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2025-08-26T10:17:22Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7220911,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.3917403,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 70,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Whats On The Kabab",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 132,
+    "rating": 0,
+    "topic_ratings": null,
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "17:00",
+        "closing_time": "23:45"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Whats On The Kabab",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2025-07-29",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-07-29"
+      },
+      {
+        "date": "2025-07-30",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-07-30"
+      },
+      {
+        "date": "2025-07-31",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-07-31"
+      },
+      {
+        "date": "2025-06-30",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-30"
+      },
+      {
+        "date": "2025-07-01",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-07-01"
+      },
+      {
+        "date": "2025-07-02",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-07-02"
+      },
+      {
+        "date": "2025-10-26",
+        "opening_type": "unavailable",
+        "opening_time": "04:38",
+        "closing_time": "23:45",
+        "end_date": ""
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "whats-on-the-kabab",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 99,
+          "name": "Turkish",
+          "url_key": "turkish",
+          "main": false
+        },
+        {
+          "id": 113,
+          "name": "Middle Eastern",
+          "url_key": "middle-eastern",
+          "main": false
+        },
+        {
+          "id": 132,
+          "name": "Kebab",
+          "url_key": "kebab",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 132,
+        "name": "Kebab",
+        "url_key": "kebab",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Whats On The Kabab",
+      "address_line_1": "Shikkha board office gate no-2, 1205 Lalbagh, Dhaka, Bangladesh"
+    },
+    "vertical": "street_food",
+    "vertical_segment": "street_food",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/wn7u/whats-on-the-kabab",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "street_food"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801961838722",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 246923,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2428759,
+            "code": "df0ad92b-dff1-4cfa-a5f0-52726e797716",
+            "name": "Kebab",
+            "description": "",
+            "products": [
+              {
+                "id": 9085083,
+                "code": "01bf9285-edbb-4706-81e1-0d7d551559e1",
+                "name": "Beef Sheek Kebab",
+                "description": "5 pcs - Marinated with onion, green chili, yogurt & spices, cooked over sheek & grilled to perfection\nserved with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085083.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085083.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085083.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906889,
+                    "code": "4fc17413-777c-4617-b92f-dc1b68ce0c1c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9085084,
+                "code": "7d8ed8fa-b268-4529-ad32-3fe9a081e91b",
+                "name": "Chicken Boti Kebab",
+                "description": "6 pcs - Small chunks of chicken marinated with onion, green chili, & spices, grilled over charcoal served with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085084.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085084.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085084.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906890,
+                    "code": "42a171de-4e98-4c52-9ecb-e987003ea66c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9085085,
+                "code": "1a631b85-8118-4f73-a1c8-ba48c831a275",
+                "name": "Chicken Tikka Kebab",
+                "description": "6 pcs - Minced chicken mixed with special tikka masala & fried in oil served with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085085.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085085.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085085.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906891,
+                    "code": "3f1ebe6a-bf89-4b92-ac51-61e82afc46da",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9085089,
+                "code": "f2bb9942-4fea-4aa3-a56c-2ba55e52db2b",
+                "name": "Chicken Tandoori Kebab - Breast Pc",
+                "description": "6 pcs - Juicy chicken pcs marinated in yogurt & spices, grilled to smoky perfection in tandoori style\nserved with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085089.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085089.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085089.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906901,
+                    "code": "5c6c4420-0e6e-41b8-ba6c-e004dbe71254",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9085091,
+                "code": "a2cad6e7-2907-4847-88bd-488fd28d9e6f",
+                "name": "Chicken Tandoori Kebab - Leg Pc",
+                "description": "6 pcs - Juicy chicken pcs marinated in yogurt & spices, grilled to smoky perfection in tandoori style\nserved with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085091.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085091.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085091.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906903,
+                    "code": "e8e88d45-9189-4b94-834e-47f597d161ce",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 130,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9085096,
+                "code": "d9779546-37bd-46e4-918f-592e1b1f1061",
+                "name": "Chicken Hariyali Kebab",
+                "description": "5 pcs - Flavorful appetizer prepared with marinating chicken pcs in a vibrant green mixture of cilantro, mint & spices\nserved with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085096.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085096.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085096.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906908,
+                    "code": "8d811ff2-9e5f-44de-a1b2-9ba2207cd80e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9085097,
+                "code": "0670b8ca-6166-4221-83c5-0e34a840943b",
+                "name": "Chicken Reshmi Kebab",
+                "description": "5 pcs - Marinated boneless chicken kebab with goodness of coriander & other special ingredients\nserved with tetul tok & salad",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085097.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085097.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085097.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906909,
+                    "code": "ce7ceed1-abc1-4c7e-b8d3-c18c2f2e14bf",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2428760,
+            "code": "432fec6e-8b9e-4dfa-bb8e-17879a059a8f",
+            "name": "Sides",
+            "description": "",
+            "products": [
+              {
+                "id": 9085098,
+                "code": "0f894bb2-bdfb-4599-8d52-5efdbafdaf8c",
+                "name": "Luchi",
+                "description": "1 pc - Small deep-fried flatbread fried till perfection",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085098.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9085098.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9085098.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9906910,
+                    "code": "63e9f6d7-8262-4273-8276-03fd18735ce3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 10,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {}
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [
+        "Unreachable"
+      ],
+      "is_flood_feature_closed": true,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

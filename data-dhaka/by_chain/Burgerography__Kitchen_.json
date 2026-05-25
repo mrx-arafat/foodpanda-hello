@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.292,
+    "distance": 0.875,
     "food_characteristics": [
       {
         "id": 252,
@@ -75,12 +75,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 36.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -192,9 +192,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.29
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.52
   },
   {
     "id": 77730,
@@ -237,13 +236,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.462,
+    "distance": 2.931,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/q93e-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/q93e-listing.jpg",
     "is_new_until": "2025-09-03T08:45:29Z",
-    "premium_position": 8,
+    "premium_position": 0,
     "latitude": 23.76611675,
     "logo": "",
     "longitude": 90.42611585,
@@ -265,12 +264,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 80.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 75.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 65,
-      "upper_limit_in_minutes": 90
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -285,12 +284,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "15% off Tk. 50",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "15% off Tk. 50",
@@ -363,7 +358,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -376,13 +371,10 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "zDvjLSTZ4+HCv4KIY01rz+s9nmEQpblBQH5vjQmFAkqtUHJBIIcsQUxnRvUC8fa4+SSW/wvF+4FOkturbt4eDCzlMzrtJ7U/Tk4VXZe24FtdBXlmBysC+IO9nfTITDGdK2lz2D8eyD6VF/UAg10+SgmuJMRtrNnsxSLWTw2jliiz0cjQirHawWXIBlkLqO01m68nUOioNpk8H0myue3cOV/3UKus9dmYCEJG6T8hiFeI3EzDfieBJXZPXNc4I/xClWdeJmq2KcT46WK3DUk=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 0.58
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.43
   }
 ]

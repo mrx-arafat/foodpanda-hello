@@ -1,0 +1,4730 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 69885,
+    "code": "ca5l",
+    "accepts_instructions": true,
+    "address": "House - 873, Near Hotel Grand Circle Inn, Outer Circular Road, Rajarbagh, Dhaka - 1217",
+    "address_line2": "",
+    "budget": 2,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:14",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:14",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 34,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ca5l-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ca5l-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2024-04-05T10:16:06Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7405914,
+    "location": "Rajarbagh",
+    "location_event": null,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ce8mx-logo.jpg",
+    "longitude": 90.4200066,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 45,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Well Food - Rajarbagh",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1217",
+    "primary_cuisine_id": 84,
+    "rating": 3.5,
+    "topic_ratings": null,
+    "review_number": 7,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "21:45"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Well Food - Rajarbagh",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-05-12",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "21:00",
+        "end_date": "2026-05-12"
+      },
+      {
+        "date": "2026-05-12",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "21:00",
+        "end_date": "2026-05-12"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "well-food-rajarbagh",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Well Food - Rajarbagh",
+      "address_line_1": "House - 873, Near Hotel Grand Circle Inn, Outer Circular Road, Rajarbagh, Dhaka - 1217"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/ca5l/well-food-rajarbagh",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 708,
+      "main_vendor_code": "u8ny",
+      "main_vendor_id": 16189,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "https://images.deliveryhero.io/image/fd-bd/LH/ce8mx-listing.jpg",
+      "logo_image_url": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ce8mx-logo.jpg",
+      "name": "Well Food Chain",
+      "url_key": "well-food-chain",
+      "code": "ce8mx"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801708150981",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 224883,
+        "code": "",
+        "name": "Breakfast (00:14:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "14:59:00",
+        "menu_categories": [
+          {
+            "id": 2267694,
+            "code": "192893",
+            "name": "Sweets",
+            "description": "",
+            "products": [
+              {
+                "id": 8170962,
+                "code": "1240596",
+                "name": "Baby Sweets",
+                "description": "Small delights prepared with chana, cow milk, full cream milk powder & sugar",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245090.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245090.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245090.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875403,
+                    "code": "1474396",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 710,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10666923,
+                    "code": "b98cc482-f10e-4309-b6c9-ec7711ebfedb",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 355,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170960,
+                "code": "1240611",
+                "name": "Kalojam",
+                "description": "Bengali delicacy prepared with creamy chana balls deep-fried, but soft & succulent inside, then soaked in sugar syrup",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245092.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245092.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245092.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875397,
+                    "code": "1474411",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 560,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10666924,
+                    "code": "2292829e-9b74-46b3-9bd7-842b0bb7804c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170969,
+                "code": "1240615",
+                "name": "Mihidana Laddu",
+                "description": "Traditional sweet made with moong dal",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245099.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245099.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245099.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875424,
+                    "code": "1474415",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 610,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875425,
+                    "code": "90677b36-e258-44df-9205-96f4f48606f6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 305,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170958,
+                "code": "1240617",
+                "name": "Motichur Laddu",
+                "description": "Prepared with gram flour, sugar & shaped into small balls",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245101.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245101.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245101.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875391,
+                    "code": "1474417",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 610,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875392,
+                    "code": "9a49d566-d56f-463f-a040-f7078d8d8c31",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 305,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170957,
+                "code": "1240622",
+                "name": "Soan Papdi",
+                "description": "280 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245102.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245102.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245102.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875390,
+                    "code": "1474422",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 370,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170961,
+                "code": "1240613",
+                "name": "Lal Mohon",
+                "description": "Prepared with milk, sugar, rosewater & special spices",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245103.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245103.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245103.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875400,
+                    "code": "1474413",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 kg",
+                    "price": 560,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875401,
+                    "code": "08a67f20-60af-4311-af0a-a5e31167965d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500 gm",
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170973,
+                "code": "54d7fc2e-5a21-4cc6-afab-9d7f6cc889d6",
+                "name": "Dodhi Sweet - 500 gm",
+                "description": "Prepared with milk, sugar & cardamom",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1540287.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1540287.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1540287.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875432,
+                    "code": "2def2f21-5699-4527-8a90-9fe3d885f66f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 290,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267704,
+            "code": "192890",
+            "name": "Bread",
+            "description": "",
+            "products": [
+              {
+                "id": 8171160,
+                "code": "1240555",
+                "name": "Jelly Bread",
+                "description": "A soft bread, often sweet, that is filled or topped with a fruity & sweet jelly",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/Well Food /1244990.JPG?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/Well Food /1244990.JPG?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/Well Food /1244990.JPG",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875656,
+                    "code": "1474355",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 70,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171157,
+                "code": "1240558",
+                "name": "Sandwich Bread",
+                "description": "1 packet - 400 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244994.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244994.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244994.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875653,
+                    "code": "1474358",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 130,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171156,
+                "code": "1240557",
+                "name": "Milk Bread",
+                "description": "1 packet - 400 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244995.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244995.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244995.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875652,
+                    "code": "1474357",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 135,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171158,
+                "code": "1240549",
+                "name": "Brown Bread",
+                "description": "1 packet - 500 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244998.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244998.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244998.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875654,
+                    "code": "1474349",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 145,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171159,
+                "code": "1240560",
+                "name": "Well Bread",
+                "description": "1 packet - 350 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244999.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244999.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244999.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875655,
+                    "code": "1474360",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171162,
+                "code": "26a319d6-79f9-4e9e-89a4-91def5cae565",
+                "name": "Butter Bread ",
+                "description": "Prepared with butter & bread",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3038046.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3038046.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3038046.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875658,
+                    "code": "ba333f57-8bb1-471c-b5a0-aae97bce00ba",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "400 gm",
+                    "price": 130,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875659,
+                    "code": "de069b04-10ff-4fab-b8db-9a53216762e9",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "200 gm",
+                    "price": 70,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267692,
+            "code": "192899",
+            "name": "Pound Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 8170942,
+                "code": "1240752",
+                "name": "Chocolate Chips Moist Cake",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1242135.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1242135.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1242135.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875371,
+                    "code": "1474553",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 420,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170940,
+                "code": "1240751",
+                "name": "Chocolate Cake",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245193.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245193.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245193.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875369,
+                    "code": "1474552",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 345,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170941,
+                "code": "1240753",
+                "name": "Fruit Cake",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245202.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245202.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245202.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875370,
+                    "code": "1474554",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 370,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170944,
+                "code": "1240758",
+                "name": "Plain Cake",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/1245203.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/1245203.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/1245203.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875373,
+                    "code": "1474559",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267702,
+            "code": "192894",
+            "name": "Dry Goods",
+            "description": "",
+            "products": [
+              {
+                "id": 8171102,
+                "code": "1240670",
+                "name": "Noodles",
+                "description": "150 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1241275.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1241275.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1241275.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875598,
+                    "code": "1474471",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171101,
+                "code": "1240666",
+                "name": "Sugar Free Cookies",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245029.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245029.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245029.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875597,
+                    "code": "1474467",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 270,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171090,
+                "code": "1240669",
+                "name": "Well Bela - 400 gm",
+                "description": "Prepared with flour, sugar & cardamom",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245034.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245034.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245034.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875586,
+                    "code": "1474470",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171106,
+                "code": "1240644",
+                "name": "Laccha Semai",
+                "description": "Box - 400 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245068.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245068.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245068.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875602,
+                    "code": "1474445",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 230,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171098,
+                "code": "1240630",
+                "name": "Butter Salt Premium Cookies",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245046.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245046.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245046.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875594,
+                    "code": "1474430",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171103,
+                "code": "1240625",
+                "name": "Almond Choco Fill Cookies",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245048.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245048.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245048.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875599,
+                    "code": "1474425",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171107,
+                "code": "1240629",
+                "name": "Butter Cookies",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245051.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245051.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245051.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875603,
+                    "code": "1474429",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 270,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171105,
+                "code": "1240663",
+                "name": "Well Pistachio Nut Cookies",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245052.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245052.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245052.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875601,
+                    "code": "1474464",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 310,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171108,
+                "code": "1240639",
+                "name": "Well Crispy Butter Biscuit",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245056.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245056.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245056.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875604,
+                    "code": "1474440",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171110,
+                "code": "1240640",
+                "name": "Well Dry Cake Premium",
+                "description": "Box - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245058.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245058.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245058.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875606,
+                    "code": "1474441",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171117,
+                "code": "b6a486af-8b98-450e-b184-1a62df72e056",
+                "name": "Ovaltine Classic",
+                "description": "Box",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3039427.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3039427.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3039427.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875613,
+                    "code": "6d3794a2-1372-4e2a-845a-52d190c52d0c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171115,
+                "code": "679c8af1-fe3a-4f30-b414-cdce8f7a6444",
+                "name": "Nimki Classic",
+                "description": "Box",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3039428.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3039428.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3039428.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875611,
+                    "code": "4c3d1402-e845-422a-9fce-8c7dc1f38ef3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171116,
+                "code": "804aac37-e48c-4b20-bb5a-0068a05b79cc",
+                "name": "Chocolate Chips Classic",
+                "description": "Box",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/3039429.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/3039429.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/3039429.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875612,
+                    "code": "011a822a-7af9-44e0-9edf-44e2027dae81",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171091,
+                "code": "1240634",
+                "name": "Chocolate Chips Cookies",
+                "description": "300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245037.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245037.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245037.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875587,
+                    "code": "1474434",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 365,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171127,
+                "code": "e6bfc71f-975e-4f57-8b84-8c8fa2289227",
+                "name": "Premium Laccha Semai",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7276727.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7276727.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7276727.jpg",
+                    "tags": {
+                      "nob": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875623,
+                    "code": "923744a5-74ad-4fce-8081-1fddc000576f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 420,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267701,
+            "code": "192892",
+            "name": "Fast Food",
+            "description": "",
+            "products": [
+              {
+                "id": 8171067,
+                "code": "1240579",
+                "name": "Chicken Keema Paratha",
+                "description": "Prepared with ground chicken, spices & stuffed in paratha bread",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245001.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245001.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245001.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875563,
+                    "code": "1474379",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171059,
+                "code": "1240582",
+                "name": "Chicken Patties",
+                "description": "1 pc",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245019.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245019.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245019.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875555,
+                    "code": "1474382",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 85,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267703,
+            "code": "192891",
+            "name": "Bun",
+            "description": "",
+            "products": [
+              {
+                "id": 8171144,
+                "code": "1240561",
+                "name": "Burger Bun",
+                "description": "1 packet - 300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244977.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244977.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244977.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875640,
+                    "code": "1474361",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 90,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171145,
+                "code": "1240565",
+                "name": "Cream Bun",
+                "description": "140 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244980.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244980.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244980.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875641,
+                    "code": "1474365",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171143,
+                "code": "1240569",
+                "name": "Lemon Bun",
+                "description": "1 packet - 140 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244985.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244985.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244985.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875639,
+                    "code": "1474369",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171142,
+                "code": "1240566",
+                "name": "Chocolate Custard Bun",
+                "description": "1 packet",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244987.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1244987.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1244987.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875638,
+                    "code": "1474366",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171151,
+                "code": "0303bdf0-452f-4556-bd61-4951c713a038",
+                "name": "Burger Bun",
+                "description": "2 pcs - Two soft burger buns, perfect for making delicious burger",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7727433.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7727433.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7727433.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875647,
+                    "code": "094623db-a379-41a6-90a2-dc38e9660aa5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8878951,
+                "code": "b4174f7e-6722-4b74-8f49-a4c26a2243df",
+                "name": "Butter Bun",
+                "description": "2 Pcs ",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8654420.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8654420.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8654420.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9651454,
+                    "code": "2f47e48a-e0d6-4e1c-8643-f85b2cdccc14",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 65,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267706,
+            "code": "a437729e-b383-469b-9051-05752fba65c7",
+            "name": "Toast",
+            "description": "",
+            "products": [
+              {
+                "id": 8171179,
+                "code": "1240641",
+                "name": "Garlic Toast",
+                "description": "200 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245032.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245032.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245032.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875676,
+                    "code": "1474442",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 105,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171176,
+                "code": "1240661",
+                "name": "Plain Toast",
+                "description": "250 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245035.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245035.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245035.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875673,
+                    "code": "1474462",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 120,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171180,
+                "code": "1240651",
+                "name": "Mint Leaf Toast",
+                "description": "250 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245041.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245041.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245041.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875677,
+                    "code": "1474452",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 125,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171178,
+                "code": "1240665",
+                "name": "Sugar Free Toast",
+                "description": "300 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245050.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245050.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245050.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875675,
+                    "code": "1474466",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 120,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171181,
+                "code": "1240631",
+                "name": "Butter Toast",
+                "description": "250 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245067.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245067.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245067.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875678,
+                    "code": "1474431",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267696,
+            "code": "192889",
+            "name": "Arabian Sweets",
+            "description": "",
+            "products": [
+              {
+                "id": 8171023,
+                "code": "1240547",
+                "name": "Pistachio Roll",
+                "description": "1 pc",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245115.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245115.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245115.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875519,
+                    "code": "1474347",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 8171021,
+                "code": "1240545",
+                "name": "Golasgista",
+                "description": "Savory dish featuring tender meat, spices & a rich, flavorful sauce served with sides",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245120.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245120.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245120.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875517,
+                    "code": "1474345",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 30,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267700,
+            "code": "f71a1b93-13fb-4f7f-9d53-56ffeeab2102",
+            "name": "Morning Fresh",
+            "description": "",
+            "products": [
+              {
+                "id": 8171058,
+                "code": "1240648",
+                "name": "Morning Fresh Horli Plus",
+                "description": "300 gm",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245047.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245047.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245047.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875554,
+                    "code": "1474449",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171057,
+                "code": "1240649",
+                "name": "Morning Fresh Oval Plus",
+                "description": "300 gm",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245059.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245059.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245059.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875553,
+                    "code": "1474450",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267697,
+            "code": "759d909f-a7c7-4ccb-8d26-7d288b2daf38",
+            "name": "Desserts",
+            "description": "",
+            "products": [
+              {
+                "id": 8171031,
+                "code": "1240544",
+                "name": "Doughnut",
+                "description": "1 pc",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245116.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245116.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245116.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875527,
+                    "code": "1474344",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 70,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267691,
+            "code": "192897",
+            "name": "Celebration Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 8170912,
+                "code": "1240709",
+                "name": "Chocolate Almond Cake - Medium",
+                "description": "450 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/1245147.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/1245147.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/1245147.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875341,
+                    "code": "1474510",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170907,
+                "code": "1240717",
+                "name": "Chocolate Cake - Small",
+                "description": "250 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245152.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245152.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245152.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875336,
+                    "code": "1474518",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 700,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170914,
+                "code": "1240715",
+                "name": "Chocolate Cake - Medium",
+                "description": "450 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245153.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245153.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245153.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875343,
+                    "code": "1474516",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1000,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170917,
+                "code": "1240740",
+                "name": "Vanilla Cake - Medium",
+                "description": "450 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245154.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245154.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245154.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875346,
+                    "code": "1474541",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 850,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170924,
+                "code": "1240707",
+                "name": "Black Forest Cake - Medium",
+                "description": "450 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245158.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245158.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245158.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875353,
+                    "code": "1474508",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170915,
+                "code": "1240736",
+                "name": "Vanilla Cake - Big",
+                "description": "600 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245170.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245170.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245170.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875344,
+                    "code": "1474537",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170939,
+                "code": "196aaeb5-4d31-47a9-8d51-8a6330e2ad12",
+                "name": "Mocha Cheese Cake - Medium",
+                "description": "450 gm - Decadent dessert blending rich espresso-infused chocolate & creamy cheesecake, topped with a coffee-infused drizzle",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875368,
+                    "code": "97392e86-5877-4c8b-9cf1-24909e3a36d1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267690,
+            "code": "192896",
+            "name": "Pastry",
+            "description": "",
+            "products": [
+              {
+                "id": 8170898,
+                "code": "1240691",
+                "name": "Chocolate Pastry",
+                "description": "60 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245146.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245146.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245146.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875327,
+                    "code": "1474492",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170895,
+                "code": "1240684",
+                "name": "Black Forest Pastry",
+                "description": "60 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245130.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245130.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245130.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875324,
+                    "code": "1474485",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8170901,
+                "code": "1240686",
+                "name": "Butterscotch Pastry",
+                "description": "60 gm",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245144.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245144.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245144.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875330,
+                    "code": "1474487",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267707,
+            "code": "47330335-ab77-42d9-a95a-b951d6568116",
+            "name": "Sauce",
+            "description": "",
+            "products": [
+              {
+                "id": 8171182,
+                "code": "70c61d02-3d21-466b-844a-049bd84c8ce1",
+                "name": "Hot Tomato Sauce",
+                "description": "500 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5803623.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5803623.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5803623.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875679,
+                    "code": "ebca7490-d1d6-4424-8624-3d3a10c57c88",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 175,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171184,
+                "code": "d8e516d1-309d-4719-90e4-75b6791138aa",
+                "name": "Hot Chili Sauce",
+                "description": "500 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5803625.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5803625.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5803625.jpg",
+                    "tags": {
+                      "agc": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875681,
+                    "code": "291ee1ae-3643-42ea-9185-3598ffb532d2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 195,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267695,
+            "code": "192895",
+            "name": "Chocolate",
+            "description": "",
+            "products": [
+              {
+                "id": 8170998,
+                "code": "1240673",
+                "name": "Big Bite Dark",
+                "description": "Prepared with dark chocolate & almonds",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245075.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245075.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245075.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875487,
+                    "code": "1474474",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "16 gm",
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875488,
+                    "code": "8588c52e-799f-4996-a94b-ef1fe1a33e3b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "45 gm",
+                    "price": 75,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 8171000,
+                "code": "1240676",
+                "name": "Big Bite White",
+                "description": "Prepared with white chocolate & almonds",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245082.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245082.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245082.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875490,
+                    "code": "1474477",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "16 gm",
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875491,
+                    "code": "413eeb9b-8e21-4bf6-8ad5-35e82836e2bb",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "45 gm",
+                    "price": 75,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171004,
+                "code": "1240679",
+                "name": "Fruit Nut Dark Chocolate - 200 gm",
+                "description": "Prepared with dark chocolate, fruits & nuts",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245076.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1245076.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1245076.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875496,
+                    "code": "1474480",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 400,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171007,
+                "code": "925817e8-be04-43db-b5cd-38db16014670",
+                "name": "Fruit Nut Dark Chocolate - 50 gm",
+                "description": "Prepared with dark chocolate, fruits & nuts",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/1540355.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/1540355.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/1540355.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875499,
+                    "code": "fc72f685-76ac-4b5e-b171-1069b238a577",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 125,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171013,
+                "code": "c0d267a6-4abb-4725-b972-6b16a72bad59",
+                "name": "Almond Chocolate Dark",
+                "description": "Prepared with dark chocolate & almonds",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5804905.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5804905.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5804905.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875506,
+                    "code": "bae36556-1a31-4603-880a-c13e7bfb2ef4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "50 gm",
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875507,
+                    "code": "a3821a16-a0f1-404e-90d2-db29b686d9d6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "200 gm",
+                    "price": 295,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171014,
+                "code": "7fb62bb3-31e2-48a9-b1ce-243e303e8864",
+                "name": "Almond Chocolate White",
+                "description": "Prepared with white chocolate & almonds",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5804906.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5804906.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5804906.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875508,
+                    "code": "f5b6709b-e720-4b9e-ab02-054b227bd0a8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "50 gm",
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 8875509,
+                    "code": "5fea4fd7-6a99-4c41-964b-4691d57d7639",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "200 gm",
+                    "price": 295,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2267708,
+            "code": "683d2b26-8e87-4d3f-81ce-d61342777343",
+            "name": "Frozen Food",
+            "description": "",
+            "products": [
+              {
+                "id": 8171187,
+                "code": "56814129-aea4-4bcd-9d43-6b28a6dbd88f",
+                "name": "Frozen Vegetable Roll",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5804958.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5804958.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5804958.jpg",
+                    "tags": {
+                      "am": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875684,
+                    "code": "47ee2d11-54c9-4f46-8c7d-78e3ec7b05c7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 135,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8171191,
+                "code": "2f01819a-5287-4e0c-8d32-85221e14ff20",
+                "name": "Frozen Paratha",
+                "description": "400 gm",
+                "display_price": "",
+                "master_category_id": 10,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/5801154.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/5801154.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/5801154.jpg",
+                    "tags": {
+                      "hm": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8875688,
+                    "code": "34d85fdc-f571-4db2-96a2-769192e1e239",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {}
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

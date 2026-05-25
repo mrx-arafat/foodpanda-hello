@@ -76,7 +76,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.495,
+    "distance": 1.506,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s5ug-listing.jpg",
@@ -92,25 +92,23 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "Unreachable"
+      ],
       "available_in": null,
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 48.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "KOZO",
@@ -235,7 +233,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -250,8 +248,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.49
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.26
   }
 ]

@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.678,
+    "distance": 2.124,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/qm4b-listing.jpg",
@@ -62,42 +62,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_5",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 83.0,
+    "original_delivery_fee": 58.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 80.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 70,
+      "upper_limit_in_minutes": 95
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Bismillah Live Pizza",
@@ -207,9 +190,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mugda",
-    "_area": "Rampura",
-    "_area_distance_km": 0.93
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 1.02
   },
   {
     "id": 71590,
@@ -258,7 +240,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.479,
+    "distance": 1.017,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vvqo-listing.jpg",
@@ -286,12 +268,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 42.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 70.0,
+    "minimum_delivery_time": 60.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 60,
-      "upper_limit_in_minutes": 85
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -402,8 +384,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 0.94
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 1.02
   }
 ]

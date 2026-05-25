@@ -1,0 +1,1774 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 89568,
+    "code": "fau9",
+    "accepts_instructions": true,
+    "address": "Nabinagar Housing Road - 12 house 98, Nabinagar Housing Rd - 12 House 98 flat5B lift -4, 1207 Mohammadpur, Dhaka, Bangladesh",
+    "address_line2": "",
+    "budget": 1,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 29,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fau9-hero.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2025-11-09T17:33:11Z",
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": true,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.8208752,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.442357,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 30,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Kichu Khai",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 195,
+    "rating": 0,
+    "topic_ratings": null,
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Kichu Khai",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-01-05",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-05"
+      },
+      {
+        "date": "2026-01-06",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-06"
+      },
+      {
+        "date": "2025-12-26",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-26"
+      },
+      {
+        "date": "2025-12-27",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-27"
+      },
+      {
+        "date": "2025-12-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-28"
+      },
+      {
+        "date": "2025-12-29",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-29"
+      },
+      {
+        "date": "2026-01-02",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-02"
+      },
+      {
+        "date": "2026-01-03",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-03"
+      },
+      {
+        "date": "2026-01-07",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-07"
+      },
+      {
+        "date": "2025-12-25",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-25"
+      },
+      {
+        "date": "2025-12-30",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-30"
+      },
+      {
+        "date": "2025-12-31",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-31"
+      },
+      {
+        "date": "2026-01-01",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-01"
+      },
+      {
+        "date": "2026-01-04",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-04"
+      },
+      {
+        "date": "2025-09-14",
+        "opening_type": "unavailable",
+        "opening_time": "19:28",
+        "closing_time": "13:15",
+        "end_date": ""
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "kichu-khai",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Kichu Khai",
+      "address_line_1": "Nabinagar Housing Road - 12 house 98, Nabinagar Housing Rd - 12 House 98 flat5B lift -4, 1207 Mohammadpur, Dhaka, Bangladesh"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/fau9/kichu-khai",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801819931594",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 250026,
+        "code": "",
+        "name": "New Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:58",
+        "menu_categories": [
+          {
+            "id": 2451268,
+            "code": "3fd39723-2606-4b19-a91b-115826fa24d3",
+            "name": "Khichuri",
+            "description": "",
+            "products": [
+              {
+                "id": 9224094,
+                "code": "020d215f-3672-4d25-aa97-5da51c83cd62",
+                "name": "Bhuna Khichuri",
+                "description": "Bhuna Khichuri made with a mixture of 4 types of lentils: chickpea, split chickpea, red lentil, and mung bean.",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224094.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224094.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224094.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074152,
+                    "code": "375ff016-2450-4e4e-8673-7973c10accc4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 plate",
+                    "price": 330,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074153,
+                    "code": "8b54c900-47a4-4aa5-941c-1644cd431091",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1 plate ",
+                    "price": 165,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757603745"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451269,
+            "code": "4511348a-cd8e-4559-99e3-eeb62dcc58f4",
+            "name": "Chicken ",
+            "description": "",
+            "products": [
+              {
+                "id": 9224095,
+                "code": "23dd2e98-c42c-4027-91c5-36a62df900be",
+                "name": "Chicken ",
+                "description": "Spicy and delicious Chicken Bhuna",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224095.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224095.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224095.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074154,
+                    "code": "a3e56cd3-3992-418a-a46a-0a0a86ad9031",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074155,
+                    "code": "1147d165-1678-4fac-b9d4-176cc09a872a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2joner",
+                    "price": 360,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757603681"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451270,
+            "code": "7d7c1e7f-3775-489c-8c31-2cf92f486bd6",
+            "name": "Rice",
+            "description": "",
+            "products": [
+              {
+                "id": 9224096,
+                "code": "101aeb56-ba3f-40d5-ae12-7bdf1eb1413b",
+                "name": "Plain Rice ",
+                "description": "Nazir rice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224096.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224096.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224096.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074156,
+                    "code": "b506a47c-2d31-4c53-a0d9-f68d0b77b6b4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 60,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074157,
+                    "code": "eab23449-6a0f-4c24-b4eb-b4b45a2e5948",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 joner ",
+                    "price": 120,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604129"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451271,
+            "code": "51746a4b-570f-48ad-b86b-4a72ae0b7f93",
+            "name": "Beef",
+            "description": "",
+            "products": [
+              {
+                "id": 9224097,
+                "code": "ec163709-42ab-4818-a678-67c3f99dc9ab",
+                "name": "Beef Bhunq",
+                "description": "Homemade delicious Beef Bhuna, cooked with a perfect blend of spices.",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224097.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224097.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224097.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10074158,
+                    "code": "d09d0aaa-9349-418b-92c3-0ca14e41a1e0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074159,
+                    "code": "1c2adbb1-3b88-461b-bfe7-923e03ebfedc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Double ",
+                    "price": 500,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604129"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451272,
+            "code": "d93381bd-ec68-49b2-9ff8-dd5a5bd6291c",
+            "name": "Fish fry ",
+            "description": "",
+            "products": [
+              {
+                "id": 9224098,
+                "code": "df66e74c-c6f8-48dd-8125-e93224990dac",
+                "name": "Rui fish bhuna",
+                "description": "Fresh Rui fish fry (1 Piece).",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224098.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224098.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224098.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10074160,
+                    "code": "50e5d6ae-cb10-464c-a5b3-a4de7b155d30",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2pis",
+                    "price": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074161,
+                    "code": "9b72fdd1-4671-4f57-8d5b-2d45f3578c12",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "1pis",
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604129"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451273,
+            "code": "e4cf45b8-7716-488b-94aa-62b12c3b3608",
+            "name": "Dal",
+            "description": "",
+            "products": [
+              {
+                "id": 9224099,
+                "code": "60a8684f-a4e4-4ad3-8621-1e5c6857da16",
+                "name": "Dal",
+                "description": "Delicious Dal Bhuna.",
+                "display_price": "",
+                "master_category_id": 5,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224099.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224099.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224099.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074162,
+                    "code": "a104cceb-831c-4109-95c6-38fc8490b63d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 90,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074163,
+                    "code": "de4d2244-1f28-4653-bdb3-a614978edcfd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Double ",
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604133"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451274,
+            "code": "b522afc9-9749-4d2d-90fa-4a461370a9b1",
+            "name": "Plain Paratha",
+            "description": "",
+            "products": [
+              {
+                "id": 9224100,
+                "code": "23990b1c-56c9-4dcc-8634-38cd185809bf",
+                "name": "Plain Paratha",
+                "description": "Soft and delicious hot paratha.",
+                "display_price": "",
+                "master_category_id": 5,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224100.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224100.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224100.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074164,
+                    "code": "912da669-815f-451f-a58e-af9e809030de",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074165,
+                    "code": "59d2bc9e-d978-4647-abcc-cacf7daa89e4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 40,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604131"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451275,
+            "code": "72a9e442-1ef2-4f42-9ca9-2d8059b329e2",
+            "name": "Chingri Bhuna",
+            "description": "",
+            "products": [
+              {
+                "id": 9224101,
+                "code": "4dc03422-69a9-443b-a462-e248f74d8fe0",
+                "name": "Chingri Bhuna",
+                "description": "Spicy shrimp curry, perfect with hot rice.",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224101.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224101.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224101.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074166,
+                    "code": "2e148857-4d69-4003-ab38-5cc34cda5dfe",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Double ",
+                    "price": 560,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074167,
+                    "code": "1dd2e342-08f6-484b-9c8d-b8057bac65cc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604130"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451276,
+            "code": "3d93666f-b9b7-4448-b52d-da1fc490678e",
+            "name": "Mixed Salad",
+            "description": "",
+            "products": [
+              {
+                "id": 9224102,
+                "code": "b907d43d-e726-493f-828b-725f4f28dae0",
+                "name": "Mixed Salad",
+                "description": "Nutritious salad made with carrots, cucumbers, and tomatoes.",
+                "display_price": "",
+                "master_category_id": 5,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224102.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224102.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224102.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074168,
+                    "code": "41e66a9f-6740-4fc8-a4df-293e0f909eb7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074169,
+                    "code": "3bf97a1f-5cac-4208-b62c-7e6d99c406b5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604129"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451277,
+            "code": "afaddd17-994f-4837-b459-ddc326779b52",
+            "name": "Fried Egg",
+            "description": "",
+            "products": [
+              {
+                "id": 9224103,
+                "code": "1d601f6d-5de2-472a-a868-a5fbef9cf41a",
+                "name": "Fried Egg",
+                "description": "Simple, but delicious fried egg.",
+                "display_price": "",
+                "master_category_id": 5,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224103.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224103.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224103.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074170,
+                    "code": "63ac391a-85dd-4549-8f28-e741f2defbda",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 60,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074171,
+                    "code": "12afc7fd-90a9-437e-aaeb-b92548cff91a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 60,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604130"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451278,
+            "code": "a375a1bc-ce0a-4f63-af3e-a03c1158c389",
+            "name": "Begun bhaja",
+            "description": "",
+            "products": [
+              {
+                "id": 9224104,
+                "code": "794c6243-af51-4a1c-adb8-de444edb3314",
+                "name": "Begun Bhaja",
+                "description": "Soft spicy delicious ",
+                "display_price": "",
+                "master_category_id": 5,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224104.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224104.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224104.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074172,
+                    "code": "dc0777ea-9a37-49f7-ab43-d62087aa6abc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 55,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604129"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9224108,
+                "code": "5f3bae57-e667-4711-a3ea-bf6c2cf11a9d",
+                "name": "Begun Bhaja",
+                "description": "Soft spicy delicious ",
+                "display_price": "",
+                "master_category_id": 5,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224108.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224108.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224108.jpg",
+                    "tags": {
+                      "hm": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 10074179,
+                    "code": "bbec0e6a-a368-42b0-a541-1428b470272f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Reguler",
+                    "price": 55,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074180,
+                    "code": "d0e5622e-9cf1-4535-8c11-48187d85a2f5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 55,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1758098147"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451279,
+            "code": "0677de53-2f71-4278-ad78-eec7debed942",
+            "name": "Coke",
+            "description": "",
+            "products": [
+              {
+                "id": 9224105,
+                "code": "e153a7d6-733d-437e-b479-109cca409e20",
+                "name": "Coke zero cale/ Regular ",
+                "description": "Soft drink ",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224105.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224105.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224105.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10074173,
+                    "code": "aeafc999-02f8-4700-9992-9ef37a39ac6c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "250ml",
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074174,
+                    "code": "0b40f029-d4ab-489b-b7a4-24685609adac",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "250ml",
+                    "price": 50,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604130"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451280,
+            "code": "045f8849-9e0a-460a-b971-d5b6c0067e31",
+            "name": "Kunafa Shemai",
+            "description": "",
+            "products": [
+              {
+                "id": 9224106,
+                "code": "b5724994-8990-4031-830e-5ff8cf354e5d",
+                "name": "Kunafa Shemai",
+                "description": "Delicious homemade Kunafa Shemai.",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224106.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224106.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224106.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10074175,
+                    "code": "5e31054b-24a6-4175-856c-0d1dad1ca467",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074176,
+                    "code": "df834e61-53a7-4863-aec0-5c07448266b8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Regular ",
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604131"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2451281,
+            "code": "cdfe9dd3-bda3-4cae-b7c0-d3bdecac2a65",
+            "name": "Water ",
+            "description": "",
+            "products": [
+              {
+                "id": 9224107,
+                "code": "c2fb0810-e523-443d-ad0c-4fc37639341d",
+                "name": "Water",
+                "description": "Fresh drinking water.",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224107.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9224107.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9224107.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10074177,
+                    "code": "1278b4db-87be-4631-9d8e-06a3a04ede4c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500ml",
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10074178,
+                    "code": "32d2aa07-3519-4f79-9a31-6e1ea9f2a1bc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "500ml",
+                    "price": 25,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1757604130"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {}
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": false,
+      "is_pickup_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": "2026-05-26T12:00:00+0600"
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

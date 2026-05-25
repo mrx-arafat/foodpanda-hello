@@ -163,9 +163,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.83
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.78
   },
   {
     "id": 67789,
@@ -208,7 +207,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.135,
+    "distance": 2.682,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/y3te-listing.jpg",
@@ -224,42 +223,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 86.0,
+    "original_delivery_fee": 132.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 65.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 80
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shawarma Damasco - Banani",
@@ -348,9 +330,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.69
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.46
   },
   {
     "id": 76299,
@@ -393,7 +374,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.245,
+    "distance": 2.271,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/y4bv-listing.jpg",
@@ -409,42 +390,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_5",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 60.0,
+    "original_delivery_fee": 94.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shawarma Damasco - Banasree",
@@ -533,9 +497,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mugda",
-    "_area": "Rampura",
-    "_area_distance_km": 1.14
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.89
   },
   {
     "id": 57219,
@@ -701,9 +664,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.41
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 6.7
   },
   {
     "id": 77649,
@@ -746,7 +708,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.591,
+    "distance": 2.796,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/acks-listing.jpg",
@@ -762,25 +724,23 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 45.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 55
-    },
+    "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shawarma Damasco - Dhanmondi",
@@ -827,7 +787,7 @@
         "main": true
       }
     },
-    "vendor_points": 6370,
+    "vendor_points": 6381,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -854,7 +814,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -869,9 +829,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.59
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.03
   },
   {
     "id": 58668,
@@ -914,7 +873,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.206,
+    "distance": 2.583,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vw6m-hero.jpg",
@@ -930,25 +889,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 42.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 65.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 55,
-      "upper_limit_in_minutes": 80
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shawarma Damasco - Khilgaon",
@@ -1037,9 +1013,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 1.21
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.78
   },
   {
     "id": 67278,
@@ -1193,9 +1168,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.43
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.18
   },
   {
     "id": 11313,
@@ -1238,7 +1212,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.611,
+    "distance": 1.329,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t7ug-listing.jpg",
@@ -1266,12 +1240,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 63.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 60.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 10.0,
@@ -1361,8 +1335,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.61
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.34
   }
 ]

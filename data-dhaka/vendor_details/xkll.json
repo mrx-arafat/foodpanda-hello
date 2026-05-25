@@ -1,0 +1,2128 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 116051,
+    "code": "xkll",
+    "accepts_instructions": true,
+    "address": "Ash Shafi Medical, House 57 road 10 block d Mirpur 12, 1216 Mirpur, Dhaka, Bangladesh",
+    "address_line2": "",
+    "budget": 2,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 9,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/xkll-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/xkll-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2026-04-10T20:12:39Z",
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.8262711,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.3760323,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 40,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Tamia's Hot Cake - Mirpur",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1216",
+    "primary_cuisine_id": 84,
+    "rating": 4.7,
+    "topic_ratings": null,
+    "review_number": 25,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "11:01",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "11:01",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "22:00"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Tamia's Hot Cake - Mirpur",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-02-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-28"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "tamias-hot-cake-mirpur",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Tamia's Hot Cake - Mirpur",
+      "address_line_1": "Ash Shafi Medical, House 57 road 10 block d Mirpur 12, 1216 Mirpur, Dhaka, Bangladesh"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/xkll/tamias-hot-cake-mirpur",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801619572896",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 258653,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2505893,
+            "code": "efe423f3-b0e1-42c0-a1e9-53ca2cc1b39b",
+            "name": "Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 9588390,
+                "code": "88225d53-f70c-4b39-a5d0-9789e9676217",
+                "name": "Vanilla Cake",
+                "description": "1 pound \n(We Don't write happy birthday /anniversary on cake, we write only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507821/903cfb96-da00-4d11-ab48-5f17069cfa75.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507821/903cfb96-da00-4d11-ab48-5f17069cfa75.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507821/903cfb96-da00-4d11-ab48-5f17069cfa75.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507821,
+                    "code": "d84eca1b-aeed-44df-b8e3-961ccbc1f901",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255607",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588391,
+                "code": "1bde540d-056e-4dc8-a2ed-9f51b275fbe9",
+                "name": "Chocolate Cake",
+                "description": "1 pound \n (We Don't write happy birthday /anniversary on cake,write Only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507822/c207ed73-2139-4421-9e48-2255d5f580dc.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507822/c207ed73-2139-4421-9e48-2255d5f580dc.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507822/c207ed73-2139-4421-9e48-2255d5f580dc.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507822,
+                    "code": "a7e1e05d-76e6-4ca3-97cf-083c5651b22b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255607",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588392,
+                "code": "88872728-9c4b-4a9b-8b45-f13f9aea1c19",
+                "name": "Orange Cake",
+                "description": "1 pound -(We Don't write happy birthday /anniversary on cake,write Only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507823/56551ed3-a6ce-4ba4-9537-36cb65205cf5.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507823/56551ed3-a6ce-4ba4-9537-36cb65205cf5.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507823/56551ed3-a6ce-4ba4-9537-36cb65205cf5.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507823,
+                    "code": "7e7409be-af1f-4e85-a0ad-e5537e2fa010",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255607"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9588393,
+                "code": "38dd915c-d462-4f27-a407-1f5de58f5f93",
+                "name": "Butterscotch Cake",
+                "description": "1 pound - \n (We Don't write happy birthday /anniversary on cake,write Only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507824/86dee208-8ea2-48ea-a9b2-f9087c6cb736.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507824/86dee208-8ea2-48ea-a9b2-f9087c6cb736.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507824/86dee208-8ea2-48ea-a9b2-f9087c6cb736.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507824,
+                    "code": "ada1798b-446a-4cfa-9c06-bc31baf0c15e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 700,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255607"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588394,
+                "code": "4ed1ebc0-7016-4d43-b8f0-685999842ad0",
+                "name": "Red Velvet Cheese Cake",
+                "description": "1 pound\n (We Don't write happy birthday /anniversary on cake,write Only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507825/2161f75e-e43d-43c6-9dcb-039dc0e759c1.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507825/2161f75e-e43d-43c6-9dcb-039dc0e759c1.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507825/2161f75e-e43d-43c6-9dcb-039dc0e759c1.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507825,
+                    "code": "81953eeb-32b3-4134-8c1c-3a150f0d649f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 800,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588395,
+                "code": "96a4b66f-0145-41db-a221-53992daded9e",
+                "name": "Strawberry Cake",
+                "description": "1 pound (We Don't write happy birthday /anniversary on cake,write Only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507826/5544174a-7ec3-4fda-bf97-645e97b33268.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507826/5544174a-7ec3-4fda-bf97-645e97b33268.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507826/5544174a-7ec3-4fda-bf97-645e97b33268.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507826,
+                    "code": "e60c2861-96dd-4871-a8e1-f19533c20945",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 550,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1778502098"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9588396,
+                "code": "6f67cf7a-8a44-44fd-88ac-58b3679284e2",
+                "name": "Blueberry Vanilla Cloud Cake",
+                "description": "1 pound (We Don't write happy birthday /anniversary on cake,write Only sweet notes)",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507827/d8d0629e-2d3c-4912-85b3-b516ae3602c4.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507827/d8d0629e-2d3c-4912-85b3-b516ae3602c4.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507827/d8d0629e-2d3c-4912-85b3-b516ae3602c4.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507827,
+                    "code": "7f2efa6e-750d-4331-bae4-3d71a4fe7c49",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 800,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1778502113"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2505894,
+            "code": "15416e93-8031-472c-a0f5-1ed350e25e8a",
+            "name": "Cake Slice",
+            "description": "",
+            "products": [
+              {
+                "id": 9588397,
+                "code": "b261338b-1166-4e6e-8ffe-7d52859db66f",
+                "name": "Vanilla Cake",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507828/7759f266-3a6e-4b73-8c1b-765f355d9592.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507828/7759f266-3a6e-4b73-8c1b-765f355d9592.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507828/7759f266-3a6e-4b73-8c1b-765f355d9592.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507828,
+                    "code": "942afd35-c07f-45a5-b435-4cb0839df51c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255609"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588398,
+                "code": "a59bad71-2a40-4638-ba73-b61180b2ad37",
+                "name": "Chocolate Cake",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507829/70c61fb0-51a2-405f-b623-158ba9b59be4.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507829/70c61fb0-51a2-405f-b623-158ba9b59be4.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507829/70c61fb0-51a2-405f-b623-158ba9b59be4.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507829,
+                    "code": "fa116d4e-e7e0-4cd7-97f1-3b898a7a632d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255609"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2505895,
+            "code": "64228e3c-48b5-4687-8486-851c42821ca6",
+            "name": "Mini Tub Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 9588404,
+                "code": "f8f86cd4-ee6a-4dc3-b380-652c1e74874e",
+                "name": "Choco Fantasy Tub Cake",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507835/964564b4-9e27-460b-a51f-1d2f78ef93d8.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507835/964564b4-9e27-460b-a51f-1d2f78ef93d8.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507835/964564b4-9e27-460b-a51f-1d2f78ef93d8.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507835,
+                    "code": "ef0d8537-e055-4172-b05b-d1c8508a461c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772256566",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588405,
+                "code": "a3cebd93-2728-4be6-be53-ddc5d7d3a4b8",
+                "name": "Berry Blush Tub Cake",
+                "description": "250 gm - A delicious dessert prepared with berry, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507836/f9d7a178-c9d8-4ea3-8ea6-b362ad981599.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507836/f9d7a178-c9d8-4ea3-8ea6-b362ad981599.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507836/f9d7a178-c9d8-4ea3-8ea6-b362ad981599.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507836,
+                    "code": "e4b774f5-153b-4556-ad39-cd2466cc24ee",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588406,
+                "code": "0d38a5da-df5b-4a4d-bddc-2f2074e98921",
+                "name": "Vanilla Tub Cake",
+                "description": "250 gm - A delicious dessert prepared with vanilla, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9588406.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9588406.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9588406.jpg",
+                    "tags": {
+                      "hm": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507837,
+                    "code": "639f6891-d8ee-4bfe-bce1-fcb18d29ffd1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772255608"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588407,
+                "code": "f640405b-4616-401e-b254-15177eb17b80",
+                "name": "Mango Mania Tub Cake",
+                "description": "250 gm - A delicious dessert prepared with mango, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507838/a604f19f-a928-44cd-92e3-ad80e9f96eca.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507838/a604f19f-a928-44cd-92e3-ad80e9f96eca.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507838/a604f19f-a928-44cd-92e3-ad80e9f96eca.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507838,
+                    "code": "ead41713-cf21-46bf-bd1e-bec00f094e3e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588408,
+                "code": "6b834d36-671c-4f65-8153-51ab94bb8ef7",
+                "name": "Red Cheesy Tub Cake",
+                "description": "250 gm - A delicious dessert prepared with cheese, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507839/9edb6589-5692-4cb9-9bca-6463041491cd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507839/9edb6589-5692-4cb9-9bca-6463041491cd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507839/9edb6589-5692-4cb9-9bca-6463041491cd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507839,
+                    "code": "0a058ff2-29cc-440a-b9be-748a4186db45",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588409,
+                "code": "e20e6e96-4942-49be-8dfe-d80256a33271",
+                "name": "Tangy Blueberry Tub Cake",
+                "description": "250 gm - A delicious dessert prepared with blueberry, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507840/0bb06576-0d2a-43b5-9f32-7a49351b7f81.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507840/0bb06576-0d2a-43b5-9f32-7a49351b7f81.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507840/0bb06576-0d2a-43b5-9f32-7a49351b7f81.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507840,
+                    "code": "ee42bed4-0ef9-41cd-8cb3-701926f10470",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588410,
+                "code": "5d89965f-53b8-4b55-9587-89580a85a20a",
+                "name": "Butterscotch Tub Cake",
+                "description": "250 gm - A delicious dessert prepared with butterscotch, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507841/5764e9fc-0693-4ca5-9bcc-5f23a56cf27d.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507841/5764e9fc-0693-4ca5-9bcc-5f23a56cf27d.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507841/5764e9fc-0693-4ca5-9bcc-5f23a56cf27d.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507841,
+                    "code": "6576bad7-d7da-4ba2-be5a-c8b587d6e1ed",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 230,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2505897,
+            "code": "af7f2359-7f4a-4905-a72d-b6c53b81f896",
+            "name": "Mini Jar Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 9588411,
+                "code": "a7ac2189-29c8-483a-8c3e-2ed3402e13f9",
+                "name": "Choco Fantasy Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with chocolate, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507842/4f72234f-96ee-4602-8949-3dd3e0088069.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507842/4f72234f-96ee-4602-8949-3dd3e0088069.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507842/4f72234f-96ee-4602-8949-3dd3e0088069.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507842,
+                    "code": "1edf45ed-01ad-4321-904a-b1134fd7c7c1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772256566"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9588412,
+                "code": "bfadd6d4-0bd8-4b2a-aab3-6c9b8a2e3955",
+                "name": "Berry Blush Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with berry, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507843/a6569093-f86e-43ec-890d-0fe75c2a50fd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507843/a6569093-f86e-43ec-890d-0fe75c2a50fd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507843/a6569093-f86e-43ec-890d-0fe75c2a50fd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507843,
+                    "code": "78373408-9d67-4d18-9857-8e84e48f1516",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588413,
+                "code": "1a81930a-38ee-415b-82fa-935eeb71f700",
+                "name": "Classic Vanilla Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with vanilla, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507844/cc398508-fc60-468c-a6f6-7cbc79f0c54a.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507844/cc398508-fc60-468c-a6f6-7cbc79f0c54a.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507844/cc398508-fc60-468c-a6f6-7cbc79f0c54a.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507844,
+                    "code": "59179e20-4e9e-46cc-af20-56eee8c8e979",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1772256565"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588414,
+                "code": "9716b462-ef9b-4976-827f-d0145314cd13",
+                "name": "Mango Mania Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with mango, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507845/ff117590-352f-45d4-8e4d-54814ed64b18.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507845/ff117590-352f-45d4-8e4d-54814ed64b18.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507845/ff117590-352f-45d4-8e4d-54814ed64b18.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507845,
+                    "code": "6da003d8-42ab-4919-902d-6e9f92b1e3c6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 100,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588415,
+                "code": "82fa9b36-696e-41ba-93c0-2b173b48f350",
+                "name": "Red Cheesy Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with cheese, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507846/965661fa-827c-4796-8380-908db1d185a5.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507846/965661fa-827c-4796-8380-908db1d185a5.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507846/965661fa-827c-4796-8380-908db1d185a5.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507846,
+                    "code": "6749982e-b14a-4190-9a13-678e6161a7c9",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588416,
+                "code": "f8ccc77a-809f-4e0d-8fa2-ca4e1d863e2d",
+                "name": "Tangy Blueberry Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with blueberry, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507847/1e7d9a52-1931-44ff-9676-77ec173b96d4.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507847/1e7d9a52-1931-44ff-9676-77ec173b96d4.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507847/1e7d9a52-1931-44ff-9676-77ec173b96d4.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507847,
+                    "code": "2cb7fad3-1693-4f84-be21-097e0ac9eac0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588417,
+                "code": "97b0172d-9c96-4cda-a64b-5d947df28c00",
+                "name": "Butterscotch Jar Cake",
+                "description": "150 gm - A delicious dessert prepared with butterscotch, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9588417.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9588417.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9588417.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507848,
+                    "code": "781b740c-8b00-4d68-a363-9983c92998a5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 120,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1778502098",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2505898,
+            "code": "82eb6b00-d220-463c-ae35-7efb6cae11a9",
+            "name": "Pookie Cake",
+            "description": "",
+            "products": [
+              {
+                "id": 9588418,
+                "code": "bc32a0ec-b0a7-426a-874e-0812874de862",
+                "name": "Chocolate Pookie Cake",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507849/63e8458c-6560-4ff1-968c-8a4107734225.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507849/63e8458c-6560-4ff1-968c-8a4107734225.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507849/63e8458c-6560-4ff1-968c-8a4107734225.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507849,
+                    "code": "fbab71ff-b66a-4f55-9e76-14461edcd6aa",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588419,
+                "code": "f3ef5003-6162-4766-a0f0-2f36df6a6ffd",
+                "name": "Vanilla Pookie Cake",
+                "description": "1:1 - A delicious cake prepared with vanilla, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507850,
+                    "code": "40665644-6d0f-4d88-99a9-a58d64e60319",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588420,
+                "code": "5fa15e1e-6dac-411a-b76b-aa247192b29b",
+                "name": "Red Velvet Pookie Cake",
+                "description": "1:1 - A delicious cake prepared with red velvet, flour, sugar & egg",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507851,
+                    "code": "3ed27954-96c9-4d7b-9607-d3e503d381a7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2505900,
+            "code": "2ebdd0d3-1d7f-4636-a69d-097a94a47783",
+            "name": "Cake Sickles",
+            "description": "",
+            "products": [
+              {
+                "id": 9588421,
+                "code": "25a2d311-d715-4f13-9bf2-badc3a63daad",
+                "name": "Chocolate Cake Sickle",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507852/73610ae0-28c7-4f07-8dee-c9f31c65fce9.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507852/73610ae0-28c7-4f07-8dee-c9f31c65fce9.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507852/73610ae0-28c7-4f07-8dee-c9f31c65fce9.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507852,
+                    "code": "37d049d5-4685-4d0b-b11b-9e420dc06aef",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9588422,
+                "code": "ec5154e4-4bb7-4253-9d32-f87937cb3ffb",
+                "name": "Vanilla Cake Sickle",
+                "description": "",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507853/e2b66c1e-66fc-4606-91fe-1c2462a67cfd.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507853/e2b66c1e-66fc-4606-91fe-1c2462a67cfd.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/xkll/product/10507853/e2b66c1e-66fc-4606-91fe-1c2462a67cfd.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10507853,
+                    "code": "5ac4fc22-d5e2-4c76-a9d7-df5bcc41a507",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9588404,
+                9588391,
+                9588390,
+                9588417
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

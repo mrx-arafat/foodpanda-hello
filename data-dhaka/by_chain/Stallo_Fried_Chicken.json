@@ -46,13 +46,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.883,
+    "distance": 1.629,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vtt6-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/vtt6-listing.jpg",
     "is_new_until": "2025-10-11T06:34:31Z",
-    "premium_position": 0,
+    "premium_position": 1,
     "latitude": 23.7644175,
     "logo": "",
     "longitude": 90.4328366,
@@ -62,42 +62,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_37",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 28.0,
+    "original_delivery_fee": 89.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 65.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Stallo Fried Chicken - Aftabnagar",
@@ -111,8 +94,12 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "Up to 27% off",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "Up to 27% off",
@@ -186,7 +173,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -199,12 +186,13 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "SDfeSTm1nni9rH1JmgfTjhxqDPdBfp/7+1+2AQU0xAcvZSp0tpEGcnwGUJ3YQsFZGy2CHEW01CU4325EF11xdxPZfck1mah31uHedhDKjPmGsgVNjqE9KOkf/onskttZ6xCM+tPFFqXIlviG8emYeA1eHHDyPKvqJUvR3IiE9/Eqp4q7hZu8MI4AEnFUG15XHIZuhwSEOWbWPvYAk5J+qMQqlFm76N851Z9etcn1civZ1epbeA37c9Ny9vHXL0ba3ifWmkHlRwNBrKcM5DY=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "Rampura",
-    "_area_distance_km": 0.88
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.82
   },
   {
     "id": 83661,
@@ -235,7 +223,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.235,
+    "distance": 2.45,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ydyt-listing.jpg",
@@ -251,42 +239,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_5",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 60.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Stallo Fried Chicken - Banasree",
@@ -373,9 +344,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 1.14
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.95
   },
   {
     "id": 103362,
@@ -424,13 +394,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.023,
+    "distance": 2.764,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/h4jk-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/h4jk-listing.jpg",
     "is_new_until": "2026-02-06T09:45:24Z",
-    "premium_position": 7,
+    "premium_position": 0,
     "latitude": 23.7408442,
     "logo": "",
     "longitude": 90.43443855,
@@ -440,25 +410,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 55.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 70
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Stallo Fried Chicken - Basabo",
@@ -472,12 +459,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "Up to 27% off",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "Up to 27% off",
@@ -551,7 +534,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -564,14 +547,11 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "q8S728WJs2R13AHR6yBJ4iqnNcDp/9zJaIIxt3EAB9+cBxFBppVaiUbVTZrKO6Xb1t3RO7aMCyzsnu5y4/8rQDshxRqt5nyTBVM6fT42WT//mBh3sRfigupl0+h48t5f134uoDuJsA7Am7sTf8kWNxoGFD7M76cO/3DvWVSNeINIxoTcfk0h95YdNPg/x6CcujrMHB1z8Ev0QbJY9ZEH7JYqvFZZdprKe67N+I8d10O5L28Siy0qXviKb6sAyqh65tEwblAwwhDNQIEmYfY=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Mugda",
-    "_area_distance_km": 0.37
+    "_area": "Motijheel",
+    "_area_distance_km": 1.98
   },
   {
     "id": 98962,
@@ -620,7 +600,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.397,
+    "distance": 2.673,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/zola-listing.jpg",
@@ -669,7 +649,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 105.0,
+    "original_delivery_fee": 110.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
@@ -780,9 +760,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Lalmatia",
-    "_area_distance_km": 2.16
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 5.13
   },
   {
     "id": 74996,
@@ -976,9 +955,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.48
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 8.39
   },
   {
     "id": 74347,
@@ -1027,7 +1005,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.053,
+    "distance": 2.184,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/baft-listing.jpg",
@@ -1049,7 +1027,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_5",
+          "id": "bd_62",
           "name": "",
           "messages": [
             ""
@@ -1076,7 +1054,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 60.0,
+    "original_delivery_fee": 94.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -1187,8 +1165,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Tejgaon",
-    "_area_distance_km": 1.91
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.45
   }
 ]

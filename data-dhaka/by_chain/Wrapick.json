@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.37,
+    "distance": 3.848,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/z0y9-listing.jpg",
@@ -76,7 +76,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 50.0,
+    "original_delivery_fee": 92.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -141,7 +141,7 @@
         "main": true
       }
     },
-    "vendor_points": 5938,
+    "vendor_points": 5941,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -188,9 +188,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.37
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.49
   },
   {
     "id": 77828,
@@ -239,7 +238,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.643,
+    "distance": 1.024,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/oyjb-listing.jpg",
@@ -256,10 +255,29 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [
-        "Unreachable"
+        "event"
       ],
       "available_in": null,
-      "events": [],
+      "events": [
+        {
+          "id": "bd_40",
+          "name": "",
+          "messages": [
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -269,7 +287,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 34.0,
+    "original_delivery_fee": 70.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -278,9 +296,9 @@
     "payment_types": [],
     "post_code": "1229",
     "primary_cuisine_id": 121,
-    "rating": 4.1,
+    "rating": 4.2,
     "redirection_url": "https://foodpanda.com.bd/restaurant/oyjb/wrapick-bashundhara",
-    "review_number": 71,
+    "review_number": 67,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -334,7 +352,7 @@
         "main": true
       }
     },
-    "vendor_points": 5694,
+    "vendor_points": 5706,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -381,9 +399,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.64
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 6.94
   },
   {
     "id": 79661,
@@ -432,7 +449,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.157,
+    "distance": 1.764,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/l2wo-listing.jpg",
@@ -460,7 +477,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 40.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -572,8 +589,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.16
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.31
   }
 ]

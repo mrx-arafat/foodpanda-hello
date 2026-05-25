@@ -34,7 +34,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.738,
+    "distance": 3.03,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/m9to-listing.jpg",
@@ -62,12 +62,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 117.0,
+    "original_delivery_fee": 90.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 60.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -151,9 +151,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 3.74
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 11.41
   },
   {
     "id": 94774,
@@ -190,7 +189,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.054,
+    "distance": 2.582,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/i9tr-listing.jpg",
@@ -206,42 +205,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 86.0,
+    "original_delivery_fee": 132.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "KOI Thé Banani",
@@ -324,9 +306,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.48
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.59
   },
   {
     "id": 78373,
@@ -363,7 +344,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.835,
+    "distance": 2.251,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/tkhd-listing.jpg",
@@ -383,26 +364,7 @@
         "event"
       ],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_18",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
+      "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -412,7 +374,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 91.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
@@ -423,7 +385,7 @@
     "primary_cuisine_id": 90,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/tkhd/koi-the-dhanmondi",
-    "review_number": 257,
+    "review_number": 255,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -455,7 +417,7 @@
         "main": true
       }
     },
-    "vendor_points": 6086,
+    "vendor_points": 6085,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -497,9 +459,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.5
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.3
   },
   {
     "id": 78357,
@@ -536,7 +497,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.112,
+    "distance": 1.44,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/askx-listing.jpg",
@@ -564,7 +525,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 54.0,
+    "original_delivery_fee": 98.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
@@ -653,9 +614,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 1.06
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.52
   },
   {
     "id": 78398,
@@ -692,7 +652,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.516,
+    "distance": 0.912,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ppms-listing.jpg",
@@ -720,12 +680,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 50.0,
+    "original_delivery_fee": 32.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 50.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -809,8 +769,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.52
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.86
   }
 ]

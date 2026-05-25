@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.539,
+    "distance": 2.905,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/od0i-listing.jpg",
@@ -57,7 +57,7 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [
-        "event"
+        "Unreachable"
       ],
       "available_in": null,
       "events": [],
@@ -70,7 +70,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 76.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -161,9 +161,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 0.54
+    "_area": "Motijheel",
+    "_area_distance_km": 1.33
   },
   {
     "id": 76857,
@@ -206,7 +205,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.886,
+    "distance": 0.538,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ep4m-listing.jpg",
@@ -228,15 +227,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_94",
+          "id": "bd_46",
           "name": "",
           "messages": [
-            ""
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
           ],
           "actions": [
             {
               "type": "message",
-              "message": ""
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
             },
             {
               "type": "close",
@@ -255,7 +254,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 47.0,
+    "original_delivery_fee": 29.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -346,7 +345,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
     "_area": "Motijheel",
     "_area_distance_km": 0.89
   }

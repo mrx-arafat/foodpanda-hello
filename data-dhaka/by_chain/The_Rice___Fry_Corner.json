@@ -52,13 +52,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.372,
+    "distance": 2.736,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/brj1-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/brj1-listing.jpg",
     "is_new_until": "2026-02-27T11:40:01Z",
-    "premium_position": 0,
+    "premium_position": 3,
     "latitude": 23.7532232,
     "logo": "",
     "longitude": 90.3776673,
@@ -80,12 +80,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 114.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 75.0,
+    "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 65,
-      "upper_limit_in_minutes": 90
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -100,8 +100,12 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "15% off Tk. 50",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "15% off Tk. 50",
@@ -155,7 +159,7 @@
         "main": true
       }
     },
-    "vendor_points": 10901,
+    "vendor_points": 10898,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -186,7 +190,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -199,11 +203,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "gMamPc8LjdhbpE8AceeivCa9RarXtb1uhQPGeyJeEP2xCYxVlP6kxTnGYRdyUfidEuHpTdyRwEmZszKWvnqJa9ljoRCsDnwg+cCe4/MtGdHOJvLhSYW06eJAazx0vefxKIylWSwqbH1A9rbKTqaGe8/NWBq3A0NRkTHSicpKDWR7MVF6JGWs7Vw4bJ7SJxv6MMVHSXwynzJ03Ahw4Q/qCaVkGoCrhpuuPW9Qi1rREwgqM22/vF9p2j0LFxy4jltagxf6CtFaSRmJ4nV5we/f",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.82
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.3
   }
 ]

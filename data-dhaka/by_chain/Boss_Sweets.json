@@ -1,5 +1,172 @@
 [
   {
+    "id": 3183,
+    "code": "s3lx",
+    "accepts_instructions": true,
+    "address": "House No. 2, Property Orchid, Baily Road, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cp7ex",
+      "name": "Boss Sweets",
+      "main_vendor_code": "s3lx",
+      "url_key": "boss-sweets"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 249,
+        "name": "Sweets",
+        "url_key": "sweets",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.208,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s3lx-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s3lx-listing.jpg",
+    "is_new_until": "2018-11-13T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.74183645,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp7ex-logo.jpg",
+    "longitude": 90.4096007,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 34.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 20.0,
+    "name": "Boss Sweets - Baily Road",
+    "payment_types": [],
+    "post_code": "1217",
+    "primary_cuisine_id": 84,
+    "rating": 5.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s3lx/boss-sweets-baily-road",
+    "review_number": 1894,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "boss-sweets-baily-road",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 249,
+          "name": "Sweets",
+          "url_key": "sweets",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 5762,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s3lx/boss-sweets-baily-road",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Boss Sweets & Food Ltd",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801970032811",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.21
+  },
+  {
     "id": 3174,
     "code": "s1nf",
     "accepts_instructions": true,
@@ -163,9 +330,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.62
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.06
   },
   {
     "id": 3172,
@@ -208,7 +374,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.871,
+    "distance": 0.492,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s5tt-listing.jpg",
@@ -257,7 +423,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 91.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
@@ -348,9 +514,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.49
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.83
   },
   {
     "id": 3181,
@@ -393,7 +558,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.667,
+    "distance": 1.957,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s9yy-listing.jpg",
@@ -409,42 +574,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 68.0,
+    "original_delivery_fee": 116.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 20.0,
     "name": "Boss Sweets - Gulshan",
@@ -533,9 +681,192 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.88
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 5.04
+  },
+  {
+    "id": 3180,
+    "code": "s8ek",
+    "accepts_instructions": true,
+    "address": "House No. 48/1, Free School Street, Hatirpool Chowrasta, Hatirpool, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cp7ex",
+      "name": "Boss Sweets",
+      "main_vendor_code": "s3lx",
+      "url_key": "boss-sweets"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 249,
+        "name": "Sweets",
+        "url_key": "sweets",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.552,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s8ek-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s8ek-listing.jpg",
+    "is_new_until": "2018-11-13T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.741732,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp7ex-logo.jpg",
+    "longitude": 90.391735,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 103.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 20.0,
+    "name": "Boss Sweets - Hatirpool",
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 84,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s8ek/boss-sweets-hatirpool",
+    "review_number": 927,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "boss-sweets-hatirpool",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 249,
+          "name": "Sweets",
+          "url_key": "sweets",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 5055,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s8ek/boss-sweets-hatirpool",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Boss Sweets & Food Ltd",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801970032814",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 0.86
   },
   {
     "id": 79291,
@@ -701,9 +1032,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Banani",
-    "_area_distance_km": 1.95
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.7
   },
   {
     "id": 74794,
@@ -746,7 +1076,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.103,
+    "distance": 1.756,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/uh3z-listing.jpg",
@@ -762,42 +1092,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_5",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 89.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Boss Sweets - Khilgaon",
@@ -886,9 +1199,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 1.09
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 1.02
   },
   {
     "id": 6560,
@@ -931,7 +1243,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.558,
+    "distance": 3.094,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s8at-listing.jpg",
@@ -953,7 +1265,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_19",
+          "id": "bd_94",
           "name": "",
           "messages": [
             ""
@@ -980,7 +1292,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 90.0,
+    "original_delivery_fee": 123.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -1071,7 +1383,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
     "_area": "Wari",
     "_area_distance_km": 0.52
   },
@@ -1116,7 +1427,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.962,
+    "distance": 1.396,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s3ir-listing.jpg",
@@ -1138,7 +1449,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_94",
+          "id": "bd_62",
           "name": "",
           "messages": [
             ""
@@ -1165,7 +1476,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 47.0,
+    "original_delivery_fee": 67.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -1256,8 +1567,191 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
-    "_area": "Motijheel",
-    "_area_distance_km": 0.96
+    "_area": "Grid_23.73_90.41",
+    "_area_distance_km": 0.2
+  },
+  {
+    "id": 63449,
+    "code": "i3e3",
+    "accepts_instructions": true,
+    "address": "30/A Rankin Street, Wari ,Dhaka-1203",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cp7ex",
+      "name": "Boss Sweets",
+      "main_vendor_code": "s3lx",
+      "url_key": "boss-sweets"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 249,
+        "name": "Sweets",
+        "url_key": "sweets",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.17,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/i3e3-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/i3e3-listing.jpg",
+    "is_new_until": "2023-01-25T07:33:47Z",
+    "premium_position": 0,
+    "latitude": 23.719231,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp7ex-logo.jpg",
+    "longitude": 90.4163469,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 118.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Boss Sweets - Wari",
+    "payment_types": [],
+    "post_code": "1203",
+    "primary_cuisine_id": 84,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/i3e3/boss-sweets-wari",
+    "review_number": 250,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "boss-sweets-wari",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 249,
+          "name": "Sweets",
+          "url_key": "sweets",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4807,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/i3e3/boss-sweets-wari",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Boss Sweets - Wari",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801970032810",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Wari",
+    "_area_distance_km": 0.63
   }
 ]

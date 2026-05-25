@@ -163,9 +163,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Tejgaon",
-    "_area_distance_km": 1.07
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 0.96
   },
   {
     "id": 119437,
@@ -202,7 +201,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 4.215,
+    "distance": 3.766,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/j1w2-listing.jpg",
@@ -218,42 +217,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 129.0,
+    "original_delivery_fee": 142.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 25.0,
+    "minimum_delivery_time": 60.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 75
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Runcha - CTC",
@@ -346,9 +328,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Bashundhara",
-    "_area_distance_km": 3.23
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 7.19
   },
   {
     "id": 113829,
@@ -517,9 +498,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 1.42
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 7.75
   },
   {
     "id": 117913,
@@ -673,8 +653,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.42
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.25
   }
 ]

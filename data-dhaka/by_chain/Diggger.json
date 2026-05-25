@@ -58,13 +58,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.092,
+    "distance": 0.841,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/md3t-hero.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/md3t-listing.jpg",
     "is_new_until": "2024-09-27T10:08:45Z",
-    "premium_position": 9,
+    "premium_position": 6,
     "latitude": 23.7724396,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp1el-logo.jpg",
     "longitude": 90.4252757,
@@ -86,12 +86,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 54.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 65.0,
+    "minimum_delivery_time": 55.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 55,
-      "upper_limit_in_minutes": 80
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -211,13 +211,12 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "ozXJvd6BYY0pop/bpqCX1773qHFQ7eqU/dN6ezRa3Sl45FbalauRJcipTMz02+MI86lH+oYfIGu6odWwj0hSBA59G5zZCbyuowUtSxC47utQo+wOcSDNWvR4B9Vb/RgAN4LHiHY1FWk0I2Vb7/bqTUMmgGrV00znGdyyDbVKMCyIWv0cUodoUfa73TV1lgQ9dNFUxlNURdibo2SFeoeusS7WrHArf/CMLt0jo7d1NSxk1aWmBnSW15O4/kC7UqrcGHRNy0BBa8y99t1Dz60=",
+    "ncr_token": "OXuKxcjT02yHkDxyzlOhyagzP6nfQKfQlx3LuE07gm163efFtALtNL4zvKQ6dk+GcE3VrRIQ3SUqCSynlGxOItPBqPMjCdSu7RlTF9JwFFz0VAxxJr+BTh0mXCJ20A5Sn1Im6xGpscc5vKA/SdouWbtI6L2RR5dJ6fqaBMxwQ6cqHFjM8FApFjBg8vcVy35EQbQ3hHckruMb5zyt2XjUEzvTux4gpZKH10OnL93FyyPAcMZBjQuu3dmwok5HWXeuNeGlyzUVfuk7oXJZ0Bld",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Badda",
-    "_area_distance_km": 0.84
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.94
   },
   {
     "id": 45667,
@@ -278,7 +277,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.487,
+    "distance": 0.485,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/w227-listing.jpg",
@@ -294,42 +293,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_18",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 114.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
+    "minimum_delivery_time": 60.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Diggger - Dhanmondi",
@@ -446,9 +428,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.48
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.95
   },
   {
     "id": 67070,
@@ -503,7 +484,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.454,
+    "distance": 2.376,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/za2o-listing.jpg",
@@ -525,7 +506,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_19",
+          "id": "bd_62",
           "name": "",
           "messages": [
             ""
@@ -665,9 +646,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
-    "_area": "Old Dhaka",
-    "_area_distance_km": 2.45
+    "_area": "Grid_23.72_90.40",
+    "_area_distance_km": 1.06
   },
   {
     "id": 51684,
@@ -861,8 +841,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.49
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.5
   }
 ]

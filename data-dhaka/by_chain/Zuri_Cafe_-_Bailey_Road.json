@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.491,
+    "distance": 1.323,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/loxc-listing.jpg",
@@ -56,25 +56,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 52.0,
+    "original_delivery_fee": 60.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 65
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Zuri Cafe - Bailey Road",
@@ -163,9 +180,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Motijheel",
-    "_area_distance_km": 1.19
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.22
   },
   {
     "id": 111552,
@@ -331,8 +347,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.44
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.26
   }
 ]

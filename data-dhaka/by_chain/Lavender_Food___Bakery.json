@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.046,
+    "distance": 1.459,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/odqt-listing.jpg",
@@ -74,12 +74,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 96.0,
+    "original_delivery_fee": 69.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 65.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 55,
-      "upper_limit_in_minutes": 80
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -180,9 +180,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Badda",
-    "_area": "Banani",
-    "_area_distance_km": 0.69
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 5.01
   },
   {
     "id": 66818,
@@ -266,12 +265,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 41.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -374,9 +373,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Banani",
-    "_area_distance_km": 0.69
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 5.04
   },
   {
     "id": 66819,
@@ -419,7 +417,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.06,
+    "distance": 2.691,
     "food_characteristics": [
       {
         "id": 252,
@@ -442,25 +440,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 60.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 75
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Lavender Food & Bakery - Khilgaon",
@@ -556,8 +571,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
+    "_area": "Grid_23.75_90.41",
     "_area_distance_km": 1.06
   },
   {
@@ -601,7 +615,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.896,
+    "distance": 1.223,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/y90t-listing.jpg",
@@ -629,12 +643,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 50.0,
+    "original_delivery_fee": 98.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -724,8 +738,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.9
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.34
   }
 ]

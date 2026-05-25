@@ -34,7 +34,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.588,
+    "distance": 1.329,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mgmm-listing.jpg",
@@ -62,12 +62,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 65.0,
+    "original_delivery_fee": 60.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 55.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 70
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -161,9 +161,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Motijheel",
-    "_area_distance_km": 1.25
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.22
   },
   {
     "id": 65628,
@@ -234,11 +233,11 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 57.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
+      "lower_limit_in_minutes": 35,
       "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
@@ -343,9 +342,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Banani",
-    "_area": "Gulshan",
-    "_area_distance_km": 1.0
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.41
   },
   {
     "id": 70251,
@@ -400,7 +398,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.875,
+    "distance": 2.216,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/n2qc-listing.jpg",
@@ -416,25 +414,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 53.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Delifrance - Dhanmondi",
@@ -443,7 +458,7 @@
     "primary_cuisine_id": 90,
     "rating": 4.7,
     "redirection_url": "https://foodpanda.com.bd/restaurant/n2qc/delifrance-dhanmondi",
-    "review_number": 1580,
+    "review_number": 1578,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -503,7 +518,7 @@
         "main": true
       }
     },
-    "vendor_points": 6079,
+    "vendor_points": 6093,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -530,7 +545,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -545,9 +560,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": true,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.87
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.25
   },
   {
     "id": 72738,
@@ -596,7 +610,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.809,
+    "distance": 2.214,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vei7-listing.jpg",
@@ -612,40 +626,19 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_18",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
+      "close_reasons": [],
+      "available_in": "2026-05-25T07:00:00+0600",
+      "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 91.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -710,7 +703,7 @@
         "main": true
       }
     },
-    "vendor_points": 5959,
+    "vendor_points": 5968,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -737,7 +730,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -752,9 +745,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.37
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.09
   },
   {
     "id": 44519,
@@ -809,7 +801,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.994,
+    "distance": 2.534,
     "food_characteristics": [
       {
         "id": 252,
@@ -822,7 +814,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/biq9-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/biq9-listing.jpg",
     "is_new_until": "2021-08-24T00:00:00Z",
-    "premium_position": 6,
+    "premium_position": 0,
     "latitude": 23.78918155,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj8sk-logo.jpg",
     "longitude": 90.4165545,
@@ -844,12 +836,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 50.0,
+    "original_delivery_fee": 132.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -864,12 +856,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "NEXTGEN_SUPER_VENDOR",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "SUPER_VENDOR",
         "text": "NEXTGEN_SUPER_VENDOR"
@@ -951,7 +939,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -964,14 +952,11 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "9jvLxKHoLiphGVtzdZ+PlhpSGHv9v5wul09PJJypNlY/9tZdxzheZdQlIiboP6kOZcejvbnl3+1KxPgRSCXZDkmWTLPap2ZlFIAGP/TiJGyinwBetYMGErZBfXLUUURewHXYj1jfdey7Tsk7+AetU8UV9huvUBV2VEDRvysUO0twVkbe6gAtL9BLIWogKcR1Q1zaVE72qDtCfLXYlX+/uDguYZMWSezpkECcKiAaPH91ZW3GfCYRXKzwvpWcjsGi5qTp+XI0wi97n+evUo8=",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": true,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.99
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.41
   },
   {
     "id": 67664,
@@ -1026,13 +1011,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.684,
+    "distance": 2.07,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fr2i-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fr2i-listing.jpg",
     "is_new_until": "2023-11-07T05:47:31Z",
-    "premium_position": 4,
+    "premium_position": 0,
     "latitude": 23.7664707,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj8sk-logo.jpg",
     "longitude": 90.42191675,
@@ -1043,9 +1028,9 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": null,
+      "available_in": "2026-05-26T07:00:00+0600",
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -1054,13 +1039,9 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
-    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Delifrance - Rampura",
@@ -1074,12 +1055,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "Up to 16% off",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "Up to 16% off",
@@ -1133,7 +1110,7 @@
         "main": true
       }
     },
-    "vendor_points": 5576,
+    "vendor_points": 5529,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1159,7 +1136,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -1172,14 +1149,11 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "Nx0TqkesY5hjx7q14RJb0Ajs+RtRfnVJwUiqAkzz+YFyfPojD9NOfIpA21fwEOEQy6R+v6LSYmICGkj8eSWI5ZWR4cHJPXcqstKOmBtrg5Sk05aqSeTt3LV6MZBDDYQXsud3Lx9ZGWWATnPyA2VzSQt7nx909Tuf/ofniXaSdBDCOCQIOQPE/roDS5URyvoP15wHZsQfASJByPJ7F6Uwghvzje5sVhpMjyO9+KDrh5rFmIB8VJWCsHq/qJj3cotaDhGVBXaQUwHY87lEHQ==",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": true,
-    "_discovered_area": "Rampura",
-    "_area": "Rampura",
-    "_area_distance_km": 0.68
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.2
   },
   {
     "id": 73001,
@@ -1228,13 +1202,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.0,
+    "distance": 1.915,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/voss-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/voss-listing.jpg",
     "is_new_until": "2024-11-27T13:23:16Z",
-    "premium_position": 7,
+    "premium_position": 2,
     "latitude": 23.86937295,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj8sk-logo.jpg",
     "longitude": 90.38626725,
@@ -1256,12 +1230,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 34.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1369,12 +1343,195 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "xPaMhZcMDfneGPghgebURUf+JmbJIvoCZTyAeZrroioKdY8ulhiNWCcfLNKYAvn1sLsy2HKt9J/GdV5GeUvdR7GbAnkWFkyZmqAXE+XK+vYEHDRaUHrPiOg5rGiqpNzuQTiKHQQ/pXlhsoMXjPlduNjTSAux3pklU6S6P0nBga6vTJGYBHBkvmjfMhB7Gm5yaELxqaRyIuhwIr+g5gIVaf+XxkS4ac7ZFkRdohsZtzXwkvnjoDqg1bIazXyfeJU7rw/my0u3Jpgqj+yPfn49",
+    "ncr_token": "5t771RfQKed1+G13ei7av0vIqv4phaVHrpPNm4XlR78N04hcnoODQ1qD14qDkI/NOUfqiTBeXlfAK9y44vrKa3Blz82ogqYhZlG8kfjr1D8PDk8+CfoOqpmyn1/fN4qJ3J0pNKyJg+cZWJ2czmSy8Tfr/dqXzdLv8Tkc/eH2JK5xvRsVUPL21K1mvVrq6ynZqHL7e7E1bPc1lOTzSAbheeNfEszCfdQt9yuynAfQE6eyhU6X6RjDsrteVzlkFO/wClTVoEF9MMqPp+xTaOdE",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.0
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.35
+  },
+  {
+    "id": 76989,
+    "code": "m958",
+    "accepts_instructions": true,
+    "address": "Road no 2, Shimanto square, Meena Bazar - ground floor Dhanmondi, Dhaka 1205",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj8sk",
+      "name": "Delifrance Gulshan Avenue",
+      "main_vendor_code": "biq9",
+      "url_key": "delifrance-gulshan-avenue"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": true
+      },
+      {
+        "id": 71,
+        "name": "Sandwiches",
+        "url_key": "sandwiches",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.443,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/m958-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/m958-listing.jpg",
+    "is_new_until": "2025-07-31T12:20:03Z",
+    "premium_position": 0,
+    "latitude": 23.7379938,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj8sk-logo.jpg",
+    "longitude": 90.3774708,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 68.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Delifrance Express",
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 147,
+    "rating": 2.6,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/m958/delifrance-express",
+    "review_number": 9,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "delifrance-express",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": true
+        },
+        {
+          "id": 71,
+          "name": "Sandwiches",
+          "url_key": "sandwiches",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": true
+      }
+    },
+    "vendor_points": 0,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/m958/delifrance-express",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Delifrance Express",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801708494462",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.3
   }
 ]

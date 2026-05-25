@@ -1,0 +1,2029 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 105429,
+    "code": "ngzw",
+    "accepts_instructions": true,
+    "address": "S Bishil Rd",
+    "address_line2": "",
+    "budget": 3,
+    "deals": [
+      {
+        "id": 604154,
+        "code": "604154",
+        "offer_type": "percentage",
+        "type": "discount",
+        "voucher_type": "",
+        "minimum_order_value": 50,
+        "maximum_discount_amount": 100,
+        "value": 15,
+        "title": "15% off Tk. 50",
+        "description": "",
+        "start_date": "2026-05-01T00:00:00+06:00",
+        "end_date": "2026-05-31T00:00:00+06:00",
+        "is_pro": false,
+        "is_new_customer": false,
+        "seq_priority": 1000,
+        "additional_info": {
+          "should_override": [
+            "dps"
+          ],
+          "calculation": {
+            "baseOn": null
+          }
+        },
+        "tc": [
+          "Valid for a minimum order of Tk50",
+          "Discount capped at Tk100",
+          "Applicable for Delivery, Pick-Up.",
+          "Additional T&C can apply"
+        ],
+        "action": {
+          "type": "",
+          "name": "",
+          "description": ""
+        },
+        "source": "incentives",
+        "conditions": null,
+        "quantity": 0,
+        "used_quantity": 0,
+        "is_full_basket_applicable": true,
+        "construct_id": "",
+        "is_bogo": false
+      }
+    ],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 99,
+        "name": "Turkish",
+        "url_key": "turkish",
+        "main": false
+      },
+      {
+        "id": 113,
+        "name": "Middle Eastern",
+        "url_key": "middle-eastern",
+        "main": true
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 132,
+        "name": "Kebab",
+        "url_key": "kebab",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      },
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "23:59",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 15,
+        "discount_type": "percentage",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2026-05-31",
+        "file_name": "",
+        "id": 604154,
+        "maximum_discount_amount": 100,
+        "minimum_order_value": 50,
+        "name": "15% off Tk. 50",
+        "opening_time": "00:00",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-01",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "should_override": [
+            "dps"
+          ]
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 14,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ngzw-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ngzw-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2026-02-19T07:10:46Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": true,
+    "is_vat_included": false,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7946113,
+    "location": "",
+    "location_event": null,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ngzw-logo.jpg",
+    "longitude": 90.3532932,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 45,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Multani Dera - Mirpur",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 113,
+    "rating": 4.1,
+    "topic_ratings": null,
+    "review_number": 84,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "14:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "14:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Multani Dera - Mirpur",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-03-21",
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-21"
+      },
+      {
+        "date": "2026-03-21",
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-21"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "multani-dera-mirpur",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 99,
+          "name": "Turkish",
+          "url_key": "turkish",
+          "main": false
+        },
+        {
+          "id": 113,
+          "name": "Middle Eastern",
+          "url_key": "middle-eastern",
+          "main": true
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 132,
+          "name": "Kebab",
+          "url_key": "kebab",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 113,
+        "name": "Middle Eastern",
+        "url_key": "middle-eastern",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Multani Dera - Mirpur",
+      "address_line_1": "S Bishil Rd"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/ngzw/multani-dera-mirpur",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801339409393",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 256715,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2496896,
+            "code": "8f1e9817-ceae-410f-8a6b-8b7324929513",
+            "name": "Salad",
+            "description": "",
+            "products": [
+              {
+                "id": 9502456,
+                "code": "713e9a02-bb48-4e7c-a859-e59a83c3750d",
+                "name": "Mixed Salad",
+                "description": "1:1 - Healthy mixed fresh salad prepared with cucumber onion and other vegetables ",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407714/082f675d-8eb4-41e5-8d3b-f99e44b949c3.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407714/082f675d-8eb4-41e5-8d3b-f99e44b949c3.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407714/082f675d-8eb4-41e5-8d3b-f99e44b949c3.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407714,
+                    "code": "77610709-8ae7-43d2-8e00-42e8caa236aa",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 140,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115806"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2497333,
+            "code": "00358337-47fa-4990-bb84-2e9be120ce36",
+            "name": "Nehari",
+            "description": "",
+            "products": [
+              {
+                "id": 9580314,
+                "code": "11fd3827-b3cf-4cc0-9cd8-8db6032f4f77",
+                "name": "Gosht Nehari",
+                "description": "1:1 - Slow cooked nehari in a marrow rich gravy serves with 2 pcs of karail gosht",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10498139,
+                    "code": "d0b92800-7ae2-4b9e-98be-007b3ff88f46",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 370,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2496897,
+            "code": "20c2dd39-eb0f-454c-8244-5852ba37b5f5",
+            "name": "Snacks",
+            "description": "",
+            "products": [
+              {
+                "id": 9502470,
+                "code": "20fa4cda-e6fe-442d-87af-ec4c1534b1dc",
+                "name": "Puri Chaat",
+                "description": "4 pcs - Consists of crispy puris topped with tangy chutney & savoury in house chutneys",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407728/e55de142-9c45-452e-aaca-2e8c971850c2.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407728/e55de142-9c45-452e-aaca-2e8c971850c2.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407728/e55de142-9c45-452e-aaca-2e8c971850c2.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407728,
+                    "code": "8dd23328-6d30-4142-819a-884685189868",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 200,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 3,
+                  "TotalCount": 5,
+                  "Percentage": 60
+                }
+              },
+              {
+                "id": 9502471,
+                "code": "9125d2e8-f97f-42f7-9555-8cf78e25e755",
+                "name": "Samosa Chaat",
+                "description": "1:1 - Potato stuffed samosas smothered with tangy spicy and savoury in house chutneys ",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407729/2d95a9d0-17bd-4fa5-9d1e-906283e9836b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407729/2d95a9d0-17bd-4fa5-9d1e-906283e9836b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407729/2d95a9d0-17bd-4fa5-9d1e-906283e9836b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407729,
+                    "code": "4df0fd35-7bfb-4302-8761-d89c821f0fd5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 245,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2496899,
+            "code": "2be4fbc4-ec9d-4f57-b6b1-3ee287092fa0",
+            "name": "Kebab",
+            "description": "",
+            "products": [
+              {
+                "id": 9502478,
+                "code": "d9b9179e-1417-42ab-ae5b-47d23073cc82",
+                "name": "Beef Chapli Kebab",
+                "description": "2 pcs - crispy on the outside, soft inside, blend of spices mixed with minced beef",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407736/2471babd-ad7c-486b-9aee-f98c37c642d1.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407736/2471babd-ad7c-486b-9aee-f98c37c642d1.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407736/2471babd-ad7c-486b-9aee-f98c37c642d1.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407736,
+                    "code": "c40fa20d-1daa-463e-95b3-bfb5a801a1c4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 745,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115808",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2496900,
+            "code": "5a8b1e0c-54cb-418f-a1e2-a987f5bb4d16",
+            "name": "Curry",
+            "description": "",
+            "products": [
+              {
+                "id": 9502458,
+                "code": "bdf15bad-907f-48a9-95b7-833feb1ba9ca",
+                "name": "Chana Daal",
+                "description": "1:1 - Nutritious dish prepared with chana dal with savory seasoning",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407716/26b04553-47e9-4284-a2ed-5601795eb728.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407716/26b04553-47e9-4284-a2ed-5601795eb728.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407716/26b04553-47e9-4284-a2ed-5601795eb728.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407716,
+                    "code": "342428d3-828d-4c71-a676-ff4ce17874f5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 325,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115839"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502459,
+                "code": "3106dbc2-fd07-4535-90f5-da6f76e2396f",
+                "name": "Sabzi Curry",
+                "description": "1:1 - Healthy seasonal mixed vegetable prepared with mild spice & herb",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407717/a8be319b-972b-414b-b763-21ef7880441c.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407717/a8be319b-972b-414b-b763-21ef7880441c.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407717/a8be319b-972b-414b-b763-21ef7880441c.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407717,
+                    "code": "c3f3ed3c-9130-4fa4-9c08-6872b30ff578",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115838"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502460,
+                "code": "3fd8ab55-29cd-44a8-8d12-9649620283f2",
+                "name": "Chana Daal Gosht",
+                "description": "1:1 - Prepared with chana dal, tender meat, onion, garlic, ginger, aromatic spice & ghee",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407718/214f0b5a-8fe1-40e7-9456-f5e608088e6f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407718/214f0b5a-8fe1-40e7-9456-f5e608088e6f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407718/214f0b5a-8fe1-40e7-9456-f5e608088e6f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407718,
+                    "code": "e80b69c6-356c-4030-8c47-9703873218db",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 440,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115838"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502461,
+                "code": "df79b389-83a9-4b11-b183-09f2720933cb",
+                "name": "Daal Achari",
+                "description": "1:1 - Tangy flavored plain dal prepared with pickle spice & tempered herb",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407719/318b8a92-8028-4949-ad39-f7cd5f7e89a5.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407719/318b8a92-8028-4949-ad39-f7cd5f7e89a5.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407719/318b8a92-8028-4949-ad39-f7cd5f7e89a5.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407719,
+                    "code": "a63e56df-9683-4898-8db0-560830936f0e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 305,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115840"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502462,
+                "code": "a0c3575e-0f46-4131-9b9e-a97bdfe2d2fd",
+                "name": "Karahi Chicken",
+                "description": "1:1 - Prepared with 3 pcs chicken, tomato, green chili, ginger, garlic, karahi spice & ghee",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407720/7fde830d-d2a7-4931-ab79-6d1de9d687e8.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407720/7fde830d-d2a7-4931-ab79-6d1de9d687e8.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407720/7fde830d-d2a7-4931-ab79-6d1de9d687e8.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407720,
+                    "code": "959bbfb3-299b-4f85-9fbc-791d4ba812a8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115806",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502463,
+                "code": "de466186-9ca1-46e7-91d8-36148ec449d0",
+                "name": "Palak Mutton",
+                "description": "1:1 - Prepared with 3 pcs mutton, spinach, onion, garlic, ginger, aromatic spice & ghee",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407721/ce5e6c4a-f491-4bc6-8487-b5b4bc6ca921.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407721/ce5e6c4a-f491-4bc6-8487-b5b4bc6ca921.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407721/ce5e6c4a-f491-4bc6-8487-b5b4bc6ca921.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407721,
+                    "code": "5f751203-d6eb-4fa0-9e78-9989492852bd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1020,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502464,
+                "code": "ba33f401-c4b0-4938-9c51-40456d185c87",
+                "name": "Gosht Keema Mirch",
+                "description": "1:1 - Flavorful slightly spiced minced beef prepared with chili & aromatic spice",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407722/6372fd4c-8548-430a-9885-56442f1f5f6d.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407722/6372fd4c-8548-430a-9885-56442f1f5f6d.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407722/6372fd4c-8548-430a-9885-56442f1f5f6d.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407722,
+                    "code": "200ab1de-a05b-479e-8fda-350b171a18e2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 560,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502473,
+                "code": "f72f6ddc-db2c-438f-8d67-c644cd2fe949",
+                "name": "Nalli Nihari",
+                "description": "1:1 - slow cooked nihari in marrow rich gravy serves with a piece of nalli",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407731/c6567b57-90da-4ee9-a637-610ab8d49aab.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407731/c6567b57-90da-4ee9-a637-610ab8d49aab.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407731/c6567b57-90da-4ee9-a637-610ab8d49aab.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407731,
+                    "code": "059b093f-5387-4ad6-8df8-342bd968b7ba",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 370,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115840",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502474,
+                "code": "7d6919df-3f79-46e7-8d32-6d05ad12d119",
+                "name": "Multani Special Beef Nihari",
+                "description": "1:1 - Prepared with beef, bone marrow, onion, garlic, ginger, multani spices & slow-cooked gravy consisting a nalli and a karili gosht",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407732/25949574-7dd0-4760-ba8c-1fbc025a4e4e.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407732/25949574-7dd0-4760-ba8c-1fbc025a4e4e.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407732/25949574-7dd0-4760-ba8c-1fbc025a4e4e.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407732,
+                    "code": "5199b591-54a4-433a-a757-3ec1eb84d4fe",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 525,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115841",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2496901,
+            "code": "daf8fb6d-9b93-4eb9-9534-3935efc3acc6",
+            "name": "Rice",
+            "description": "",
+            "products": [
+              {
+                "id": 9502465,
+                "code": "056cdacd-fa11-42d0-b90e-d2c6ac2be141",
+                "name": "Chicken Biriyani",
+                "description": "1:2 - Prepared with basmati rice, 2 pcs quarter chicken and aromatic biryani spice and herbs",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407723/79bf572e-3f26-4727-a267-adaf7ec62c0b.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407723/79bf572e-3f26-4727-a267-adaf7ec62c0b.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407723/79bf572e-3f26-4727-a267-adaf7ec62c0b.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407723,
+                    "code": "ad155300-6f97-42c1-96b9-7fa63b3bde54",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 950,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115806",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502466,
+                "code": "fe21162a-2349-410b-9c58-f84a709c7cad",
+                "name": "Beef Multani Biriyani",
+                "description": "1:2 - Prepared with basmati rice, 350 gm beef, ghee & spice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407724/0b579bad-f0bb-4831-a0dd-9cff9f5433e9.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407724/0b579bad-f0bb-4831-a0dd-9cff9f5433e9.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407724/0b579bad-f0bb-4831-a0dd-9cff9f5433e9.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407724,
+                    "code": "c1357b8f-6bac-449b-b39f-4201a450852a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1110,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115839"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502467,
+                "code": "6d9329f8-b3f2-4f3e-862d-753eff6817eb",
+                "name": "Mutton Jafrani Biriyani",
+                "description": "1:2 - Prepared with basmati rice, 350 gm mutton, onion, saffron & spice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407725/b1bcb252-7206-4a70-bae8-8508a1da84ef.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407725/b1bcb252-7206-4a70-bae8-8508a1da84ef.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407725/b1bcb252-7206-4a70-bae8-8508a1da84ef.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407725,
+                    "code": "d975a4ed-0683-4cf0-a20d-53b897a2e038",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1295,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115839"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502468,
+                "code": "e02eee8c-c77f-4530-b203-54caf1e7eb14",
+                "name": "Plain Basmati Rice",
+                "description": "1:2 - Aromatic steamed long grain basmati rice prepared with light seasoning",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407726/b089464c-15f5-40e7-b33f-dfec58588afc.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407726/b089464c-15f5-40e7-b33f-dfec58588afc.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407726/b089464c-15f5-40e7-b33f-dfec58588afc.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407726,
+                    "code": "19d347df-86b8-4531-9ca6-58c0fcb9ca38",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 370,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115839"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502469,
+                "code": "3c677f2d-5d56-4983-ba7c-7c3bf72da679",
+                "name": "Jeera Butter Rice",
+                "description": "1:2 - Aromatic basmati rice prepared with cumin seed & creamy butter",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407727/6f8f6270-b955-4f49-8a71-7a2bd8c5e9b2.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407727/6f8f6270-b955-4f49-8a71-7a2bd8c5e9b2.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407727/6f8f6270-b955-4f49-8a71-7a2bd8c5e9b2.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407727,
+                    "code": "92294699-f33b-4c04-b40f-de1929525d2e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 475,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115839"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2496902,
+            "code": "c78e1dd4-1a70-4bc6-a8b6-d08b3ee7cdd3",
+            "name": "Dessert",
+            "description": "",
+            "products": [
+              {
+                "id": 9502481,
+                "code": "1c9304a3-08f5-47cd-832f-292dc46c059b",
+                "name": "Showan Halwa",
+                "description": "1:1 - Traditional sweet dessert prepared with flour, sugar, saffron, nuts & ghee",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407739/5aca1a38-f27b-482b-86cd-47001207562e.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407739/5aca1a38-f27b-482b-86cd-47001207562e.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407739/5aca1a38-f27b-482b-86cd-47001207562e.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407739,
+                    "code": "85a5e7b2-e9a8-4f59-8cce-089d31d51f28",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 210,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 4,
+                  "TotalCount": 6,
+                  "Percentage": 67
+                }
+              },
+              {
+                "id": 9502482,
+                "code": "fd83217d-8f3f-4acb-ae3c-0aa845ea3181",
+                "name": "Lab E Shireen",
+                "description": "1:1 - Creamy dessert prepared with milk fruit jelly & custard",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407740/5503e269-7bc1-47ca-aaf2-fc8cdc3be0f2.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407740/5503e269-7bc1-47ca-aaf2-fc8cdc3be0f2.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/10407740/5503e269-7bc1-47ca-aaf2-fc8cdc3be0f2.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407740,
+                    "code": "47ebd67f-2abf-4f09-942d-4b19f1141f14",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 290,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 4,
+                  "TotalCount": 4,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2496903,
+            "code": "184c0378-3732-4eff-98aa-ea5386f8b579",
+            "name": "Beverage",
+            "description": "",
+            "products": [
+              {
+                "id": 9502483,
+                "code": "757651cb-4e61-406e-bf37-ba27f7a64bf1",
+                "name": "Meethi Lassi",
+                "description": "Refreshing hand churned sweet lassi prepared with yogurt & sugar",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/9502483-parent/a3e5a792-91b6-4f4a-b1d3-3476a7dfefb6.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/9502483-parent/a3e5a792-91b6-4f4a-b1d3-3476a7dfefb6.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/9502483-parent/a3e5a792-91b6-4f4a-b1d3-3476a7dfefb6.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407741,
+                    "code": "2e03620c-e749-4092-aee0-577125f6772b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "400 ml",
+                    "price": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10407742,
+                    "code": "af4997aa-8916-43d7-9377-0d43876499ab",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "250 ml",
+                    "price": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9502484,
+                "code": "ee8ac4b9-a002-4856-bcb5-6d4a5293af76",
+                "name": "Namkeen Lassi",
+                "description": "Refreshing hand churned salty lassi prepared with yogurt & salt",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/9502484-parent/9552c1b2-6cf5-45b2-ae4d-478bb89318f7.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/9502484-parent/9552c1b2-6cf5-45b2-ae4d-478bb89318f7.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/ngzw/product/9502484-parent/9552c1b2-6cf5-45b2-ae4d-478bb89318f7.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10407743,
+                    "code": "6eecfbde-56e9-448f-8ca0-f974afa93799",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "400 ml",
+                    "price": 300,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10407744,
+                    "code": "765f9fbf-f469-4018-a654-8dfb100ed9a0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "250 ml",
+                    "price": 250,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1770115840"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9502473,
+                9502465,
+                9502464,
+                9502478,
+                9502474,
+                9502462
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

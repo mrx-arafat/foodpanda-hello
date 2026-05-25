@@ -1,6 +1,39 @@
 {
   "data": [
     {
+      "uuid": "7177cf1c-c7a8-4175-a423-452ca67d8b09",
+      "createdAt": "2026-05-25T04:34:10Z",
+      "updatedAt": "2026-05-25T04:34:10Z",
+      "text": "I didn’t get what I ordered ",
+      "isAnonymous": false,
+      "reviewerName": "Barun",
+      "reviewerId": "bdeuy2lv",
+      "ratings": [
+        {
+          "topic": "overall",
+          "score": 1
+        },
+        {
+          "topic": "restaurant_food",
+          "score": 1
+        },
+        {
+          "topic": "rider",
+          "score": 1
+        }
+      ],
+      "type": "user",
+      "replies": [],
+      "commentPrettyDate": {
+        "translationKey": "NEXTGEN_REVIEWS_TODAY",
+        "timeDuration": "0"
+      },
+      "likeCount": 0,
+      "isLiked": false,
+      "productVariations": [],
+      "topReviewerTranslationKey": ""
+    },
+    {
       "uuid": "6e1633cb-128f-42c6-b0b2-0261bd3334c0",
       "createdAt": "2026-05-24T15:06:06Z",
       "updatedAt": "2026-05-24T15:06:06Z",
@@ -21,8 +54,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_TODAY",
-        "timeDuration": "0"
+        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -50,8 +83,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_TODAY",
-        "timeDuration": "0"
+        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -79,8 +112,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_TODAY",
-        "timeDuration": "0"
+        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -128,7 +161,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "2"
+        "timeDuration": "3"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -198,7 +231,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "2"
+        "timeDuration": "3"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -250,7 +283,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "4"
+        "timeDuration": "5"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -279,7 +312,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "5"
+        "timeDuration": "6"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -308,7 +341,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "5"
+        "timeDuration": "6"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -337,7 +370,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "5"
+        "timeDuration": "6"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -369,8 +402,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "6"
+        "translationKey": "NEXTGEN_REVIEWS_1_WEEK_AGO",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -402,8 +435,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "6"
+        "translationKey": "NEXTGEN_REVIEWS_1_WEEK_AGO",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -472,8 +505,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "6"
+        "translationKey": "NEXTGEN_REVIEWS_1_WEEK_AGO",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -989,8 +1022,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_1_WEEK_AGO",
-        "timeDuration": "1"
+        "translationKey": "NEXTGEN_REVIEWS_X_WEEKS_AGO",
+        "timeDuration": "2"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -1069,7 +1102,7 @@
               "en_BD": "Kacha Kola Bhorta"
             },
             "description": "1:1 - Prepared with kacha kola bharta, green chillis & onions",
-            "active": false,
+            "active": true,
             "imageUrls": [
               "https://images.deliveryhero.io/image/fd-bd/Products/3957685.jpg"
             ]
@@ -1248,37 +1281,8 @@
         }
       ],
       "topReviewerTranslationKey": "NEXTGEN_KEY_REVIEWS_LABEL"
-    },
-    {
-      "uuid": "10cbaaad-0bc4-4a5b-8295-86185845fffb",
-      "createdAt": "2026-05-08T06:20:54Z",
-      "updatedAt": "2026-05-08T06:20:54Z",
-      "text": " মজা আছে ",
-      "isAnonymous": false,
-      "reviewerName": "Hafsa",
-      "reviewerId": "bdstk5ro",
-      "ratings": [
-        {
-          "topic": "overall",
-          "score": 4
-        },
-        {
-          "topic": "restaurant_food",
-          "score": 4
-        }
-      ],
-      "type": "user",
-      "replies": [],
-      "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_WEEKS_AGO",
-        "timeDuration": "2"
-      },
-      "likeCount": 0,
-      "isLiked": false,
-      "productVariations": [],
-      "topReviewerTranslationKey": ""
     }
   ],
-  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc3ODIyMTI1NCMxMGNiYWFhZC0wYmM0LTRhNWItODI5NS04NjE4NTg0NWZmZmIifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3o2aHoifX0%3D",
+  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc3ODI0NTE5NCMyMzQyMTA0YS1hMjVkLTQ5ZmEtODI0OS1hOGIwYjI2YTY5MGMifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3o2aHoifX0%3D",
   "heroImage": "https://images.deliveryhero.io/image/fd-bd/LH/z6hz-hero.jpg"
 }

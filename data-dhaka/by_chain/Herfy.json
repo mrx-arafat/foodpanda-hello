@@ -87,12 +87,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 41.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -206,9 +206,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Banani",
-    "_area_distance_km": 0.54
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.6
   },
   {
     "id": 73409,
@@ -251,7 +250,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.212,
+    "distance": 1.285,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cz0gg-listing.jpg",
@@ -267,42 +266,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_5",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 60.0,
+    "original_delivery_fee": 50.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Herfy - Banasree",
@@ -396,9 +378,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 1.14
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.94
   },
   {
     "id": 65112,
@@ -602,9 +583,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 1.76
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 8.43
   },
   {
     "id": 65118,
@@ -659,7 +639,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.365,
+    "distance": 2.204,
     "food_characteristics": [
       {
         "id": 252,
@@ -694,12 +674,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -709,7 +689,7 @@
     "primary_cuisine_id": 85,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/p66p/herfy-dhanmondi",
-    "review_number": 9095,
+    "review_number": 9086,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -766,7 +746,7 @@
         "main": true
       }
     },
-    "vendor_points": 7344,
+    "vendor_points": 7354,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -808,9 +788,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Lalmatia",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.36
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.03
   },
   {
     "id": 65199,
@@ -865,7 +844,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.753,
+    "distance": 1.093,
     "food_characteristics": [
       {
         "id": 252,
@@ -900,7 +879,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 43.0,
+    "original_delivery_fee": 76.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
@@ -1019,9 +998,235 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.75
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.79
+  },
+  {
+    "id": 68026,
+    "code": "w1oe",
+    "accepts_instructions": true,
+    "address": "House 380, Block B, Taltola, Khilgaon, Rampura, Dhaka 1219",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cz0gg",
+      "name": "Herfy",
+      "main_vendor_code": "sim3",
+      "url_key": "herfy"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.74,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cz0gg-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cz0gg-listing.jpg",
+    "is_new_until": "2023-12-02T07:29:58Z",
+    "premium_position": 0,
+    "latitude": 23.75223389,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cz0gg-logo.jpg",
+    "longitude": 90.42160408,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 108.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Herfy - Khilgaon",
+    "payment_types": [],
+    "post_code": "1219",
+    "primary_cuisine_id": 85,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/w1oe/herfy-khilgaon",
+    "review_number": 4169,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "herfy-khilgaon",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      }
+    },
+    "vendor_points": 6983,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/w1oe/herfy-khilgaon",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Herfy - Khilgaon",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801709990770",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 1.21
   },
   {
     "id": 77919,
@@ -1216,9 +1421,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 2.65
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 9.59
   },
   {
     "id": 73842,
@@ -1413,9 +1617,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.85
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.28
   },
   {
     "id": 65142,
@@ -1470,7 +1673,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.244,
+    "distance": 1.671,
     "food_characteristics": [
       {
         "id": 252,
@@ -1505,12 +1708,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1619,9 +1822,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.24
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.31
   },
   {
     "id": 128910,
@@ -1816,8 +2018,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.42
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.18
   }
 ]

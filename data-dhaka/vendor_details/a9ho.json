@@ -1,0 +1,1218 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 106446,
+    "code": "a9ho",
+    "accepts_instructions": true,
+    "address": "Basement 1, Ahmad & Kazi Tower, House 35, Road 02, Dhanmondi, Dhaka",
+    "address_line2": "",
+    "budget": 2,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 70
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:23",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:23",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 40,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/a9ho-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/a9ho-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2026-02-22T06:40:42Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7383992,
+    "location": "",
+    "location_event": null,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/a9ho-logo.jpg",
+    "longitude": 90.3781958,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 55,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Laham Express - Dhanmondi",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 86,
+    "rating": 4.7,
+    "topic_ratings": null,
+    "review_number": 31,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "21:45"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Laham Express - Dhanmondi",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-01-02",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-02"
+      },
+      {
+        "date": "2026-01-04",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-04"
+      },
+      {
+        "date": "2026-01-05",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-05"
+      },
+      {
+        "date": "2025-12-29",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-29"
+      },
+      {
+        "date": "2025-12-31",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-31"
+      },
+      {
+        "date": "2026-03-21",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-21"
+      },
+      {
+        "date": "2026-01-01",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-01"
+      },
+      {
+        "date": "2026-01-03",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-01-03"
+      },
+      {
+        "date": "2025-12-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-28"
+      },
+      {
+        "date": "2025-12-30",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-12-30"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "laham-express-dhanmondi",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Laham - Dhanmondi",
+      "address_line_1": "Basement 1, Ahmad & Kazi Tower, House 35, Road 02, Dhanmondi, Dhaka"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/a9ho/laham-express-dhanmondi",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 7048,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "https://images.deliveryhero.io/image/fd-bd/LH/cc8rv-listing.jpg",
+      "logo_image_url": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc8rv-logo.jpg",
+      "name": "Laham",
+      "url_key": "laham",
+      "code": "cc8rv"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801302318189",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 255199,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2485280,
+            "code": "0f2de935-c6b9-450f-888a-d30859bef392",
+            "name": "OG Rice Box",
+            "description": "",
+            "products": [
+              {
+                "id": 9432760,
+                "code": "b9431d9f-45f3-4f9e-90dd-acb37b2f3aa2",
+                "name": "Classic Chicken Ricebox",
+                "description": "Contains Halal Guys inspired spicy yellow rice with Juicy Grilled Chicken Strips topped with OG Laham Sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/10328011/d656c140-0d6a-483f-a73f-fa5ca0037f65.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/10328011/d656c140-0d6a-483f-a73f-fa5ca0037f65.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/10328011/d656c140-0d6a-483f-a73f-fa5ca0037f65.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328011,
+                    "code": "e1bca0db-9c8b-4f6b-ae49-f16ee7757342",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 329,
+                    "topping_ids": [
+                      25084661
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25084661,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1766928160"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9432761,
+                "code": "017cac39-b302-4519-a072-b11a86c28079",
+                "name": "Crispy Chicken Ricebox",
+                "description": "Contains Halal Guys inspired spicy yellow rice with Crispy Nuggets topped with OG Laham Sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/10328012/aa40f85d-b8d4-4ddf-844b-f0dffee77e29.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/10328012/aa40f85d-b8d4-4ddf-844b-f0dffee77e29.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/10328012/aa40f85d-b8d4-4ddf-844b-f0dffee77e29.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328012,
+                    "code": "68d0d134-4fc8-4b67-945a-206623eae6da",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 339,
+                    "topping_ids": [
+                      25084661
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25084661,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1766928159"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2485281,
+            "code": "9df3ce94-92c0-471c-a631-478853c2b806",
+            "name": "Laham Express Wraps",
+            "description": "",
+            "products": [
+              {
+                "id": 9467995,
+                "code": "8f96d412-f0f8-4908-a25e-5b202713b967",
+                "name": "Loaded Chicken Wrap",
+                "description": "Contains Juicy Chicken, Crispy Nugget, Wedges, OG Laham Aauce in a Thin Pita Bread",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/007ca222-a343-4d2f-9e20-56dbbdd760a8.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/007ca222-a343-4d2f-9e20-56dbbdd760a8.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/a9ho/product/007ca222-a343-4d2f-9e20-56dbbdd760a8.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10368180,
+                    "code": "703859f4-d50b-4647-a572-44f85e8eae01",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 269,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 3,
+                  "TotalCount": 3,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9432765,
+                "code": "47aba7e9-d1ab-45b4-af0e-87ce46d2ffe5",
+                "name": "Crispy Chicken Wrap",
+                "description": "Contains Crispy Nugget, Wedges, OG Laham Sauce in a Thin Pita Bread",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328119/1e79f608-0e4c-489c-86be-67647e0a0769.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328119/1e79f608-0e4c-489c-86be-67647e0a0769.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328119/1e79f608-0e4c-489c-86be-67647e0a0769.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328016,
+                    "code": "4574438f-e14f-4406-a2ce-43d9066f5781",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 249,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9432766,
+                "code": "d792ffae-0264-416b-9eaa-f8e6ed64b7d7",
+                "name": "Classic Chicken Wrap",
+                "description": "Contains Juicy Chicken, Wedges, OG Laham Sauce in a Thin Pita Bread ",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328120/315635d1-bb55-4f51-a426-2dc47a97f768.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328120/315635d1-bb55-4f51-a426-2dc47a97f768.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328120/315635d1-bb55-4f51-a426-2dc47a97f768.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328017,
+                    "code": "0d6a37b9-7ce0-47a1-84e1-9dc1a945bc58",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 249,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2485282,
+            "code": "33799905-cc9d-41a7-8690-02056ecc8090",
+            "name": "OG Meatbox",
+            "description": "",
+            "products": [
+              {
+                "id": 9432767,
+                "code": "aa302787-724e-4280-ad38-d76497262ce3",
+                "name": "OG Nugget Meatbox",
+                "description": "Contains Crispy Nugget Strips, Wedges with OG Laham Sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328121/a979514d-e54c-47ff-b779-77a53738a670.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328121/a979514d-e54c-47ff-b779-77a53738a670.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328121/a979514d-e54c-47ff-b779-77a53738a670.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328018,
+                    "code": "4fe4a027-3de2-4d39-8eef-2aa15e10b41c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 339,
+                    "topping_ids": [
+                      25083868
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25083868,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9432769,
+                "code": "cd0daed8-16ca-4549-94ac-98bdd30aed3e",
+                "name": "OG Classic Meatbox",
+                "description": "Contains Juicy Chicken Strips, Sausage, Wedges and OG Laham Sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328123/7c788e9a-348a-4198-9767-d0f679ac5889.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328123/7c788e9a-348a-4198-9767-d0f679ac5889.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328123/7c788e9a-348a-4198-9767-d0f679ac5889.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328020,
+                    "code": "8278bc27-9e53-44b0-8dfa-dca8069fb2f1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 329,
+                    "topping_ids": [
+                      25083868
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25083868,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1766926321",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9432770,
+                "code": "317bd0a4-d5c6-462e-b6fe-addeab3319a6",
+                "name": "All Star Meatbox",
+                "description": "Contains Juicy Chicken, Crispy Nugget, Sausage, Wedges and OG Laham Sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328124/bc3fdd40-f9a6-494a-a8e3-ea049276db9f.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328124/bc3fdd40-f9a6-494a-a8e3-ea049276db9f.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328124/bc3fdd40-f9a6-494a-a8e3-ea049276db9f.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328021,
+                    "code": "8e4a608d-43a6-4491-965b-d3318f621805",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 369,
+                    "topping_ids": [
+                      25083868
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25083868,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2485283,
+            "code": "ce31a4b3-cbbd-4b9b-831e-ef30a595a641",
+            "name": "Combo",
+            "description": "",
+            "products": [
+              {
+                "id": 9432784,
+                "code": "b9647d61-dd68-4d1b-b88f-2599cdacc747",
+                "name": "OG Meat Box Combo",
+                "description": "OG Classic Meatbox & OG Nugget Meatbox",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328138/691ea5db-326a-4d7f-8a21-bdd94f52b52d.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328138/691ea5db-326a-4d7f-8a21-bdd94f52b52d.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/global-menu-service/FP_BD/vendor/wfab/product/10328138/691ea5db-326a-4d7f-8a21-bdd94f52b52d.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10328035,
+                    "code": "c3ce144c-95fe-4b31-b388-e787681a3836",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 639,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {
+          "25083868": {
+            "id": 25083868,
+            "name": "Add Ons for Box",
+            "description": "",
+            "quantity_minimum": 0,
+            "quantity_maximum": 4,
+            "options": [
+              {
+                "id": 25877482,
+                "product_id": 9432786,
+                "name": "Cheese",
+                "description": "",
+                "price": 40,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    10328020,
+                    10328021
+                  ]
+                }
+              },
+              {
+                "id": 25877485,
+                "product_id": 9432789,
+                "name": "Sausage",
+                "description": "",
+                "price": 40,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25084661": {
+            "id": 25084661,
+            "name": "Add-ons for Ricebox",
+            "description": "",
+            "quantity_minimum": 0,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25879948,
+                "product_id": 9480828,
+                "name": "Extra Chicken",
+                "description": "",
+                "price": 75,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          }
+        },
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9432769,
+                9432770,
+                9432784,
+                9432767,
+                9432760,
+                9467995
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {
+      "25083868": {
+        "id": 25083868,
+        "name": "Add Ons for Box",
+        "description": "",
+        "quantity_minimum": 0,
+        "quantity_maximum": 4,
+        "options": [
+          {
+            "id": 25877482,
+            "product_id": 9432786,
+            "name": "Cheese",
+            "description": "",
+            "price": 40,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                10328020,
+                10328021
+              ]
+            }
+          },
+          {
+            "id": 25877485,
+            "product_id": 9432789,
+            "name": "Sausage",
+            "description": "",
+            "price": 40,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25084661": {
+        "id": 25084661,
+        "name": "Add-ons for Ricebox",
+        "description": "",
+        "quantity_minimum": 0,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25879948,
+            "product_id": 9480828,
+            "name": "Extra Chicken",
+            "description": "",
+            "price": 75,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      }
+    },
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

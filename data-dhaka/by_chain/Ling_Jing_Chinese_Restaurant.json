@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.161,
+    "distance": 3.305,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u1k8-listing.JPG",
@@ -56,19 +56,40 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-26T12:30:00+0600",
-      "events": [],
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_1008",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 45.0,
+    "original_delivery_fee": 96.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -127,7 +148,7 @@
         "main": true
       }
     },
-    "vendor_points": 11193,
+    "vendor_points": 11191,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -174,9 +195,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.16
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 8.15
   },
   {
     "id": 75909,
@@ -397,9 +417,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.45
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.94
   },
   {
     "id": 70997,
@@ -572,9 +591,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.46
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.16
   },
   {
     "id": 5847,
@@ -617,7 +635,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 5.088,
+    "distance": 5.036,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2ti-hero.jpg",
@@ -639,7 +657,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_19",
+          "id": "bd_62",
           "name": "",
           "messages": [
             ""
@@ -767,8 +785,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.84
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.83
   }
 ]

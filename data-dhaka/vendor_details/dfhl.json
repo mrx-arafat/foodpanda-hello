@@ -1,0 +1,4662 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 41431,
+    "code": "dfhl",
+    "accepts_instructions": true,
+    "address": "Gulshan Centre Point,Unimart-Level-2 House# 23-26, Road#90-91 Gulshan-2",
+    "address_line2": "",
+    "budget": 3,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 70,
+        "name": "Mexican",
+        "url_key": "mexican",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 37,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/dfhl-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/dfhl-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2021-05-22T00:00:00Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7958106,
+    "location": "Gulshan",
+    "location_event": null,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cv2ch-logo.jpg",
+    "longitude": 90.4150412,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 40,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Cilantro - Gulshan",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 70,
+    "rating": 4.1,
+    "topic_ratings": null,
+    "review_number": 201,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "11:30",
+        "closing_time": "22:30"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Cilantro - Gulshan",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2024-04-07",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2026-03-20",
+        "opening_type": "pickup",
+        "opening_time": "15:00",
+        "closing_time": "23:45",
+        "end_date": "2026-03-20"
+      },
+      {
+        "date": "2026-03-20",
+        "opening_type": "delivering",
+        "opening_time": "15:00",
+        "closing_time": "23:45",
+        "end_date": "2026-03-20"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2025-06-07",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:45",
+        "end_date": "2025-06-07"
+      },
+      {
+        "date": "2025-06-07",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:45",
+        "end_date": "2025-06-07"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2025-06-05",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-05"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2026-02-12",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-02-12"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "delivering",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "pickup",
+        "opening_time": "00:00",
+        "closing_time": "03:00",
+        "end_date": "2024-04-06"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "cilantro-gulshan",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 70,
+          "name": "Mexican",
+          "url_key": "mexican",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 70,
+        "name": "Mexican",
+        "url_key": "mexican",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Cilantro Limited",
+      "address_line_1": "Gulshan Centre Point,Unimart-Level-2 House# 23-26, Road#90-91 Gulshan-2"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/dfhl/cilantro-gulshan",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 1292,
+      "main_vendor_code": "s2om",
+      "main_vendor_id": 82,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "",
+      "logo_image_url": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cv2ch-logo.jpg",
+      "name": "Cilantro - Chain",
+      "url_key": "cilantro-chain",
+      "code": "cv2ch"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801300665254",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 245298,
+        "code": "",
+        "name": "Business Lunch (12 PM – 3 PM)",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "12:00:00",
+        "closing_time": "14:59:00",
+        "menu_categories": [
+          {
+            "id": 2415562,
+            "code": "55ace832-ac4e-4dff-86c4-e2d6a2c9014d",
+            "name": "Gastronomy 202",
+            "description": "",
+            "products": [
+              {
+                "id": 9002025,
+                "code": "8602b250-2b2b-491f-badf-6f778dafbc6c",
+                "name": "Rib Eye Steak",
+                "description": "250g - Flavorful & tender cut of beef taken from the rib section of the cow, known for its marbling & rich taste",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003471.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003471.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003471.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805882,
+                    "code": "6379434f-b4bf-47c5-aa24-7d5a2ff07a8c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1985,
+                    "topping_ids": [
+                      25016633
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002029,
+                "code": "bf62b476-39d0-4a49-ae79-ceb92d368ffd",
+                "name": "T-bone Steak",
+                "description": "250g - Succulent beef cut containing both tenderloin & strip loin sections, cooked & seasoned to perfection",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003472.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003472.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003472.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805886,
+                    "code": "301d87e1-c090-4557-8ee9-655fa3a6655c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 2195,
+                    "topping_ids": [
+                      25016633
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002030,
+                "code": "2b614a44-7625-4c60-b71e-d04b004e5845",
+                "name": "Sirloin Steak",
+                "description": "250g - Flavorful & moderately tender cut of beef taken from the back of the cow, pan-seared & seasoned with salt, pepper & spices\n",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003473.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003473.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003473.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805887,
+                    "code": "246dae18-8edc-425a-9eff-70fba42ab72e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1775,
+                    "topping_ids": [
+                      25016633
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2415608,
+            "code": "bb32d9c9-4d84-4b12-b4cf-f83d999c3d38",
+            "name": "Business Lunch",
+            "description": "",
+            "products": [
+              {
+                "id": 9003004,
+                "code": "a17522de-56af-4408-b965-e7a742867aa9",
+                "name": "Beef",
+                "description": "1:1 - Consists of stir fried beef, white rice, chicken skewers & mint salad",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003474.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003474.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003474.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9807189,
+                    "code": "e72d3846-a36c-408b-939e-7975fa11e49e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 495,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9003005,
+                "code": "6168be8a-8096-4d80-8f32-618333ff2df6",
+                "name": "Prawn",
+                "description": "1:1 - Consists of stir fried prawns, white rice, chicken skewers & mint salad",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003475.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003475.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003475.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9807190,
+                    "code": "dbfc2efa-854e-486e-9969-cc130ce88fd7",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 495,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9003006,
+                "code": "4dfcc347-b4de-46aa-842a-1937f0b47e6f",
+                "name": "Fish",
+                "description": "1:1 - Consists of sweet & sour fish, white rice, chicken skewers & mint salad",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003476.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003476.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003476.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9807191,
+                    "code": "aaf95bf9-2599-4deb-892a-f733e78da4e1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 495,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9003007,
+                "code": "da8aa77b-4b80-4e6e-8408-e2b367d1c951",
+                "name": "Chicken",
+                "description": "1:1 - Consists of  Stir fried chicken, white rice, chicken skewers & mint salad",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003477.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003477.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003477.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9807192,
+                    "code": "75d826a2-ed72-42ae-84f1-8e0c71373958",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 495,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2415609,
+            "code": "8cb2e8ff-c4db-4ea3-b1aa-660b263f9982",
+            "name": "Single Platters",
+            "description": "",
+            "products": [
+              {
+                "id": 9002036,
+                "code": "418b8b88-f5af-4dda-9278-e091530273c8",
+                "name": "Mixed Platter",
+                "description": "1:1 - Consists of peppercorn beef, peruvian chicken, batter fried fish fillet, chicken skewers, sauteed veggies, spanish rice, house special sauce & choice of iced lemon tea\nor fresh lemonade",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003478.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003478.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003478.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805893,
+                    "code": "6a247c1a-65fe-4140-a800-7c3c1cecd9e0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1570,
+                    "topping_ids": [
+                      25038638
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25038638,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002037,
+                "code": "dd7394e4-841f-4dc8-9ebb-c93240bee5a3",
+                "name": "Pollo con Crema",
+                "description": "1:1 - Consists of cube cut chicken breast with crème hot sauce & your choice of 2 side-kicks!",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003479.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003479.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003479.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9805894,
+                    "code": "f00e5cfc-7275-47a6-84a0-2f6b1c6ccf9b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 625,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002038,
+                "code": "559ae44a-896a-4f46-a39b-96070a2db68b",
+                "name": "Sea Food Platter",
+                "description": "1:1 - Consists of calamares fritos, pan seared fish, seafood paella, batter fried fish fillet, sauteed veggies, thick cut fries, tartar sauce & Ice lemon Tea or Fresh Lemonade.",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003480.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003480.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003480.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805895,
+                    "code": "5383dafd-f02c-4292-97cb-ad7f8caa1431",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1465,
+                    "topping_ids": [
+                      25016644
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016644,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002039,
+                "code": "a5995fbf-2c78-4bbc-a19a-c70e0fc905e6",
+                "name": "Crispy Chicken Parmigiana",
+                "description": "1:1 - Consists of thinly chicken breast with breadcrumbs fried & your choice of 2 side-kicks",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003481.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003481.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003481.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805896,
+                    "code": "b1a16733-8b1d-4e68-b0e6-233537c4400f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 625,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9002040,
+                "code": "ca205e3f-6857-4db6-8547-d6aac21f06f4",
+                "name": "The Spaniard",
+                "description": "1:1 - Consists of spanish seafood paella, seafood rice, pan seared fish fillet marinated in spanish spices, crispy batter fried calamari rings & cucumber salad with mint dressing",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003482.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003482.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003482.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805897,
+                    "code": "42debe9f-e44b-4644-8869-f1c7ad73a90d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 730,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002041,
+                "code": "e05c2506-90e5-4f2e-be06-d2d9189b732b",
+                "name": "Portuguese Beef Stroganoff",
+                "description": "1:1 - Consists of julian cute beef with crème sauce & your choice of 2 side-kicks",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003483.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003483.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003483.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805898,
+                    "code": "75d2ec0d-cfad-4f88-b3ec-340541adf57e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 730,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002043,
+                "code": "2e0824b2-4c5e-4029-a1a1-97f43c68d895",
+                "name": "The Mexican",
+                "description": "1:1 - Consists of succulent strips of beef tenderloin cooked in a michoacán style sauce & placed on a bed of spanish rice, served with a side of spaghetti carbonara & cucumber salad with mint dressing",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003485.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003485.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003485.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805900,
+                    "code": "9f0fb556-b687-469b-8c17-d0c91ee491b9",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 625,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9003050,
+                "code": "cae885bd-6c41-464b-8c99-157b93550511",
+                "name": "Special Platter",
+                "description": "1:1 - Consists of jerk chicken, peppercorn beef, batter fried prawns, fish skewers, potatoes fries, sauteed veggies, herb rice & house special sauce & choice of iced lemon tea or fresh lemonade",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003486.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003486.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003486.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9807242,
+                    "code": "5eaabb80-77d4-4c16-83a5-5a3326cc5c97",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1545,
+                    "topping_ids": [
+                      25038638
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25038638,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2415610,
+            "code": "e2e23e69-b690-4658-9bda-7f2b98ad5719",
+            "name": "Soup & Spaghetti",
+            "description": "",
+            "products": [
+              {
+                "id": 9002044,
+                "code": "b07c367d-e65a-46f2-a33f-d0fe2171f922",
+                "name": "Seafood Chowder Soup",
+                "description": "1:1 - Prepared with prawn, mandarin cube, squid served with garlic bread",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003487.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003487.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003487.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805901,
+                    "code": "744de3a6-4ed8-4b24-b11a-9afa74190fc4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9002047,
+                "code": "28a11a12-f119-49bf-8ead-00aa336e0c50",
+                "name": "Spaghetti Carbonara",
+                "description": "1:1 - Crème Carbonara sauce with spaghetti & served with slices of garlic bread",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9003490.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9003490.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9003490.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805904,
+                    "code": "bfbad407-b394-4a6c-a081-91e76cc0474a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 630,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002048,
+                "code": "d698c7f7-ec43-4ae7-862e-6578be8bc559",
+                "name": "Spicy Shrimp Pasta",
+                "description": "1:1 - Prepared with prawn, marinated with special spices, tomato base sauce, Spaghetti & served with slices of garlic bread",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003491.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9003491.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9003491.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9805905,
+                    "code": "972812b3-163e-4d66-9baa-909def9ce3fd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 630,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002049,
+                "code": "745e6a0b-202d-4e72-8734-ee18f883d2ea",
+                "name": "Cream of Mushroom Soup",
+                "description": "1:1 - Prepared with mushroom, cream, butter & vegetable broth, creating a rich & savory flavor, served with slices of garlic bread",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9002049.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9002049.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9002049.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9805906,
+                    "code": "3570d94b-0ed3-454c-a9d5-122dd95352c6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9002050,
+                "code": "a3f3d9c2-1a9c-4ac3-a83a-dcdc4ac87a6f",
+                "name": "Cream of Chicken Soup",
+                "description": "1:1 - Prepared with chunks of chicken, stock & some mild spices served with slices of garlic bread",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9002050.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9002050.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9002050.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805907,
+                    "code": "12ef3488-45c4-40b4-82f4-19cd1bac302a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 578416,
+            "code": "546a0418-da35-4577-930e-0d4753de965a",
+            "name": "Sharing Platter",
+            "description": "",
+            "products": [
+              {
+                "id": 8799487,
+                "code": "7d421329-a80f-44ee-ae67-511df4a036cd",
+                "name": "Platter For Two",
+                "description": "1:2 - Consists of grilled rib eye steak, peruvian chicken, chicken skewers, sauteed vegetable, spanish rice, batter fried fish fillet, herb rice, house special sauce, tartar sauce, cream of chicken soup, garlic bread poutine with gravy, strawberry lemonade or iced lemon tea & cajeta roll or churros",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8799487.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8799487.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8799487.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9553905,
+                    "code": "3c5df01d-9198-44f7-a821-8dee0fdfc9b1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 2825,
+                    "topping_ids": [
+                      25016644,
+                      25016645
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016644,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016645,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3462899,
+                "code": "120dd61b-3cb8-4e1e-8ae4-ccba2f4c06e1",
+                "name": "Sheperds Platter",
+                "description": "Appetizer - Cream of chicken soup with garlic bread & cheese, chicken roulade. Mains - cordon blu or grilled rib-eye steak or grilled lobster. Dessert - cajeta rolls or churros. Drinks- Strawberry lemonade or iced lemon tea",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462899.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462899.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462899.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855655,
+                    "code": "1a281c5e-41c4-4427-81a3-d57eb925d990",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 3040,
+                    "topping_ids": [
+                      25016644,
+                      25016640,
+                      25016645
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016644,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016640,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016645,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1775667475"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3462898,
+                "code": "6f2b3499-4b90-4567-ad52-490dc35ee9ce",
+                "name": "Seafood Platter",
+                "description": "Appetizer - Garlic & cheese bread, seafood chowder. Mains - fish taco, calamares fritos, pan seared fish, seafood paella, batter fried fish fillet, sauteed veggies, thick cut fries, cocktail sauce & tartar sauce. Dessert - cajeta rolls or churros. Drinks- Strawberry lemonade or iced lemon tea",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462898.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462898.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462898.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855656,
+                    "code": "4f549eb7-b743-43aa-a328-6fdc1c38ef53",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 2515,
+                    "topping_ids": [
+                      25016644,
+                      25016645
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016644,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016645,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1775667444"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 4357770,
+                "code": "f1274395-f64f-4337-96a9-d47cf063a116",
+                "name": "Mixta A La Parrilla",
+                "description": "Appetizer - Cream of chicken soup with garlic bread & poutine with gravy. Mains - jerk chicken, peppercorn beef, batter fried prawns, fish skewers, potatoes fries, sauteed veggies, spanish rice, herb rice, house special sauce & tartar sauce. Dessert - cajeta rolls or churros. Drinks- Strawberry lemonade or iced lemon tea",
+                "display_price": "",
+                "master_category_id": 7,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/4357770.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/4357770.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/4357770.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 4825676,
+                    "code": "9200f4af-9656-44de-b504-271ddff8af46",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 2830,
+                    "topping_ids": [
+                      25016644,
+                      25016645
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016644,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016645,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 578418,
+            "code": "2910bec2-90c4-4ed5-991f-1884ca975d1d",
+            "name": "Gastronomy 201",
+            "description": "",
+            "products": [
+              {
+                "id": 3462909,
+                "code": "5850d094-416e-48f0-bee1-7e849d602d75",
+                "name": "Peruvian Chicken",
+                "description": "1:1 - Tender grilled chicken thigh marinated in peruvian spices & served with your choice of 2 hearty side-kicks",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462909.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462909.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462909.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855670,
+                    "code": "ccf576fe-30ec-4934-8d01-b08b3de29f6d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 730,
+                    "topping_ids": [
+                      25016633,
+                      25016634
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016634,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3462912,
+                "code": "c7d47482-484c-467d-b51d-6657fdb5a1ae",
+                "name": "BBQ Chicken",
+                "description": "1:1 - A perfectly grilled fillet of tender chicken thigh served with your choice of 2 hearty side-kicks",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462912.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462912.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462912.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855681,
+                    "code": "58e0d4ba-0feb-4ff4-b3db-a85263f1cd2e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 730,
+                    "topping_ids": [
+                      25016633
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3462914,
+                "code": "ecff90d4-652e-45e5-8cd0-4c96f23a9ab6",
+                "name": "El Cubano",
+                "description": "1:1 - Succulent cubes of chicken breast cooked in a spicy, tangy & fragrant stew of tomatoes & cuban spices, served with your choice of 2 hearty side-kicks",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462914.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462914.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462914.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 3855682,
+                    "code": "bdc1ecc7-caeb-447e-be7c-2a50788235f5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 730,
+                    "topping_ids": [
+                      25016633,
+                      25016634
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25016634,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8790938,
+                "code": "c33fbc81-f5e9-4067-a45c-32b476c9cc0f",
+                "name": "Jerk Chicken",
+                "description": "1:1 - Tender grilled chicken thigh marinated in jamaican spices\n& served with your choice of 2 hearty side-kicks",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8790938.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8790938.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8790938.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9543136,
+                    "code": "07cc9e07-86ba-433e-93e1-ba7b41d5ce6c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 745,
+                    "topping_ids": [
+                      25016633
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016633,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001419,
+                "code": "ff7d3d14-75e7-4a6e-b401-56ec1245c1a0",
+                "name": "Gambas En Gabardina",
+                "description": "1:1 – Consists of batter fried prawn with fries & cocktail sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9805113,
+                    "code": "7382de15-1747-47da-ab99-d46199d0b5e9",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 975,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 578414,
+            "code": "f6bc2b1a-b106-4ad0-a676-cf5460068d23",
+            "name": "Tapas (Entrees)",
+            "description": "",
+            "products": [
+              {
+                "id": 3462893,
+                "code": "144a5080-a78a-4228-990e-aadf8a7c1966",
+                "name": "Tacos with Prawns",
+                "description": "Warm soft flour tortillas folded around your choice of filling & shredded lettuce, pico de gallo & cheese, served with fresh salsa & spicy pickled onions",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462893.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462893.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462893.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 3855638,
+                    "code": "17ba14f0-062d-4b40-ae26-a8b5aa80e8ea",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 465,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 3855642,
+                    "code": "e2098133-0589-4da5-9fba-d24018638792",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 885,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1775667456",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3462890,
+                "code": "00324518-e369-4337-87f2-2e7531525d02",
+                "name": "Burrito",
+                "description": "1:1 - The delicious combination of your choice of filling, spanish rice, re-fried black beans, shredded lettuce, house special salsa and gooey melted cheese all wrapped inside a warm soft flour tortilla, served with our signature thick cut fries",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462890.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462890.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462890.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855634,
+                    "code": "9466f72a-5ef9-4629-ae47-5361bf204dce",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Chicken",
+                    "price": 555,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 3855653,
+                    "code": "b6047ca9-16ba-46f9-af4d-cd442b93c832",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Beef",
+                    "price": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 3855668,
+                    "code": "310a5901-1eb3-4f65-8b6c-69f0ec8d7fc0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Shrimp",
+                    "price": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 3,
+                  "TotalCount": 4,
+                  "Percentage": 75
+                }
+              },
+              {
+                "id": 3462889,
+                "code": "d86b09b3-bdf8-4d4b-b245-584f8a1577cf",
+                "name": "Bucket of Fries",
+                "description": "1:1 - Thick cut fries crispy on the outside and melt in your mouth inside served with garlic aioli to dip & tantalize",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462889.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462889.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462889.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855628,
+                    "code": "417c14f5-6daa-4067-9f8f-43bee8711374",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 510,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9000746,
+                "code": "7cca7daf-8c8e-45d3-91ac-12d2b65ae453",
+                "name": "Beef Quesadillas",
+                "description": "Cut into crispy tortillas & watch yourself as all the stuffing & cheese oozes out, topped with sour cream & served with salsa",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9001704.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9001704.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9001704.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9804232,
+                    "code": "d731bc7b-4967-4b73-b2a5-9a899c72e5c8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 385,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9804295,
+                    "code": "59c6a140-0b02-4554-a407-852b1f956f20",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 785,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 9000810,
+                "code": "f9bd95a8-61c6-494c-9a2e-97d84b024c2f",
+                "name": "Smoked Chicken Quesadillas",
+                "description": "Cut into crispy tortillas & watch yourself as all the stuffing & cheese oozes out, topped with sour cream & served with salsa",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9001705.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9001705.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9001705.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9804299,
+                    "code": "ac75d196-3f8f-4072-ac9e-2b7364ef2e0c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 385,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9804300,
+                    "code": "18e835ba-67bf-4bc7-b5bb-38b86c97a06a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 785,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001062,
+                "code": "94a115ab-421c-4248-9538-b7113fa80400",
+                "name": "Tacos Beef Tenderloin",
+                "description": "Warm soft flour tortillas folded around your choice of filling & shredded lettuce, pico de gallo & cheese, served with fresh salsa & spicy pickled onions",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9804598,
+                    "code": "7a3c1c79-6e48-464d-a351-1cbbeb6d7ee6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 470,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9804599,
+                    "code": "a9d9080b-b623-4728-9c87-e0d927515519",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 885,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001064,
+                "code": "9f70450a-57d6-4cf8-a87c-31f7afe92dbc",
+                "name": "Shrimp Quesadillas",
+                "description": "Cut into crispy tortillas & watch yourself as all the stuffing & cheese oozes out, topped with sour cream & served with salsa",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9804603,
+                    "code": "303e8c10-7bd0-4cb7-ab2f-6e679d8511bf",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 445,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9804604,
+                    "code": "8fb355ca-c0f0-4a41-b742-488708db7a48",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 940,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001065,
+                "code": "f9cc6476-6f73-4ecc-b417-b011c7060e1e",
+                "name": "Tacos Chicken Breast",
+                "description": "Warm soft flour tortillas folded around your choice of filling & shredded lettuce, pico de gallo & cheese, served with fresh salsa & spicy pickled onions",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9804606,
+                    "code": "aa4d6fbc-a81a-4d04-83fd-83e36c4990eb",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "4 pcs",
+                    "price": 785,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9804607,
+                    "code": "3da39b72-37e6-41c2-be28-7d8644bba0ed",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "2 pcs",
+                    "price": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001072,
+                "code": "b0ae9925-f352-4e5d-9eda-74e363299bb8",
+                "name": "Nachos",
+                "description": "1:1 - Crispy tortilla chips with gooey cheese sauce, flavor some salsa & topped with crunchy onions, jalapeño & sour cream",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9001713.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9001713.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9001713.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9804615,
+                    "code": "9b2245b7-cc2a-4af5-ac37-99ef1b26b72b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 520,
+                    "topping_ids": [
+                      25077229
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25077229,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001084,
+                "code": "b9998f15-fcdd-4b8f-a25c-289d3a0dd742",
+                "name": "Chicken wings",
+                "description": "6 pcs - Perfectly seasoned chicken tenders tossed in your choice of sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9001714.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9001714.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9001714.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9804634,
+                    "code": "fb489a9a-2400-4832-9756-925c751a8f85",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 625,
+                    "topping_ids": [
+                      25016637
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25016637,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001099,
+                "code": "e1bfb062-96d8-4f6a-ae66-4949f0d080e8",
+                "name": "Calamares Fritos",
+                "description": "1:1 - Crispy batter fried golden calamari ringlets served with a house special creamy tartar sauce",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/9001715.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/9001715.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/9001715.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9804654,
+                    "code": "7b1f30e9-66f0-4f14-b7f6-0fdf844243de",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 595,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9001113,
+                "code": "6d4b9cde-c0f4-43f9-ba97-0f4266801c92",
+                "name": "Poutine",
+                "description": "1:1 - Our signature thick cut fries crispy fries topped with gooey cheese sauce, gravy, crunchy onions, jalapeño & cilantro",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9804671,
+                    "code": "d2d0d68f-cbf9-480c-ae4a-31cf571b4467",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 445,
+                    "topping_ids": [
+                      25077242
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25077242,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 578423,
+            "code": "486b0f49-f09f-4619-b2cb-e6b935dd4542",
+            "name": "The Sweet Ending",
+            "description": "",
+            "products": [
+              {
+                "id": 3462954,
+                "code": "28ebb3f9-fd59-40a1-936d-0111ae9b0c37",
+                "name": "Churros",
+                "description": "Lift you spirits with these warm, perfectly crispy on the outside and melt in your mouth inside treats! Served with house special chocolate sauce!",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3462954.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3462954.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3462954.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3855719,
+                    "code": "784ff9f9-2e1a-4fdf-9bbd-68cd8c4269c1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 415,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {
+          "25016633": {
+            "id": 25016633,
+            "name": "Choice of 2-Hearty Side-Kicks",
+            "description": "",
+            "quantity_minimum": 2,
+            "quantity_maximum": 2,
+            "options": [
+              {
+                "id": 25091761,
+                "product_id": 3462918,
+                "name": "Spanish Rice",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    3855670
+                  ]
+                }
+              },
+              {
+                "id": 25091762,
+                "product_id": 3462924,
+                "name": "Herb Rice",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091763,
+                "product_id": 3462922,
+                "name": "Fries",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091764,
+                "product_id": 3462920,
+                "name": "Sauteed Vegetables",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    9543136
+                  ]
+                }
+              },
+              {
+                "id": 25091766,
+                "product_id": 3462921,
+                "name": "Sweet & Spicy Potatoes",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091767,
+                "product_id": 3462923,
+                "name": "Mashed Potato",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    9543136,
+                    3855670
+                  ]
+                }
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25016634": {
+            "id": 25016634,
+            "name": "Add On's",
+            "description": "",
+            "quantity_minimum": 0,
+            "quantity_maximum": 5,
+            "options": [
+              {
+                "id": 25129239,
+                "product_id": 3462925,
+                "name": "Chicken Skewers",
+                "description": "",
+                "price": 155,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    3855670
+                  ]
+                }
+              },
+              {
+                "id": 25129240,
+                "product_id": 3462926,
+                "name": "Beef Skewers",
+                "description": "",
+                "price": 205,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25129241,
+                "product_id": 3462927,
+                "name": "Shrimp Skewer",
+                "description": "",
+                "price": 205,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25129242,
+                "product_id": 3462928,
+                "name": "Sunny Side-Up",
+                "description": "",
+                "price": 60,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25129243,
+                "product_id": 3462929,
+                "name": "Chicken Wings",
+                "description": "",
+                "price": 205,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25016637": {
+            "id": 25016637,
+            "name": "Choice of Sauce- Wings",
+            "description": "",
+            "quantity_minimum": 1,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25091774,
+                "product_id": 3462894,
+                "name": "Garlic Cream Sauce",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091775,
+                "product_id": 3462895,
+                "name": "BBQ Sauce",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091776,
+                "product_id": 3462896,
+                "name": "House Sauce",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25016640": {
+            "id": 25016640,
+            "name": "Choice of Mains- Sheperd's",
+            "description": "",
+            "quantity_minimum": 2,
+            "quantity_maximum": 2,
+            "options": [
+              {
+                "id": 25091802,
+                "product_id": 3463111,
+                "name": "Grilled Rib-eye Steak",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091803,
+                "product_id": 3463112,
+                "name": "Cordon Bleu",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25016644": {
+            "id": 25016644,
+            "name": "Choice of Drinks - Platter",
+            "description": "",
+            "quantity_minimum": 1,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25091799,
+                "product_id": 3463108,
+                "name": "Strawberry Lemonade",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25091800,
+                "product_id": 3463109,
+                "name": "Iced Lemon Tea",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25016645": {
+            "id": 25016645,
+            "name": "Choice of Dessert - Platter",
+            "description": "",
+            "quantity_minimum": 1,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25091804,
+                "product_id": 3462955,
+                "name": "Churros",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25038638": {
+            "id": 25038638,
+            "name": "Drinks - 1",
+            "description": "",
+            "quantity_minimum": 1,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25320313,
+                "product_id": 8248275,
+                "name": "Fresh Lemonade",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25865798,
+                "product_id": 9184105,
+                "name": "Iced Lemon Tea",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25077229": {
+            "id": 25077229,
+            "name": "Add Ons for Nachos",
+            "description": "",
+            "quantity_minimum": 0,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25852573,
+                "product_id": 9001074,
+                "name": "Beef",
+                "description": "",
+                "price": 145,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25077242": {
+            "id": 25077242,
+            "name": "Add Ons for Poutine",
+            "description": "",
+            "quantity_minimum": 0,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25852601,
+                "product_id": 9001074,
+                "name": "Beef",
+                "description": "",
+                "price": 145,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              }
+            ],
+            "type": "choice-group"
+          }
+        },
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                3462909,
+                9001072,
+                9002049,
+                9000810,
+                8790938,
+                3462893
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {
+      "25016633": {
+        "id": 25016633,
+        "name": "Choice of 2-Hearty Side-Kicks",
+        "description": "",
+        "quantity_minimum": 2,
+        "quantity_maximum": 2,
+        "options": [
+          {
+            "id": 25091761,
+            "product_id": 3462918,
+            "name": "Spanish Rice",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                3855670
+              ]
+            }
+          },
+          {
+            "id": 25091762,
+            "product_id": 3462924,
+            "name": "Herb Rice",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091763,
+            "product_id": 3462922,
+            "name": "Fries",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091764,
+            "product_id": 3462920,
+            "name": "Sauteed Vegetables",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                9543136
+              ]
+            }
+          },
+          {
+            "id": 25091766,
+            "product_id": 3462921,
+            "name": "Sweet & Spicy Potatoes",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091767,
+            "product_id": 3462923,
+            "name": "Mashed Potato",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                9543136,
+                3855670
+              ]
+            }
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25016634": {
+        "id": 25016634,
+        "name": "Add On's",
+        "description": "",
+        "quantity_minimum": 0,
+        "quantity_maximum": 5,
+        "options": [
+          {
+            "id": 25129239,
+            "product_id": 3462925,
+            "name": "Chicken Skewers",
+            "description": "",
+            "price": 155,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                3855670
+              ]
+            }
+          },
+          {
+            "id": 25129240,
+            "product_id": 3462926,
+            "name": "Beef Skewers",
+            "description": "",
+            "price": 205,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25129241,
+            "product_id": 3462927,
+            "name": "Shrimp Skewer",
+            "description": "",
+            "price": 205,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25129242,
+            "product_id": 3462928,
+            "name": "Sunny Side-Up",
+            "description": "",
+            "price": 60,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25129243,
+            "product_id": 3462929,
+            "name": "Chicken Wings",
+            "description": "",
+            "price": 205,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25016637": {
+        "id": 25016637,
+        "name": "Choice of Sauce- Wings",
+        "description": "",
+        "quantity_minimum": 1,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25091774,
+            "product_id": 3462894,
+            "name": "Garlic Cream Sauce",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091775,
+            "product_id": 3462895,
+            "name": "BBQ Sauce",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091776,
+            "product_id": 3462896,
+            "name": "House Sauce",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25016640": {
+        "id": 25016640,
+        "name": "Choice of Mains- Sheperd's",
+        "description": "",
+        "quantity_minimum": 2,
+        "quantity_maximum": 2,
+        "options": [
+          {
+            "id": 25091802,
+            "product_id": 3463111,
+            "name": "Grilled Rib-eye Steak",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091803,
+            "product_id": 3463112,
+            "name": "Cordon Bleu",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25016644": {
+        "id": 25016644,
+        "name": "Choice of Drinks - Platter",
+        "description": "",
+        "quantity_minimum": 1,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25091799,
+            "product_id": 3463108,
+            "name": "Strawberry Lemonade",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25091800,
+            "product_id": 3463109,
+            "name": "Iced Lemon Tea",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25016645": {
+        "id": 25016645,
+        "name": "Choice of Dessert - Platter",
+        "description": "",
+        "quantity_minimum": 1,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25091804,
+            "product_id": 3462955,
+            "name": "Churros",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25038638": {
+        "id": 25038638,
+        "name": "Drinks - 1",
+        "description": "",
+        "quantity_minimum": 1,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25320313,
+            "product_id": 8248275,
+            "name": "Fresh Lemonade",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25865798,
+            "product_id": 9184105,
+            "name": "Iced Lemon Tea",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25077229": {
+        "id": 25077229,
+        "name": "Add Ons for Nachos",
+        "description": "",
+        "quantity_minimum": 0,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25852573,
+            "product_id": 9001074,
+            "name": "Beef",
+            "description": "",
+            "price": 145,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25077242": {
+        "id": 25077242,
+        "name": "Add Ons for Poutine",
+        "description": "",
+        "quantity_minimum": 0,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25852601,
+            "product_id": 9001074,
+            "name": "Beef",
+            "description": "",
+            "price": 145,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          }
+        ],
+        "type": "choice-group"
+      }
+    },
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "vendor_points": 1,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

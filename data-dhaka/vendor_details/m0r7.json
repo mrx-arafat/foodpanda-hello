@@ -1,0 +1,1571 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 77431,
+    "code": "m0r7",
+    "accepts_instructions": true,
+    "address": "44 Dhaka Medical rd, Side market, West side of masjid",
+    "address_line2": "",
+    "budget": 1,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 65
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 14,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/m0r7-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/m0r7-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2025-08-24T12:10:19Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7244533,
+    "location": "",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.3971081,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 50,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Ismail Biryani House",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1100",
+    "primary_cuisine_id": 193,
+    "rating": 2.8,
+    "topic_ratings": null,
+    "review_number": 48,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:45"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Ismail Biryani House",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-05-10",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-10"
+      },
+      {
+        "date": "2026-05-10",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-10"
+      },
+      {
+        "date": "2026-05-12",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-12"
+      },
+      {
+        "date": "2026-05-12",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-12"
+      },
+      {
+        "date": "2026-05-14",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-14"
+      },
+      {
+        "date": "2026-05-14",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-14"
+      },
+      {
+        "date": "2026-05-15",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-15"
+      },
+      {
+        "date": "2026-05-15",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-15"
+      },
+      {
+        "date": "2026-05-06",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-06"
+      },
+      {
+        "date": "2026-05-06",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-06"
+      },
+      {
+        "date": "2026-05-25",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-25"
+      },
+      {
+        "date": "2026-05-25",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-25"
+      },
+      {
+        "date": "2026-05-07",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-07"
+      },
+      {
+        "date": "2026-05-07",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-07"
+      },
+      {
+        "date": "2026-05-13",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-13"
+      },
+      {
+        "date": "2026-05-13",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-13"
+      },
+      {
+        "date": "2026-05-16",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-16"
+      },
+      {
+        "date": "2026-05-16",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-16"
+      },
+      {
+        "date": "2026-05-30",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-30"
+      },
+      {
+        "date": "2026-05-30",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-30"
+      },
+      {
+        "date": "2026-05-11",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-11"
+      },
+      {
+        "date": "2026-05-11",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-11"
+      },
+      {
+        "date": "2026-05-21",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-21"
+      },
+      {
+        "date": "2026-05-21",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-21"
+      },
+      {
+        "date": "2026-05-23",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-23"
+      },
+      {
+        "date": "2026-05-23",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-23"
+      },
+      {
+        "date": "2026-05-28",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-28"
+      },
+      {
+        "date": "2026-05-28",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-28"
+      },
+      {
+        "date": "2026-05-31",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-31"
+      },
+      {
+        "date": "2026-05-31",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-31"
+      },
+      {
+        "date": "2026-05-09",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-09"
+      },
+      {
+        "date": "2026-05-09",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-09"
+      },
+      {
+        "date": "2026-03-25",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-25"
+      },
+      {
+        "date": "2026-05-05",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-05"
+      },
+      {
+        "date": "2026-05-05",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-05"
+      },
+      {
+        "date": "2026-05-20",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-20"
+      },
+      {
+        "date": "2026-05-20",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-20"
+      },
+      {
+        "date": "2026-05-22",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-22"
+      },
+      {
+        "date": "2026-05-22",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-22"
+      },
+      {
+        "date": "2026-05-26",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-26"
+      },
+      {
+        "date": "2026-05-26",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-26"
+      },
+      {
+        "date": "2026-05-03",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-03"
+      },
+      {
+        "date": "2026-05-03",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-03"
+      },
+      {
+        "date": "2026-05-29",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-29"
+      },
+      {
+        "date": "2026-05-29",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-29"
+      },
+      {
+        "date": "2026-05-17",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-17"
+      },
+      {
+        "date": "2026-05-17",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-17"
+      },
+      {
+        "date": "2026-05-18",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-18"
+      },
+      {
+        "date": "2026-05-18",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-18"
+      },
+      {
+        "date": "2026-05-19",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-19"
+      },
+      {
+        "date": "2026-05-19",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-19"
+      },
+      {
+        "date": "2026-05-24",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-24"
+      },
+      {
+        "date": "2026-05-24",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-24"
+      },
+      {
+        "date": "2026-05-27",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-27"
+      },
+      {
+        "date": "2026-05-27",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-27"
+      },
+      {
+        "date": "2025-06-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-28"
+      },
+      {
+        "date": "2026-03-24",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-24"
+      },
+      {
+        "date": "2026-05-04",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-04"
+      },
+      {
+        "date": "2026-05-04",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-04"
+      },
+      {
+        "date": "2026-05-08",
+        "opening_type": "pickup",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-08"
+      },
+      {
+        "date": "2026-05-08",
+        "opening_type": "delivering",
+        "opening_time": "08:00",
+        "closing_time": "23:59",
+        "end_date": "2026-05-08"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "ismail-biryani-house-m0r7",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Ismail Biryani House",
+      "address_line_1": "44 Dhaka Medical rd, Side market, West side of masjid"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/m0r7/ismail-biryani-house-m0r7",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801923611801",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 246766,
+        "code": "",
+        "name": "Delivery Menu",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2427851,
+            "code": "606e4efc-26dc-4004-8a3e-f9c5891cb300",
+            "name": "Rice Dishes",
+            "description": "",
+            "products": [
+              {
+                "id": 9077283,
+                "code": "9dc31b7d-841d-457d-a0a1-7dd8d5bec62b",
+                "name": "Morog Polao",
+                "description": "Tender chicken mixed with flavorful deshi masala, boiled egg & aromatic rice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077283.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077283.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9077283.jpg",
+                    "tags": {
+                      "hm      ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9897860,
+                    "code": "1cfef88f-35f5-4483-95d8-820fe1050231",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9897861,
+                    "code": "6e6137a2-cdef-4c9e-9d61-18d130ca6c68",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9077286,
+                "code": "ffd5cfa8-9cd4-4a43-9d83-13bdd41c7d13",
+                "name": "Beef Jhal Polao",
+                "description": "Deliciously aromatic prepared with rice, beef, onion, ginger, garlic, spice mix & oil",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077286.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077286.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9077286.jpg",
+                    "tags": {
+                      "hm      ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9897866,
+                    "code": "6a705f4a-2406-4303-99c1-e5bd66940718",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 135,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9897865,
+                    "code": "d5571d3f-a2e6-475d-a9d8-ae9d150c45cd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9077287,
+                "code": "5e645303-9b2a-4634-ac94-2676ea4e4d9d",
+                "name": "Egg Polao",
+                "description": "Savory rice dish with egg, spices & fragrant herbs, a delightful fusion of flavors",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077287.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077287.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9077287.jpg",
+                    "tags": {
+                      "hm      ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9897868,
+                    "code": "1068a3c1-78c1-4931-94df-e43fa2b5c0a5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9897869,
+                    "code": "532562c1-45b8-408e-bb50-d43ba92abc68",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9077288,
+                "code": "67f0b894-edba-4c7d-98d6-685e81ec208a",
+                "name": "Chicken Khichuri",
+                "description": "Prepared with a mixture of lentils & rice with chicken, blended with various spices",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077288.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077288.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9077288.jpg",
+                    "tags": {
+                      "hm      ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9897871,
+                    "code": "f85f3633-65e4-4c12-87f3-a728e65b27c1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 180,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9897872,
+                    "code": "f66722a8-d5ec-4af6-991f-4f2a742c5fa9",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9077289,
+                "code": "989bb091-4f88-4f19-a2f1-8af00deb4a80",
+                "name": "Beef Khichuri",
+                "description": "Filling meal of tender beef simmered in a flavorful blend of spices, pulses & rice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077289.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077289.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9077289.jpg",
+                    "tags": {
+                      "hm      ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9897874,
+                    "code": "e81ffacb-7c77-41d5-920d-9d67e6b3090a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 135,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9897875,
+                    "code": "281c8a48-4a9a-4633-9a44-0942b6c2fd41",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9077291,
+                "code": "684e22fc-49cb-4f75-8877-158c3bc2d8dc",
+                "name": "Egg Khichuri",
+                "description": "Classic dish prepared with aromatic rice, mixed lentils, spices & boiled egg",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077291.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9077291.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9077291.jpg",
+                    "tags": {
+                      "hm      ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 9897879,
+                    "code": "51394f2f-3b91-410d-abb7-e515d8a27aa1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 80,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 9897878,
+                    "code": "41eab9b7-8951-45c8-bde3-7126003dd338",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 3,
+                  "Percentage": 33
+                }
+              },
+              {
+                "id": 9497055,
+                "code": "2985450e-1d01-4675-a16a-544b3d672040",
+                "name": "Beef Tehari",
+                "description": "Tender chunks of beef, rice & a blend of aromatic spices",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/9497055.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/9497055.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/9497055.jpg",
+                    "tags": {
+                      "hm   ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10401626,
+                    "code": "a3e2ff20-9d7b-425d-a2d9-828c7fc4932c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10401627,
+                    "code": "27c661fd-d35f-49a2-ad2d-defdc42d1696",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 280,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1776080198",
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9497056,
+                "code": "4754f835-fbf2-4759-99f2-94e9cc7371cc",
+                "name": "Special Chicken Chutney Polao",
+                "description": "Prepared with fragrant polao rice, chicken, special chutney & mild spice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10401629,
+                    "code": "d683ac7d-107b-4b78-85e5-51eb887cf390",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 90,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10401630,
+                    "code": "64cb3d8c-f11f-4a90-bc9c-2ee0c15ddfdd",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 170,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 9497057,
+                "code": "0e7df6a8-ba75-4855-b9e3-af9661cbad5d",
+                "name": "Special Chicken Chutney Khichuri",
+                "description": "Prepared with aromatic rice, chicken, lentil, special chutney & whole spice",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 10401632,
+                    "code": "66ed452f-016a-4d0b-a623-b2b3d5ce12f6",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Full",
+                    "price": 170,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  },
+                  {
+                    "id": 10401633,
+                    "code": "670ee840-9787-4b8b-af6a-28bc5ad2e61a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "name": "Half",
+                    "price": 90,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                9077289,
+                9077286,
+                9497055,
+                9077283,
+                9077288,
+                9077291
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

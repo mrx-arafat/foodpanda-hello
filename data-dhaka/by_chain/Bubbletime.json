@@ -28,7 +28,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.762,
+    "distance": 1.862,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/a3gh-listing.jpg",
@@ -50,15 +50,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_94",
+          "id": "bd_46",
           "name": "",
           "messages": [
-            ""
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
           ],
           "actions": [
             {
               "type": "message",
-              "message": ""
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
             },
             {
               "type": "close",
@@ -124,7 +124,7 @@
         "main": true
       }
     },
-    "vendor_points": 5419,
+    "vendor_points": 5417,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -156,7 +156,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -171,9 +171,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
-    "_area": "Old Dhaka",
-    "_area_distance_km": 1.26
+    "_area": "Grid_23.72_90.41",
+    "_area_distance_km": 0.43
   },
   {
     "id": 87840,
@@ -204,7 +203,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.648,
+    "distance": 1.714,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/kzvo-listing.jpg",
@@ -232,12 +231,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 89.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 60.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -334,9 +333,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "Rampura",
-    "_area_distance_km": 0.65
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.58
   },
   {
     "id": 87839,
@@ -373,7 +371,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.12,
+    "distance": 0.623,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/qf7d-listing.jpg",
@@ -401,12 +399,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 72.0,
+    "original_delivery_fee": 15.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -505,9 +503,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Tongi",
-    "_area_distance_km": 2.04
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.79
   },
   {
     "id": 71638,
@@ -538,7 +535,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.193,
+    "distance": 1.584,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/py98-listing.jpg",
@@ -566,12 +563,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 89.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 60.0,
+    "minimum_delivery_time": 50.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 75
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -664,9 +661,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 1.19
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.83
   },
   {
     "id": 83244,
@@ -697,7 +693,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.847,
+    "distance": 1.695,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/suj7-listing.jpg",
@@ -713,25 +709,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 47.0,
+    "original_delivery_fee": 90.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Bubbletime-Wari",
@@ -823,7 +836,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
     "_area": "Wari",
     "_area_distance_km": 0.47
   }

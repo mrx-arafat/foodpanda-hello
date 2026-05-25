@@ -1,6 +1,60 @@
 {
   "data": [
     {
+      "uuid": "d764db46-b1ac-44ea-8d98-7adb7a4c3387",
+      "createdAt": "2026-05-24T19:18:09Z",
+      "updatedAt": "2026-05-24T19:18:09Z",
+      "text": "always best",
+      "isAnonymous": false,
+      "reviewerName": "Preetom",
+      "reviewerId": "t8zok7tq",
+      "ratings": [
+        {
+          "topic": "overall",
+          "score": 5
+        },
+        {
+          "topic": "restaurant_food",
+          "score": 5
+        },
+        {
+          "topic": "rider",
+          "score": 5
+        }
+      ],
+      "type": "user",
+      "replies": [],
+      "commentPrettyDate": {
+        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
+        "timeDuration": "1"
+      },
+      "likeCount": 0,
+      "isLiked": false,
+      "productVariations": [
+        {
+          "id": "9888659",
+          "defaultTitle": "Half Chicken Khichuri",
+          "title": {
+            "en_BD": "Half"
+          },
+          "unitPrice": 199,
+          "product": {
+            "id": "9068979",
+            "defaultTitle": "Chicken Khichuri",
+            "title": {
+              "en_BD": "Chicken Khichuri"
+            },
+            "description": "Consists of bhuna khichuri, quarter chicken bhuna with potato & achar",
+            "active": true,
+            "imageUrls": [
+              "https://images.deliveryhero.io/image/fd-bd/Products/9068979.jpg"
+            ]
+          }
+        }
+      ],
+      "topReviewerTranslationKey": ""
+    },
+    {
       "uuid": "c38c890a-ba47-40a1-8ed6-c99d2bee88c2",
       "createdAt": "2026-05-23T19:36:06Z",
       "updatedAt": "2026-05-23T19:36:06Z",
@@ -25,8 +79,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
-        "timeDuration": "1"
+        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
+        "timeDuration": "2"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -78,7 +132,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "3"
+        "timeDuration": "4"
       },
       "likeCount": 1,
       "isLiked": false,
@@ -107,7 +161,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "4"
+        "timeDuration": "5"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -528,7 +582,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_WEEKS_AGO",
-        "timeDuration": "3"
+        "timeDuration": "4"
       },
       "likeCount": 1,
       "isLiked": false,
@@ -657,8 +711,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_WEEKS_AGO",
-        "timeDuration": "4"
+        "translationKey": "NEXTGEN_REVIEWS_1_MONTH_AGO",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -1492,37 +1546,8 @@
       "isLiked": false,
       "productVariations": [],
       "topReviewerTranslationKey": "NEXTGEN_KEY_REVIEWS_LABEL"
-    },
-    {
-      "uuid": "79f38750-4d99-4cdb-8ea1-c2c5776f45e1",
-      "createdAt": "2026-04-08T14:51:42Z",
-      "updatedAt": "2026-04-08T14:51:42Z",
-      "text": "khichuri order disilam kintu polao disen...tao khabar moza chilo r mangsher poriman beshi chilo...bhul order deoa te 4 ratings dilam naile 5 paiten",
-      "isAnonymous": false,
-      "reviewerName": "Mohammad",
-      "reviewerId": "bdbd4sgl",
-      "ratings": [
-        {
-          "topic": "overall",
-          "score": 4
-        },
-        {
-          "topic": "restaurant_food",
-          "score": 4
-        }
-      ],
-      "type": "user",
-      "replies": [],
-      "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_1_MONTH_AGO",
-        "timeDuration": "1"
-      },
-      "likeCount": 0,
-      "isLiked": false,
-      "productVariations": [],
-      "topReviewerTranslationKey": ""
     }
   ],
-  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc3NTY1OTkwMiM3OWYzODc1MC00ZDk5LTRjZGItOGVhMS1jMmM1Nzc2ZjQ1ZTEifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3k1NTUifX0%3D",
+  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc3NTczMTU5MiNkM2ZjZjZlOC0zZGM2LTQzYzQtYTUwMS1iMDkwMTYzZGFkNDkifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3k1NTUifX0%3D",
   "heroImage": "https://images.deliveryhero.io/image/fd-bd/LH/y555-hero.jpg"
 }

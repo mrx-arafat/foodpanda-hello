@@ -46,13 +46,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.562,
+    "distance": 1.718,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ffeq-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ffeq-listing.jpg",
     "is_new_until": "2021-07-30T00:00:00Z",
-    "premium_position": 0,
+    "premium_position": 6,
     "latitude": 23.7813482,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cw8fz-logo.jpg",
     "longitude": 90.4138409,
@@ -74,7 +74,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 43.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 70.0,
     "delivery_duration_range": {
@@ -94,8 +94,12 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "10% off Tk. 50",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "10% off Tk. 50",
@@ -143,7 +147,7 @@
         "main": true
       }
     },
-    "vendor_points": 5680,
+    "vendor_points": 5681,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -174,7 +178,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": false,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -187,11 +191,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "vcFVHWcIS7WLjvGf7xnRrcPs3krhom+kPq6mUqPrezsITHn04fd676sMXeNd4s8DqiXtfPLaQ5VtHj8JbZGc7Q5qPNXKFF3O/jsYw5G6o5aEzxC7ql9AeASzjRo2ondefuYJrym8Je0J027vFemEXWF4Ion/VcMjr1ewRbAeSgrohoBXcKZJAQIdlmGpEETuliuvYHL0x2dChcve1HOCEUEQTA/Nt+4t5IOCRKXMebpOp4cz0poQGjl1iUVd+pTIQBZh9zjcWmIqWRSnc8Xc",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.56
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.51
   }
 ]

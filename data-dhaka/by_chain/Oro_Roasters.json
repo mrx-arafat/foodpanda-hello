@@ -40,13 +40,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.464,
+    "distance": 3.18,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/kkaf-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/kkaf-listing.jpg",
     "is_new_until": "2025-10-25T07:10:40Z",
-    "premium_position": 9,
+    "premium_position": 0,
     "latitude": 23.77016342,
     "logo": "",
     "longitude": 90.35928081,
@@ -56,25 +56,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_18",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 31.0,
+    "original_delivery_fee": 123.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 55
-    },
+    "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Oro Roasters - Mohammadpur",
@@ -88,12 +105,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "15% off Tk. 50",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "15% off Tk. 50",
@@ -166,7 +179,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -179,13 +192,10 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "aQ+oqnXLpAtzWk5t2WtV8BSom/fD6gEuFqIyZFOHriq6xrMomCHW2ovcAhZbHXLIZfHWGyMhsCVSohfqlfmwry/+ClJZF9BUPz0EgEyFm9e6ldNgXXg1kmA+lvTBf0KRKDgPSsveFo9URlEeuWTF8UWvHpFzB4bRmNaW0PLiDnocy/ymoSoyPzu/Tm8CimbaFnMGFW/YIvs0UdYxxVV5Vpjw50rtvdixksk14pKpM1hpHngWy9DV61EZyUcx7bHbo0vsmS8K/IPMEwGhAekK",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.46
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.71
   }
 ]

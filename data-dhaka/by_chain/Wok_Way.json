@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.748,
+    "distance": 3.028,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ll4k-hero.jpg",
@@ -76,7 +76,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 117.0,
+    "original_delivery_fee": 90.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -173,9 +173,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 3.75
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 11.41
   },
   {
     "id": 75272,
@@ -224,7 +223,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 4.206,
+    "distance": 3.758,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jah4-hero.jpg",
@@ -240,42 +239,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 129.0,
+    "original_delivery_fee": 142.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 25.0,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Wok Way - Chef's Table Courtside",
@@ -355,7 +337,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -370,9 +352,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Bashundhara",
-    "_area_distance_km": 3.21
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 7.18
   },
   {
     "id": 59721,
@@ -421,7 +402,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.78,
+    "distance": 3.193,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/hcnd-hero.jpg",
@@ -441,26 +422,7 @@
         "event"
       ],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_18",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
+      "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -470,7 +432,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 132.0,
+    "original_delivery_fee": 133.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -525,7 +487,7 @@
         "main": true
       }
     },
-    "vendor_points": 4937,
+    "vendor_points": 4941,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -567,9 +529,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.35
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.8
   },
   {
     "id": 97179,
@@ -618,7 +579,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.519,
+    "distance": 0.97,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/i653-listing.jpg",
@@ -646,12 +607,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 43.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 60.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 75
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -747,9 +708,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.52
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.07
   },
   {
     "id": 77028,
@@ -798,7 +758,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.749,
+    "distance": 2.031,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/dqx2-hero.jpg",
@@ -826,12 +786,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 81.0,
+    "original_delivery_fee": 121.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 65.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 55,
-      "upper_limit_in_minutes": 80
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -932,9 +892,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.9
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 5.12
   },
   {
     "id": 124235,
@@ -1129,8 +1088,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.97
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.96
   }
 ]

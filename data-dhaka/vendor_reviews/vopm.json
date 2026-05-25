@@ -1,6 +1,72 @@
 {
   "data": [
     {
+      "uuid": "6e7e9122-38bb-4712-92c8-f131919e6349",
+      "createdAt": "2026-05-24T20:29:42Z",
+      "updatedAt": "2026-05-24T20:29:42Z",
+      "text": "pizza was not upto the mark. not enough topping neither taste good..",
+      "isAnonymous": false,
+      "reviewerName": "Mr.",
+      "reviewerId": "bd58qmxd",
+      "ratings": [
+        {
+          "topic": "overall",
+          "score": 2
+        },
+        {
+          "topic": "restaurant_food",
+          "score": 2
+        }
+      ],
+      "type": "user",
+      "replies": [],
+      "commentPrettyDate": {
+        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
+        "timeDuration": "1"
+      },
+      "likeCount": 0,
+      "isLiked": false,
+      "productVariations": [
+        {
+          "id": "10141768",
+          "defaultTitle": "Special Naga Burger",
+          "title": {},
+          "unitPrice": 145,
+          "product": {
+            "id": "9280400",
+            "defaultTitle": "Special Naga Burger",
+            "title": {
+              "en_BD": "Special Naga Burger"
+            },
+            "description": "1 pc - Prepared with a chicken patty with a fiery Naga sauce & fresh vegetables in a soft bun",
+            "active": true,
+            "imageUrls": [
+              "https://images.deliveryhero.io/image/fd-bd/Products/9280400.jpg"
+            ]
+          }
+        },
+        {
+          "id": "10141770",
+          "defaultTitle": "Chicken Sub",
+          "title": {},
+          "unitPrice": 105,
+          "product": {
+            "id": "9280402",
+            "defaultTitle": "Chicken Sub",
+            "title": {
+              "en_BD": "Chicken Sub"
+            },
+            "description": "1:1 - Prepared with a sub filled with tender chicken, fresh vegetables & a special sauce",
+            "active": true,
+            "imageUrls": [
+              "https://images.deliveryhero.io/image/fd-bd/Products/9280402.jpg"
+            ]
+          }
+        }
+      ],
+      "topReviewerTranslationKey": ""
+    },
+    {
       "uuid": "1f15a837-7ebf-4d24-9277-d347d335e1bc",
       "createdAt": "2026-05-23T19:38:10Z",
       "updatedAt": "2026-05-23T19:38:10Z",
@@ -21,8 +87,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_YESTERDAY",
-        "timeDuration": "1"
+        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
+        "timeDuration": "2"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -55,7 +121,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "3"
+        "timeDuration": "4"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -83,8 +149,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "6"
+        "translationKey": "NEXTGEN_REVIEWS_1_WEEK_AGO",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -119,7 +185,7 @@
               "en_BD": "Europa Pasta"
             },
             "description": "1:1 - Prepared with a special pasta with a mix of chicken & cheese",
-            "active": false,
+            "active": true,
             "imageUrls": [
               "https://images.deliveryhero.io/image/fd-bd/Products/9280396.jpg"
             ]
@@ -453,7 +519,7 @@
               "en_BD": "Cream Pasta"
             },
             "description": "1:1 - Prepared with pasta in a rich, creamy white sauce with chicken & herbs",
-            "active": false,
+            "active": true,
             "imageUrls": [
               "https://images.deliveryhero.io/image/fd-bd/Products/9280395.jpg"
             ]
@@ -1253,48 +1319,8 @@
         }
       ],
       "topReviewerTranslationKey": ""
-    },
-    {
-      "uuid": "f6c3b65b-5a94-49c9-b64b-e369ff863892",
-      "createdAt": "2026-03-16T18:39:51Z",
-      "updatedAt": "2026-03-16T18:39:51Z",
-      "text": "Overall Good",
-      "isAnonymous": false,
-      "reviewerName": "Muntasir",
-      "reviewerId": "bd2m4swb",
-      "ratings": [
-        {
-          "topic": "overall",
-          "score": 4
-        },
-        {
-          "topic": "restaurant_food",
-          "score": 4
-        }
-      ],
-      "type": "user",
-      "replies": [
-        {
-          "id": "f6c3b65b-5a94-49c9-b64b-e369ff863892",
-          "text": "Thank you sir",
-          "createdAt": "2026-03-23T19:20:38Z",
-          "updatedAt": "2026-03-23T19:20:38Z",
-          "commentPrettyDate": {
-            "translationKey": "NEXTGEN_REVIEWS_X_MONTHS_AGO",
-            "timeDuration": "2"
-          }
-        }
-      ],
-      "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_MONTHS_AGO",
-        "timeDuration": "2"
-      },
-      "likeCount": 0,
-      "isLiked": false,
-      "productVariations": [],
-      "topReviewerTranslationKey": ""
     }
   ],
-  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc3MzY4NjM5MSNmNmMzYjY1Yi01YTk0LTQ5YzktYjY0Yi1lMzY5ZmY4NjM4OTIifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3ZvcG0ifX0%3D",
+  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc3NDIxMTY2MSM2OGVjY2U4Ni01MThhLTQ2YTQtOWY0Zi00MDZjZjkzMmEwNzgifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3ZvcG0ifX0%3D",
   "heroImage": "https://images.deliveryhero.io/image/fd-bd/LH/vopm-hero.jpg"
 }

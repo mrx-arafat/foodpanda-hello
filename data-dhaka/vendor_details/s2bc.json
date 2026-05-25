@@ -1,0 +1,3226 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 4257,
+    "code": "s2bc",
+    "accepts_instructions": true,
+    "address": "Progress Tower (Ground Floor), House-1, Road - 23, Gulshan - 1, Dhaka-1212",
+    "address_line2": "",
+    "budget": 2,
+    "deals": [
+      {
+        "id": 604009,
+        "code": "604009",
+        "offer_type": "percentage",
+        "type": "discount",
+        "voucher_type": "",
+        "minimum_order_value": 50,
+        "maximum_discount_amount": 0,
+        "value": 15,
+        "title": "15% off Tk. 50",
+        "description": "",
+        "start_date": "2026-05-01T00:00:00+06:00",
+        "end_date": "2026-05-31T00:00:00+06:00",
+        "is_pro": false,
+        "is_new_customer": false,
+        "seq_priority": 1000,
+        "additional_info": {
+          "should_override": [
+            "dps"
+          ],
+          "calculation": {
+            "baseOn": null
+          }
+        },
+        "tc": [
+          "Valid for a minimum order of Tk50",
+          "Applicable for Delivery.",
+          "Additional T&C can apply"
+        ],
+        "action": {
+          "type": "",
+          "name": "",
+          "description": ""
+        },
+        "source": "incentives",
+        "conditions": null,
+        "quantity": 0,
+        "used_quantity": 0,
+        "is_full_basket_applicable": true,
+        "construct_id": "",
+        "is_bogo": false
+      }
+    ],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": true
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      },
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "23:59",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 15,
+        "discount_type": "percentage",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2026-05-31",
+        "file_name": "",
+        "id": 604009,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 50,
+        "name": "15% off Tk. 50",
+        "opening_time": "00:00",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-01",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "should_override": [
+            "dps"
+          ]
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 37,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2bc-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2bc-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2019-02-10T00:00:00Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.78207235,
+    "location": "Gulshan 1",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.415846,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 65,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Coffee House - Gulshan",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 90,
+    "rating": 4.8,
+    "topic_ratings": null,
+    "review_number": 193,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Coffee House - Gulshan",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2022-04-28",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-28"
+      },
+      {
+        "date": "2022-04-28",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-28"
+      },
+      {
+        "date": "2023-06-29",
+        "opening_type": "pickup",
+        "opening_time": "13:30",
+        "closing_time": "23:00",
+        "end_date": "2023-06-29"
+      },
+      {
+        "date": "2023-06-29",
+        "opening_type": "delivering",
+        "opening_time": "13:30",
+        "closing_time": "23:00",
+        "end_date": "2023-06-29"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2026-02-11",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-11"
+      },
+      {
+        "date": "2026-02-11",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-11"
+      },
+      {
+        "date": "2026-02-12",
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:00",
+        "end_date": "2026-02-12"
+      },
+      {
+        "date": "2026-02-12",
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:00",
+        "end_date": "2026-02-12"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2022-04-18",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-18"
+      },
+      {
+        "date": "2022-04-18",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-18"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-20",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-20"
+      },
+      {
+        "date": "2026-03-20",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-20"
+      },
+      {
+        "date": "2022-04-09",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-09"
+      },
+      {
+        "date": "2022-04-09",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-09"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-03-23",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-23"
+      },
+      {
+        "date": "2026-03-23",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-23"
+      },
+      {
+        "date": "2022-04-07",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-07"
+      },
+      {
+        "date": "2022-04-07",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-07"
+      },
+      {
+        "date": "2022-04-26",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-26"
+      },
+      {
+        "date": "2022-04-26",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-26"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2022-04-15",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-15"
+      },
+      {
+        "date": "2022-04-15",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-15"
+      },
+      {
+        "date": "2022-04-16",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-16"
+      },
+      {
+        "date": "2022-04-16",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-16"
+      },
+      {
+        "date": "2022-04-17",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-17"
+      },
+      {
+        "date": "2022-04-17",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-17"
+      },
+      {
+        "date": "2022-04-24",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-24"
+      },
+      {
+        "date": "2022-04-24",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-24"
+      },
+      {
+        "date": "2023-06-30",
+        "opening_type": "delivering",
+        "opening_time": "11:00",
+        "closing_time": "23:00",
+        "end_date": "2023-06-30"
+      },
+      {
+        "date": "2023-06-30",
+        "opening_type": "pickup",
+        "opening_time": "11:00",
+        "closing_time": "23:00",
+        "end_date": "2023-06-30"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2022-04-06",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-06"
+      },
+      {
+        "date": "2022-04-06",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-06"
+      },
+      {
+        "date": "2022-07-11",
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "23:00",
+        "end_date": "2022-07-11"
+      },
+      {
+        "date": "2022-07-11",
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "23:00",
+        "end_date": "2022-07-11"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-23",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-23"
+      },
+      {
+        "date": "2024-03-23",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-23"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-19",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-19"
+      },
+      {
+        "date": "2026-03-19",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-19"
+      },
+      {
+        "date": "2026-05-28",
+        "opening_type": "pickup",
+        "opening_time": "14:00",
+        "closing_time": "23:00",
+        "end_date": "2026-05-28"
+      },
+      {
+        "date": "2026-05-28",
+        "opening_type": "delivering",
+        "opening_time": "14:00",
+        "closing_time": "23:00",
+        "end_date": "2026-05-28"
+      },
+      {
+        "date": "2022-05-02",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-05-02"
+      },
+      {
+        "date": "2022-05-02",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-05-02"
+      },
+      {
+        "date": "2023-07-01",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2023-07-01"
+      },
+      {
+        "date": "2023-07-01",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2023-07-01"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2026-02-03",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-03"
+      },
+      {
+        "date": "2026-02-03",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-03"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2022-04-19",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-19"
+      },
+      {
+        "date": "2022-04-19",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-19"
+      },
+      {
+        "date": "2022-04-20",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-20"
+      },
+      {
+        "date": "2022-04-20",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-20"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-06-19",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-19"
+      },
+      {
+        "date": "2024-06-19",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-19"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2022-04-03",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-03"
+      },
+      {
+        "date": "2022-04-03",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-03"
+      },
+      {
+        "date": "2022-04-04",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-04"
+      },
+      {
+        "date": "2022-04-04",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-04"
+      },
+      {
+        "date": "2022-04-12",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-12"
+      },
+      {
+        "date": "2022-04-12",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-12"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2024-03-13",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-13"
+      },
+      {
+        "date": "2024-03-13",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-13"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-06-18",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-18"
+      },
+      {
+        "date": "2024-06-18",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-18"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2022-04-13",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-13"
+      },
+      {
+        "date": "2022-04-13",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-13"
+      },
+      {
+        "date": "2022-04-22",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-22"
+      },
+      {
+        "date": "2022-04-22",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-22"
+      },
+      {
+        "date": "2022-04-23",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-23"
+      },
+      {
+        "date": "2022-04-23",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-23"
+      },
+      {
+        "date": "2024-03-24",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-24"
+      },
+      {
+        "date": "2024-03-24",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-24"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-06-17",
+        "opening_type": "pickup",
+        "opening_time": "13:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-17"
+      },
+      {
+        "date": "2024-06-17",
+        "opening_type": "delivering",
+        "opening_time": "13:00",
+        "closing_time": "23:59",
+        "end_date": "2024-06-17"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2022-04-14",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-14"
+      },
+      {
+        "date": "2022-04-14",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-14"
+      },
+      {
+        "date": "2022-04-21",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-21"
+      },
+      {
+        "date": "2022-04-21",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-21"
+      },
+      {
+        "date": "2022-04-30",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-30"
+      },
+      {
+        "date": "2022-04-30",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-30"
+      },
+      {
+        "date": "2024-03-12",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-12"
+      },
+      {
+        "date": "2024-03-12",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-12"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-04-12",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-12"
+      },
+      {
+        "date": "2024-04-12",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-12"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-22",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-22"
+      },
+      {
+        "date": "2024-03-22",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-22"
+      },
+      {
+        "date": "2024-04-13",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-13"
+      },
+      {
+        "date": "2024-04-13",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-13"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-22",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-22"
+      },
+      {
+        "date": "2026-03-22",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-22"
+      },
+      {
+        "date": "2022-04-29",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-29"
+      },
+      {
+        "date": "2022-04-29",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-29"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-04-11",
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-11"
+      },
+      {
+        "date": "2024-04-11",
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-11"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-03-21",
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-21"
+      },
+      {
+        "date": "2026-03-21",
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "23:59",
+        "end_date": "2026-03-21"
+      },
+      {
+        "date": "2022-04-05",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-05"
+      },
+      {
+        "date": "2022-04-05",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-05"
+      },
+      {
+        "date": "2022-04-11",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-11"
+      },
+      {
+        "date": "2022-04-11",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-11"
+      },
+      {
+        "date": "2022-04-25",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-25"
+      },
+      {
+        "date": "2022-04-25",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-25"
+      },
+      {
+        "date": "2022-04-27",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-27"
+      },
+      {
+        "date": "2022-04-27",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-27"
+      },
+      {
+        "date": "2022-07-10",
+        "opening_type": "pickup",
+        "opening_time": "14:00",
+        "closing_time": "23:00",
+        "end_date": "2022-07-10"
+      },
+      {
+        "date": "2022-07-10",
+        "opening_type": "delivering",
+        "opening_time": "14:00",
+        "closing_time": "23:00",
+        "end_date": "2022-07-10"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:59",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2022-04-08",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-08"
+      },
+      {
+        "date": "2022-04-08",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-08"
+      },
+      {
+        "date": "2022-04-10",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-10"
+      },
+      {
+        "date": "2022-04-10",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-04-10"
+      },
+      {
+        "date": "2022-05-01",
+        "opening_type": "pickup",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-05-01"
+      },
+      {
+        "date": "2022-05-01",
+        "opening_type": "delivering",
+        "opening_time": "09:00",
+        "closing_time": "23:00",
+        "end_date": "2022-05-01"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "23:00",
+        "end_date": "2026-03-18"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "coffee-house-gulshan",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 90,
+          "name": "Cafe",
+          "url_key": "cafe",
+          "main": true
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "COFFEE HOUSE",
+      "address_line_1": "Progress Tower (Ground Floor), House-1, Road - 23, Gulshan - 1, Dhaka-1212"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/s2bc/coffee-house-gulshan",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 3632,
+      "main_vendor_code": "s2bc",
+      "main_vendor_id": 4257,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": "Coffee House - Gulshan",
+      "url_key": "coffee-house-gulshan",
+      "code": "ck6bm"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801302557723",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 227062,
+        "code": "",
+        "name": " Lunch & Dinner (09:01-23:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "09:01:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 65354,
+            "code": "897e6d8e-231a-43da-9920-68637e626d77",
+            "name": "Snacks",
+            "description": "",
+            "products": [
+              {
+                "id": 3089256,
+                "code": "49dca981-6c4e-4298-99f9-5bad51a727a8",
+                "name": "Bread with Egg Chicken Sausage  ",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089256.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089256.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089256.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458701,
+                    "code": "d3c255f6-ee88-423f-a84a-0fee85bdd3fc",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 148.75,
+                    "price_before_discount": 175,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 11,
+                  "TotalCount": 16,
+                  "Percentage": 69
+                }
+              },
+              {
+                "id": 3089257,
+                "code": "1f4796f8-d472-4cab-946c-d5ac95e26057",
+                "name": "Scrambled Egg on Toast",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089257.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089257.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089257.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458700,
+                    "code": "d86ac2c6-8b6a-4bbf-919e-32882ad1de6d",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 148.75,
+                    "price_before_discount": 175,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 3,
+                  "TotalCount": 5,
+                  "Percentage": 60
+                }
+              },
+              {
+                "id": 3089258,
+                "code": "6444baaf-c6ee-4f9f-be7d-f6b4fa55b14d",
+                "name": "Egg on Toast",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089258.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089258.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089258.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458702,
+                    "code": "3d34e04a-dc07-4416-af47-49334d648ef5",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 127.5,
+                    "price_before_discount": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 63274,
+            "code": "030ae7b6-d1a6-4794-a186-e56720cfe620",
+            "name": "Coffee",
+            "description": "",
+            "products": [
+              {
+                "id": 502777,
+                "code": "3040e4d0-810e-48ed-9587-5e59f6e741f4",
+                "name": "Americano",
+                "description": "Prepared with hot water, coffee beans & sugar",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/502777.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/502777.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/502777.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619747,
+                    "code": "6097ed45-eea5-42b8-b8ff-9bf659621f93",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 127.5,
+                    "price_before_discount": 150,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 502778,
+                "code": "8b45370d-5f4c-4858-a74f-7c6ee0123e7c",
+                "name": "Cappuccino",
+                "description": "Prepared with cocoa powder, ground coffee & milk",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/502778.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/502778.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/502778.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619748,
+                    "code": "0105a928-764c-4620-ac5a-39a1c13fa354",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 157.25,
+                    "price_before_discount": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 65352,
+            "code": "db8febcd-c3db-42fc-95bd-53b0318e554e",
+            "name": "Flavored Coffee",
+            "description": "",
+            "products": [
+              {
+                "id": 502782,
+                "code": "7e1833ff-0947-453b-b036-8e160dbd387c",
+                "name": "Vanilla Latte",
+                "description": "Prepared with vanilla essence, icecream & sugar",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/502782.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/502782.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/502782.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619752,
+                    "code": "23f7cfe2-b28f-475d-b95e-3f58f70ea05e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 502783,
+                "code": "9740ed8a-1c59-4485-9afb-a319f0aba217",
+                "name": "Hazelnut Latte",
+                "description": "Prepared with hazelnut syrup, milk & sugar",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/502783.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/502783.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/502783.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619753,
+                    "code": "73122cf8-4993-426e-9acf-6a107ba5830a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 502784,
+                "code": "f915700e-4b32-428b-bf47-5b1f7b6ba896",
+                "name": "Caramel Latte",
+                "description": "Prepared with brown sugar, caramel sauce & vanilla",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/502784.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/502784.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/502784.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619754,
+                    "code": "ce3fbcbb-a045-4b5c-8871-ffe612a32439",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 531586,
+            "code": "bfdbe029-ed6b-447a-a559-7c2199f9d6dc",
+            "name": "Shakes on the Go",
+            "description": "",
+            "products": [
+              {
+                "id": 3089243,
+                "code": "fb71f448-2f9a-46e8-bc3b-8fe21e2c9dbc",
+                "name": "Oreo Shake",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089243.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089243.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089243.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458688,
+                    "code": "dd40a89f-82c8-45b3-a429-9eccce0bff2f",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089246,
+                "code": "37b4775d-6f25-4c88-a7eb-33b39128509d",
+                "name": "Strawberry Shake",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089246.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089246.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089246.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458690,
+                    "code": "5a73d9ce-74ea-4178-9ef4-fd2fe684c80a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089247,
+                "code": "a7cfba48-b30e-4087-b554-dd141a7768f0",
+                "name": "Hazelnut Shake",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089247.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089247.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089247.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458692,
+                    "code": "46851a45-fb60-4f2a-979b-b9e3a26217c0",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089248,
+                "code": "38dd863f-c1c5-4e06-8f18-2d9ac9463b82",
+                "name": "Vanilla Shake",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089248.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089248.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089248.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458691,
+                    "code": "5f633f18-4428-4f5d-b1a0-84832c9cb3b1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089249,
+                "code": "691cb234-0f3d-451c-9589-3e2bf0de8d3b",
+                "name": "Caramel Shake",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089249.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089249.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089249.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458693,
+                    "code": "8bbb555e-7c5a-4958-8518-e1cf5581615e",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089250,
+                "code": "3269332f-b8c1-4689-b81d-d63c340c9e58",
+                "name": "Chocolate Brownie Shake",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089250.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089250.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089250.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458694,
+                    "code": "41e69f47-141d-40ac-b853-dd2fe2bda6cf",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 221,
+                    "price_before_discount": 260,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 531587,
+            "code": "0ecdfeda-de89-446e-99b8-7ffd32d472bf",
+            "name": "Fresh Juice",
+            "description": "",
+            "products": [
+              {
+                "id": 3089253,
+                "code": "c97f5974-f4db-4189-abd4-9c7c3e961f79",
+                "name": "Pineapple Juice",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089253.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089253.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089253.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458697,
+                    "code": "145250aa-81b4-49e5-809c-dc9fae2ebcd3",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 157.25,
+                    "price_before_discount": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089255,
+                "code": "1004fcbb-3801-45a2-bd22-2f2668aefab0",
+                "name": "Papaya Juice",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089255.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089255.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089255.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3458698,
+                    "code": "cc5c827e-18ae-464a-9977-220d6cd53e62",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 157.25,
+                    "price_before_discount": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 3089792,
+                "code": "4507d8d0-a70f-4259-abad-0d16ae626bb7",
+                "name": "Watermelon Juice",
+                "description": "Regular",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/3089792.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/3089792.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/3089792.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 3459348,
+                    "code": "214701e6-d067-46c7-8190-bc2423acf3c2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 157.25,
+                    "price_before_discount": 185,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 63275,
+            "code": "eb487c91-68e4-412d-9ff4-ebd97cefb5aa",
+            "name": "Chilled Coffee",
+            "description": "",
+            "products": [
+              {
+                "id": 502785,
+                "code": "fe3efbde-6fce-4714-b1d9-c3d9e53dd1ab",
+                "name": "Cold Coffee",
+                "description": "Prepared with coffee, iced water & sugar",
+                "display_price": "",
+                "master_category_id": 11,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/502785.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/502785.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/502785.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619755,
+                    "code": "d9d093b5-930f-408a-891f-0dfd61288cd2",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 195.5,
+                    "price_before_discount": 230,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 63276,
+            "code": "112e543f-a2a4-4147-8a75-e95a1b4213ec",
+            "name": "Sweet Tooth",
+            "description": "",
+            "products": [
+              {
+                "id": 502789,
+                "code": "bfb726bb-4d25-469d-acb1-85990bed894a",
+                "name": "Fudge Brownie",
+                "description": "Prepared with chocolate, flour & white sugar",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/502789.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/502789.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/502789.jpg",
+                    "tags": {
+                      "nob": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 619759,
+                    "code": "cd53e35e-2f92-4985-bb09-421532b933fe",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 76.5,
+                    "price_before_discount": 90,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 2,
+                  "TotalCount": 2,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {},
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                502778,
+                3089253
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "vendor_points": 1,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

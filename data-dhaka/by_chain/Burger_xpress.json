@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.791,
+    "distance": 2.254,
     "food_characteristics": [
       {
         "id": 252,
@@ -75,12 +75,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 81.0,
+    "original_delivery_fee": 127.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 65.0,
+    "minimum_delivery_time": 60.0,
     "delivery_duration_range": {
       "lower_limit_in_minutes": 55,
-      "upper_limit_in_minutes": 80
+      "upper_limit_in_minutes": 75
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -188,9 +188,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.16
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.77
   },
   {
     "id": 65226,
@@ -381,9 +380,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.47
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 6.78
   },
   {
     "id": 4522,
@@ -574,8 +572,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
+    "_area": "Grid_23.74_90.40",
     "_area_distance_km": 1.27
   },
   {
@@ -767,9 +764,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.47
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.27
   },
   {
     "id": 35206,
@@ -812,7 +808,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.474,
+    "distance": 0.976,
     "food_characteristics": [
       {
         "id": 252,
@@ -847,12 +843,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 40.0,
+    "original_delivery_fee": 53.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -960,9 +956,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.47
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.17
   },
   {
     "id": 17897,
@@ -1005,7 +1000,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.002,
+    "distance": 2.057,
     "food_characteristics": [
       {
         "id": 252,
@@ -1028,25 +1023,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 53.0,
+    "original_delivery_fee": 99.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 10.0,
     "name": "Burger Xpress - Wari",
@@ -1153,7 +1165,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
     "_area": "Wari",
     "_area_distance_km": 0.58
   },
@@ -1198,7 +1209,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.474,
+    "distance": 1.323,
     "food_characteristics": [
       {
         "id": 252,
@@ -1233,11 +1244,11 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 52.0,
+    "original_delivery_fee": 60.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 55.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
+      "lower_limit_in_minutes": 50,
       "upper_limit_in_minutes": 70
     },
     "minimum_order_amount": 50.0,
@@ -1346,9 +1357,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Motijheel",
-    "_area_distance_km": 1.18
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.22
   },
   {
     "id": 98960,
@@ -1391,7 +1401,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.203,
+    "distance": 1.081,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/dpzp-listing.jpg",
@@ -1419,12 +1429,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 38.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 75.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 65,
+      "upper_limit_in_minutes": 90
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1525,8 +1535,174 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.2
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 14.35
+  },
+  {
+    "id": 87565,
+    "code": "uzur",
+    "accepts_instructions": true,
+    "address": "95 Sukrabad, Dhanmondi (Opposite Lalbag Birayani, Dhaka-1209)",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cs8ya",
+      "name": "Burger xpress",
+      "main_vendor_code": "n3fm",
+      "url_key": "burger-xpress"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.792,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/uzur-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/uzur-listing.jpg",
+    "is_new_until": "2025-10-31T08:48:53Z",
+    "premium_position": 0,
+    "latitude": 23.7529433,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8ya-logo.jpg",
+    "longitude": 90.378131,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 103.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Burger xpress - Dhanmondi",
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 85,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/uzur/burger-xpress-dhanmondi-uzur",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "burger-xpress-dhanmondi-uzur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      }
+    },
+    "vendor_points": 4382,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/uzur/burger-xpress-dhanmondi-uzur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Burger xpress - Dhanmondi",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801920979755",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.25
   }
 ]

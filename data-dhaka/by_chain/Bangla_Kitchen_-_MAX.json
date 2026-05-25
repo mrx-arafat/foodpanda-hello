@@ -202,9 +202,231 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.79
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.06
+  },
+  {
+    "id": 117426,
+    "code": "akyu",
+    "accepts_instructions": true,
+    "address": "House - 20, Nilambar Saha Road, Opposite of Baitur Rahman Jame Masjid, Hazaribagh Park, Hazaribagh, Dhaka - 1205",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "co5pn",
+      "name": "Bangla Kitchen - MAX",
+      "main_vendor_code": "o077",
+      "url_key": "bangla-kitchen-max"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.731,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/akyu-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/akyu-listing.jpg",
+    "is_new_until": "2026-04-20T11:09:08Z",
+    "premium_position": 0,
+    "latitude": 23.72566298,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/co5pn-logo.jpg",
+    "longitude": 90.37389531,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 113.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Bangla Kitchen - Amin's Food - Hazaribagh",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 86,
+    "rating": 4.2,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/akyu/bangla-kitchen-amins-food-hazaribagh-akyu",
+    "review_number": 6,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "601643"
+          }
+        }
+      }
+    ],
+    "url_key": "bangla-kitchen-amins-food-hazaribagh-akyu",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4683,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/akyu/bangla-kitchen-amins-food-hazaribagh-akyu",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "601643",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Bangla Kitchen - Amin's Food - Hazaribagh",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801973239698",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.73_90.40",
+    "_area_distance_km": 2.7
   },
   {
     "id": 124725,
@@ -235,7 +457,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.48,
+    "distance": 2.219,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/co5pn-listing.jpg",
@@ -257,7 +479,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_19",
+          "id": "bd_94",
           "name": "",
           "messages": [
             ""
@@ -382,9 +604,231 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
-    "_area": "Jatrabari",
-    "_area_distance_km": 0.36
+    "_area": "Wari",
+    "_area_distance_km": 1.38
+  },
+  {
+    "id": 117393,
+    "code": "kpfx",
+    "accepts_instructions": true,
+    "address": "House - 360, Free School Street, Back Side of Eastern Plaza Shopping Complex, Hatirpool, Dhaka - 1205",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "co5pn",
+      "name": "Bangla Kitchen - MAX",
+      "main_vendor_code": "o077",
+      "url_key": "bangla-kitchen-max"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.801,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/kpfx-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/kpfx-listing.jpg",
+    "is_new_until": "2026-04-20T10:36:40Z",
+    "premium_position": 0,
+    "latitude": 23.74392588,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/co5pn-logo.jpg",
+    "longitude": 90.39095556,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 116.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Bangla Kitchen - Fry Factory - Hatirpool",
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 86,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/kpfx/bangla-kitchen-fry-factory-hatirpool",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "601643"
+          }
+        }
+      }
+    ],
+    "url_key": "bangla-kitchen-fry-factory-hatirpool",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4442,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/kpfx/bangla-kitchen-fry-factory-hatirpool",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "601643",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Bangla Kitchen - Fry Factory - Hatirpool",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801715997079",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 1.02
   },
   {
     "id": 124710,
@@ -531,9 +975,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.67
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 6.73
   },
   {
     "id": 117395,
@@ -738,9 +1181,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 1.0
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.77
   },
   {
     "id": 117425,
@@ -795,7 +1237,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.911,
+    "distance": 2.175,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ucj1-listing.jpg",
@@ -811,25 +1253,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 55.0,
+    "original_delivery_fee": 94.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 65
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Bangla Kitchen - Techno Hub International - Moghbazar",
@@ -945,8 +1404,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 1.91
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.3
   }
 ]

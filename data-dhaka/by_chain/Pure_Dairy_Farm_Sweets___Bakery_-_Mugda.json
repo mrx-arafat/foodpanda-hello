@@ -34,7 +34,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.706,
+    "distance": 3.837,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6mw-listing.jpg",
@@ -83,7 +83,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 34.0,
+    "original_delivery_fee": 118.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -168,9 +168,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
-    "_area": "Motijheel",
-    "_area_distance_km": 0.71
+    "_area": "Grid_23.73_90.41",
+    "_area_distance_km": 0.37
   },
   {
     "id": 69217,
@@ -207,7 +206,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.614,
+    "distance": 2.091,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mls9-listing.jpg",
@@ -227,7 +226,26 @@
         "event"
       ],
       "available_in": null,
-      "events": [],
+      "events": [
+        {
+          "id": "bd_46",
+          "name": "",
+          "messages": [
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -237,7 +255,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 94.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -248,7 +266,7 @@
     "primary_cuisine_id": 84,
     "rating": 4.3,
     "redirection_url": "https://foodpanda.com.bd/restaurant/mls9/pure-dairy-farm-sweets-and-bakery-khilgaon",
-    "review_number": 56,
+    "review_number": 55,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -280,7 +298,7 @@
         "main": true
       }
     },
-    "vendor_points": 4016,
+    "vendor_points": 4012,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -322,8 +340,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 0.61
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 1.66
   }
 ]

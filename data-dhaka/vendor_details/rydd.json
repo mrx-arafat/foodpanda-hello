@@ -1,0 +1,1502 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 61080,
+    "code": "rydd",
+    "accepts_instructions": true,
+    "address": "352/A, Road 16, Dhanmondi, Dhaka 1209",
+    "address_line2": "",
+    "budget": 3,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 65
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 37,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/rydd-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/rydd-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2022-10-27T00:00:00Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_vat_included": true,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7548559,
+    "location": "Dhanmondi",
+    "location_event": null,
+    "logo": "",
+    "longitude": 90.3728596,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 50,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Banglar Mishti - Dhanmondi",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 84,
+    "rating": 4.7,
+    "topic_ratings": null,
+    "review_number": 240,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:45"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:59"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:45"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Banglar Mishti - Dhanmondi",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2024-03-29",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-03-29",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-29"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-04-03",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-03"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-31",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-31"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-03-16",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-16"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-04-04",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-04"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-15",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-15"
+      },
+      {
+        "date": "2024-03-24",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-24"
+      },
+      {
+        "date": "2024-03-24",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-24"
+      },
+      {
+        "date": "2024-03-23",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-23"
+      },
+      {
+        "date": "2024-03-23",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-23"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-14",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-14"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-19",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-19"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-03-28",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-28"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-04-05",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-05"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-04-07",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-07"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-04-02",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-02"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-17",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-17"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2024-03-25",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-25"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-04-06",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-06"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-20",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-20"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-03-26",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-26"
+      },
+      {
+        "date": "2024-03-12",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-12"
+      },
+      {
+        "date": "2024-03-12",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-12"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "21:45",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2023-04-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "21:45",
+        "end_date": "2023-04-21"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-03-30",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-30"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-03-21",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-21"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-04-08",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-08"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2024-03-18",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-18"
+      },
+      {
+        "date": "2022-09-28",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2022-09-28"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-04-01",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-01"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-27",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-27"
+      },
+      {
+        "date": "2024-03-13",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-13"
+      },
+      {
+        "date": "2024-03-13",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-13"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-09",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-09"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-04-10",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-04-10"
+      },
+      {
+        "date": "2024-03-22",
+        "opening_type": "delivering",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-22"
+      },
+      {
+        "date": "2024-03-22",
+        "opening_type": "pickup",
+        "opening_time": "10:00",
+        "closing_time": "22:00",
+        "end_date": "2024-03-22"
+      },
+      {
+        "date": "2025-11-15",
+        "opening_type": "unavailable",
+        "opening_time": "23:14",
+        "closing_time": "22:00",
+        "end_date": ""
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "banglar-mishti-dhanmondi",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Banglar Mishti - Dhanmondi",
+      "address_line_1": "352/A, Road 16, Dhanmondi, Dhaka 1209"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/rydd/banglar-mishti-dhanmondi",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 523,
+      "main_vendor_code": "t6ng",
+      "main_vendor_id": 10497,
+      "is_accepting_global_vouchers": true,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": "Banglar Mishti",
+      "url_key": "banglar-mishti",
+      "code": "cr5ll"
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801671113679",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 186793,
+        "code": "",
+        "name": "Delivery Menu (09:00-23:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "09:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 2412723,
+            "code": "6f065daf-7135-4a4b-984b-b3c919a54a2d",
+            "name": "Sweets",
+            "description": "",
+            "products": [
+              {
+                "id": 8985582,
+                "code": "cf7c1435-b4b2-4fde-beef-32d07cde5f65",
+                "name": "Aadi Roshogolla",
+                "description": "1 kg - Spongy orbs of delight, soaked in syrup, a cherished bengali dessert",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985582.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985582.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985582.jpg",
+                    "tags": {
+                      "HM": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785870,
+                    "code": "de73257b-91cc-4485-bd23-9f7a4a476747",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1778754444"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985583,
+                "code": "a8b18942-4843-4c3d-97c1-6fa7b6e5eb82",
+                "name": "Mihidana Laddu",
+                "description": "1 kg - A sweet, tiny, golden, boondi like dessert from bengal, rich & flavorful",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985583.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985583.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985583.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785871,
+                    "code": "16f91237-2b31-4aa5-806f-2df4f99415e4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985584,
+                "code": "14b1d66c-ef9b-4ea9-8683-0de6f46438c0",
+                "name": "Kalojam",
+                "description": "1 kg - Bengali delicacy prepared with creamy chana balls deep-fried, but soft & succulent inside, then soaked in sugar syrup",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985584.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985584.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985584.jpg",
+                    "tags": {
+                      "hm    ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785872,
+                    "code": "d0776a1a-fcb2-4900-9709-1baff3f9a463",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 675,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985589,
+                "code": "1518ae9f-d3a1-4f5b-af18-8ffa19456d7a",
+                "name": "Jamtola Chomchom",
+                "description": "1 kg - A syrup-soaked bengali sweet, oval-shaped, soft & often coated with coconut or khoya",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785877,
+                    "code": "04b2cbc9-30d7-485c-8cfe-3fe5fc3cbb56",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1175,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985602,
+                "code": "e702d4d6-3971-4af8-b87d-002762564151",
+                "name": "Balushahi",
+                "description": "1 kg - Soft & deliciously flaky inside, prepared with flour, full-cream milk powder & sugar",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985602.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985602.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985602.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785890,
+                    "code": "b6f57b10-3546-427f-a8fa-cc9363bb2852",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 675,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985604,
+                "code": "f4fd322b-6913-4948-bb19-e744b7fb9de6",
+                "name": "Gur Kheer Mohon",
+                "description": "1 kg - Prepared with paneer, mawa, flour, semolina, cardamom powder, kheer, ghee & gur syrup",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785892,
+                    "code": "988e7e34-698f-4252-a7ea-03f20df33f92",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1125,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985608,
+                "code": "06f262e0-af65-4958-a542-26440e8fbc74",
+                "name": "Roshogolla",
+                "description": "1 kg - Prepared with cottage cheese, semolina & cooked in light sugar syrup",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985608.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985608.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985608.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785896,
+                    "code": "192b7c64-141e-4e51-86da-a498c9142dba",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 575,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985615,
+                "code": "0d485d7c-b240-48ba-a220-cf2f3b7bff2d",
+                "name": "Hafshi Sandesh",
+                "description": "1 kg - Prepared with chana, ghee & sugar",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785903,
+                    "code": "803960ac-bb7b-4700-b672-ca4a946cbb8b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1125,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985623,
+                "code": "b411d19c-c915-4709-9f84-97f25767d21e",
+                "name": "Motichur Laddu",
+                "description": "1 kg - Prepared with gram flour & sugar syrup, perfect for any festive occasion",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985623.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985623.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985623.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785911,
+                    "code": "124aef58-a2ce-4548-a5a6-92e1cf344c5a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 750,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 8985626,
+                "code": "cb75e962-0632-477a-a464-763febf988e5",
+                "name": "Gulab Jamun",
+                "description": "1 kg - Classic sweet prepared with milk & sugar, flavoured with rose water & cardamom powder",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985626.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/8985626.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/8985626.jpg",
+                    "tags": {
+                      "hm     ": "true"
+                    }
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785914,
+                    "code": "ce46526a-19ce-484f-b439-75835847541b",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 625,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 2412724,
+            "code": "a2432080-c53a-44f2-9554-c72c4554bb3c",
+            "name": "Dessert",
+            "description": "",
+            "products": [
+              {
+                "id": 8985632,
+                "code": "00a6c143-0d2b-449a-bbc3-2dc7960e51b1",
+                "name": "Laccha Semai - 250 gm",
+                "description": "250 gm - Creamy & sweet laccha semai prepared with milk & sugar",
+                "display_price": "",
+                "master_category_id": 9,
+                "file_path": "",
+                "logo_path": "",
+                "images_urls": [],
+                "images": [],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 9785921,
+                    "code": "6f482c98-b886-4871-9516-e67f1d8adb63",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 225,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {}
+      }
+    ],
+    "toppings": {},
+    "metadata": {
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [
+        "Unreachable"
+      ],
+      "is_flood_feature_closed": true,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

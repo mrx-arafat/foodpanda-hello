@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.667,
+    "distance": 1.109,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mxn6-listing.jpg",
@@ -57,9 +57,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": null,
+      "available_in": "2026-05-25T08:00:00+0600",
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -68,13 +68,9 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 33.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Puro Pastry & Bakery - Banasree",
@@ -83,7 +79,7 @@
     "primary_cuisine_id": 84,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/mxn6/puro-pastry-and-bakery-banasree",
-    "review_number": 1250,
+    "review_number": 1249,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -121,7 +117,7 @@
         "main": true
       }
     },
-    "vendor_points": 5429,
+    "vendor_points": 5427,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -163,9 +159,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "Rampura",
-    "_area_distance_km": 0.67
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.6
   },
   {
     "id": 41132,
@@ -208,7 +203,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.168,
+    "distance": 0.752,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ced7-listing.jpg",
@@ -236,7 +231,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 36.0,
+    "original_delivery_fee": 55.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
@@ -331,9 +326,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.17
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.51
   },
   {
     "id": 72980,
@@ -376,7 +370,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 4.021,
+    "distance": 1.746,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cn8q-listing.jpg",
@@ -398,7 +392,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_19",
+          "id": "bd_62",
           "name": "",
           "messages": [
             ""
@@ -425,7 +419,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 122.0,
+    "original_delivery_fee": 78.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -474,7 +468,7 @@
         "main": true
       }
     },
-    "vendor_points": 5440,
+    "vendor_points": 5442,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -501,7 +495,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -516,9 +510,192 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 1.6
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 0.93
+  },
+  {
+    "id": 49291,
+    "code": "iy5l",
+    "accepts_instructions": true,
+    "address": "M.M Complex ,Ground Floor,2/11,Pallabi,Mirpur,Dhaka-1216",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx6az",
+      "name": "Puro Pastry & Bakery - Dhaka",
+      "main_vendor_code": "ra54",
+      "url_key": "puro-pastry-and-bakery-dhaka"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.483,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/iy5l-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/iy5l-listing.jpg",
+    "is_new_until": "2021-12-16T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.8241767,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cx6az-logo.jpg",
+    "longitude": 90.3640629,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_1008",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 96.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Puro Pastry & Bakery - Mirpur 11.5",
+    "payment_types": [],
+    "post_code": "1216",
+    "primary_cuisine_id": 84,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/iy5l/puro-pastry-and-bakery-mirpur-11-5",
+    "review_number": 1503,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "puro-pastry-and-bakery-mirpur-11-5",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 5783,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/iy5l/puro-pastry-and-bakery-mirpur-11-5",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Puro Pastry & Bakery - Mirpur 11.5",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801313796817",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 9.02
   },
   {
     "id": 58324,
@@ -561,7 +738,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.618,
+    "distance": 3.82,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/gjn6-listing.jpg",
@@ -577,25 +754,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_1008",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 19.0,
+    "original_delivery_fee": 100.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Puro Pastry & Bakery - Mirpur 6",
@@ -684,9 +878,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.62
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.63
   },
   {
     "id": 43304,
@@ -729,7 +922,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.976,
+    "distance": 0.398,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/iork-listing.jpg",
@@ -757,7 +950,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 72.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
@@ -852,9 +1045,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohakhali",
-    "_area": "Mohakhali",
-    "_area_distance_km": 0.98
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 3.19
   },
   {
     "id": 43370,
@@ -897,7 +1089,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.438,
+    "distance": 0.836,
     "food_characteristics": [
       {
         "id": 252,
@@ -921,9 +1113,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": null,
+      "available_in": "2026-05-25T07:30:00+0600",
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -932,13 +1124,9 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 68.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
-    },
+    "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Puro Pastry & Bakery - Mohammadpur",
@@ -992,7 +1180,7 @@
         "main": true
       }
     },
-    "vendor_points": 5798,
+    "vendor_points": 5800,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1034,9 +1222,505 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.44
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.13
+  },
+  {
+    "id": 42252,
+    "code": "edin",
+    "accepts_instructions": true,
+    "address": "Rupayan Golden Age, (Ground Floor), 99, Gulshan Avenue, -, Bangladesh.",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx6az",
+      "name": "Puro Pastry & Bakery - Dhaka",
+      "main_vendor_code": "ra54",
+      "url_key": "puro-pastry-and-bakery-dhaka"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.428,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/edin-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/edin-listing.jpg",
+    "is_new_until": "2021-06-25T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7884301,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cx6az-logo.jpg",
+    "longitude": 90.4161631,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 40.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Puro Pastry & Bakery - Rupayan Golden Age",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 84,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/edin/puro-pastry-and-bakery-rupayan-golden-age",
+    "review_number": 680,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "puro-pastry-and-bakery-rupayan-golden-age",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4876,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/edin/puro-pastry-and-bakery-rupayan-golden-age",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Puro Pastry & Bakery- Rupayan Golden Age Outlet",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801777784877",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.32
+  },
+  {
+    "id": 54026,
+    "code": "fz14",
+    "accepts_instructions": true,
+    "address": "779, West Shewrapara, Mirpur, Dhaka-1216 (Beside Shewrapara Central Mosque)",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx6az",
+      "name": "Puro Pastry & Bakery - Dhaka",
+      "main_vendor_code": "ra54",
+      "url_key": "puro-pastry-and-bakery-dhaka"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.708,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fz14-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fz14-listing.jpg",
+    "is_new_until": "2022-03-30T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7918261,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cx6az-logo.jpg",
+    "longitude": 90.37512655,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": "2026-05-25T07:30:00+0600",
+      "events": [],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 51.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Puro Pastry & Bakery - Shewrapara",
+    "payment_types": [],
+    "post_code": "1216",
+    "primary_cuisine_id": 84,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/fz14/puro-pastry-and-bakery-shewrapara",
+    "review_number": 1363,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "puro-pastry-and-bakery-shewrapara",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 5776,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/fz14/puro-pastry-and-bakery-shewrapara",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Puro Pastry & Bakery - Shewrapara",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801313797020",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 5.3
+  },
+  {
+    "id": 63888,
+    "code": "ux6b",
+    "accepts_instructions": true,
+    "address": "29 Gareen E Newaz Avenue ,Sector 13, Uttara,Dhaka-1230",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx6az",
+      "name": "Puro Pastry & Bakery - Dhaka",
+      "main_vendor_code": "ra54",
+      "url_key": "puro-pastry-and-bakery-dhaka"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": true
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.889,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ux6b-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ux6b-listing.jpg",
+    "is_new_until": "2023-02-03T11:31:07Z",
+    "premium_position": 0,
+    "latitude": 23.87169154,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cx6az-logo.jpg",
+    "longitude": 90.39071946,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 90.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Puro Pastry & Bakery - Uttara 13",
+    "payment_types": [],
+    "post_code": "1230",
+    "primary_cuisine_id": 77,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/ux6b/puro-pastry-and-bakery-uttara-13",
+    "review_number": 1498,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "puro-pastry-and-bakery-uttara-13",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": true
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": true
+      }
+    },
+    "vendor_points": 5778,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/ux6b/puro-pastry-and-bakery-uttara-13",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Puro Pastry & Bakery",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801777784833",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.56
   },
   {
     "id": 49235,
@@ -1079,7 +1763,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.188,
+    "distance": 1.091,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/z1ec-listing.jpg",
@@ -1107,12 +1791,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 40.0,
+    "original_delivery_fee": 38.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 50.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1202,9 +1886,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.19
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 14.32
   },
   {
     "id": 41128,
@@ -1387,9 +2070,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.46
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.65
   },
   {
     "id": 74297,
@@ -1460,12 +2142,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 41.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1555,9 +2237,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Banani",
-    "_area_distance_km": 0.54
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.47
   },
   {
     "id": 69867,
@@ -1723,9 +2404,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Baridhara",
-    "_area": "Banani",
-    "_area_distance_km": 0.76
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 5.04
   },
   {
     "id": 78210,
@@ -1768,7 +2448,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.263,
+    "distance": 1.248,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/irxk-listing.jpg",
@@ -1790,15 +2470,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_5",
+          "id": "bd_46",
           "name": "",
           "messages": [
-            ""
+            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
           ],
           "actions": [
             {
               "type": "message",
-              "message": ""
+              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
             },
             {
               "type": "close",
@@ -1817,7 +2497,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 52.0,
+    "original_delivery_fee": 70.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -1866,7 +2546,7 @@
         "main": true
       }
     },
-    "vendor_points": 5501,
+    "vendor_points": 5514,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1893,7 +2573,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -1908,8 +2588,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Motijheel",
-    "_area_distance_km": 0.95
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.33
   }
 ]

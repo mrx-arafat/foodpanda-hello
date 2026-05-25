@@ -52,13 +52,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.323,
+    "distance": 2.508,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t7ua-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t7ua-listing.jpg",
     "is_new_until": "2020-01-16T00:00:00Z",
-    "premium_position": 3,
+    "premium_position": 0,
     "latitude": 23.763318,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cl8hj-logo.jpg",
     "longitude": 90.360216,
@@ -68,25 +68,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_18",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 31.0,
+    "original_delivery_fee": 110.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
-    },
+    "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 10.0,
     "name": "Meal Boy",
@@ -100,13 +117,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
-    "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      }
-    ],
+    "tag": "",
+    "tags": [],
     "url_key": "meal-boy",
     "vat_percentage_amount": 0,
     "characteristics": {
@@ -176,7 +188,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -189,13 +201,10 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "G5yf2bZlWsMTkw0cUruJNu7rcOh3V+ai2XIt6JHgDe6iTcKGu+pNAPmmhtJgXw+VxCDTdwL2emFYnmSS084JFVCfs7n3fBupVDHEvK4PMIcYOxFgCAhY5GxHvaMeC2PqbCnPLSL3jkKz7R2+El5h6y0gw3lgDICrqJjnbUZMUmpOaK8q/2ghHcRQ9+LEab1FtSisu7rvMjEUjra+NIfY3NFUeXWMFxYfDP1ub6bxWeIJUdu6oLpRxXoCdDUx4OeYIQnduINrox2T7tXajmap",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.32
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.31
   }
 ]

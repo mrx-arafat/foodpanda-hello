@@ -58,7 +58,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.219,
+    "distance": 0.753,
     "food_characteristics": [
       {
         "id": 252,
@@ -93,12 +93,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 38.0,
+    "original_delivery_fee": 24.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
       "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 65
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -213,9 +213,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "Rampura",
-    "_area_distance_km": 1.22
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.07
   },
   {
     "id": 63329,
@@ -431,9 +430,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gazipur",
-    "_area": "Gazipur",
-    "_area_distance_km": 0.23
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 27.84
   },
   {
     "id": 63328,
@@ -529,12 +527,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 53.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 60.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 75
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -649,9 +647,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Badda",
-    "_area": "Badda",
-    "_area_distance_km": 0.85
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.93
   },
   {
     "id": 6016,
@@ -884,9 +881,655 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Savar",
-    "_area": "Savar",
-    "_area_distance_km": 0.78
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 18.42
+  },
+  {
+    "id": 62381,
+    "code": "vcp2",
+    "accepts_instructions": true,
+    "address": "Plot: 01, Road: 13/C  ShahJalal Avenue  Sector: 6, Uttara, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.273,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vcp2-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/vcp2-listing.jpg",
+    "is_new_until": "2022-12-13T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.8682117,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.4035873,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "KFC - Uttara Sector 6",
+    "payment_types": [],
+    "post_code": "1230",
+    "primary_cuisine_id": 241,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/vcp2/kfc-uttara-sector-6",
+    "review_number": 4028,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-uttara-sector-6",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6930,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/vcp2/kfc-uttara-sector-6",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613992200",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.15
+  },
+  {
+    "id": 1625,
+    "code": "s5cg",
+    "accepts_instructions": true,
+    "address": "3, New Baily Road, 10, Natok Sharoni, Gold Hunt Shopping Complex.",
+    "address_line2": "Dhaka-1217",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.223,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s5cg-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s5cg-listing.jpg",
+    "is_new_until": "2017-10-09T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7420039,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.4099334,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 34.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 20.0,
+    "name": "KFC Baily Road",
+    "payment_types": [],
+    "post_code": "1217",
+    "primary_cuisine_id": 241,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s5cg/kfc-baily-road",
+    "review_number": 13934,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-baily-road",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 7064,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s5cg/kfc-baily-road",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC Baily Road",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613666555",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.22
+  },
+  {
+    "id": 1617,
+    "code": "s4hz",
+    "accepts_instructions": true,
+    "address": "40,Bulu Ocean Tower,Kemal Atartuk Avenue,Banani",
+    "address_line2": "Dhaka-1213",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "Vendor Delivery",
+    "distance": 0.127,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s4hz-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s4hz-listing.jpg",
+    "is_new_until": "2017-09-19T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7937427,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.4053513,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 70.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 0.0,
+    "minimum_pickup_time": 20.0,
+    "name": "KFC Banani",
+    "payment_types": [],
+    "post_code": "1213",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s4hz/kfc-banani",
+    "review_number": 5027,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-banani",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6820,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s4hz/kfc-banani",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC Banani",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613777222",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "vendor_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.89
   },
   {
     "id": 66144,
@@ -947,7 +1590,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.082,
+    "distance": 0.553,
     "food_characteristics": [
       {
         "id": 252,
@@ -982,12 +1625,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1102,9 +1745,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Mugda",
-    "_area_distance_km": 0.32
+    "_area": "Motijheel",
+    "_area_distance_km": 2.07
   },
   {
     "id": 3409,
@@ -1316,9 +1958,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.23
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 7.06
   },
   {
     "id": 1624,
@@ -1534,9 +2175,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.38
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.72
   },
   {
     "id": 68591,
@@ -1752,9 +2392,225 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Lalmatia",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.84
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.41
+  },
+  {
+    "id": 2164,
+    "code": "s2pn",
+    "accepts_instructions": true,
+    "address": "Plaza Central by Ananta 136, Old Elephant Road, S Kamruzzaman Sharani Rd, Dhaka 1205",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.585,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2pn-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2pn-listing.jpg",
+    "is_new_until": "2017-10-19T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7408387,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.3898876,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 103.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 20.0,
+    "name": "KFC Elephant Road",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s2pn/kfc-elephant-road",
+    "review_number": 5380,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-elephant-road",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6763,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s2pn/kfc-elephant-road",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Transcom foods LTD",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613777999",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 1.03
   },
   {
     "id": 1615,
@@ -1815,7 +2671,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.686,
+    "distance": 2.344,
     "food_characteristics": [
       {
         "id": 252,
@@ -1850,12 +2706,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 43.0,
+    "original_delivery_fee": 127.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 20.0,
@@ -1970,9 +2826,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.69
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.88
   },
   {
     "id": 1631,
@@ -2033,7 +2888,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.553,
+    "distance": 1.475,
     "food_characteristics": [
       {
         "id": 252,
@@ -2068,12 +2923,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 105.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 20.0,
@@ -2188,9 +3043,459 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 2.55
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 12.4
+  },
+  {
+    "id": 1627,
+    "code": "s4lb",
+    "accepts_instructions": true,
+    "address": "Plot No - 25, Block -B,Shaheed Baki Shorok. DIT Road. Khilgaon. Dhaka-1219",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.406,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s4lb-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s4lb-listing.jpg",
+    "is_new_until": "2017-12-06T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7521564,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.4167837,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 14.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "KFC Khilgaon",
+    "payment_types": [],
+    "post_code": "1219",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s4lb/kfc-khilgaon",
+    "review_number": 7501,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-khilgaon",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6892,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s4lb/kfc-khilgaon",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC Khilgaon",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613889944",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.73
+  },
+  {
+    "id": 67872,
+    "code": "kfkw",
+    "accepts_instructions": true,
+    "address": "First Floor, Jannat Tower, Plot: 27/B, Lalbagh Road, Lalbagh, Dhaka 1211",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.228,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/kfkw-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/kfkw-listing.jpg",
+    "is_new_until": "2023-11-21T10:40:10Z",
+    "premium_position": 0,
+    "latitude": 23.72164285,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.38807375,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 50.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "KFC Lalbagh",
+    "payment_types": [],
+    "post_code": "1211",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/kfkw/kfc-lalbagh",
+    "review_number": 3057,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-lalbagh",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6791,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/kfkw/kfc-lalbagh",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC Lalbagh",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613772277",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.72_90.40",
+    "_area_distance_km": 1.23
   },
   {
     "id": 3411,
@@ -2406,9 +3711,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.41
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.21
   },
   {
     "id": 50419,
@@ -2624,9 +3928,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Narayanganj",
-    "_area": "Narayanganj",
-    "_area_distance_km": 0.25
+    "_area": "Grid_23.70_90.41",
+    "_area_distance_km": 12.65
   },
   {
     "id": 1644,
@@ -2687,7 +3990,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.682,
+    "distance": 0.116,
     "food_characteristics": [
       {
         "id": 252,
@@ -2710,42 +4013,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_94",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
+    "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 20.0,
     "name": "KFC Paltan",
@@ -2859,9 +4145,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
-    "_area": "Motijheel",
-    "_area_distance_km": 0.68
+    "_area": "Grid_23.73_90.41",
+    "_area_distance_km": 0.12
   },
   {
     "id": 1616,
@@ -2922,7 +4207,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.116,
+    "distance": 1.817,
     "food_characteristics": [
       {
         "id": 252,
@@ -2957,7 +4242,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 81.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
@@ -3077,9 +4362,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.96
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.35
   },
   {
     "id": 68110,
@@ -3295,9 +4579,221 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.44
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.14
+  },
+  {
+    "id": 1626,
+    "code": "s5th",
+    "accepts_instructions": true,
+    "address": "Plot # 13, Sec # 13,Sonargaon Janapath,Uttara R/A",
+    "address_line2": "Dhaka-1231",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.682,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s5th-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s5th-listing.jpg",
+    "is_new_until": "2018-02-19T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.874195,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.391848,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 70.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 0.0,
+    "minimum_pickup_time": 20.0,
+    "name": "KFC Uttara",
+    "payment_types": [],
+    "post_code": "1230",
+    "primary_cuisine_id": 241,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s5th/kfc-uttara",
+    "review_number": 4319,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-uttara",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6730,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s5th/kfc-uttara",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Kfc mirpur",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613777111",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "vendor_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.83
   },
   {
     "id": 3810,
@@ -3358,7 +4854,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.805,
+    "distance": 1.861,
     "food_characteristics": [
       {
         "id": 252,
@@ -3381,25 +4877,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 47.0,
+    "original_delivery_fee": 90.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 65
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 20.0,
     "name": "KFC Wari",
@@ -3513,8 +5026,210 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
     "_area": "Wari",
     "_area_distance_km": 0.61
+  },
+  {
+    "id": 73762,
+    "code": "nyvx",
+    "accepts_instructions": true,
+    "address": "Gulfesha Plaza (1st Floor), 8, Shahid Sangbadik Selina Parvin Sarak (Old:- 69, Outer Circular Road); Moghbazar, Dhaka.",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.58,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/nyvx-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/nyvx-listing.jpg",
+    "is_new_until": "2025-01-10T12:00:34Z",
+    "premium_position": 0,
+    "latitude": 23.7492135,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.405631,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 19.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "KFC- Moghbazar",
+    "payment_types": [],
+    "post_code": "1217",
+    "primary_cuisine_id": 241,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/nyvx/kfc-moghbazar",
+    "review_number": 1281,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-moghbazar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6949,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/nyvx/kfc-moghbazar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC- Moghbazar",
+      "trade_register_number": "N/A"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613885544",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.45
   }
 ]

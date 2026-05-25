@@ -74,12 +74,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 35.0,
+    "original_delivery_fee": 37.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -175,9 +175,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Banani",
-    "_area_distance_km": 0.39
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.57
   },
   {
     "id": 18762,
@@ -244,7 +243,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.041,
+    "distance": 1.085,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u8bc-listing.jpg",
@@ -260,42 +259,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_18",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 96.0,
+    "original_delivery_fee": 57.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Sausly's Foods - Dhanmondi",
@@ -408,9 +390,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.78
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.56
   },
   {
     "id": 18641,
@@ -465,7 +446,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.358,
+    "distance": 1.682,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u1uf-listing.jpg",
@@ -481,42 +462,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 63.0,
+    "original_delivery_fee": 116.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Sausly's Foods - Shariotullah Bhaban",
@@ -617,9 +581,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.9
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.73
   },
   {
     "id": 18718,
@@ -680,7 +643,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.218,
+    "distance": 1.323,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u4fr-listing.jpg",
@@ -708,12 +671,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 55.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -821,9 +784,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.22
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.66
   },
   {
     "id": 18767,
@@ -1015,8 +977,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Baridhara",
-    "_area": "Banani",
-    "_area_distance_km": 0.82
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.97
   }
 ]

@@ -163,9 +163,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 1.69
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 0.87
   },
   {
     "id": 416,
@@ -208,7 +207,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.566,
+    "distance": 2.061,
     "food_characteristics": [
       {
         "id": 252,
@@ -231,42 +230,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_30",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 68.0,
+    "original_delivery_fee": 121.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 60.0,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shawarma House - Banani",
@@ -362,9 +344,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.41
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.49
   },
   {
     "id": 418,
@@ -413,7 +394,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.639,
+    "distance": 2.05,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s0ny-listing.jpg",
@@ -441,12 +422,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 63.0,
+    "original_delivery_fee": 65.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 70.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 85
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -545,12 +526,11 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "6h/kr0Kx1aSR3UTB1+sb7iQfdBOFLkctNREQCgHhjYpgv71xljnJW5QxPvGfts024PsSd8/ZF+epSGWjCEmrDqqYu5calGwkMLbIzOjj0+N3QnFKP3DQHxjnCXcVYUhkKQonw7YgapM8yZWvEud+tB2Pz6FA3ApruMUjBb3yjYHYnKDwrOp1GWZxN7ypIvgOL8FI5O5uzYHkuKMvskiioWs0GY+R6aWGGPHO6xJrkCcYhyIKbol3YsrS0P4ag7tle6RjZmu8zZMLhFsmWH/l",
+    "ncr_token": "qniL8NFJLuKF14SGDNTkBYxJr0+VYqDx2NboRLEw6Nu6wl/nLpTP/rnlTRlRgNxcP2WUa6sMCeGoxJ2wDUG5jayR0KkmzW+P8fiNik4OSQcMWE3EM2CQGmL0R+hVX+S8W+7gYVhzxzVHVsMlg5U4SX++tgIfEO5TFjtVCuf9fv/bU97WIuQI6LKn4WTaIBoeW9q90YyRB38Z9pjEyPpqYo/JtM/xZPH2Yw/YTt9LEso+B/D6pbpXq9uyf+vomO/887nCO4yG93jZ4zwur/Kr",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.64
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 12.78
   }
 ]

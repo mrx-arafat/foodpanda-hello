@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.451,
+    "distance": 2.917,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx1ze-listing.jpg",
@@ -74,12 +74,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 80.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 85.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 75,
-      "upper_limit_in_minutes": 100
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -190,9 +190,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 0.57
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.43
   },
   {
     "id": 104304,
@@ -241,13 +240,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.372,
+    "distance": 2.737,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/xxpv-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/xxpv-listing.jpg",
     "is_new_until": "2026-02-09T13:01:04Z",
-    "premium_position": 0,
+    "premium_position": 6,
     "latitude": 23.7531797,
     "logo": "",
     "longitude": 90.3776264,
@@ -269,12 +268,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 114.0,
+    "original_delivery_fee": 103.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 80.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 70,
-      "upper_limit_in_minutes": 95
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -284,13 +283,17 @@
     "primary_cuisine_id": 74,
     "rating": 4.2,
     "redirection_url": "https://foodpanda.com.bd/restaurant/xxpv/rice-lab-dhanmondi-xxpv",
-    "review_number": 348,
+    "review_number": 347,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "12% off Tk. 50",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "12% off Tk. 50",
@@ -338,7 +341,7 @@
         "main": true
       }
     },
-    "vendor_points": 11241,
+    "vendor_points": 11243,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -369,6 +372,202 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "qStkWgf5LC1VQvKlzU5cTNW3jmcqnHA6YDqt9g0RpyJ+o/vh8WnjqMkJbuEymm84RviyDUchdZ4LRyBLj2bY7KjYCPCNzgqywYrOlVi/Kp4CYYNQ8hEmi/BCozhy5W03TneHF94K08dDLvVbrCPypngWTxx+t6+ia5bouwsK7hWsfDPLuUFa5f+kaw7v0Ixh8jCz0iAAbnSJjecPBoiZ0xSvKl+BKsUARPhkHtOQX4fZzAZ/XDcdrZclr6gU6wqazri+k64gv0pwG63S/oU=",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.3
+  },
+  {
+    "id": 90582,
+    "code": "vmpu",
+    "accepts_instructions": true,
+    "address": "Lee Tsai Hsiang House, 51, South Gulshan Avenue, Gulshan-1,Dhaka -1212",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cx1ze",
+      "name": "Rice Lab - Mirpur",
+      "main_vendor_code": "ga7u",
+      "url_key": "rice-lab-mirpur"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.875,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vmpu-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/vmpu-listing.jpg",
+    "is_new_until": "2025-11-15T07:55:30Z",
+    "premium_position": 0,
+    "latitude": 23.7810525,
+    "logo": "",
+    "longitude": 90.4164762,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 72.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Rice Lab - Gulshan",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 123,
+    "rating": 4.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/vmpu/rice-lab-gulshan",
+    "review_number": 676,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "12% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "12% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604643"
+          }
+        }
+      }
+    ],
+    "url_key": "rice-lab-gulshan",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": true
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      }
+    },
+    "vendor_points": 11412,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/vmpu/rice-lab-gulshan",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604643",
+        "value": 12
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Rice Lab",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801888383967",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
     "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
@@ -385,9 +584,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.82
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.52
   },
   {
     "id": 88197,
@@ -529,9 +727,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 1.16
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 8.15
   },
   {
     "id": 93165,
@@ -580,7 +777,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.212,
+    "distance": 1.72,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fejm-listing.jpg",
@@ -608,12 +805,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 70.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 85
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -724,8 +921,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.21
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.3
   }
 ]

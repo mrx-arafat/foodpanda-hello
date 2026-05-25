@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.694,
+    "distance": 1.362,
     "food_characteristics": [
       {
         "id": 252,
@@ -59,7 +59,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
     "is_new_until": "2021-03-17T00:00:00Z",
-    "premium_position": 3,
+    "premium_position": 0,
     "latitude": 23.7421678,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp6ts-logo.jpg",
     "longitude": 90.40847565,
@@ -69,25 +69,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 65.0,
+    "original_delivery_fee": 60.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 60.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 75
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Cheez - Bailey Road",
@@ -101,12 +118,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "Up to 15% off",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "Up to 15% off",
@@ -187,7 +200,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -200,14 +213,11 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "OhuIkhyxCfHX7uFR4Yu4QWxHk9FJXQS8lwpmu2k0MZHAxJTLW6zZwAdUbDGixj7HF8gXpl6XVRsdiPhnMqZLtiOPdjmDGXFUhxYhOvdmSszuChkvfDFFw4p3Rrn33Q3FOkOKy/rDIId7anosf3/oXyZhNSNHfxB2BPnDlxaF470jzMJJCZ6GjeMl0rNKwmCdZPXRuN6wCIUos2/jEqH21p/ehaNjNgbGXyctOkX1nckj5Q/LVWAAHNJ6t+7IGF1vdapdKBgNthhlUiv+Mzk=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Motijheel",
-    "_area_distance_km": 1.34
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.29
   },
   {
     "id": 4598,
@@ -291,12 +301,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 36.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -409,9 +419,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Banani",
-    "_area_distance_km": 0.47
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.46
   },
   {
     "id": 9920,
@@ -619,9 +628,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.55
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 6.85
   },
   {
     "id": 6867,
@@ -670,7 +678,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.719,
+    "distance": 0.423,
     "food_characteristics": [
       {
         "id": 252,
@@ -693,42 +701,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_18",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 132.0,
+    "original_delivery_fee": 37.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Cheez - Dhanmondi",
@@ -840,9 +831,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.42
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 2.89
   },
   {
     "id": 19299,
@@ -891,7 +881,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.603,
+    "distance": 0.911,
     "food_characteristics": [
       {
         "id": 252,
@@ -904,7 +894,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
     "is_new_until": "2019-03-12T00:00:00Z",
-    "premium_position": 2,
+    "premium_position": 0,
     "latitude": 23.7754072,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp6ts-logo.jpg",
     "longitude": 90.4175898,
@@ -926,12 +916,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 43.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 55.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 70
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -946,12 +936,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "Up to 15% off",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "Up to 15% off",
@@ -1032,7 +1018,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -1045,14 +1031,11 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "dQ/yeAICbEfryh+lYUgtfk5ZoIxAMmBIFaYzJM4JhXrUbsy886jEPCK+KmPjuHP714jKt0M3M3J06XFg1E+zOQcytcj8VLVVgPfD09CbyCkLyOFLY+kgx63x1iS2vmiUavqEg4vnpMlT39wCAIRBr7h3OCufnRPeZFOZOK5gUPm0PTijje9bjHhaJ4/DDsw/1DORfXlPiVRN7uZkLTiG8jZQLXPnBwi8m8qXjlTnqaAnLBwZjwy8kjBPpxDJQeAz2ZqCWlPehuQT6Ks6Bms=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.6
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.93
   },
   {
     "id": 40728,
@@ -1101,7 +1084,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.045,
+    "distance": 1.601,
     "food_characteristics": [
       {
         "id": 252,
@@ -1136,12 +1119,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 33.0,
+    "original_delivery_fee": 89.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1156,12 +1139,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "Up to 15% off",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "DEAL",
         "text": "Up to 15% off",
@@ -1242,7 +1221,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -1255,14 +1234,11 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "hbZu5F5xlZvB8qrmKFkMMtJmmuZ4Liyyn3FJLPazTtP92x+4dP3fRnj0zoz3/Pv+Wka1U2CMUVEYA5dbSzo6NhRN/OrrDjsfp3YfpIdqKBP9dHfQHp7Q3MiP4StULjFzHNZ/iEvcLWPDEmnOKPzBXT6U0EIxq4ptiIZJAw7R5h3mauV9yiNTGfp33K7sNXMfm6n1kHKgXjOVfa2mG/+CU7NZJVFW4yL9ckzks/UzgnvGnjyTYBzF+pb+GqIl+VXYPx/lVojuL0SPWx1XoA==",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "Khilgaon",
-    "_area_distance_km": 0.97
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 1.2
   },
   {
     "id": 19300,
@@ -1311,7 +1287,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.368,
+    "distance": 3.787,
     "food_characteristics": [
       {
         "id": 252,
@@ -1324,7 +1300,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
     "is_new_until": "2019-03-12T00:00:00Z",
-    "premium_position": 3,
+    "premium_position": 1,
     "latitude": 23.80929965,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp6ts-logo.jpg",
     "longitude": 90.3677099,
@@ -1346,12 +1322,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 88.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1361,7 +1337,7 @@
     "primary_cuisine_id": 69,
     "rating": 4.8,
     "redirection_url": "https://foodpanda.com.bd/restaurant/u3hn/cheez-mirpur",
-    "review_number": 7020,
+    "review_number": 7012,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1426,7 +1402,7 @@
         "main": true
       }
     },
-    "vendor_points": 6857,
+    "vendor_points": 6860,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1466,13 +1442,221 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "xixl2XdIL2umPMn8yt4GzpeZgSuUvQ9rs17x+oYot8b0mfz7IyH57DZzwag4LMhUdxvdJueLyKVQVCtdM6nf8NkzDzcZi41VeIDmhy7sudD2GgnhM0dcZCkwMs4nAlKgdstCkcBnFWma43MFTeIpukGn0be1lijWAEZ8KWb+SJ+iKYbf4EAMB3b675h8mulx7GsJiEbZC2TciwFJaBWbQhuOf1TGc0G2SEuFiO8Bi133hh6ATMRrgY42gLu6x0BfoF8ZMTOZC7PT/9pKe1Ou",
+    "ncr_token": "PJ4dPKsLjSBzuFj9N4BM8v32FJkx9BKstUmS89AX9rZP1QgyniPyt7LzFyeoCsAWIWcdqGC5OWc437umFgFMQgBRZ/a0mWZLQ9erc9S6+nBrh6NjkPNSYx6xuZf+YJCV60yc0kIl4uiJH78jnnCyUo0cBfkO/SsHB/tl4ALo2unSvcTzFMRFGRba1LSIGQetMERlr7cbCh0ITDBiujacaa7V+OWUjgCaVViXP1VaP4Qc4HW5cPfUIXwoLLryIyAf/vByf0wQ76un0PyFz+s7",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.37
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.37
+  },
+  {
+    "id": 32602,
+    "code": "c83p",
+    "accepts_instructions": true,
+    "address": "House Name: Ghazi Villa, House:16/14. Haji Chinumiya Road. Block- F, Joint Quarter Mohammadpur (tikka para), Dhaka 1207.",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cp6ts",
+      "name": "Cheez",
+      "main_vendor_code": "t1bc",
+      "url_key": "cheez"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": true
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.217,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cp6ts-listing.jpg",
+    "is_new_until": "2021-01-07T00:00:00Z",
+    "premium_position": 4,
+    "latitude": 23.7682791,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cp6ts-logo.jpg",
+    "longitude": 90.3591613,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 49.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Cheez - Mohammadpur",
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 69,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/c83p/cheez-mohammadpur",
+    "review_number": 2702,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "Up to 15% off",
+        "label_metadata": {
+          "deal": {
+            "id": "576986"
+          }
+        }
+      }
+    ],
+    "url_key": "cheez-mohammadpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": true
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": true
+      }
+    },
+    "vendor_points": 6470,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/c83p/cheez-mohammadpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Cheez",
+      "trade_register_number": "N/A"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801714061305",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "7VqLIKzpXzZEj9+1U/AjImoUFjqwpZGP65yAsIyZpi56/NR8sInQedpgNF4HIcxgnQCtDOLaJg6Cnc7XEya+K8ugOrZkV+8jns/ZaPUuYGjAwWISR6oxuQXDNMrWl/y32ppvZhJMsX/9RaTh02JbMzSKNs102peaMssJv+U3vnhI7ITTk1TKAe6VgJRiE3gClS1yGwujHOe0x6uF3BPP+fFG8ioFhLFcw1YaWfLn2RUIrmLaYSx1hvrJaIf6VT4/w7ilQT6BwXm8VzGC2mQ=",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.63
   },
   {
     "id": 5423,
@@ -1521,7 +1705,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.163,
+    "distance": 1.112,
     "food_characteristics": [
       {
         "id": 252,
@@ -1556,12 +1740,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 40.0,
+    "original_delivery_fee": 38.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 75.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 65,
+      "upper_limit_in_minutes": 90
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1674,8 +1858,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.16
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 14.18
   }
 ]

@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.028,
+    "distance": 1.064,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cc5rw-listing.jpg",
@@ -89,7 +89,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 99.0,
+    "original_delivery_fee": 53.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -180,7 +180,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Jatrabari",
     "_area": "Old Dhaka",
     "_area_distance_km": 0.47
   },
@@ -219,7 +218,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.691,
+    "distance": 0.622,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/tz9l-listing.jpg",
@@ -235,42 +234,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_94",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 90.0,
+    "original_delivery_fee": 30.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 70
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Beauty Lassi & Faluda - Najirabazar",
@@ -368,9 +350,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
-    "_area": "Old Dhaka",
-    "_area_distance_km": 1.36
+    "_area": "Grid_23.72_90.41",
+    "_area_distance_km": 0.47
   },
   {
     "id": 122036,
@@ -413,13 +394,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.278,
+    "distance": 0.375,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/r3z2-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/r3z2-listing.jpg",
     "is_new_until": "2026-05-24T18:38:48Z",
-    "premium_position": 4,
+    "premium_position": 0,
     "latitude": 23.71308719,
     "logo": "",
     "longitude": 90.41147165,
@@ -443,10 +424,10 @@
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -539,11 +520,10 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "HtmKra4a+NasgUBa5a9Mnx/7boJ5y4SHo6swk7upGsgxVsxujlVqQB08zVfppy4VIFymcZPKdQ1gjy4FsH+rfFnc4QfaLUTA9XaAeULBoDtKjObVMS577SsvqcJtIcX3P51l3szVnXjkWtC48EJhIeOLJ7aMYZ0NVJKtHlIFb1xB8btLEbJ9RgpP8Ya/V9H5tF+nyYhcg+/r+hJXPDztw2M4X2DbK7ADw7Q7pk0tScOZCxSr+D4s4gsCCyd1WOzfwPG2KcUWNs7lGkrkg/qr",
+    "ncr_token": "kg1OevfzLccTSpoVEvMEDIPTR/2yJTw7KHc2E2tZjZ00fHyle8IfRNLyT7v/So7aE8Y7A4KaZq/8stENUBOMMKls9wKI5zUmV70P8M2Zs9HctzR9YZ1/riS9OARoIB1odWFyG8OF2GcU/wS1uW+Qa9DUAggZQCimySSzzf90M4XzP3t0vc8afDLQQ6+nVioS8OegF6zDkolbZsXrfbJJtP6JH9dD42gb4PcEogUwN6AU3osTRNs10qGv3tYSZWxxmfKlgznBzNmk1KdAio8=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
     "_area": "Old Dhaka",
     "_area_distance_km": 0.28
   }

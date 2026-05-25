@@ -1,0 +1,1921 @@
+{
+  "status_code": 200,
+  "data": {
+    "id": 68648,
+    "code": "b0jv",
+    "accepts_instructions": true,
+    "address": "Plot 56/B, Road 132, Gulshan 1",
+    "address_line2": "",
+    "budget": 3,
+    "deals": [],
+    "constraints": [],
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 103,
+        "name": "Pasta",
+        "url_key": "pasta",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 242,
+        "name": "Steak",
+        "url_key": "steak",
+        "main": false
+      }
+    ],
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 85
+    },
+    "pickup_duration_range": null,
+    "delivery_fee_source": "dps",
+    "description": "",
+    "discounts": [
+      {
+        "banner_title": "",
+        "bogo_product_blocks": [],
+        "bogo_discount_unit": "",
+        "closing_time": "07:13",
+        "condition_type": "multiple_vendors",
+        "condition_object": 0,
+        "condition_object_array": [],
+        "discount_amount": 0,
+        "discount_type": "free-delivery",
+        "conditions": null,
+        "daily_limit": 0,
+        "description": "",
+        "discount_text": "",
+        "end_date": "2027-05-25",
+        "file_name": "",
+        "id": 0,
+        "maximum_discount_amount": 0,
+        "minimum_order_value": 0,
+        "name": "",
+        "opening_time": "07:13",
+        "platform_ratio": 0,
+        "promotional_limit": 0,
+        "start_date": "2026-05-25",
+        "vendor_id": 0,
+        "additional_info": {
+          "calculation": {
+            "baseOn": null
+          },
+          "high_value_action": "ACQUISITION",
+          "high_value_action_label": "NEXTGEN_HVA_ACQUISITION_FD"
+        }
+      }
+    ],
+    "dynamic_pricing": {
+      "service_fee": {
+        "total": 5,
+        "type": "percentage",
+        "setup_value": 3,
+        "min_value": 5,
+        "max_value": 19
+      },
+      "adjustments": {
+        "current_discount": 0,
+        "next_discount": {
+          "is_free": true,
+          "difference": 0,
+          "discount": 0,
+          "show_message": false,
+          "progress_percentage": 100
+        }
+      },
+      "fleet_utilization": 0,
+      "customer_tag": {
+        "variant": "",
+        "tag": null,
+        "subscription_id": null
+      },
+      "price_reason": null,
+      "delivery_fee": {
+        "original": 37,
+        "minimum": 0,
+        "minimum_order_value": 0,
+        "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD"
+      }
+    },
+    "experiments": [
+      {
+        "experiment_id": "recommendation-products-elements",
+        "experiment_variation": "Control",
+        "is_participating": false
+      },
+      {
+        "experiment_id": "personalised-popular-recommendations-on-rdp",
+        "experiment_variation": "Control",
+        "is_participating": false
+      }
+    ],
+    "favorite": null,
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/b0jv-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/b0jv-listing.jpg",
+    "is_active": true,
+    "is_delivery_enabled": true,
+    "is_new_until": "2024-01-11T06:10:17Z",
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_promoted": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": true,
+    "is_vat_included": false,
+    "is_voucher_enabled": true,
+    "is_super_vendor": false,
+    "latitude": 23.7813729,
+    "location": "Gulshan 2",
+    "location_event": null,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/b0jv-logo.jpg",
+    "longitude": 90.4174889,
+    "loyalty_percentage_amount": 0,
+    "loyalty_program_enabled": false,
+    "minimum_delivery_fee": 0,
+    "minimum_delivery_time": 70,
+    "minimum_order_amount": 50,
+    "minimum_pickup_time": 0,
+    "name": "Steak & Sausage",
+    "original_delivery_fee": 0,
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 122,
+    "rating": 4.7,
+    "topic_ratings": null,
+    "review_number": 41,
+    "review_with_comment_number": 0,
+    "schedules": [
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "delivering",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 1,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 2,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 3,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 4,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 5,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 6,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      },
+      {
+        "id": 0,
+        "weekday": 7,
+        "opening_type": "pickup",
+        "opening_time": "12:00",
+        "closing_time": "22:30"
+      }
+    ],
+    "service_fee": 0,
+    "service_fee_percentage_amount": 0,
+    "short_name": "Steak & Sausage",
+    "small_order_fee": {
+      "hard_limit": 0,
+      "soft_limit": 50,
+      "small_order_fee_cap": 10,
+      "small_order_fee": 10
+    },
+    "special_days": [
+      {
+        "date": "2026-03-09",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-09",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-09"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-03-10",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-10"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-02-28",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-28"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-02",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-02"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-11",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-11"
+      },
+      {
+        "date": "2026-03-20",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-20"
+      },
+      {
+        "date": "2026-03-20",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-20"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-02-20",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-20"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-21",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-21"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-02-24",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-24"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-15",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-15"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2026-03-03",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-03"
+      },
+      {
+        "date": "2025-06-09",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-09"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-19",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-19"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-22",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-22"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-02-27",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-27"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-17",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-17"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-18",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-18"
+      },
+      {
+        "date": "2026-03-19",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-19"
+      },
+      {
+        "date": "2026-03-19",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-19"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-05",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-05"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-13",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-13"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-03-14",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-14"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-02-25",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-25"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-06",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-06"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-08",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-08"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2026-03-12",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-12"
+      },
+      {
+        "date": "2025-06-07",
+        "opening_type": "closed",
+        "opening_time": "00:00",
+        "closing_time": "23:59",
+        "end_date": "2025-06-07"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-02-26",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-26"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-01",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-01"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-07",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-07"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-03-16",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-16"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-02-23",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-02-23"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "pickup",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-04"
+      },
+      {
+        "date": "2026-03-04",
+        "opening_type": "delivering",
+        "opening_time": "16:00",
+        "closing_time": "22:30",
+        "end_date": "2026-03-04"
+      }
+    ],
+    "tag": "NEXTGEN_FREE_DELIVERY_TAG",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "NEXTGEN_FREE_DELIVERY_TAG"
+      }
+    ],
+    "trade_register_number": "",
+    "url_key": "steak-and-sausage",
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 103,
+          "name": "Pasta",
+          "url_key": "pasta",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 242,
+          "name": "Steak",
+          "url_key": "steak",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": true
+      }
+    },
+    "vendor_legal_information": {
+      "legal_name": "Sausage World",
+      "address_line_1": "Plot 56/B, Road 132, Gulshan 1"
+    },
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://www.foodpanda.com.bd/restaurant/b0jv/steak-and-sausage",
+    "is_partner_cashback_disabled": false,
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "chain": {
+      "id": 0,
+      "main_vendor_code": "",
+      "main_vendor_id": 0,
+      "is_accepting_global_vouchers": false,
+      "listing_image_url": "",
+      "logo_image_url": "",
+      "name": null,
+      "url_key": null,
+      "code": null
+    },
+    "city": {
+      "id": 11359,
+      "name": "Dhaka",
+      "url_key": "dhaka",
+      "is_top_city": false,
+      "is_main_city": false,
+      "is_express_delivery_enabled": false,
+      "latitude": 23.785541998157502,
+      "longitude": 90.4246014516083,
+      "timezone": "Asia/Dhaka"
+    },
+    "custom_location_url": "",
+    "customer_phone": "+8801911080825",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_conditions": [
+      {
+        "delivery_fee": 0,
+        "delivery_fee_type": "amount",
+        "minimum_order_amount": 50,
+        "maximum_order_amount": 0
+      }
+    ],
+    "delivery_fee_type": "amount",
+    "delivery_provider_id": 0,
+    "food_characteristics": [],
+    "favorite_data": null,
+    "is_busy": false,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": true,
+    "is_express_delivery_available": false,
+    "is_express_delivery_enabled": false,
+    "is_new": false,
+    "premium_position": 0,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "food_license_number": "",
+    "maximum_express_order_amount": 0,
+    "menus": [
+      {
+        "ab_sorting_applied": false,
+        "id": 223408,
+        "code": "",
+        "name": "Delivery Menu (00:00to23:59) ",
+        "description": "",
+        "type": "delivery",
+        "opening_time": "00:00:00",
+        "closing_time": "23:59:00",
+        "menu_categories": [
+          {
+            "id": 1036307,
+            "code": "0b43a77e-8562-46d9-8518-b9a89c444ac7",
+            "name": "Appetizer",
+            "description": "",
+            "products": [
+              {
+                "id": 7906551,
+                "code": "f5b8dd64-e534-4cb0-a37d-1347e872dc33",
+                "name": "Chicken Cheese Roll",
+                "description": "4 pcs - Mozzarella stuffed sliced chicken breast",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906551.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906551.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906551.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598672,
+                    "code": "25a0e5a4-74bb-4127-b002-fc38e16fb45c",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 7906553,
+                "code": "83467ec4-7109-4f3c-8444-b3480182c03a",
+                "name": "Buffalo Wings",
+                "description": "8 pcs - Fried chicken wings coated in hot sauce",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906553.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906553.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906553.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "spicy": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8598674,
+                    "code": "d39b0d01-6d41-4e89-bc46-1ff2bfe67c15",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 340,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 1036308,
+            "code": "e03a9433-c51a-4587-a554-8aace1ef6465",
+            "name": "Soup",
+            "description": "",
+            "products": [
+              {
+                "id": 7906557,
+                "code": "1ae0eb44-5f24-45f9-be04-4a3fac2522e2",
+                "name": "Cream of Mushroom Soup",
+                "description": "1:1 - Smooth blend of mushroom, cream & parsley",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7906557.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7906557.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7906557.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {
+                  "vegetarian": "true"
+                },
+                "product_variations": [
+                  {
+                    "id": 8598678,
+                    "code": "4513da0f-6726-41c4-8900-47c262b150c8",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906558,
+                "code": "b1111498-1b2a-45b9-81bd-b2af90504fcb",
+                "name": "Cream of Chicken Soup",
+                "description": "1:1 - Smooth blend of chicken, cream & parsley",
+                "display_price": "",
+                "master_category_id": 2,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/Products/7906558.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/Products/7906558.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/Products/7906558.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598679,
+                    "code": "fe82d492-964b-4858-8224-ed4a987937b1",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 320,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 1036311,
+            "code": "edf72ced-5fed-4546-9564-2b8d92f19dbb",
+            "name": "Pasta",
+            "description": "",
+            "products": [
+              {
+                "id": 7906575,
+                "code": "e7659392-936c-48bc-a405-0084f0f6e776",
+                "name": "Spaghetti Bolognese",
+                "description": "1:1 - Spaghetti tossed in meaty bolognese sauce with herbs grated mozzarella & grated parmesan",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906575.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906575.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906575.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598699,
+                    "code": "fbedb81a-863c-4660-9293-5282d2f16ade",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906576,
+                "code": "4b4c835a-27c3-421e-8998-78c4437a9d8e",
+                "name": "Spaghetti Meatball",
+                "description": "1:1 - Spaghetti tossed in beef meatball cooked with sauce, herbs, grated mozzarella & grated parmesan",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906576.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906576.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906576.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598700,
+                    "code": "8eb5c8be-c91f-4729-a174-e04d50b9e6cb",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1774741744"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906579,
+                "code": "1518132b-5849-49dd-8c76-53ece6015d6a",
+                "name": "Spaghetti Carbonara",
+                "description": "1:1 - Spaghetti cooked with cream sauce, egg, parmesan cheese, beef bacon & pepper",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906579.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906579.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906579.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598703,
+                    "code": "8c6b37b3-b9c7-40d5-9b17-06c1a9aba39a",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906580,
+                "code": "a8b534ab-0435-4129-8ccf-cd79f3d1eee6",
+                "name": "Fettucine Alfredo",
+                "description": "1:1 - Fettucine tossed in garlic chicken strips, cream, mushroom, parmesan cheese & butter",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906580.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906580.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906580.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598705,
+                    "code": "9dd2252f-a610-42e0-9c1c-f3c29feeba27",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "system:image-updated-at=1774740231"
+                ],
+                "is_bundle": false,
+                "most_liked": {
+                  "ProductId": "",
+                  "Likes": 1,
+                  "TotalCount": 1,
+                  "Percentage": 100
+                }
+              },
+              {
+                "id": 7906581,
+                "code": "aaf255ad-5da5-46be-b9ba-47e583ac1988",
+                "name": "Cheesy Baked Pasta",
+                "description": "1:1 - Baked penne pasta with mushroom & chicken, topped with mozzarella",
+                "display_price": "",
+                "master_category_id": 3,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906581.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906581.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906581.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598706,
+                    "code": "74621de4-0d31-4254-afb6-413e6dd8ffb4",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 580,
+                    "topping_ids": [],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          },
+          {
+            "id": 1036309,
+            "code": "e49d501d-7eea-43be-a962-423463928e56",
+            "name": "Beef Steak",
+            "description": "",
+            "products": [
+              {
+                "id": 7906566,
+                "code": "10c493cb-8282-4f72-a381-291e398d05d6",
+                "name": "Beef Rib Eye Steak",
+                "description": "250 gm - Served with choice of fried rice or mashed potato, sautéed vegetable, sausage & choice of mushroom sauce or pepper sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906566.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906566.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906566.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598687,
+                    "code": "16fab731-a2c7-4f9a-bffc-73c4dd018a52",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1380,
+                    "topping_ids": [
+                      25036607,
+                      25036608
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25036607,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25036608,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906568,
+                "code": "b0921430-9130-4fe7-99d5-cc4f8e715134",
+                "name": "Beef Sirloin Steak",
+                "description": "250 gm - Served with choice of fried rice or mashed potato, sautéed vegetable, sausage & choice of mushroom sauce or pepper sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906568.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906568.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906568.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598689,
+                    "code": "ab061f6b-7502-4fb4-8ab7-644a35dc2335",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1280,
+                    "topping_ids": [
+                      25036607,
+                      25036608
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25036607,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25036608,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906569,
+                "code": "3b7c5fc4-f5a9-440f-9dce-8f774c6f7eab",
+                "name": "Beef T-Bone Steak",
+                "description": "300 gm - Served with choice of fried rice or mashed potato, sautéed vegetable, sausage & choice of mushroom sauce or pepper sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906569.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906569.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906569.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598690,
+                    "code": "71835a32-ec83-4e31-9e4d-e55604803a99",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1380,
+                    "topping_ids": [
+                      25036607,
+                      25036608
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25036607,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25036608,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              },
+              {
+                "id": 7906571,
+                "code": "5ae0f672-b507-46bb-bc48-f221c7bea3db",
+                "name": "Beef Tomahawk Steak",
+                "description": "350 gm - Served with choice of fried rice or mashed potato, sautéed vegetable, sausage & choice of mushroom sauce or pepper sauce",
+                "display_price": "",
+                "master_category_id": 4,
+                "file_path": "https://images.deliveryhero.io/image/fd-bd/products/7906571.jpg?width=%s",
+                "logo_path": "https://images.deliveryhero.io/image/fd-bd/products/7906571.jpg?width=%s",
+                "images_urls": [],
+                "images": [
+                  {
+                    "image_url": "https://images.deliveryhero.io/image/fd-bd/products/7906571.jpg",
+                    "tags": {}
+                  }
+                ],
+                "is_prepacked_item": false,
+                "is_sold_out": false,
+                "is_express_item": true,
+                "exclude_dish_information": false,
+                "additives": [],
+                "is_alcoholic_item": false,
+                "sold_out_options": [
+                  {
+                    "default": true,
+                    "option": "REFUND",
+                    "text": "NEXTGEN_SoldOutOptions_Refund"
+                  },
+                  {
+                    "default": false,
+                    "option": "CALL_CUSTOMER",
+                    "text": "NEXTGEN_SoldOutOptions_CALL_CUSTOMER"
+                  }
+                ],
+                "dietary_attributes": {},
+                "product_variations": [
+                  {
+                    "id": 8598692,
+                    "code": "c2ee41e5-6fb9-4fe3-8e54-14bdb975c883",
+                    "remote_code": "",
+                    "container_price": 0,
+                    "price": 1580,
+                    "topping_ids": [
+                      25036607,
+                      25036608
+                    ],
+                    "is_vegetarian": false,
+                    "is_non_vegetarian": false,
+                    "spiceness": "",
+                    "topping_properties": [
+                      {
+                        "id": 25036607,
+                        "use_original_price": true
+                      },
+                      {
+                        "id": 25036608,
+                        "use_original_price": true
+                      }
+                    ],
+                    "unit_pricing": null,
+                    "total_price": 0,
+                    "dietary_attributes": {}
+                  }
+                ],
+                "half_type": "",
+                "is_half_type_available": false,
+                "tags": [
+                  "popular"
+                ],
+                "is_bundle": false,
+                "most_liked": null
+              }
+            ],
+            "is_popular_category": false
+          }
+        ],
+        "toppings": {
+          "25036607": {
+            "id": 25036607,
+            "name": "Choice for Beef Steak",
+            "description": "",
+            "quantity_minimum": 1,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25294170,
+                "product_id": 7906592,
+                "name": "Fried Rice",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25294171,
+                "product_id": 7906593,
+                "name": "Mashed Potato",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    8598689
+                  ]
+                }
+              }
+            ],
+            "type": "choice-group"
+          },
+          "25036608": {
+            "id": 25036608,
+            "name": "Choice of sauce for Beef Steak",
+            "description": "",
+            "quantity_minimum": 1,
+            "quantity_maximum": 1,
+            "options": [
+              {
+                "id": 25294172,
+                "product_id": 7906595,
+                "name": "Mushroom Sauce",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": ""
+              },
+              {
+                "id": 25294173,
+                "product_id": 7906596,
+                "name": "Pepper Sauce",
+                "description": "",
+                "price": 0,
+                "is_sold_out": false,
+                "is_half_half_applicable": false,
+                "remote_code": "",
+                "variation_tag_map": {
+                  "popular": [
+                    8598689
+                  ]
+                }
+              }
+            ],
+            "type": "choice-group"
+          }
+        },
+        "tags": {
+          "popular": {
+            "name": "popular",
+            "translation_keys": {
+              "description": "NEXTGEN_POPULAR_CATEGORY_DESCRIPTION",
+              "title": "NEXTGEN_POPULAR_DISH_TAG"
+            },
+            "elements": [
+              "label",
+              "category"
+            ],
+            "metadata": {
+              "sorting": [
+                7906568,
+                7906566,
+                7906579,
+                7906569,
+                7906571
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "toppings": {
+      "25036607": {
+        "id": 25036607,
+        "name": "Choice for Beef Steak",
+        "description": "",
+        "quantity_minimum": 1,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25294170,
+            "product_id": 7906592,
+            "name": "Fried Rice",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25294171,
+            "product_id": 7906593,
+            "name": "Mashed Potato",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                8598689
+              ]
+            }
+          }
+        ],
+        "type": "choice-group"
+      },
+      "25036608": {
+        "id": 25036608,
+        "name": "Choice of sauce for Beef Steak",
+        "description": "",
+        "quantity_minimum": 1,
+        "quantity_maximum": 1,
+        "options": [
+          {
+            "id": 25294172,
+            "product_id": 7906595,
+            "name": "Mushroom Sauce",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": ""
+          },
+          {
+            "id": 25294173,
+            "product_id": 7906596,
+            "name": "Pepper Sauce",
+            "description": "",
+            "price": 0,
+            "is_sold_out": false,
+            "is_half_half_applicable": false,
+            "remote_code": "",
+            "variation_tag_map": {
+              "popular": [
+                8598689
+              ]
+            }
+          }
+        ],
+        "type": "choice-group"
+      }
+    },
+    "metadata": {
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "events": [],
+      "close_reasons": [],
+      "is_flood_feature_closed": false,
+      "available_in": null
+    },
+    "redirection_url": "",
+    "scoreCriteria": {
+      "vendor_id": 0,
+      "vendor_code": "",
+      "coefficients": null,
+      "vendor_values": null
+    },
+    "service_tax_percentage_amount": 0,
+    "time_picker": null,
+    "vat_percentage_amount": 0,
+    "order_flow": "food",
+    "website": "",
+    "has_online_payment": false
+  }
+}

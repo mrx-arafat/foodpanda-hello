@@ -52,7 +52,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.465,
+    "distance": 1.64,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mhp3-listing.jpg",
@@ -68,25 +68,23 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "Unreachable"
+      ],
       "available_in": null,
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 80.0,
+    "original_delivery_fee": 51.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 80.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 70,
-      "upper_limit_in_minutes": 95
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Chicken Buzz - Banasree",
@@ -95,7 +93,7 @@
     "primary_cuisine_id": 85,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/mhp3/chicken-buzz-banasree",
-    "review_number": 1284,
+    "review_number": 1281,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -159,7 +157,7 @@
         "main": true
       }
     },
-    "vendor_points": 12199,
+    "vendor_points": 12203,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -186,7 +184,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -201,9 +199,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Rampura",
-    "_area_distance_km": 0.58
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 2.43
   },
   {
     "id": 71467,
@@ -433,9 +430,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.42
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 6.95
   },
   {
     "id": 102436,
@@ -635,9 +631,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.82
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.31
   },
   {
     "id": 72131,
@@ -686,7 +681,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.292,
+    "distance": 0.875,
     "food_characteristics": [
       {
         "id": 252,
@@ -721,12 +716,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 36.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -839,9 +834,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.29
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.52
   },
   {
     "id": 70300,
@@ -902,7 +896,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.454,
+    "distance": 0.996,
     "food_characteristics": [
       {
         "id": 252,
@@ -915,7 +909,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ylb0-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ylb0-listing.jpg",
     "is_new_until": "2024-05-15T10:14:53Z",
-    "premium_position": 6,
+    "premium_position": 9,
     "latitude": 23.76330981,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ci8yo-logo.jpg",
     "longitude": 90.36235001,
@@ -937,12 +931,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 37.0,
+    "original_delivery_fee": 53.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 50
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1069,13 +1063,12 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "xUWoJtvRK9ePqt9BIaYx7HZxNIGPWu/dw/vuayZesjADA2rYTX+KJDHYobBp+77VSDpaMveV09pzW29ELGEDLKnaBkP8bK5V3tCzhrGFfkhoSduFHZzbJqnd0KPI4DiVVr0OCwh8cbXYZeas8tz3kSsWGKVesEOwSWQ9tSE4CoobNw2IBH248VD8PgjezysLKBSbr853kCkMxAOXdOR5EUu31RNzQ8hL2lq2DtiziYnMdAiSaBPQedOo6E0KzF/5saGM3HzGeE4qg04+u3lo",
+    "ncr_token": "+t+pxXbqsu0N2bD8sVDXx2rB6bSmdPTRt5l9b9EcX0n7OX86wi7wHKxcsSiVpifssieRJ3/nVMWgHpn60REfDo8N8UKVNlbv+4Jc3RDj2cFfndbCd+K/SJ2IIp2RporlE4viSGJW1nZPtzWSm3UGdQMcUeZhXsBex6s6UO82E9Zn2g52k2hNsMmIqeyuBKy1AMDBcsMmt6gi8gkOYasku8bBNeQrwRSj1MWzcRgd3vVJ5qT9rrt24w86Ha4dZI94xAnfgpWRTPN8bhii",
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Mohammadpur",
-    "_area_distance_km": 0.45
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 4.11
   },
   {
     "id": 73413,
@@ -1130,7 +1123,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.212,
+    "distance": 1.72,
     "food_characteristics": [
       {
         "id": 252,
@@ -1143,7 +1136,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/uphj-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/uphj-listing.jpg",
     "is_new_until": "2024-12-23T13:08:39Z",
-    "premium_position": 0,
+    "premium_position": 7,
     "latitude": 23.86918812,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ci8yo-logo.jpg",
     "longitude": 90.38888949,
@@ -1165,12 +1158,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1185,8 +1178,12 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "Up to 15% off",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "Up to 15% off",
@@ -1273,7 +1270,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -1286,11 +1283,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "6SrgSrxnTlw0C8Hw8fMJXXkzu7ZNyQ9iNS+FEM5AoNGb748BZeauPLbCFYUVWiam75AxrylGj7IfWJhMMsUBSZoJaAgQpzoDDGhN1wxESJcxWkd2pELbz+OsJ8uQeNPd+3OZziwiLHm/zQT/IsapPCR8Zj5+qelT6DUnWk6fxmVxJYRBjAHMF0XErxMq70w3CyBPmVYLz/Gyysgh//U5xlYEcQ5MX/kHAPTVcB1pVau7XX+yDmfAQA9x7CLEJ08BF+A/yL3sz+F3mUfFYnCb",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": true,
-    "_discovered_area": "Uttara",
-    "_area": "Uttara",
-    "_area_distance_km": 1.21
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 13.3
   }
 ]

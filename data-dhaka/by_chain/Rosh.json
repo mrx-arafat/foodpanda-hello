@@ -68,7 +68,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 35.0,
+    "original_delivery_fee": 37.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
@@ -178,9 +178,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Banani",
-    "_area": "Banani",
-    "_area_distance_km": 0.05
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.82
   },
   {
     "id": 97267,
@@ -361,9 +360,178 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.4
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 7.0
+  },
+  {
+    "id": 51359,
+    "code": "pc30",
+    "accepts_instructions": true,
+    "address": "338/2, Chakbazar, Dhaka-1211",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs9qc",
+      "name": "Rosh",
+      "main_vendor_code": "sryy",
+      "url_key": "rosh"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.569,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/pc30-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/pc30-listing.jpg",
+    "is_new_until": "2022-01-29T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.716433,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs9qc-logo.jpg",
+    "longitude": 90.395991,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 30.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 65
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Rosh - Chawkbazar",
+    "payment_types": [],
+    "post_code": "1204",
+    "primary_cuisine_id": 84,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/pc30/rosh-chawkbazar",
+    "review_number": 158,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 700",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 700",
+        "label_metadata": {
+          "deal": {
+            "id": "607233"
+          }
+        }
+      }
+    ],
+    "url_key": "rosh-chawkbazar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4739,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/pc30/rosh-chawkbazar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "607233",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Rosh - Chawkbazar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801332813767",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.72_90.40",
+    "_area_distance_km": 0.57
   },
   {
     "id": 51357,
@@ -406,7 +574,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.887,
+    "distance": 0.525,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cisd-listing.jpg",
@@ -455,7 +623,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 91.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
@@ -561,9 +729,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mohammadpur",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.53
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.8
   },
   {
     "id": 51230,
@@ -606,7 +773,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.363,
+    "distance": 0.942,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/nbp5-listing.jpg",
@@ -634,12 +801,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 36.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -744,9 +911,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Gulshan",
-    "_area_distance_km": 0.36
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 3.42
   },
   {
     "id": 51356,
@@ -927,9 +1093,190 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Baridhara",
-    "_area": "Banani",
-    "_area_distance_km": 0.79
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 5.03
+  },
+  {
+    "id": 51353,
+    "code": "jnst",
+    "accepts_instructions": true,
+    "address": "158,Taher plaza, Hatirpool more,Dhaka 1205",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs9qc",
+      "name": "Rosh",
+      "main_vendor_code": "sryy",
+      "url_key": "rosh"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.533,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jnst-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jnst-listing.jpg",
+    "is_new_until": "2022-01-29T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.741545,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs9qc-logo.jpg",
+    "longitude": 90.3917718,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 103.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Rosh - Hatirpool",
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 84,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/jnst/rosh-hatirpool",
+    "review_number": 257,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 700",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 700",
+        "label_metadata": {
+          "deal": {
+            "id": "607229"
+          }
+        }
+      }
+    ],
+    "url_key": "rosh-hatirpool",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4916,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/jnst/rosh-hatirpool",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "607229",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Rosh - Hatirpool",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801847337937",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_area": "Grid_23.74_90.40",
+    "_area_distance_km": 0.85
   },
   {
     "id": 51361,
@@ -972,7 +1319,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.18,
+    "distance": 1.435,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mpxf-listing.jpg",
@@ -1021,7 +1368,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 52.0,
+    "original_delivery_fee": 67.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -1112,9 +1459,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Jatrabari",
-    "_area": "Jatrabari",
-    "_area_distance_km": 1.18
+    "_area": "Wari",
+    "_area_distance_km": 2.58
   },
   {
     "id": 51360,
@@ -1151,7 +1497,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.427,
+    "distance": 1.09,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ftcr-listing.jpg",
@@ -1167,25 +1513,42 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 53.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Rosh - Laxmibazar",
@@ -1283,7 +1646,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
     "_area": "Old Dhaka",
     "_area_distance_km": 0.43
   },
@@ -1451,9 +1813,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Mirpur",
-    "_area": "Mirpur",
-    "_area_distance_km": 0.46
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 7.45
   },
   {
     "id": 51345,
@@ -1490,7 +1851,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.795,
+    "distance": 3.385,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/l1yy-listing.jpg",
@@ -1518,12 +1879,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 55.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 75.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 65,
+      "upper_limit_in_minutes": 90
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1622,9 +1983,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Khilgaon",
-    "_area_distance_km": 1.79
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 0.23
   },
   {
     "id": 51350,
@@ -1667,7 +2027,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.221,
+    "distance": 1.312,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cirv-listing.jpg",
@@ -1689,7 +2049,7 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_94",
+          "id": "bd_62",
           "name": "",
           "messages": [
             ""
@@ -1826,9 +2186,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Motijheel",
-    "_area": "Motijheel",
-    "_area_distance_km": 1.22
+    "_area": "Grid_23.74_90.41",
+    "_area_distance_km": 0.2
   },
   {
     "id": 51363,
@@ -2009,9 +2368,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 0.48
+    "_area": "Grid_23.75_90.40",
+    "_area_distance_km": 2.95
   },
   {
     "id": 51358,
@@ -2054,7 +2412,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.526,
+    "distance": 1.112,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mpue-listing.jpg",
@@ -2103,7 +2461,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 30.0,
+    "original_delivery_fee": 53.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -2209,7 +2567,6 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Wari",
     "_area": "Wari",
     "_area_distance_km": 0.53
   }

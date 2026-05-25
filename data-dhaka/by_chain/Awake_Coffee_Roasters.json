@@ -151,9 +151,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Bashundhara",
-    "_area": "Bashundhara",
-    "_area_distance_km": 0.33
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 6.63
   },
   {
     "id": 67939,
@@ -190,7 +189,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.58,
+    "distance": 2.078,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/av6m-listing.jpg",
@@ -218,12 +217,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 68.0,
+    "original_delivery_fee": 121.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 75.0,
+    "minimum_delivery_time": 50.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 65,
-      "upper_limit_in_minutes": 90
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -307,9 +306,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan",
-    "_area": "Banani",
-    "_area_distance_km": 0.4
+    "_area": "Grid_23.75_90.41",
+    "_area_distance_km": 4.49
   },
   {
     "id": 67885,
@@ -346,7 +344,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.985,
+    "distance": 2.957,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/n8lw-listing.jpg",
@@ -362,25 +360,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_62",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 113.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 65.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 55,
-      "upper_limit_in_minutes": 80
-    },
+    "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Awake Coffee Roasters - British Council",
@@ -463,8 +478,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Old Dhaka",
-    "_area": "Dhanmondi",
-    "_area_distance_km": 2.34
+    "_area": "Grid_23.73_90.40",
+    "_area_distance_km": 0.84
   }
 ]
