@@ -52,7 +52,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.715,
+    "distance": 1.82,
     "food_characteristics": [
       {
         "id": 252,
@@ -76,9 +76,9 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T07:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -87,18 +87,22 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 19.0,
+    "original_delivery_fee": 55.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 60.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Al Kaderia Restaurant",
     "payment_types": [],
     "post_code": "1219",
     "primary_cuisine_id": 123,
-    "rating": 4.7,
+    "rating": 4.8,
     "redirection_url": "https://foodpanda.com.bd/restaurant/u2qo/al-kaderia-restaurant-u2qo",
-    "review_number": 38014,
+    "review_number": 38022,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -166,7 +170,7 @@
         "main": true
       }
     },
-    "vendor_points": 7336,
+    "vendor_points": 7325,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -208,8 +212,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "West Rampura",
-    "_area_distance_km": 0.35
+    "_discovered_area": "Khilgaon",
+    "_area": "Rampura",
+    "_area_distance_km": 0.71
   }
 ]

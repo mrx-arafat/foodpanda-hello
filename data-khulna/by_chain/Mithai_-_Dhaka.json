@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.845,
+    "distance": 0.516,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/qfcl-listing.jpg",
@@ -62,42 +62,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_112",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 69.0,
+    "original_delivery_fee": 13.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Mithai- Khulna- BL Collage Dowlatpur",
@@ -150,7 +133,7 @@
         "main": true
       }
     },
-    "vendor_points": 4664,
+    "vendor_points": 4659,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -192,7 +175,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khulna Sadar",
+    "_discovered_area": "Khalishpur",
     "_area": "Khalishpur",
     "_area_distance_km": 0.52
   },
@@ -260,9 +243,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T07:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -271,9 +254,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 24.0,
+    "original_delivery_fee": 21.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Mithai- Sonadanga Moor",
@@ -326,7 +313,7 @@
         "main": true
       }
     },
-    "vendor_points": 5264,
+    "vendor_points": 5268,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -373,10 +360,10 @@
     "_area_distance_km": 0.82
   },
   {
-    "id": 73991,
-    "code": "s0i2",
+    "id": 119767,
+    "code": "rpsk",
     "accepts_instructions": true,
-    "address": "Sir Iqbal Road,Thana moor Khulna.",
+    "address": "New Market road 29 KDA Approach Road, Khulna-9200",
     "address_line2": "",
     "budget": 2,
     "chain": {
@@ -402,12 +389,6 @@
         "main": true
       },
       {
-        "id": 250,
-        "name": "Doi",
-        "url_key": "doi",
-        "main": false
-      },
-      {
         "id": 86,
         "name": "Fast Food",
         "url_key": "fast-food",
@@ -419,74 +400,57 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.294,
+    "distance": 2.668,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s0i2-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s0i2-listing.jpg",
-    "is_new_until": "2025-01-22T12:56:24Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/rpsk-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/rpsk-listing.jpg",
+    "is_new_until": "2026-05-04T10:19:25Z",
     "premium_position": 0,
-    "latitude": 22.8174993,
+    "latitude": 22.8234731,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr6ur-logo.jpg",
-    "longitude": 89.5646287,
+    "longitude": 89.5503769,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_112",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 36.0,
+    "original_delivery_fee": 55.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Mithai-Thana Moor",
+    "name": "Mithai-Khulna-New Market-1",
     "payment_types": [],
-    "post_code": "9100",
+    "post_code": "9200",
     "primary_cuisine_id": 84,
-    "rating": 5.0,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/s0i2/mithai-thana-moor",
-    "review_number": 20,
+    "rating": 4.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/rpsk/mithai-khulna-new-market-1",
+    "review_number": 14,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "mithai-thana-moor",
+    "url_key": "mithai-khulna-new-market-1",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -503,12 +467,6 @@
           "main": true
         },
         {
-          "id": 250,
-          "name": "Doi",
-          "url_key": "doi",
-          "main": false
-        },
-        {
           "id": 86,
           "name": "Fast Food",
           "url_key": "fast-food",
@@ -523,21 +481,21 @@
         "main": true
       }
     },
-    "vendor_points": 4210,
+    "vendor_points": 4825,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/s0i2/mithai-thana-moor",
+    "web_path": "https://foodpanda.com.bd/restaurant/rpsk/mithai-khulna-new-market-1",
     "website": "",
-    "has_online_payment": true,
+    "has_online_payment": false,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Mithai-Thana Moor",
-      "trade_register_number": "N/A"
+      "legal_name": "Mithai-Khulna-New Market-1",
+      "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801310481458",
+    "customer_phone": "+8801704131657",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -550,7 +508,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -565,8 +523,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Shibbari",
+    "_discovered_area": "Khulna Sadar",
     "_area": "Shibbari",
-    "_area_distance_km": 1.29
+    "_area_distance_km": 0.64
   }
 ]

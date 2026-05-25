@@ -1,11 +1,11 @@
 [
   {
-    "id": 76602,
-    "code": "ntkj",
+    "id": 75431,
+    "code": "ch2m",
     "accepts_instructions": true,
-    "address": "Hazi Kudrat Ali Molla Super Market, 1/C, Harunabad, Harun Molla Road, Pollobi, Mirpur 12, Dhaka - 1216",
+    "address": "Senpara Parbata Ln 440/4 Juice plaza,  Mirpur-10, 1216 Mirpur, Dhaka, Bangladesh",
     "address_line2": "",
-    "budget": 1,
+    "budget": 2,
     "chain": {
       "code": "ca1ad",
       "name": "Juice Plaza",
@@ -33,6 +33,12 @@
         "name": "Beverage",
         "url_key": "beverage",
         "main": false
+      },
+      {
+        "id": 251,
+        "name": "Faluda",
+        "url_key": "faluda",
+        "main": false
       }
     ],
     "custom_location_url": "",
@@ -40,79 +46,57 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.636,
+    "distance": 0.156,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ntkj-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ntkj-listing.jpg",
-    "is_new_until": "2025-07-18T10:50:30Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ch2m-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ch2m-listing.jpg",
+    "is_new_until": "2025-04-09T10:51:42Z",
     "premium_position": 0,
-    "latitude": 23.8292915,
+    "latitude": 23.80613541,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ca1ad-logo.jpg",
-    "longitude": 90.3637298,
+    "longitude": 90.36952542,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1008",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
-      "is_pickup_available": false,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 96.0,
+    "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Bubble Bar",
+    "name": "Juice Plaza,  Mirpur-10",
     "payment_types": [],
-    "post_code": "1230",
+    "post_code": "1216",
     "primary_cuisine_id": 89,
     "rating": 4.8,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/ntkj/bubble-bar",
-    "review_number": 45,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/ch2m/juice-plaza-mirpur-10",
+    "review_number": 300,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_SUPER_VENDOR",
-    "tags": [
-      {
-        "code": "SUPER_VENDOR",
-        "text": "NEXTGEN_SUPER_VENDOR"
-      }
-    ],
-    "url_key": "bubble-bar",
+    "tag": "",
+    "tags": [],
+    "url_key": "juice-plaza-mirpur-10",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -133,6 +117,12 @@
           "name": "Beverage",
           "url_key": "beverage",
           "main": false
+        },
+        {
+          "id": 251,
+          "name": "Faluda",
+          "url_key": "faluda",
+          "main": false
         }
       ],
       "food_characteristics": [],
@@ -143,21 +133,21 @@
         "main": true
       }
     },
-    "vendor_points": 5068,
+    "vendor_points": 5695,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/ntkj/bubble-bar",
+    "web_path": "https://foodpanda.com.bd/restaurant/ch2m/juice-plaza-mirpur-10",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Bubble Bar",
+      "legal_name": "Juice Plaza,  Mirpur-10",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801343494013",
+    "customer_phone": "+8801919046821",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -168,7 +158,7 @@
     "is_checkout_comment_enabled": false,
     "is_delivery_enabled": true,
     "is_new": false,
-    "is_pickup_enabled": false,
+    "is_pickup_enabled": true,
     "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
@@ -185,8 +175,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhaka Cantonment",
-    "_area": "Mirpur 12",
-    "_area_distance_km": 0.35
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 0.16
   }
 ]

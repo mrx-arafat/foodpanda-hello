@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 4.262,
+    "distance": 3.279,
     "food_characteristics": [
       {
         "id": 252,
@@ -70,9 +70,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T09:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -81,9 +81,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 100.0,
+    "original_delivery_fee": 108.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tehari Ghar - Gabtoli",
@@ -92,7 +96,7 @@
     "primary_cuisine_id": 193,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/jrnk/tehari-ghar-gabtoli",
-    "review_number": 4519,
+    "review_number": 4527,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -143,7 +147,7 @@
         "main": true
       }
     },
-    "vendor_points": 6924,
+    "vendor_points": 6919,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -185,22 +189,22 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Kafrul",
-    "_area": "Beribadh",
-    "_area_distance_km": 0.36
+    "_discovered_area": "Mirpur",
+    "_area": "Mohammadpur",
+    "_area_distance_km": 2.28
   },
   {
-    "id": 26534,
-    "code": "q7un",
+    "id": 23033,
+    "code": "o4xz",
     "accepts_instructions": true,
-    "address": "6 sarder super market 73/1/ka green road Dhaka 1215",
+    "address": "Lee Tsai Hsiang House, 51, South Gulshan Avenue, Gulshan-1,Dhaka -1212",
     "address_line2": "",
     "budget": 2,
     "chain": {
-      "code": "cx4bi",
+      "code": "cq0ye",
       "name": "Tehari Ghar",
-      "main_vendor_code": "pyic",
-      "url_key": "tehari-ghar-cx4bi"
+      "main_vendor_code": "o4xz",
+      "url_key": "tehari-ghar-cq0ye"
     },
     "city": {
       "name": "Dhaka"
@@ -242,7 +246,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.474,
+    "distance": 0.292,
     "food_characteristics": [
       {
         "id": 252,
@@ -252,52 +256,59 @@
       }
     ],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/q7un-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/q7un-listing.jpg",
-    "is_new_until": "2020-10-30T00:00:00Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/o4xz-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/o4xz-listing.jpg",
+    "is_new_until": "2020-01-14T00:00:00Z",
     "premium_position": 0,
-    "latitude": 23.75351355,
+    "latitude": 23.7810525,
     "logo": "",
-    "longitude": 90.3883491,
+    "longitude": 90.4164762,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "Unreachable"
-      ],
+      "close_reasons": [],
       "available_in": null,
       "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": false,
+      "is_delivery_available": true,
+      "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 36.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Tehari Ghar - Green Road",
+    "name": "Tehari Ghar - Gulshan",
     "payment_types": [],
-    "post_code": "1215",
+    "post_code": "1212",
     "primary_cuisine_id": 195,
     "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/q7un/tehari-ghar-green-road",
-    "review_number": 6982,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/o4xz/tehari-ghar-gulshan",
+    "review_number": 35914,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "tehari-ghar-green-road",
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "tehari-ghar-gulshan",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -347,21 +358,21 @@
         "main": true
       }
     },
-    "vendor_points": 6612,
+    "vendor_points": 12687,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/q7un/tehari-ghar-green-road",
+    "web_path": "https://foodpanda.com.bd/restaurant/o4xz/tehari-ghar-gulshan",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Tehari Ghar - Green Road",
+      "legal_name": "Tehari Ghar",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801816051571",
+    "customer_phone": "+8801305749857",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -372,7 +383,7 @@
     "is_checkout_comment_enabled": false,
     "is_delivery_enabled": true,
     "is_new": false,
-    "is_pickup_enabled": false,
+    "is_pickup_enabled": true,
     "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
@@ -388,16 +399,16 @@
     "is_promoted": false,
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Farmgate",
-    "_area": "Panthapath",
-    "_area_distance_km": 0.24
+    "is_preferred_partner": true,
+    "_discovered_area": "Gulshan",
+    "_area": "Gulshan",
+    "_area_distance_km": 0.29
   },
   {
-    "id": 63173,
-    "code": "p5fz",
+    "id": 91851,
+    "code": "ieh2",
     "accepts_instructions": true,
-    "address": "Plot # 1/3, Road # 7d, Sector # 09, House Building Uttara Model Town, Uttara, Dhaka. 1230",
+    "address": "99, Motijheel Ba/A, Karim Chamber, Motijheel, Dhaka - 1000",
     "address_line2": "",
     "budget": 2,
     "chain": {
@@ -414,7 +425,7 @@
         "id": 123,
         "name": "Rice Dishes",
         "url_key": "rice-dishes",
-        "main": true
+        "main": false
       },
       {
         "id": 80,
@@ -429,6 +440,12 @@
         "main": false
       },
       {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
         "id": 75,
         "name": "Asian",
         "url_key": "asian",
@@ -440,23 +457,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.994,
-    "food_characteristics": [
-      {
-        "id": 252,
-        "name": "Price Match",
-        "is_halal": false,
-        "is_vegetarian": false
-      }
-    ],
+    "distance": 1.902,
+    "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/p5fz-listing.JPG",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/p5fz-listing.JPG",
-    "is_new_until": "2023-01-06T05:56:26Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ieh2-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ieh2-listing.jpg",
+    "is_new_until": "2025-11-22T06:58:34Z",
     "premium_position": 0,
-    "latitude": 23.87462175,
+    "latitude": 23.7282817,
     "logo": "",
-    "longitude": 90.40024985,
+    "longitude": 90.4176337,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -464,10 +474,29 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [
-        "Unreachable"
+        "event"
       ],
       "available_in": null,
-      "events": [],
+      "events": [
+        {
+          "id": "bd_5",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": false,
       "is_dine_in_available": false,
@@ -477,25 +506,25 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 52.0,
+    "original_delivery_fee": 77.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Tehari Ghar - House Building Branch",
+    "name": "Tehari Ghar - Karim Chamber",
     "payment_types": [],
-    "post_code": "1230",
-    "primary_cuisine_id": 123,
-    "rating": 4.8,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/p5fz/tehari-ghar-house-building-branch",
-    "review_number": 4078,
+    "post_code": "1000",
+    "primary_cuisine_id": 195,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/ieh2/tehari-ghar-karim-chamber",
+    "review_number": 96,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "tehari-ghar-house-building-branch",
+    "url_key": "tehari-ghar-karim-chamber",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -503,7 +532,7 @@
           "id": 123,
           "name": "Rice Dishes",
           "url_key": "rice-dishes",
-          "main": true
+          "main": false
         },
         {
           "id": 80,
@@ -518,42 +547,41 @@
           "main": false
         },
         {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
           "id": 75,
           "name": "Asian",
           "url_key": "asian",
           "main": false
         }
       ],
-      "food_characteristics": [
-        {
-          "id": 252,
-          "name": "Price Match",
-          "is_halal": false,
-          "is_vegetarian": false
-        }
-      ],
+      "food_characteristics": [],
       "primary_cuisine": {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
         "main": true
       }
     },
-    "vendor_points": 7052,
+    "vendor_points": 5311,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/p5fz/tehari-ghar-house-building-branch",
+    "web_path": "https://foodpanda.com.bd/restaurant/ieh2/tehari-ghar-karim-chamber",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Tehari Ghar",
+      "legal_name": "Tehari Ghar - Karim Chamber",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801718991608",
+    "customer_phone": "+8801345606054",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -581,9 +609,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara Sector 13",
-    "_area": "Rajlokkhi",
-    "_area_distance_km": 0.18
+    "_discovered_area": "Khilgaon",
+    "_area": "Motijheel",
+    "_area_distance_km": 0.53
   },
   {
     "id": 72791,
@@ -632,7 +660,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.421,
+    "distance": 1.181,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t4y0-listing.jpg",
@@ -654,15 +682,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_46",
+          "id": "bd_94",
           "name": "",
           "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
+              "message": ""
             },
             {
               "type": "close",
@@ -681,7 +709,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 19.0,
+    "original_delivery_fee": 52.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -692,7 +720,7 @@
     "primary_cuisine_id": 123,
     "rating": 4.7,
     "redirection_url": "https://foodpanda.com.bd/restaurant/t4y0/tehari-ghar-motijheel",
-    "review_number": 820,
+    "review_number": 821,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -736,7 +764,7 @@
         "main": true
       }
     },
-    "vendor_points": 6229,
+    "vendor_points": 6226,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -778,15 +806,15 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Fakirapool",
-    "_area": "Gopibagh",
-    "_area_distance_km": 0.29
+    "_discovered_area": "Wari",
+    "_area": "Motijheel",
+    "_area_distance_km": 0.75
   },
   {
-    "id": 60752,
-    "code": "pyic",
+    "id": 78059,
+    "code": "dnmp",
     "accepts_instructions": true,
-    "address": "22/11,Housebuilding,Puran Paltan,Dhaka",
+    "address": "155 Agasadek Road, Nazira Bazar, Dhaka 1000",
     "address_line2": "",
     "budget": 2,
     "chain": {
@@ -835,74 +863,50 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.013,
-    "food_characteristics": [
-      {
-        "id": 252,
-        "name": "Price Match",
-        "is_halal": false,
-        "is_vegetarian": false
-      }
-    ],
+    "distance": 1.214,
+    "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/pyic-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/pyic-listing.jpg",
-    "is_new_until": "2022-10-19T00:00:00Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/dnmp-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/dnmp-listing.jpg",
+    "is_new_until": "2025-09-17T08:56:03Z",
     "premium_position": 0,
-    "latitude": 23.7306211,
+    "latitude": 23.72029199,
     "logo": "",
-    "longitude": 90.41167495,
+    "longitude": 90.40572017,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1500",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 54.0,
+    "original_delivery_fee": 57.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Tehari Ghar - Paltan",
+    "name": "Tehari Ghar - Nazira Bazar",
     "payment_types": [],
-    "post_code": "1000",
+    "post_code": "1100",
     "primary_cuisine_id": 195,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/pyic/tehari-ghar-paltan",
-    "review_number": 8249,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/dnmp/tehari-ghar-nazira-bazar",
+    "review_number": 771,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -914,7 +918,7 @@
         "text": "NEXTGEN_SUPER_VENDOR"
       }
     ],
-    "url_key": "tehari-ghar-paltan",
+    "url_key": "tehari-ghar-nazira-bazar",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -949,14 +953,7 @@
           "main": false
         }
       ],
-      "food_characteristics": [
-        {
-          "id": 252,
-          "name": "Price Match",
-          "is_halal": false,
-          "is_vegetarian": false
-        }
-      ],
+      "food_characteristics": [],
       "primary_cuisine": {
         "id": 195,
         "name": "Bangladeshi",
@@ -964,21 +961,21 @@
         "main": true
       }
     },
-    "vendor_points": 7054,
+    "vendor_points": 6933,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/pyic/tehari-ghar-paltan",
+    "web_path": "https://foodpanda.com.bd/restaurant/dnmp/tehari-ghar-nazira-bazar",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Tehari Ghar - Paltan",
+      "legal_name": "Tehari Ghar",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801719386445",
+    "customer_phone": "+8801711455940",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -991,7 +988,7 @@
     "is_new": false,
     "is_pickup_enabled": false,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -1006,9 +1003,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Khilgaon",
-    "_area": "Paltan",
-    "_area_distance_km": 0.2
+    "_discovered_area": "Old Dhaka",
+    "_area": "Old Dhaka",
+    "_area_distance_km": 1.21
   },
   {
     "id": 47978,
@@ -1087,9 +1084,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T09:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -1098,9 +1095,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 9.0,
+    "original_delivery_fee": 11.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tehari Ghar - Uttara Khalpar Sector 12",
@@ -1109,7 +1110,7 @@
     "primary_cuisine_id": 195,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/v998/tehari-ghar-uttara-khalpar-sector-12",
-    "review_number": 3478,
+    "review_number": 3483,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1171,7 +1172,7 @@
         "main": true
       }
     },
-    "vendor_points": 6826,
+    "vendor_points": 6823,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1213,8 +1214,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara Sector 1",
-    "_area": "Uttara Sector 1",
+    "_discovered_area": "Uttara",
+    "_area": "Uttara",
     "_area_distance_km": 0.18
   },
   {
@@ -1264,7 +1265,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.876,
+    "distance": 0.476,
     "food_characteristics": [
       {
         "id": 252,
@@ -1287,42 +1288,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1897",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 78.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tehari Ghar- Kalabagan",
@@ -1331,7 +1315,7 @@
     "primary_cuisine_id": 123,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/t5rz/tehari-ghar-kalabagan",
-    "review_number": 17573,
+    "review_number": 17582,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1387,7 +1371,7 @@
         "main": true
       }
     },
-    "vendor_points": 7340,
+    "vendor_points": 7334,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1414,7 +1398,7 @@
     "is_new": false,
     "is_pickup_enabled": false,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -1429,8 +1413,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rayer Bazar",
-    "_area": "Kalabagan",
-    "_area_distance_km": 0.09
+    "_discovered_area": "Dhanmondi",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.48
   }
 ]

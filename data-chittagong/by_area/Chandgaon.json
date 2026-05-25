@@ -64,7 +64,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 129.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -205,7 +205,7 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T10:00:00+0600",
+      "available_in": "2026-05-26T10:00:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": false,
@@ -216,7 +216,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 67.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -306,6 +306,354 @@
     "_area_distance_km": 0.67
   },
   {
+    "id": 68108,
+    "code": "f48w",
+    "accepts_instructions": true,
+    "address": "kaptai rastar matha,city bank building",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cy5qz",
+      "name": "Sadia's Kitchen - Chawkbazar",
+      "main_vendor_code": "s4jf",
+      "url_key": "sadias-kitchen-chawkbazar"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 6.175,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/f48w-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/f48w-listing.jpg",
+    "is_new_until": "2023-12-07T19:16:30Z",
+    "premium_position": 0,
+    "latitude": 22.39409395,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/f48w-logo.jpg",
+    "longitude": 91.8679415,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 50.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 60.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 75
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Sadia's Kitchen -Kaptai Rastar Matha",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 123,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/f48w/sadias-kitchen-kaptai-rastar-matha",
+    "review_number": 909,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "sadias-kitchen-kaptai-rastar-matha",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": true
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      }
+    },
+    "vendor_points": 6036,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/f48w/sadias-kitchen-kaptai-rastar-matha",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Sadia's Kitchen -Kaptai Rastar Matha",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801783099283",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Chandgaon",
+    "_area_distance_km": 0.84
+  },
+  {
+    "id": 105372,
+    "code": "a2xb",
+    "accepts_instructions": true,
+    "address": "Kaptai Rasta Matha, Chandgaon, Chittagong,",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 6.2,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/a2xb-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/a2xb-listing.jpg",
+    "is_new_until": "2026-02-18T12:12:37Z",
+    "premium_position": 0,
+    "latitude": 22.3942227,
+    "logo": "",
+    "longitude": 91.86814165,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 50.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Tabaq",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 90,
+    "rating": 3.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/a2xb/tabaq",
+    "review_number": 5,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "tabaq",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 90,
+          "name": "Cafe",
+          "url_key": "cafe",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": true
+      }
+    },
+    "vendor_points": 3658,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/a2xb/tabaq",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Tabaq",
+      "trade_register_number": "n/a"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801837000364",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Chandgaon",
+    "_area_distance_km": 0.87
+  },
+  {
     "id": 79063,
     "code": "wqew",
     "accepts_instructions": true,
@@ -376,7 +724,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 66.0,
+    "original_delivery_fee": 39.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -529,7 +877,7 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T10:00:00+0600",
+      "available_in": "2026-05-26T10:00:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": false,
@@ -540,7 +888,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 66.0,
+    "original_delivery_fee": 39.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,

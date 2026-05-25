@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.167,
+    "distance": 0.395,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/f2cr-listing.jpg",
@@ -57,9 +57,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T07:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -68,9 +68,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 68.0,
+    "original_delivery_fee": 37.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi'S Hot Cake - Taj Mahal",
@@ -159,358 +163,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Shyamoli",
-    "_area": "Town Hall",
-    "_area_distance_km": 0.09
-  },
-  {
-    "id": 68800,
-    "code": "jf8v",
-    "accepts_instructions": true,
-    "address": "3/11 Asad Avenue, Mohammadpur Dhaka.",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.465,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jf8v-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jf8v-listing.jpg",
-    "is_new_until": "2024-01-20T11:29:56Z",
-    "premium_position": 0,
-    "latitude": 23.7601738,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3682968,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
-      "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Asad Gate",
-    "payment_types": [],
-    "post_code": "1207",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/jf8v/shumis-hot-cake-asad-gate",
-    "review_number": 270,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-asad-gate",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5393,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/jf8v/shumis-hot-cake-asad-gate",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Asad Gate",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202218",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Lalmatia",
-    "_area": "Lalmatia",
-    "_area_distance_km": 0.47
-  },
-  {
-    "id": 68799,
-    "code": "sh4w",
-    "accepts_instructions": true,
-    "address": "Holding No 1, Baily Road, (Natok Sharani), Dhaka",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.564,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/sh4w-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/sh4w-listing.jpg",
-    "is_new_until": "2024-01-20T11:24:52Z",
-    "premium_position": 0,
-    "latitude": 23.7418545,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.4107743,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_1500",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 44.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Baily Road",
-    "payment_types": [],
-    "post_code": "1205",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/sh4w/shumis-hot-cake-baily-road",
-    "review_number": 1308,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-baily-road",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 6127,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/sh4w/shumis-hot-cake-baily-road",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Baily Road",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202255",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": false,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Malibagh",
-    "_area": "Malibagh",
-    "_area_distance_km": 0.56
+    "_discovered_area": "Mohammadpur",
+    "_area": "Mohammadpur",
+    "_area_distance_km": 0.4
   },
   {
     "id": 68805,
@@ -553,7 +208,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.455,
+    "distance": 0.43,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mvlg-listing.jpg",
@@ -570,9 +225,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -581,9 +236,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 35.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Banani",
@@ -592,7 +251,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/mvlg/shumis-hot-cake-banani-mvlg",
-    "review_number": 1480,
+    "review_number": 1484,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -630,7 +289,7 @@
         "main": true
       }
     },
-    "vendor_points": 6386,
+    "vendor_points": 6382,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -672,7 +331,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan 2",
+    "_discovered_area": "Banani",
     "_area": "Banani",
     "_area_distance_km": 0.43
   },
@@ -717,7 +376,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.21,
+    "distance": 0.545,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ksd0-listing.jpg",
@@ -733,23 +392,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "Unreachable"
-      ],
+      "close_reasons": [],
       "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 38.0,
+    "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Banasree",
@@ -796,7 +457,7 @@
         "main": true
       }
     },
-    "vendor_points": 5909,
+    "vendor_points": 5907,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -823,7 +484,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -838,9 +499,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Banasree Block A",
-    "_area": "East Rampura",
-    "_area_distance_km": 0.25
+    "_discovered_area": "Rampura",
+    "_area": "Rampura",
+    "_area_distance_km": 0.54
   },
   {
     "id": 68798,
@@ -883,7 +544,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.925,
+    "distance": 0.272,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/dz6a-listing.jpg",
@@ -899,42 +560,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_40",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 70.0,
+    "original_delivery_fee": 29.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Bashundhara",
@@ -1008,7 +652,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -1023,522 +667,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Kuril",
-    "_area": "Bashundhara R/A",
+    "_discovered_area": "Bashundhara",
+    "_area": "Bashundhara",
     "_area_distance_km": 0.27
-  },
-  {
-    "id": 68812,
-    "code": "ngh7",
-    "accepts_instructions": true,
-    "address": "Shop No. 21, Holding No. 34/49, Sagufta, DOHS Road, Mirpur",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 1.787,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ngh7-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ngh7-listing.jpg",
-    "is_new_until": "2024-01-20T13:11:04Z",
-    "premium_position": 0,
-    "latitude": 23.8364484,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3766044,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
-      "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 55.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - DOHS",
-    "payment_types": [],
-    "post_code": "1216",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/ngh7/shumis-hot-cake-dohs",
-    "review_number": 798,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-dohs",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 6116,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/ngh7/shumis-hot-cake-dohs",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - DOHS",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202229",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Mirpur 11",
-    "_area": "Mirpur 14",
-    "_area_distance_km": 0.74
-  },
-  {
-    "id": 68795,
-    "code": "e101",
-    "accepts_instructions": true,
-    "address": "352/A, Road-27,(New Road 16), Dhanmondi, Dhaka, 1209",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.44,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/e101-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/e101-listing.jpg",
-    "is_new_until": "2024-01-20T10:55:06Z",
-    "premium_position": 0,
-    "latitude": 23.7547439,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3728853,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T07:30:00+0600",
-      "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Dhanmondi 27",
-    "payment_types": [],
-    "post_code": "1209",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/e101/shumis-hot-cake-dhanmondi-27",
-    "review_number": 335,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-dhanmondi-27",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5607,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/e101/shumis-hot-cake-dhanmondi-27",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Dhanmondi 27",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202246",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi 27",
-    "_area": "Dhanmondi 27",
-    "_area_distance_km": 0.44
-  },
-  {
-    "id": 68872,
-    "code": "ai3e",
-    "accepts_instructions": true,
-    "address": "Shop-101, Kunja-02, 572 Manikdi, Dhaka Cantonment.(ECB Chattar)",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.527,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ai3e-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ai3e-listing.jpg",
-    "is_new_until": "2024-01-23T09:31:08Z",
-    "premium_position": 0,
-    "latitude": 23.8222505,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3934459,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_1008",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - ECB Chattar",
-    "payment_types": [],
-    "post_code": "1206",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/ai3e/shumis-hot-cake-ecb-chattar",
-    "review_number": 388,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-ecb-chattar",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5567,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/ai3e/shumis-hot-cake-ecb-chattar",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - ECB Chattar",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202215",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Dhaka Cantonment",
-    "_area": "Dhaka Cantonment",
-    "_area_distance_km": 0.53
   },
   {
     "id": 68794,
@@ -1597,23 +728,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 36.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Gulshan -1",
@@ -1622,7 +755,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/u42l/shumis-hot-cake-gulshan-1",
-    "review_number": 1269,
+    "review_number": 1276,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1660,7 +793,7 @@
         "main": true
       }
     },
-    "vendor_points": 6413,
+    "vendor_points": 6416,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1687,7 +820,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -1702,8 +835,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan 1",
-    "_area": "Gulshan 1",
+    "_discovered_area": "Gulshan",
+    "_area": "Gulshan",
     "_area_distance_km": 0.35
   },
   {
@@ -1763,42 +896,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1546",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 68.0,
+    "original_delivery_fee": 63.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Gulshan 2",
@@ -1807,7 +923,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/r0ci/shumis-hot-cake-gulshan-2",
-    "review_number": 1325,
+    "review_number": 1327,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1845,7 +961,7 @@
         "main": true
       }
     },
-    "vendor_points": 6195,
+    "vendor_points": 6205,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1872,7 +988,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -1888,14 +1004,14 @@
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
     "_discovered_area": "Baridhara",
-    "_area": "Gulshan 2",
-    "_area_distance_km": 0.58
+    "_area": "Banani",
+    "_area_distance_km": 0.68
   },
   {
-    "id": 68803,
-    "code": "krye",
+    "id": 90741,
+    "code": "t24c",
     "accepts_instructions": true,
-    "address": "16, Bir Uttam C.R. Dutta Road, Hatirpul Bazar.Dhaka",
+    "address": "Shop - 21,22, Karnaphuli Garden City Shopping Complex,109, Kakrail",
     "address_line2": "",
     "budget": 3,
     "chain": {
@@ -1932,53 +1048,74 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.441,
+    "distance": 1.004,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/krye-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/krye-listing.jpg",
-    "is_new_until": "2024-01-20T12:19:36Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cc7ac-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cc7ac-listing.jpg",
+    "is_new_until": "2025-11-16T08:32:14Z",
     "premium_position": 0,
-    "latitude": 23.7405611,
+    "latitude": 23.73974075,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3915149,
+    "longitude": 90.41043565,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
-      "events": [],
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 60.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Hatirpul",
+    "name": "Shumi's Hot Cake - Kakrail",
     "payment_types": [],
-    "post_code": "1205",
+    "post_code": "1217",
     "primary_cuisine_id": 77,
     "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/krye/shumis-hot-cake-hatirpul",
-    "review_number": 1008,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t24c/shumis-hot-cake-kakrail",
+    "review_number": 165,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "shumis-hot-cake-hatirpul",
+    "url_key": "shumis-hot-cake-kakrail",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -2009,21 +1146,21 @@
         "main": true
       }
     },
-    "vendor_points": 6064,
+    "vendor_points": 5960,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/krye/shumis-hot-cake-hatirpul",
+    "web_path": "https://foodpanda.com.bd/restaurant/t24c/shumis-hot-cake-kakrail",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Hatirpul",
+      "legal_name": "Shumi's Hot Cake - Kakrail",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801701202220",
+    "customer_phone": "+8801701202203",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -2036,7 +1173,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -2051,9 +1188,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Shahbag",
-    "_area": "Shahbag",
-    "_area_distance_km": 0.44
+    "_discovered_area": "Motijheel",
+    "_area": "Motijheel",
+    "_area_distance_km": 1.0
   },
   {
     "id": 68873,
@@ -2113,9 +1250,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -2124,9 +1261,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Kalabagan",
@@ -2135,7 +1276,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/w1v1/shumis-hot-cake-kalabagan",
-    "review_number": 429,
+    "review_number": 430,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -2173,7 +1314,7 @@
         "main": true
       }
     },
-    "vendor_points": 5633,
+    "vendor_points": 5638,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -2215,9 +1356,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhanmondi 32",
-    "_area": "Kalabagan",
-    "_area_distance_km": 0.1
+    "_discovered_area": "Dhanmondi",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.48
   },
   {
     "id": 68804,
@@ -2276,42 +1417,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1500",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Khilgaon",
@@ -2358,7 +1482,7 @@
         "main": true
       }
     },
-    "vendor_points": 5788,
+    "vendor_points": 5792,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -2385,7 +1509,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -2401,14 +1525,14 @@
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
     "_discovered_area": "Khilgaon",
-    "_area": "Taltola Khilgaon",
-    "_area_distance_km": 0.4
+    "_area": "Khilgaon",
+    "_area_distance_km": 0.57
   },
   {
-    "id": 68801,
-    "code": "fw78",
+    "id": 68811,
+    "code": "gzby",
     "accepts_instructions": true,
-    "address": "House-380, Rd-955, Block-B, Khilgoan Taltola, Rampura, Dhaka.",
+    "address": "Plot-2/1, Road-3, Block-A, Lalmatia, Mohammdpur, Dhaka.",
     "address_line2": "",
     "budget": 3,
     "chain": {
@@ -2445,16 +1569,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.036,
+    "distance": 0.676,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fw78-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fw78-listing.jpg",
-    "is_new_until": "2024-01-20T11:33:19Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/gzby-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/gzby-listing.jpg",
+    "is_new_until": "2024-01-20T13:02:35Z",
     "premium_position": 0,
-    "latitude": 23.75222295,
+    "latitude": 23.75743365,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.4215789,
+    "longitude": 90.37445835,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -2462,9 +1586,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T07:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -2473,25 +1597,29 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 33.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Khilgaon Taltola",
+    "name": "Shumi's Hot Cake - Lalmatia",
     "payment_types": [],
-    "post_code": "1219",
+    "post_code": "1205",
     "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/fw78/shumis-hot-cake-khilgaon-taltola",
-    "review_number": 198,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/gzby/shumis-hot-cake-lalmatia-gzby",
+    "review_number": 211,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "shumis-hot-cake-khilgaon-taltola",
+    "url_key": "shumis-hot-cake-lalmatia-gzby",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -2522,21 +1650,21 @@
         "main": true
       }
     },
-    "vendor_points": 5275,
+    "vendor_points": 5366,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/fw78/shumis-hot-cake-khilgaon-taltola",
+    "web_path": "https://foodpanda.com.bd/restaurant/gzby/shumis-hot-cake-lalmatia-gzby",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Khilgaon Taltola",
+      "legal_name": "Shumi's Hot Cake - Lalmatia",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801701202238",
+    "customer_phone": "+8801701202225",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -2564,9 +1692,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "West Rampura",
-    "_area_distance_km": 0.64
+    "_discovered_area": "Lalmatia",
+    "_area": "Lalmatia",
+    "_area_distance_km": 0.68
   },
   {
     "id": 68802,
@@ -2609,7 +1737,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.474,
+    "distance": 0.288,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/kr4n-listing.jpg",
@@ -2626,9 +1754,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -2637,9 +1765,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 128.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Mohakhali",
@@ -2686,7 +1818,7 @@
         "main": true
       }
     },
-    "vendor_points": 5991,
+    "vendor_points": 5986,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -2728,173 +1860,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Kawran Bazar",
+    "_discovered_area": "Mohakhali",
     "_area": "Mohakhali",
     "_area_distance_km": 0.29
-  },
-  {
-    "id": 68830,
-    "code": "q5i6",
-    "accepts_instructions": true,
-    "address": "House no, 19 Rd No. 2, Dhaka 1207",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.219,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/q5i6-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/q5i6-listing.jpg",
-    "is_new_until": "2024-01-22T04:33:32Z",
-    "premium_position": 0,
-    "latitude": 23.76208805,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3574693,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
-      "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Mohammadpur",
-    "payment_types": [],
-    "post_code": "1207",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/q5i6/shumis-hot-cake-mohammadpur-q5i6",
-    "review_number": 695,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-mohammadpur-q5i6",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5840,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/q5i6/shumis-hot-cake-mohammadpur-q5i6",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Mohammadpur",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202228",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Japan Garden City",
-    "_area": "Japan Garden City",
-    "_area_distance_km": 0.22
   },
   {
     "id": 68827,
@@ -2937,7 +1905,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.181,
+    "distance": 0.819,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/znm0-listing.jpg",
@@ -2954,9 +1922,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T07:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -2965,9 +1933,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 60.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Monipur",
@@ -2976,7 +1948,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/znm0/shumis-hot-cake-monipur",
-    "review_number": 1561,
+    "review_number": 1563,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -3014,7 +1986,7 @@
         "main": true
       }
     },
-    "vendor_points": 6494,
+    "vendor_points": 6490,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -3056,707 +2028,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Kafrul",
-    "_area": "Monipur",
-    "_area_distance_km": 0.51
-  },
-  {
-    "id": 68813,
-    "code": "mcm6",
-    "accepts_instructions": true,
-    "address": "Sundaram Plaza20/3 North Dhanmondi, West Panthapath, Dhaka.",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.312,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mcm6-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/mcm6-listing.jpg",
-    "is_new_until": "2024-01-20T13:14:58Z",
-    "premium_position": 0,
-    "latitude": 23.75284065,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.38268725,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
-      "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Panthapath",
-    "payment_types": [],
-    "post_code": "1205",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/mcm6/shumis-hot-cake-panthapath-mcm6",
-    "review_number": 573,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-panthapath-mcm6",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5715,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/mcm6/shumis-hot-cake-panthapath-mcm6",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Panthapath",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202212",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Green Road",
-    "_area": "Green Road",
-    "_area_distance_km": 0.31
-  },
-  {
-    "id": 68826,
-    "code": "gvgo",
-    "accepts_instructions": true,
-    "address": "Holding No-08, Plot-20 B/A DIT Rd Malibhag Chowdhury Para, Dhaka",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.902,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/gvgo-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/gvgo-listing.jpg",
-    "is_new_until": "2024-01-22T04:26:58Z",
-    "premium_position": 0,
-    "latitude": 23.7557359,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.41605685,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_1500",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 19.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Rampura",
-    "payment_types": [],
-    "post_code": "1219",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/gvgo/shumis-hot-cake-rampura-gvgo",
-    "review_number": 648,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-rampura-gvgo",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5886,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/gvgo/shumis-hot-cake-rampura-gvgo",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Rampura",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202230",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": false,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Moghbazar",
-    "_area": "West Rampura",
-    "_area_distance_km": 0.61
-  },
-  {
-    "id": 68818,
-    "code": "fdf4",
-    "accepts_instructions": true,
-    "address": "758 Shatmosjid Road Green City Center Gf -03, Dhanmondi C/A, Dhaka.",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.79,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fdf4-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fdf4-listing.jpg",
-    "is_new_until": "2024-01-22T04:10:10Z",
-    "premium_position": 0,
-    "latitude": 23.74820695,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.36975965,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_1897",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 68.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Shatmosjid",
-    "payment_types": [],
-    "post_code": "1205",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/fdf4/shumis-hot-cake-shatmosjid",
-    "review_number": 727,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-shatmosjid",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 6017,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/fdf4/shumis-hot-cake-shatmosjid",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Shatmosjid",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202252",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Rayer Bazar",
-    "_area": "Dhanmondi 1",
-    "_area_distance_km": 0.25
-  },
-  {
-    "id": 68807,
-    "code": "xx80",
-    "accepts_instructions": true,
-    "address": "Shop-78, Tejkunipara, Tejgoan, Dhaka. (Firmgate)",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cc7ac",
-      "name": "Shumi's Hot Cake",
-      "main_vendor_code": "u42l",
-      "url_key": "shumis-hot-cake"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.513,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/xx80-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/xx80-listing.jpg",
-    "is_new_until": "2024-01-20T12:46:09Z",
-    "premium_position": 0,
-    "latitude": 23.7620859,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cc7ac-logo.jpg",
-    "longitude": 90.3894313,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
-      "events": [],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Shumi's Hot Cake - Tejgaon",
-    "payment_types": [],
-    "post_code": "1215",
-    "primary_cuisine_id": 77,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/xx80/shumis-hot-cake-tejgaon",
-    "review_number": 179,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shumis-hot-cake-tejgaon",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 77,
-          "name": "Cakes",
-          "url_key": "cakes",
-          "main": true
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 77,
-        "name": "Cakes",
-        "url_key": "cakes",
-        "main": true
-      }
-    },
-    "vendor_points": 5070,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/xx80/shumis-hot-cake-tejgaon",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Shumi's Hot Cake - Tejgaon",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801701202216",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Farmgate",
-    "_area": "Tejgaon",
-    "_area_distance_km": 0.29
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 0.82
   },
   {
     "id": 68819,
@@ -3799,7 +2073,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.861,
+    "distance": 0.797,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/b321-listing.jpg",
@@ -3815,42 +2089,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_46",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 90.0,
+    "original_delivery_fee": 47.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Tipu Sultan",
@@ -3897,7 +2154,7 @@
         "main": true
       }
     },
-    "vendor_points": 5773,
+    "vendor_points": 5781,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -3924,7 +2181,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -3939,7 +2196,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Jatrabari",
+    "_discovered_area": "Old Dhaka",
     "_area": "Wari",
     "_area_distance_km": 0.52
   },
@@ -4001,9 +2258,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -4012,9 +2269,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 52.0,
+    "original_delivery_fee": 63.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Uttara -7",
@@ -4023,7 +2284,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/svdn/shumis-hot-cake-uttara-7",
-    "review_number": 1028,
+    "review_number": 1030,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -4061,7 +2322,7 @@
         "main": true
       }
     },
-    "vendor_points": 6304,
+    "vendor_points": 6303,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -4103,9 +2364,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara Sector 1",
-    "_area": "House Building",
-    "_area_distance_km": 0.12
+    "_discovered_area": "Uttara",
+    "_area": "Uttara",
+    "_area_distance_km": 1.84
   },
   {
     "id": 68825,
@@ -4148,7 +2409,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.065,
+    "distance": 0.44,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/co10-listing.jpg",
@@ -4164,42 +2425,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_46",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 53.0,
+    "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Wari",
@@ -4246,7 +2490,7 @@
         "main": true
       }
     },
-    "vendor_points": 5763,
+    "vendor_points": 5761,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -4273,7 +2517,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -4288,7 +2532,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Fakirapool",
+    "_discovered_area": "Wari",
     "_area": "Wari",
     "_area_distance_km": 0.44
   }

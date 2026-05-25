@@ -1,9 +1,9 @@
 [
   {
-    "id": 121369,
-    "code": "zgnn",
+    "id": 121362,
+    "code": "c51m",
     "accepts_instructions": true,
-    "address": "1, 5 Satmasjid Road, Opposite of Allah Karim Mosjid Dhaka",
+    "address": "60/C Road No. 16, Beside Dhanmondi 27 Police Box, Dhaka 1205",
     "address_line2": "",
     "budget": 3,
     "chain": {
@@ -52,50 +52,67 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.806,
+    "distance": 1.065,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
-    "is_new_until": "2026-05-15T09:35:11Z",
+    "is_new_until": "2026-05-15T09:31:22Z",
     "premium_position": 0,
-    "latitude": 23.7570074,
+    "latitude": 23.7519973,
     "logo": "",
-    "longitude": 90.3618779,
+    "longitude": 90.3678442,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_18",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 78.0,
+    "original_delivery_fee": 57.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
-    },
+    "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Teheri Ghor (Mohammadpur)",
+    "name": "Teheri Ghor (Dhanmondi 27)",
     "payment_types": [],
-    "post_code": "1207",
+    "post_code": "1209",
     "primary_cuisine_id": 80,
-    "rating": 4.1,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/zgnn/teheri-ghor-mohammadpur",
-    "review_number": 9,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/c51m/teheri-ghor-dhanmondi-27",
+    "review_number": 0,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -107,12 +124,12 @@
         "text": "15% off Tk. 50",
         "label_metadata": {
           "deal": {
-            "id": "598278"
+            "id": "598289"
           }
         }
       }
     ],
-    "url_key": "teheri-ghor-mohammadpur",
+    "url_key": "teheri-ghor-dhanmondi-27",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -155,22 +172,22 @@
         "main": true
       }
     },
-    "vendor_points": 4764,
+    "vendor_points": 3728,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/zgnn/teheri-ghor-mohammadpur",
+    "web_path": "https://foodpanda.com.bd/restaurant/c51m/teheri-ghor-dhanmondi-27",
     "website": "",
     "has_online_payment": false,
     "discounts_info": [
       {
-        "id": "598278",
+        "id": "598289",
         "value": 15
       }
     ],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Teheri Ghor (Mohammadpur)",
+      "legal_name": "Teheri Ghor (Dhanmondi 27)",
       "trade_register_number": ""
     },
     "disclaimers": [],
@@ -202,8 +219,590 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Shyamoli",
+    "_discovered_area": "Dhanmondi",
     "_area": "Lalmatia",
-    "_area_distance_km": 0.63
+    "_area_distance_km": 0.45
+  },
+  {
+    "id": 121374,
+    "code": "zsdm",
+    "accepts_instructions": true,
+    "address": "House-3, 4 Block # F, Lalmatia, Dhaka 1207",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx8tr",
+      "name": "Teheri Ghor (Gulshan-1)",
+      "main_vendor_code": "ry6b",
+      "url_key": "teheri-ghor-gulshan-1"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": true
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.113,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
+    "is_new_until": "2026-05-15T09:37:39Z",
+    "premium_position": 0,
+    "latitude": 23.7567898,
+    "logo": "",
+    "longitude": 90.367304,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 37.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Teheri Ghor (Lalmatia)",
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 80,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/zsdm/teheri-ghor-lalmatia",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "598293"
+          }
+        }
+      }
+    ],
+    "url_key": "teheri-ghor-lalmatia",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": true
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": true
+      }
+    },
+    "vendor_points": 3605,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/zsdm/teheri-ghor-lalmatia",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "598293",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Teheri Ghor (Lalmatia)",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801763567277",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Lalmatia",
+    "_area": "Lalmatia",
+    "_area_distance_km": 0.11
+  },
+  {
+    "id": 121359,
+    "code": "lehw",
+    "accepts_instructions": true,
+    "address": "Muktobangla Shopping Complex, Shop 29, Beside Mirpur New Market",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx8tr",
+      "name": "Teheri Ghor (Gulshan-1)",
+      "main_vendor_code": "ry6b",
+      "url_key": "teheri-ghor-gulshan-1"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": true
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.611,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
+    "is_new_until": "2026-05-15T09:21:18Z",
+    "premium_position": 0,
+    "latitude": 23.79919845,
+    "logo": "",
+    "longitude": 90.35401635,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 89.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 65
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Teheri Ghor (Mirpur-1)",
+    "payment_types": [],
+    "post_code": "1216",
+    "primary_cuisine_id": 80,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/lehw/teheri-ghor-mirpur-1",
+    "review_number": 10,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "teheri-ghor-mirpur-1",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": true
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": true
+      }
+    },
+    "vendor_points": 4983,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/lehw/teheri-ghor-mirpur-1",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Teheri Ghor (Mirpur-1)",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801763567277",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 1.61
+  },
+  {
+    "id": 121355,
+    "code": "xgzp",
+    "accepts_instructions": true,
+    "address": "House No-1/A, Road No-3, Sherkertek, Mohammadpur",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cx8tr",
+      "name": "Teheri Ghor (Gulshan-1)",
+      "main_vendor_code": "ry6b",
+      "url_key": "teheri-ghor-gulshan-1"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": true
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.148,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx8tr-listing.jpg",
+    "is_new_until": "2026-05-15T09:19:17Z",
+    "premium_position": 0,
+    "latitude": 23.7668776,
+    "logo": "",
+    "longitude": 90.3579049,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 31.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Teheri Ghor (Shekhertek-3)",
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 80,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/xgzp/teheri-ghor-shekhertek-3",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "598229"
+          }
+        }
+      }
+    ],
+    "url_key": "teheri-ghor-shekhertek-3",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": true
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": true
+      }
+    },
+    "vendor_points": 4116,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/xgzp/teheri-ghor-shekhertek-3",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "598229",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Teheri Ghor (Shekhertek-3)",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801763567277",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Mohammadpur",
+    "_area": "Mohammadpur",
+    "_area_distance_km": 0.15
   }
 ]

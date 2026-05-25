@@ -1,9 +1,9 @@
 [
   {
-    "id": 73625,
-    "code": "jqo5",
+    "id": 67799,
+    "code": "pctu",
     "accepts_instructions": true,
-    "address": "House : 7,R-12,Block-G,South Banasree",
+    "address": "House#2, Road#03, Block#D, Bonosree, Rampura, Dhaka-1219",
     "address_line2": "",
     "budget": 2,
     "chain": {
@@ -52,16 +52,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.868,
+    "distance": 0.602,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jqo5-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jqo5-listing.jpg",
-    "is_new_until": "2025-01-01T11:49:32Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/pctu-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/pctu-listing.jpg",
+    "is_new_until": "2023-11-15T09:16:57Z",
     "premium_position": 0,
-    "latitude": 23.75283613,
+    "latitude": 23.762397,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
-    "longitude": 90.44103797,
+    "longitude": 90.4307186,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -69,9 +69,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T11:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -80,25 +80,34 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 51.0,
+    "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Fry Bucket- Banasree -G",
+    "name": "Fry Bucket - Banasree",
     "payment_types": [],
     "post_code": "1219",
     "primary_cuisine_id": 241,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/jqo5/fry-bucket-banasree-g",
-    "review_number": 543,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/pctu/fry-bucket-banasree",
+    "review_number": 3616,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "fry-bucket-banasree-g",
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "fry-bucket-banasree",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -141,21 +150,21 @@
         "main": true
       }
     },
-    "vendor_points": 5877,
+    "vendor_points": 5772,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/jqo5/fry-bucket-banasree-g",
+    "web_path": "https://foodpanda.com.bd/restaurant/pctu/fry-bucket-banasree",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Fry Bucket- Banasree -G",
-      "trade_register_number": "N/A"
+      "legal_name": "Fry Bucket - Banasree",
+      "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801832535458",
+    "customer_phone": "+8801704133805",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -168,7 +177,408 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": true,
+    "_discovered_area": "Rampura",
+    "_area": "Rampura",
+    "_area_distance_km": 0.6
+  },
+  {
+    "id": 64919,
+    "code": "fbr9",
+    "accepts_instructions": true,
+    "address": "Ka-1/A, Jogonnathpur, Bashundhara gate , Dhaka-1229",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.243,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fbr9-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fbr9-listing.jpg",
+    "is_new_until": "2023-04-14T11:57:44Z",
+    "premium_position": 0,
+    "latitude": 23.81241315,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.42479945,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 29.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Bashundhara Gate",
+    "payment_types": [],
+    "post_code": "1229",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/fbr9/fry-bucket-bashundhara-gate",
+    "review_number": 5098,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-bashundhara-gate",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6411,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/fbr9/fry-bucket-bashundhara-gate",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket - Bashundhara Gate",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704153259",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "Bashundhara",
+    "_area": "Bashundhara",
+    "_area_distance_km": 0.24
+  },
+  {
+    "id": 75330,
+    "code": "vz9i",
+    "accepts_instructions": true,
+    "address": "251, Donia, Jatrabari Road -Dhaka",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.106,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vz9i-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/vz9i-listing.jpg",
+    "is_new_until": "2025-04-02T06:31:43Z",
+    "premium_position": 0,
+    "latitude": 23.702847,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.44123,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 52.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Donia",
+    "payment_types": [],
+    "post_code": "1204",
+    "primary_cuisine_id": 241,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/vz9i/fry-bucket-donia",
+    "review_number": 321,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-donia",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5293,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/vz9i/fry-bucket-donia",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket - Donia",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704135609",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -183,8 +593,1480 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rampura",
-    "_area": "Banasree Block D",
-    "_area_distance_km": 0.9
+    "_discovered_area": "Jatrabari",
+    "_area": "Jatrabari",
+    "_area_distance_km": 1.11
+  },
+  {
+    "id": 68666,
+    "code": "cisl",
+    "accepts_instructions": true,
+    "address": "Ga-103/2, Pragati Sarani, Middle Badda, Dhaka-1212",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.669,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cisl-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cisl-listing.jpg",
+    "is_new_until": "2024-01-12T07:35:12Z",
+    "premium_position": 0,
+    "latitude": 23.78118815,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.4258408,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 43.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Middle Badda",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/cisl/fry-bucket-middle-badda",
+    "review_number": 1917,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-middle-badda",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5740,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/cisl/fry-bucket-middle-badda",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704137130",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": true,
+    "_discovered_area": "Gulshan",
+    "_area": "Badda",
+    "_area_distance_km": 0.16
+  },
+  {
+    "id": 70062,
+    "code": "yxn3",
+    "accepts_instructions": true,
+    "address": "Plot- 63/64 A, Block -Cha, Mirpur -2, Dhaka-1216",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.264,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/yxn3-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/yxn3-listing.jpg",
+    "is_new_until": "2024-04-18T05:24:00Z",
+    "premium_position": 0,
+    "latitude": 23.80406335,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.3557535,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 50.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Mirpur 2",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 241,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/yxn3/fry-bucket-mirpur-2",
+    "review_number": 2236,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "fry-bucket-mirpur-2",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6037,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/yxn3/fry-bucket-mirpur-2",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704135505",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": true,
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 1.26
+  },
+  {
+    "id": 68360,
+    "code": "odh4",
+    "accepts_instructions": true,
+    "address": "House: 11/09, Tajmahal Road, Mohammadpur, Dhaka 1207",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.524,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/odh4-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/odh4-listing.jpg",
+    "is_new_until": "2023-12-22T07:43:49Z",
+    "premium_position": 0,
+    "latitude": 23.7638031,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.3635578,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 45.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Mohammadpur",
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 241,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/odh4/fry-bucket-mohammadpur",
+    "review_number": 3029,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-mohammadpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5712,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/odh4/fry-bucket-mohammadpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket - Mohammadpur",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704133514",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": true,
+    "_discovered_area": "Mohammadpur",
+    "_area": "Mohammadpur",
+    "_area_distance_km": 0.52
+  },
+  {
+    "id": 77066,
+    "code": "jfik",
+    "accepts_instructions": true,
+    "address": "Commercial building. Rajuk flat pokolpo.Sector -b18, Uttara, Dhaka",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.346,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jfik-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jfik-listing.jpg",
+    "is_new_until": "2025-08-03T06:19:21Z",
+    "premium_position": 0,
+    "latitude": 23.85427985,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.3566115,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 112.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 70.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 85
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Uttara",
+    "payment_types": [],
+    "post_code": "1230",
+    "primary_cuisine_id": 241,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/jfik/fry-bucket-uttara",
+    "review_number": 183,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-uttara",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5055,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/jfik/fry-bucket-uttara",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket - Uttara",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704841730",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Uttara",
+    "_area": "Uttara",
+    "_area_distance_km": 3.35
+  },
+  {
+    "id": 75907,
+    "code": "xgc6",
+    "accepts_instructions": true,
+    "address": "Valencia Building,24/A Tipu Sultan Road, Dhaka-1203",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.847,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/xgc6-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/xgc6-listing.jpg",
+    "is_new_until": "2025-05-16T11:31:18Z",
+    "premium_position": 0,
+    "latitude": 23.7151014,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.4179128,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 47.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket - Wari",
+    "payment_types": [],
+    "post_code": "1000",
+    "primary_cuisine_id": 86,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/xgc6/fry-bucket-wari",
+    "review_number": 387,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-wari",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5820,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/xgc6/fry-bucket-wari",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket- Wari",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704136805",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Old Dhaka",
+    "_area": "Wari",
+    "_area_distance_km": 0.47
+  },
+  {
+    "id": 72660,
+    "code": "nant",
+    "accepts_instructions": true,
+    "address": "290/4 A, niloy plaza, Atish Deepankar Rd, Dhaka 1219",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.191,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/nant-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/nant-listing.jpg",
+    "is_new_until": "2024-11-08T06:07:50Z",
+    "premium_position": 0,
+    "latitude": 23.74462685,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.42675195,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 9.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 70
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket Khilgaon-2",
+    "payment_types": [],
+    "post_code": "1219",
+    "primary_cuisine_id": 84,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/nant/fry-bucket-khilgaon-2",
+    "review_number": 469,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fry-bucket-khilgaon-2",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 5644,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/nant/fry-bucket-khilgaon-2",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket Khilgaon-2",
+      "trade_register_number": "N/A"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704150087",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": true,
+    "_discovered_area": "Khilgaon",
+    "_area": "Khilgaon",
+    "_area_distance_km": 0.19
+  },
+  {
+    "id": 71652,
+    "code": "r8gv",
+    "accepts_instructions": true,
+    "address": "K/22 Kalachandpur,Gulshan Dhaka-1212",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.033,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/r8gv-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/r8gv-listing.jpg",
+    "is_new_until": "2024-08-30T05:37:26Z",
+    "premium_position": 0,
+    "latitude": 23.8082619,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.4186869,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 77.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket- Baridhara",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 241,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/r8gv/fry-bucket-baridhara",
+    "review_number": 824,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "fry-bucket-baridhara",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5735,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/r8gv/fry-bucket-baridhara",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704136430",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": true,
+    "_discovered_area": "Banani",
+    "_area": "Baridhara",
+    "_area_distance_km": 0.37
+  },
+  {
+    "id": 96644,
+    "code": "sqev",
+    "accepts_instructions": true,
+    "address": "House-36 , Road-16 , Old Dhanmondi R/A , Dhaka-1209",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr4mz",
+      "name": "Fry Bucket",
+      "main_vendor_code": "byin",
+      "url_key": "fry-bucket-cr4mz"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.011,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/sqev-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/sqev-listing.jpg",
+    "is_new_until": "2026-01-01T07:55:22Z",
+    "premium_position": 0,
+    "latitude": 23.753645,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr4mz-logo.jpg",
+    "longitude": 90.370621,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_18",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 57.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 38.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fry Bucket-Dhanmondi",
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 241,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/sqev/fry-bucket-dhanmondi-sqev",
+    "review_number": 130,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "fry-bucket-dhanmondi-sqev",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5726,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/sqev/fry-bucket-dhanmondi-sqev",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fry Bucket-Dhanmondi",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Dhanmondi",
+    "_area": "Lalmatia",
+    "_area_distance_km": 0.37
   }
 ]

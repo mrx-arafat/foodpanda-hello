@@ -64,10 +64,10 @@
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 14.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 45.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -75,9 +75,9 @@
     "payment_types": [],
     "post_code": "5402",
     "primary_cuisine_id": 195,
-    "rating": 2.6,
+    "rating": 2.5,
     "redirection_url": "https://foodpanda.com.bd/restaurant/f0pi/royals-food",
-    "review_number": 96,
+    "review_number": 97,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -119,7 +119,7 @@
         "main": true
       }
     },
-    "vendor_points": 5441,
+    "vendor_points": 5423,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -171,10 +171,10 @@
     "_area_distance_km": 1.3
   },
   {
-    "id": 91529,
-    "code": "io7n",
+    "id": 37201,
+    "code": "r7mp",
     "accepts_instructions": true,
-    "address": "Road No: 04, Lane beside Shafi Homeo Clinic, Nurpur Emo Agro Nursery Road, Nurpur, Alamnagar, Rangpur. Near by Upoma Light Decoraton , Rangpur",
+    "address": "station bazar bokridia mossid front Rangpur",
     "address_line2": "",
     "budget": 1,
     "chain": {
@@ -187,6 +187,12 @@
       "name": "Rangpur"
     },
     "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
       {
         "id": 243,
         "name": "Curry",
@@ -217,27 +223,27 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.412,
+    "distance": 1.926,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/io7n-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/io7n-listing.jpg",
-    "is_new_until": "2025-11-20T11:49:39Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/r7mp-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/r7mp-listing.jpg",
+    "is_new_until": "2021-03-08T00:00:00Z",
     "premium_position": 0,
-    "latitude": 25.74114461,
+    "latitude": 25.7292679,
     "logo": "",
-    "longitude": 89.26144163,
+    "longitude": 89.2649061,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
-      "has_discount": false,
+      "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
       "available_in": null,
       "events": [],
       "is_delivery_available": true,
-      "is_pickup_available": false,
+      "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
       "is_temporary_closed": false,
@@ -245,32 +251,48 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 14.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 25.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Halal Food",
+    "name": "Shamshad Hotel",
     "payment_types": [],
     "post_code": "5400",
     "primary_cuisine_id": 195,
-    "rating": 4.1,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/io7n/halal-food-io7n",
-    "review_number": 313,
+    "rating": 4.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/r7mp/shamshad-hotel",
+    "review_number": 1101,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "halal-food-io7n",
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "599681"
+          }
+        }
+      }
+    ],
+    "url_key": "shamshad-hotel",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
         {
           "id": 243,
           "name": "Curry",
@@ -304,21 +326,468 @@
         "main": true
       }
     },
-    "vendor_points": 5640,
+    "vendor_points": 5862,
     "vertical": "restaurants",
-    "vertical_segment": "home_based_kitchen",
+    "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/io7n/halal-food-io7n",
+    "web_path": "https://foodpanda.com.bd/restaurant/r7mp/shamshad-hotel",
     "website": "",
     "has_online_payment": true,
-    "discounts_info": [],
+    "discounts_info": [
+      {
+        "id": "599681",
+        "value": 15
+      }
+    ],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Halal Food",
+      "legal_name": "Shamshad hotel",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801568368762",
+    "customer_phone": "+8801778020580",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 1.56
+  },
+  {
+    "id": 37202,
+    "code": "gfak",
+    "accepts_instructions": true,
+    "address": "Besides Nurpur sarkari prathamik vidyalaya, Noorpur, Rangpur.",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.67,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/gfak-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/gfak-listing.jpg",
+    "is_new_until": "2021-03-08T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 25.74117345,
+    "logo": "",
+    "longitude": 89.25880665,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 19.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Rangpur Foodies Goodies ( RFG )",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 86,
+    "rating": 2.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/gfak/rangpur-foodies-goodies-rfg",
+    "review_number": 2048,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604043"
+          }
+        }
+      },
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "rangpur-foodies-goodies-rfg",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5729,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/gfak/rangpur-foodies-goodies-rfg",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604043",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Foodies goodies",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801780349659",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 1.63
+  },
+  {
+    "id": 77164,
+    "code": "k3fo",
+    "accepts_instructions": true,
+    "address": "Boro Noorpur Jame Masjid, Guptapara Road Boro noorpur Jame masjid, 5400 Alamgar, Rangpur, Bangladesh",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 113,
+        "name": "Middle Eastern",
+        "url_key": "middle-eastern",
+        "main": false
+      },
+      {
+        "id": 126,
+        "name": "Shawarma",
+        "url_key": "shawarma",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 71,
+        "name": "Sandwiches",
+        "url_key": "sandwiches",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.669,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/k3fo-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/k3fo-listing.jpg",
+    "is_new_until": "2025-08-15T08:54:15Z",
+    "premium_position": 0,
+    "latitude": 25.74112,
+    "logo": "",
+    "longitude": 89.2588211,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 19.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Rangpur Foodbuzz",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 73,
+    "rating": 3.1,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/k3fo/rangpur-foodbuzz",
+    "review_number": 261,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604043"
+          }
+        }
+      }
+    ],
+    "url_key": "rangpur-foodbuzz",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 113,
+          "name": "Middle Eastern",
+          "url_key": "middle-eastern",
+          "main": false
+        },
+        {
+          "id": 126,
+          "name": "Shawarma",
+          "url_key": "shawarma",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 71,
+          "name": "Sandwiches",
+          "url_key": "sandwiches",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 5442,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/k3fo/rangpur-foodbuzz",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604043",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Rangpur Foodbuzz",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801780349659",
     "vertical_type_ids": [
       "home_based_kitchen"
     ],
@@ -348,7 +817,7 @@
     "is_preferred_partner": false,
     "_discovered_area": "Rangpur Sadar",
     "_area": "Jail Road",
-    "_area_distance_km": 1.36
+    "_area_distance_km": 1.63
   },
   {
     "id": 78062,
@@ -505,6 +974,576 @@
     "_area_distance_km": 1.91
   },
   {
+    "id": 44096,
+    "code": "qi9h",
+    "accepts_instructions": true,
+    "address": "Becon moor college road Rangpur",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cw3bq",
+      "name": "Treat Me",
+      "main_vendor_code": "qi9h",
+      "url_key": "treat-me"
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.173,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/qi9h-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/qi9h-listing.jpg",
+    "is_new_until": "2021-08-10T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 25.7370415,
+    "logo": "",
+    "longitude": 89.254882,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 19.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Treat Me",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 86,
+    "rating": 4.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/qi9h/treat-me-qi9h",
+    "review_number": 4150,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "12% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604044"
+          }
+        }
+      }
+    ],
+    "url_key": "treat-me-qi9h",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 6917,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/qi9h/treat-me-qi9h",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604044",
+        "value": 12
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Treat Me",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801408109794",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "MdiUAxy9fxuMik7Whw/UWd45oZ9lktyLvwR1WCPobJMLyMTySSZh08KotKlxKMJ8u1h2j93G10O9T3v+HRjKOVtbDuWnZ7MeaqbzjmwhFg9EoXxwP02mcAom1ySq1IzqRkTNFJPjB6Cn7mvxeNjEoVRkx85OvivJ+Uvy0caV6+UPabCBfe8WiKyDkWlMeke4SpHLcUR0M5dVL0/p64ygfeyjFxsirK75RtGih8Mv88d7iZ4BBPEsUKndTkt/SgFWF650RkvQzeNWGjEHUYsK",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 2.04
+  },
+  {
+    "id": 95678,
+    "code": "znbs",
+    "accepts_instructions": true,
+    "address": "Bikon Mor, College Road, Rangpur, Bangladesh",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": true
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.184,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/znbs-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/znbs-listing.jpg",
+    "is_new_until": "2025-12-21T10:29:18Z",
+    "premium_position": 0,
+    "latitude": 25.7370499,
+    "logo": "",
+    "longitude": 89.2547636,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 19.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "CAKES - Bikon Mor",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 77,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/znbs/cakes-bikon-mor",
+    "review_number": 27,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604047"
+          }
+        }
+      },
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "cakes-bikon-mor",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": true
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": true
+      }
+    },
+    "vendor_points": 4559,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/znbs/cakes-bikon-mor",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604047",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "CAKES",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801893494881",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 2.05
+  },
+  {
+    "id": 70356,
+    "code": "koc5",
+    "accepts_instructions": true,
+    "address": "232, Alamnogor ,khamar para,Road no -1, Mothi bakery to 10 feets up ,  Rangpur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.376,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/koc5-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/koc5-listing.jpg",
+    "is_new_until": "2024-05-22T05:41:56Z",
+    "premium_position": 0,
+    "latitude": 25.73040454,
+    "logo": "",
+    "longitude": 89.25680559,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 22.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Alif & Addin Kitchen",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 123,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/koc5/alif-and-addin-kitchen",
+    "review_number": 6,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "alif-and-addin-kitchen",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      }
+    },
+    "vendor_points": 0,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/koc5/alif-and-addin-kitchen",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Alif & Addin Kitchen",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801703807303",
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 2.11
+  },
+  {
     "id": 81177,
     "code": "vjpk",
     "accepts_instructions": true,
@@ -658,7 +1697,7 @@
         "main": true
       }
     },
-    "vendor_points": 3914,
+    "vendor_points": 3918,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -708,6 +1747,270 @@
     "_discovered_area": "Rangpur Sadar",
     "_area": "Jail Road",
     "_area_distance_km": 2.18
+  },
+  {
+    "id": 83374,
+    "code": "iakv",
+    "accepts_instructions": true,
+    "address": "Chartola Mor, College Rd,Rangpur 5400",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 103,
+        "name": "Pasta",
+        "url_key": "pasta",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.429,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/iakv-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/iakv-listing.jpg",
+    "is_new_until": "2025-10-12T11:35:54Z",
+    "premium_position": 0,
+    "latitude": 25.73185063,
+    "logo": "",
+    "longitude": 89.25497405,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 22.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Arabian Broast",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 241,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/iakv/arabian-broast",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "arabian-broast",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 103,
+          "name": "Pasta",
+          "url_key": "pasta",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 3891,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/iakv/arabian-broast",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Arabian Broast",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801334384621",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 2.2
   },
   {
     "id": 122325,
@@ -822,7 +2125,7 @@
         "main": true
       }
     },
-    "vendor_points": 3686,
+    "vendor_points": 3691,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -958,7 +2261,7 @@
     "primary_cuisine_id": 123,
     "rating": 4.4,
     "redirection_url": "https://foodpanda.com.bd/restaurant/ktqg/khichuri-bhai",
-    "review_number": 360,
+    "review_number": 361,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1002,7 +2305,7 @@
         "main": true
       }
     },
-    "vendor_points": 6045,
+    "vendor_points": 6049,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -1225,6 +2528,201 @@
     "_area_distance_km": 2.36
   },
   {
+    "id": 84680,
+    "code": "so3t",
+    "accepts_instructions": true,
+    "address": "Hamar Biryani, K D C road lalbag Rangpur",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": false
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.848,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/so3t-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/so3t-listing.jpg",
+    "is_new_until": "2025-10-18T06:49:03Z",
+    "premium_position": 0,
+    "latitude": 25.7257016,
+    "logo": "",
+    "longitude": 89.2551871,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 22.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Hamar Biryani",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 193,
+    "rating": 4.6,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/so3t/hamar-biryani",
+    "review_number": 181,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 100",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 100",
+        "label_metadata": {
+          "deal": {
+            "id": "588405"
+          }
+        }
+      }
+    ],
+    "url_key": "hamar-biryani",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": false
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": true
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    },
+    "vendor_points": 6376,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/so3t/hamar-biryani",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "588405",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Hamar Biryani",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801756497554",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 2.54
+  },
+  {
     "id": 81174,
     "code": "nejk",
     "accepts_instructions": true,
@@ -1276,7 +2774,7 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T12:30:00+0600",
+      "available_in": "2026-05-26T12:30:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
@@ -1330,7 +2828,7 @@
         "main": true
       }
     },
-    "vendor_points": 3976,
+    "vendor_points": 3980,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1377,12 +2875,12 @@
     "_area_distance_km": 2.77
   },
   {
-    "id": 91858,
-    "code": "s49p",
+    "id": 121433,
+    "code": "ir5v",
     "accepts_instructions": true,
-    "address": "Beside Karagar restaurant, Sohid Abu Sayed Chattor,Park er more , Opposite side of Begum rokyea University",
+    "address": "Park er more, Rangpur",
     "address_line2": "",
-    "budget": 1,
+    "budget": 2,
     "chain": {
       "code": "",
       "name": "",
@@ -1394,46 +2892,16 @@
     },
     "cuisines": [
       {
-        "id": 89,
-        "name": "Juice Corner",
-        "url_key": "juice-corner",
-        "main": false
-      },
-      {
         "id": 122,
         "name": "Snacks",
         "url_key": "snacks",
         "main": false
       },
       {
-        "id": 147,
-        "name": "Beverage",
-        "url_key": "beverage",
-        "main": false
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
+        "id": 82,
+        "name": "Seafood",
+        "url_key": "seafood",
         "main": true
-      },
-      {
-        "id": 74,
-        "name": "Chinese",
-        "url_key": "chinese",
-        "main": false
-      },
-      {
-        "id": 75,
-        "name": "Asian",
-        "url_key": "asian",
-        "main": false
-      },
-      {
-        "id": 240,
-        "name": "Dumpling",
-        "url_key": "dumpling",
-        "main": false
       }
     ],
     "custom_location_url": "",
@@ -1441,16 +2909,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.275,
+    "distance": 3.325,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s49p-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s49p-listing.jpg",
-    "is_new_until": "2025-11-22T07:07:48Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ir5v-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ir5v-listing.jpg",
+    "is_new_until": "2026-05-18T08:53:54Z",
     "premium_position": 0,
-    "latitude": 25.71654041,
+    "latitude": 25.71622,
     "logo": "",
-    "longitude": 89.26308938,
+    "longitude": 89.26265085,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -1471,36 +2939,30 @@
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 29.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 40.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 35,
-      "upper_limit_in_minutes": 55
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Fresh Juice Bar - Rangpur",
+    "name": "Potenga Seafood Cafe",
     "payment_types": [],
-    "post_code": "5400",
-    "primary_cuisine_id": 84,
-    "rating": 4.0,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/s49p/fresh-juice-bar-rangpur",
-    "review_number": 17,
+    "post_code": "4000",
+    "primary_cuisine_id": 82,
+    "rating": 3.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/ir5v/potenga-seafood-cafe",
+    "review_number": 12,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "fresh-juice-bar-rangpur",
+    "url_key": "potenga-seafood-cafe",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
-        {
-          "id": 89,
-          "name": "Juice Corner",
-          "url_key": "juice-corner",
-          "main": false
-        },
         {
           "id": 122,
           "name": "Snacks",
@@ -1508,59 +2970,35 @@
           "main": false
         },
         {
-          "id": 147,
-          "name": "Beverage",
-          "url_key": "beverage",
-          "main": false
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
+          "id": 82,
+          "name": "Seafood",
+          "url_key": "seafood",
           "main": true
-        },
-        {
-          "id": 74,
-          "name": "Chinese",
-          "url_key": "chinese",
-          "main": false
-        },
-        {
-          "id": 75,
-          "name": "Asian",
-          "url_key": "asian",
-          "main": false
-        },
-        {
-          "id": 240,
-          "name": "Dumpling",
-          "url_key": "dumpling",
-          "main": false
         }
       ],
       "food_characteristics": [],
       "primary_cuisine": {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
+        "id": 82,
+        "name": "Seafood",
+        "url_key": "seafood",
         "main": true
       }
     },
-    "vendor_points": 4782,
+    "vendor_points": 5269,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/s49p/fresh-juice-bar-rangpur",
+    "web_path": "https://foodpanda.com.bd/restaurant/ir5v/potenga-seafood-cafe",
     "website": "",
-    "has_online_payment": true,
+    "has_online_payment": false,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Fresh Juice Bar",
+      "legal_name": "Potenga Seafood Cafe",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801773787553",
+    "customer_phone": "+8801318379445",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -1590,6 +3028,213 @@
     "is_preferred_partner": false,
     "_discovered_area": "Rangpur Sadar",
     "_area": "Jail Road",
-    "_area_distance_km": 2.87
+    "_area_distance_km": 2.92
+  },
+  {
+    "id": 19173,
+    "code": "u0kb",
+    "accepts_instructions": true,
+    "address": "Modern Road, Modern Mor Bus Stop Rangpur, Besides Shahin Hotel and Restaurant",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cz2mf",
+      "name": "Azad Hotel & Restaurant",
+      "main_vendor_code": "se87",
+      "url_key": "azad-hotel-and-restaurant"
+    },
+    "city": {
+      "name": "Rangpur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 4.031,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u0kb-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/u0kb-listing.jpg",
+    "is_new_until": "",
+    "premium_position": 0,
+    "latitude": 25.7099819,
+    "logo": "",
+    "longitude": 89.26100015,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 35.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Azad Hotel & Restaurant",
+    "payment_types": [],
+    "post_code": "5400",
+    "primary_cuisine_id": 195,
+    "rating": 2.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/u0kb/azad-hotel-and-restaurant",
+    "review_number": 1456,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604043"
+          }
+        }
+      }
+    ],
+    "url_key": "azad-hotel-and-restaurant",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 5932,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/u0kb/azad-hotel-and-restaurant",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604043",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Azad hotel and restaurant",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801973328315",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": false,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rangpur Sadar",
+    "_area": "Jail Road",
+    "_area_distance_km": 3.62
   }
 ]

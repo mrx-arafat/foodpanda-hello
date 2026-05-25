@@ -40,7 +40,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.305,
+    "distance": 1.161,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u1k8-listing.JPG",
@@ -56,40 +56,19 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_1008",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
+      "close_reasons": [],
+      "available_in": "2026-05-26T12:30:00+0600",
+      "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 96.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -148,7 +127,7 @@
         "main": true
       }
     },
-    "vendor_points": 11191,
+    "vendor_points": 11193,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -195,8 +174,601 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Dhaka Cantonment",
-    "_area": "Mirpur 6",
-    "_area_distance_km": 0.5
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 1.16
+  },
+  {
+    "id": 75909,
+    "code": "x23p",
+    "accepts_instructions": true,
+    "address": "Level- 5, Lift- 4, Gowsia Twin Peak, Shat Mosjid Road, Dhanmondi- 9/A, Dhaka- 1209",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ct7eg",
+      "name": "Ling Jing Chinese Restaurant",
+      "main_vendor_code": "s2ti",
+      "url_key": "ling-jing-chinese-restaurant"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 107,
+        "name": "Soups",
+        "url_key": "soups",
+        "main": false
+      },
+      {
+        "id": 109,
+        "name": "Noodles",
+        "url_key": "noodles",
+        "main": false
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.454,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/x23p-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/x23p-listing.jpg",
+    "is_new_until": "2025-05-16T12:43:34Z",
+    "premium_position": 8,
+    "latitude": 23.7454691,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ct7eg-logo.jpg",
+    "longitude": 90.37158162,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 37.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Ling Jing Chinese Restaurant- Dhanmondi",
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 74,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/x23p/ling-jing-chinese-restaurant-dhanmondi",
+    "review_number": 928,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      }
+    ],
+    "url_key": "ling-jing-chinese-restaurant-dhanmondi",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 107,
+          "name": "Soups",
+          "url_key": "soups",
+          "main": false
+        },
+        {
+          "id": 109,
+          "name": "Noodles",
+          "url_key": "noodles",
+          "main": false
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      }
+    },
+    "vendor_points": 6835,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/x23p/ling-jing-chinese-restaurant-dhanmondi",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Ling Jing Chinese Restaurant",
+      "trade_register_number": "N/A"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801919040919",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "oQbPJHJcDcroySt/YTOCpn9yOsdCXhbO2Tyx84pRPmAeJZDwaeK+BiMFnNBaFxeqrOn8QJ24cfDfBzq7H1TezWbL1RvD8fnUKY3g8dkmT/EHmkuLEdvcU0BABxdh73dxr+V0rP74OEKROfPMEf3dw+hcYs+9czY5jUhskRLs+VdwUvVeGAmnrDtGU/da/QigmzAQ6VRUnGSNLkZ1uz2Mwn7xAaQVTdHK6IFx2g4w0CTDu57lvEc6ueTHs7YojahFUXn72mnLJiaS60V0lheX",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Dhanmondi",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.45
+  },
+  {
+    "id": 70997,
+    "code": "rnw5",
+    "accepts_instructions": true,
+    "address": "17 Razia Sultana Rd",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ct7eg",
+      "name": "Ling Jing Chinese Restaurant",
+      "main_vendor_code": "s2ti",
+      "url_key": "ling-jing-chinese-restaurant"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.463,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/rnw5-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/rnw5-listing.jpg",
+    "is_new_until": "2024-07-02T06:35:56Z",
+    "premium_position": 7,
+    "latitude": 23.7625016,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ct7eg-logo.jpg",
+    "longitude": 90.3614652,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 40.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Ling Jing Chinese Restaurant- Mohammadpur",
+    "payment_types": [],
+    "post_code": "1207",
+    "primary_cuisine_id": 74,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/rnw5/ling-jing-chinese-restaurant-mohammadpur",
+    "review_number": 1424,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      }
+    ],
+    "url_key": "ling-jing-chinese-restaurant-mohammadpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      }
+    },
+    "vendor_points": 6394,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/rnw5/ling-jing-chinese-restaurant-mohammadpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Ling Jing Chinese Restauran",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801939097826",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "8fqWO4btiy9l8liZJnFNKeHtg5kAvbCZ0J5EhhXFHtmKZbKk5xEes2PdF/8zrP7OtwPRJb45UTHBqZFCA0nyoWGgND59cZKkntsWf3/wzMdFY/d02NCeV3NkYwLg42jNq6TQEeEMNdaqWzSTzCzdvyN+gc7J0iXbShXIuA/pBwuW/4gLHX9obTriIWTYKxD6K+CnujSGnQOJ9xf1QB9k8Fa8qnUSsRAPnaM9zDkdXnK/ygimjByLPC/BmhXZRueTyGfDzMFQ+RySmYG1zESj",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "Mohammadpur",
+    "_area": "Mohammadpur",
+    "_area_distance_km": 0.46
+  },
+  {
+    "id": 5847,
+    "code": "s2ti",
+    "accepts_instructions": true,
+    "address": "House No-25, Zigatala Kacha Bazar Road, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ct7eg",
+      "name": "Ling Jing Chinese Restaurant",
+      "main_vendor_code": "s2ti",
+      "url_key": "ling-jing-chinese-restaurant"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 5.088,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2ti-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2ti-listing.jpg",
+    "is_new_until": "2019-07-17T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.73923625,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ct7eg-logo.jpg",
+    "longitude": 90.37221725,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_19",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 122.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Ling Jing Chinese Restaurant- Zigatola",
+    "payment_types": [],
+    "post_code": "1209",
+    "primary_cuisine_id": 74,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s2ti/ling-jing-chinese-restaurant-zigatola",
+    "review_number": 5438,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Up to 15% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "Up to 15% off",
+        "label_metadata": {
+          "deal": {
+            "id": "563040"
+          }
+        }
+      }
+    ],
+    "url_key": "ling-jing-chinese-restaurant-zigatola",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      }
+    },
+    "vendor_points": 6562,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s2ti/ling-jing-chinese-restaurant-zigatola",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Ling jing Chinese restaurant",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801722026433",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Old Dhaka",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.84
   }
 ]

@@ -1,5 +1,977 @@
 [
   {
+    "id": 25918,
+    "code": "j4me",
+    "accepts_instructions": true,
+    "address": "House 180/6/23/C\nAD Avenue Road 14\nBlock-C\nAbdullah park\nBanasree Rampura Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.492,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/j4me-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/j4me-listing.jpg",
+    "is_new_until": "2020-10-29T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.75866275,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.4291053,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 9.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 60.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizza Burg - Banasree",
+    "payment_types": [],
+    "post_code": "1219",
+    "primary_cuisine_id": 73,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/j4me/pizza-burg-banasree",
+    "review_number": 11271,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-banasree",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7186,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/j4me/pizza-burg-banasree",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizza Burg",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801873927710",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Rampura",
+    "_area": "Rampura",
+    "_area_distance_km": 0.49
+  },
+  {
+    "id": 13473,
+    "code": "t1vm",
+    "accepts_instructions": true,
+    "address": "Hazi Abdul Latif Mansion, 9/KA, Manson, R/A, Ka-9, Bashundhara Road",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.323,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t1vm-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t1vm-listing.jpg",
+    "is_new_until": "2020-04-14T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.8120243,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.4228431,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 29.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Pizza Burg - Bashundhara",
+    "payment_types": [],
+    "post_code": "1229",
+    "primary_cuisine_id": 73,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t1vm/pizza-burg-bashundhara",
+    "review_number": 11088,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-bashundhara",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7095,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t1vm/pizza-burg-bashundhara",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizza Burg-Bashundhara",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801892698866",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Bashundhara",
+    "_area": "Bashundhara",
+    "_area_distance_km": 0.32
+  },
+  {
+    "id": 6312,
+    "code": "s2yh",
+    "accepts_instructions": true,
+    "address": "House No. 754, Satmasjid Road, Dhanmondi, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.609,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2yh-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s2yh-listing.jpg",
+    "is_new_until": "2019-08-09T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7475836,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.37026725,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 45.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 60.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 75
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Pizza Burg - Dhanmondi",
+    "payment_types": [],
+    "post_code": "1205",
+    "primary_cuisine_id": 73,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s2yh/pizza-burg-dhanmondi",
+    "review_number": 15372,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-dhanmondi",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7336,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s2yh/pizza-burg-dhanmondi",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "PizzaBurg",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801705219509",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Dhanmondi",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.61
+  },
+  {
+    "id": 37315,
+    "code": "uc8h",
+    "accepts_instructions": true,
+    "address": "551/C Khilgaon, Dhaka-1219",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.768,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/uc8h-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/uc8h-listing.jpg",
+    "is_new_until": "2021-03-10T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7508811,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.42437065,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_5",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 32.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizza Burg - Khilgaon",
+    "payment_types": [],
+    "post_code": "1219",
+    "primary_cuisine_id": 73,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/uc8h/pizza-burg-khilgaon",
+    "review_number": 10968,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-khilgaon",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 6775,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/uc8h/pizza-burg-khilgaon",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizza Burg",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801965380085",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Khilgaon",
+    "_area": "Khilgaon",
+    "_area_distance_km": 0.77
+  },
+  {
+    "id": 6311,
+    "code": "s4ma",
+    "accepts_instructions": true,
+    "address": "Avenue 2 Block A road 5 Mirpur-2, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.37,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s4ma-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s4ma-listing.jpg",
+    "is_new_until": "2019-08-09T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.803455,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.354822,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 50.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 65.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Pizza Burg - Mirpur",
+    "payment_types": [],
+    "post_code": "1216",
+    "primary_cuisine_id": 73,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s4ma/pizza-burg-mirpur",
+    "review_number": 24375,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-mirpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7369,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s4ma/pizza-burg-mirpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "PizzaBurg",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801908327868",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 1.37
+  },
+  {
     "id": 15967,
     "code": "u4cw",
     "accepts_instructions": true,
@@ -46,7 +1018,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.597,
+    "distance": 0.587,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u4cw-listing.jpg",
@@ -62,32 +1034,34 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 36.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 38.0,
+    "minimum_delivery_time": 65.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Pizza Burg - Mohammadpur",
     "payment_types": [],
     "post_code": "1207",
     "primary_cuisine_id": 73,
-    "rating": 4.8,
+    "rating": 4.7,
     "redirection_url": "https://foodpanda.com.bd/restaurant/u4cw/pizza-burg-mohammadpur",
-    "review_number": 9492,
+    "review_number": 9497,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -142,7 +1116,7 @@
         "main": true
       }
     },
-    "vendor_points": 7095,
+    "vendor_points": 7087,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -157,6 +1131,197 @@
     },
     "disclaimers": [],
     "customer_phone": "+8801736166288",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Mohammadpur",
+    "_area": "Mohammadpur",
+    "_area_distance_km": 0.59
+  },
+  {
+    "id": 6310,
+    "code": "s6ko",
+    "accepts_instructions": true,
+    "address": "Plot No- 41, Gareeb-e-Nawaz Ave, Dhaka",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.184,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s6ko-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s6ko-listing.jpg",
+    "is_new_until": "2019-08-09T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.87904985,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.3906206,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 40.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 65.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 25.0,
+    "name": "Pizza Burg - Uttara",
+    "payment_types": [],
+    "post_code": "1230",
+    "primary_cuisine_id": 73,
+    "rating": 4.6,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s6ko/pizza-burg-uttara",
+    "review_number": 15323,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-uttara",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7469,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s6ko/pizza-burg-uttara",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "PIzzaBurg",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801870832155",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -184,9 +1349,200 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Shyamoli",
-    "_area": "Adabor",
-    "_area_distance_km": 0.28
+    "_discovered_area": "Uttara",
+    "_area": "Uttara",
+    "_area_distance_km": 1.18
+  },
+  {
+    "id": 44258,
+    "code": "jswd",
+    "accepts_instructions": true,
+    "address": "3, AHL Motahara Tower (1st Floor 39/1, 4 Rankin St, Lift-3,Dhaka 1203",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.901,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jswd-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jswd-listing.jpg",
+    "is_new_until": "2021-08-13T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.7172236,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.41629695,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 47.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 45,
+      "upper_limit_in_minutes": 70
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizza Burg - Wari",
+    "payment_types": [],
+    "post_code": "1203",
+    "primary_cuisine_id": 73,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/jswd/pizza-burg-wari",
+    "review_number": 8523,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-wari",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7245,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/jswd/pizza-burg-wari",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizza Burg Wari",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801608880838",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Old Dhaka",
+    "_area": "Wari",
+    "_area_distance_km": 0.58
   },
   {
     "id": 65710,
@@ -248,7 +1604,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/rjjn-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/rjjn-listing.jpg",
     "is_new_until": "2023-05-04T18:00:00Z",
-    "premium_position": 1,
+    "premium_position": 0,
     "latitude": 23.7812506,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/rjjn-logo.jpg",
     "longitude": 90.4154452,
@@ -270,12 +1626,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 36.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
+    "minimum_delivery_time": 65.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
+      "lower_limit_in_minutes": 55,
+      "upper_limit_in_minutes": 80
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -285,17 +1641,13 @@
     "primary_cuisine_id": 73,
     "rating": 4.8,
     "redirection_url": "https://foodpanda.com.bd/restaurant/rjjn/pizzaburg-gulshan",
-    "review_number": 12718,
+    "review_number": 12728,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
+    "tag": "Tk. 165 off Tk. 550: dealnao",
     "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      },
       {
         "code": "VOUCHER",
         "text": "Tk. 165 off Tk. 550: dealnao",
@@ -351,7 +1703,7 @@
         "main": true
       }
     },
-    "vendor_points": 7247,
+    "vendor_points": 7242,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -377,6 +1729,201 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gulshan",
+    "_area": "Gulshan",
+    "_area_distance_km": 0.4
+  },
+  {
+    "id": 58455,
+    "code": "wb7l",
+    "accepts_instructions": true,
+    "address": "Sahera Zaman Emporium, Balur Math Narayanganj, 1400",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Narayanganj"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.279,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/wb7l-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/wb7l-listing.jpg",
+    "is_new_until": "2022-08-03T00:00:00Z",
+    "premium_position": 1,
+    "latitude": 23.62130455,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.500272,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 9.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizzaburg - Narayanganj",
+    "payment_types": [],
+    "post_code": "1400",
+    "primary_cuisine_id": 73,
+    "rating": 4.6,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/wb7l/pizzaburg-narayanganj",
+    "review_number": 5550,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizzaburg-narayanganj",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 6817,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/wb7l/pizzaburg-narayanganj",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizzaburg - Narayanganj",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801404461234",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
     "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
@@ -391,12 +1938,220 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "ncr_pricing_model": "cpc",
-    "ncr_token": "LU5EGxDSQi4668WpQOdQ+p1hjAfq908GdVmfb7LUB2aArX0lfq8OwMq3REgp9elAVrTeGk0Fg3IGfzYoxAV1g8JjJLNr7nRP/g/C1pDvynW99BSla6QQ0JVvV7XwLUFg1MypcGmqH0HP26ClIailHaYEff0eMJvyaqJ0okucusszyYvvtitLTgBAzoJZRpLlmKbz5VwZZUMCH6s2aPDZDDi///XSZZOWXFMPfZ0q/XMZcHQmtugMLCjlojREiCKEQDAMw4JLLCuhdgwnq8qf",
+    "ncr_token": "rMGO3y2NgTUwikdE5cc+bwAtZ5cxRHxelkDy3EbU8uKYjzNqy7YTkP8lg0+2ezmRMzcKzRgkNLMNvl8gSggJx2Cns6+roxjVY4DSxLgSZUtxeLlKvZU7+IwuZHJwImaUhj7Se4pJK4IVo/e4b6EUFXNfH7ZmzYh/ww0ppJOcxbj0jfSy+vHVquvcqnw/PMsrQ49eR0IdfCv7jvso8Q2BBNT9IZLIvhG9P6DBtOsyW54v/mDSCpbg28rjKKnmY7WJpONvl6WStJdqW8CqjNM=",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan 1",
-    "_area": "Gulshan 1",
-    "_area_distance_km": 0.4
+    "_discovered_area": "Narayanganj",
+    "_area": "Narayanganj",
+    "_area_distance_km": 0.28
+  },
+  {
+    "id": 67190,
+    "code": "ks5r",
+    "accepts_instructions": true,
+    "address": "Shikdar Bari, Beside Moon Pharmacy, Ground floor, 35 Shiddheswari Lane,\nRamna, Dhaka 1217",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Dhaka"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.39,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ks5r-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ks5r-listing.jpg",
+    "is_new_until": "2023-09-30T14:39:50Z",
+    "premium_position": 0,
+    "latitude": 23.7439128,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 90.41033645,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_94",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 60.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizzaburg Baily Road",
+    "payment_types": [],
+    "post_code": "1217",
+    "primary_cuisine_id": 73,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/ks5r/pizzaburg-baily-road",
+    "review_number": 4232,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Tk. 165 off Tk. 550: dealnao",
+    "tags": [
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizzaburg-baily-road",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 6946,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/ks5r/pizzaburg-baily-road",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizzaburg Baily Road",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801404461228",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Motijheel",
+    "_area": "Motijheel",
+    "_area_distance_km": 1.39
   }
 ]

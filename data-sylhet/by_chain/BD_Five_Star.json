@@ -28,13 +28,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 4.34,
+    "distance": 2.511,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cgea-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cgea-listing.jpg",
     "is_new_until": "2025-08-27T09:38:39Z",
-    "premium_position": 0,
+    "premium_position": 1,
     "latitude": 24.8991763,
     "logo": "",
     "longitude": 91.9114679,
@@ -45,9 +45,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T10:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -56,9 +56,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 35.0,
+    "original_delivery_fee": 54.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
     "name": "BD Five Star - Majortila",
@@ -72,8 +76,13 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      }
+    ],
     "url_key": "bd-five-star-majortila",
     "vat_percentage_amount": 0,
     "characteristics": {
@@ -93,7 +102,7 @@
         "main": true
       }
     },
-    "vendor_points": 4131,
+    "vendor_points": 4154,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -119,7 +128,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -132,10 +141,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "VPyV7/DHhTvQ5LHFaHpeaUnLlalBgdDLLyo7RaulZSieEDsoF9cWl+QDqFezAPH6/6Nz44El6mzoADUW9isdfAtZutluZh8TOjbXduHqx7XTDUQcEu4JgfIaC01/IozHdGJglNZWwvkrNlTbpKmrdIwKJ+pCfNhfSWzV/5qXzK7Xupg4ILKN53ENEM/+/2ZFao0gOvaaEZehyFBORBg6FvB4WX3HzzQAzdr003KML9JzQ16tsQ64E59bAz6V2H6DVPbPiibzrhVljg9hn2qC",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Zindabazar",
+    "_discovered_area": "Tilagor",
     "_area": "Tilagor",
     "_area_distance_km": 2.51
   },
@@ -192,13 +203,13 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.841,
+    "distance": 1.264,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ir5g-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ir5g-listing.jpg",
     "is_new_until": "2025-08-27T09:17:19Z",
-    "premium_position": 0,
+    "premium_position": 5,
     "latitude": 24.899148,
     "logo": "",
     "longitude": 91.8570795,
@@ -208,24 +219,26 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "Unreachable"
-      ],
+      "close_reasons": [],
       "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 100.0,
+    "minimum_delivery_time": 20.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 10,
+      "upper_limit_in_minutes": 25
+    },
+    "minimum_order_amount": 75.0,
     "minimum_pickup_time": 15.0,
     "name": "BD Five Star - Modhushohid",
     "payment_types": [],
@@ -238,8 +251,12 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "10% off Tk. 50",
+    "tag": "NEXTGEN_FEATURED_TAG",
     "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
       {
         "code": "DEAL",
         "text": "10% off Tk. 50",
@@ -293,7 +310,7 @@
         "main": true
       }
     },
-    "vendor_points": 4607,
+    "vendor_points": 4618,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -324,8 +341,8 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_premium": true,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -337,10 +354,12 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "HZvi06HyoiI8IV8v4NHv3B1K223aRff9vtjeiJnT3vmC8IFA5WT7mUHONhVVQesrXjIa50BEjsLaxtvJWHdQGzc1oma19tbfXZPuF/rVB/qQI3HBqoFULzGIt1WmWZ8tUm9ahtJmfgc311Ndgh5TuWrb7F4NwYrw6t1MXJCpF49o7/nOGXRGRIW2aSCoX/CR5fj3IqDB1F1I4ZTMNz/2LtAEKJrDcSeFB8xY7krS425Y6Ew2slLj/Q5rUzbm+0qg4RVRdmMKWDTJCXLbFRct",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Akhalia",
+    "_discovered_area": "Zindabazar",
     "_area": "Shibganj",
     "_area_distance_km": 0.44
   }

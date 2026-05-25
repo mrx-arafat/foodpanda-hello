@@ -57,9 +57,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -70,7 +70,11 @@
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 11.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 20.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 10,
+      "upper_limit_in_minutes": 25
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Sobuj Hotel & Sweets",
@@ -117,7 +121,7 @@
         "main": true
       }
     },
-    "vendor_points": 4598,
+    "vendor_points": 4627,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -215,9 +219,9 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T12:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -228,7 +232,11 @@
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 13.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 20.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 10,
+      "upper_limit_in_minutes": 25
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Elegant Baking",
@@ -279,7 +287,7 @@
         "main": true
       }
     },
-    "vendor_points": 4615,
+    "vendor_points": 4645,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",

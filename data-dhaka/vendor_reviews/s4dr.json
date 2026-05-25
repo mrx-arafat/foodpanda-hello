@@ -1,6 +1,78 @@
 {
   "data": [
     {
+      "uuid": "06556363-80b2-4279-9774-60bb10909707",
+      "createdAt": "2026-05-25T04:44:04Z",
+      "updatedAt": "2026-05-25T04:44:04Z",
+      "text": "excellent sandwich",
+      "isAnonymous": false,
+      "reviewerName": "Shazieh",
+      "reviewerId": "bdrjp2sf",
+      "ratings": [
+        {
+          "topic": "overall",
+          "score": 5
+        },
+        {
+          "topic": "restaurant_food",
+          "score": 5
+        },
+        {
+          "topic": "rider",
+          "score": 5
+        }
+      ],
+      "type": "user",
+      "replies": [],
+      "commentPrettyDate": {
+        "translationKey": "NEXTGEN_REVIEWS_TODAY",
+        "timeDuration": "0"
+      },
+      "likeCount": 0,
+      "isLiked": false,
+      "productVariations": [
+        {
+          "id": "3918326",
+          "defaultTitle": "Classic Chicken Sandwich - Brown Bread",
+          "title": {},
+          "unitPrice": 410,
+          "product": {
+            "id": "423028",
+            "defaultTitle": "Classic Chicken Sandwich - Brown Bread",
+            "title": {
+              "bn_BD": "Classic Chicken Sandwich",
+              "en_BD": "Classic Chicken Sandwich - Brown Bread"
+            },
+            "description": "Tender & succulent chicken pcs sandwich between layers of soft bread",
+            "active": true,
+            "imageUrls": [
+              "https://images.deliveryhero.io/image/fd-bd/products/423028.jpg"
+            ]
+          }
+        },
+        {
+          "id": "3918327",
+          "defaultTitle": "Roast Beef Sandwich - Brown Bread",
+          "title": {},
+          "unitPrice": 490,
+          "product": {
+            "id": "423030",
+            "defaultTitle": "Roast Beef Sandwich - Brown Bread",
+            "title": {
+              "bn_BD": "Roast Beef Sandwich",
+              "en_BD": "Roast Beef Sandwich - Brown Bread"
+            },
+            "description": "Tender & succulent roasted beef sandwiched between layers of soft bread",
+            "active": true,
+            "imageUrls": [
+              "https://images.deliveryhero.io/image/fd-bd/products/423030.jpg"
+            ]
+          }
+        }
+      ],
+      "topReviewerTranslationKey": "NEXTGEN_KEY_REVIEWS_LABEL"
+    },
+    {
       "uuid": "eae1d927-d45f-4699-9d3d-c92aeca3c5fc",
       "createdAt": "2026-05-18T05:47:18Z",
       "updatedAt": "2026-05-18T05:47:18Z",
@@ -21,8 +93,8 @@
       "type": "user",
       "replies": [],
       "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_DAYS_AGO",
-        "timeDuration": "6"
+        "translationKey": "NEXTGEN_REVIEWS_1_WEEK_AGO",
+        "timeDuration": "1"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -125,7 +197,7 @@
       "replies": [],
       "commentPrettyDate": {
         "translationKey": "NEXTGEN_REVIEWS_X_WEEKS_AGO",
-        "timeDuration": "2"
+        "timeDuration": "3"
       },
       "likeCount": 0,
       "isLiked": false,
@@ -1511,41 +1583,8 @@
         }
       ],
       "topReviewerTranslationKey": ""
-    },
-    {
-      "uuid": "c0d3893d-9d8c-49c1-949a-d17a8137f888",
-      "createdAt": "2025-10-22T09:46:16Z",
-      "updatedAt": "2025-10-22T09:46:16Z",
-      "text": "Messed up fully ",
-      "isAnonymous": false,
-      "reviewerName": "Noor",
-      "reviewerId": "n9dhv1iy",
-      "ratings": [
-        {
-          "topic": "overall",
-          "score": 1
-        },
-        {
-          "topic": "restaurant_food",
-          "score": 1
-        },
-        {
-          "topic": "rider",
-          "score": 1
-        }
-      ],
-      "type": "user",
-      "replies": [],
-      "commentPrettyDate": {
-        "translationKey": "NEXTGEN_REVIEWS_X_MONTHS_AGO",
-        "timeDuration": "7"
-      },
-      "likeCount": 0,
-      "isLiked": false,
-      "productVariations": [],
-      "topReviewerTranslationKey": ""
     }
   ],
-  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc2MTEyNjM3NiNjMGQzODkzZC05ZDhjLTQ5YzEtOTQ5YS1kMTdhODEzN2Y4ODgifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3M0ZHIifX0%3D",
+  "pageKey": "eyJDcmVhdGVkQXRSZXZpZXdVdWlkIjp7IlZhbHVlIjoiMTc2MjQwNjg3NyNiZGE5Zjc2MC1hNGEzLTRkNTItODdlZi0zNjgzNDRhNWMxZjUifSwiR2xvYmFsRW50aXR5SWRWZW5kb3JJZCI6eyJWYWx1ZSI6IkZQX0JEI3M0ZHIifX0%3D",
   "heroImage": "https://images.deliveryhero.io/image/fd-bd/LH/s4dr-hero.jpg"
 }

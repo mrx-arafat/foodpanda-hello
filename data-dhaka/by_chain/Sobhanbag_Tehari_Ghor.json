@@ -34,7 +34,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.42,
+    "distance": 2.231,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/lb5h-listing.jpg",
@@ -50,25 +50,42 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "event"
+      ],
       "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
+      "events": [
+        {
+          "id": "bd_18",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 103.0,
+    "original_delivery_fee": 114.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
-    },
+    "minimum_delivery_time": 38.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Sobhanbag Tehari Ghor",
@@ -77,7 +94,7 @@
     "primary_cuisine_id": 123,
     "rating": 4.5,
     "redirection_url": "https://foodpanda.com.bd/restaurant/lb5h/sobhanbag-tehari-ghor",
-    "review_number": 5327,
+    "review_number": 5333,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -109,7 +126,7 @@
         "main": true
       }
     },
-    "vendor_points": 6769,
+    "vendor_points": 6765,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -151,8 +168,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Shyamoli",
-    "_area": "Dhanmondi 27",
-    "_area_distance_km": 0.23
+    "_discovered_area": "Mohammadpur",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.89
   }
 ]

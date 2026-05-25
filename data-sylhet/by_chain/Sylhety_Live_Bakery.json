@@ -57,9 +57,9 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T13:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -68,9 +68,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 28.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
     "name": "Sylhety Live Bakery - Uposhohor Outlet",
@@ -127,7 +131,7 @@
         "main": true
       }
     },
-    "vendor_points": 5287,
+    "vendor_points": 5289,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",

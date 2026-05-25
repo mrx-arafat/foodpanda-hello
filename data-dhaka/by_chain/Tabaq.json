@@ -69,9 +69,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T10:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -80,9 +80,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 93.0,
+    "original_delivery_fee": 117.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 70.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 60,
+      "upper_limit_in_minutes": 85
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tabaq Coffee - Centrepoint",
@@ -91,7 +95,7 @@
     "primary_cuisine_id": 90,
     "rating": 5.0,
     "redirection_url": "https://foodpanda.com.bd/restaurant/pj0d/tabaq-coffee-centrepoint",
-    "review_number": 454,
+    "review_number": 457,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -141,7 +145,7 @@
         "main": true
       }
     },
-    "vendor_points": 6237,
+    "vendor_points": 6232,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -183,9 +187,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara Sector 1",
-    "_area": "Airport",
-    "_area_distance_km": 0.35
+    "_discovered_area": "Uttara",
+    "_area": "Uttara",
+    "_area_distance_km": 3.68
   },
   {
     "id": 56192,
@@ -240,7 +244,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.978,
+    "distance": 0.873,
     "food_characteristics": [
       {
         "id": 252,
@@ -263,42 +267,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1897",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 78.0,
+    "original_delivery_fee": 53.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tabaq Coffee - Dhanmondi",
@@ -307,7 +294,7 @@
     "primary_cuisine_id": 90,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/ps7w/tabaq-coffee-dhanmondi",
-    "review_number": 5559,
+    "review_number": 5562,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -364,7 +351,7 @@
         "main": true
       }
     },
-    "vendor_points": 6964,
+    "vendor_points": 6958,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -406,9 +393,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Rayer Bazar",
-    "_area": "Science Lab",
-    "_area_distance_km": 0.44
+    "_discovered_area": "Dhanmondi",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.87
   },
   {
     "id": 2484,
@@ -463,7 +450,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.639,
+    "distance": 1.838,
     "food_characteristics": [
       {
         "id": 252,
@@ -486,42 +473,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1321",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tabaq Coffee DOHS Baridhara",
@@ -530,7 +500,7 @@
     "primary_cuisine_id": 90,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/s4dr/tabaq-coffee-dohs-baridhara",
-    "review_number": 3376,
+    "review_number": 3382,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -587,7 +557,7 @@
         "main": true
       }
     },
-    "vendor_points": 6709,
+    "vendor_points": 6712,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -614,7 +584,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -629,7 +599,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Baridhara",
+    "_discovered_area": "Banani",
     "_area": "Baridhara",
     "_area_distance_km": 0.64
   },
@@ -686,7 +656,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 0.435,
+    "distance": 0.258,
     "food_characteristics": [
       {
         "id": 252,
@@ -709,42 +679,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_40",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 29.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tabaq Coffee GP House",
@@ -753,7 +706,7 @@
     "primary_cuisine_id": 90,
     "rating": 5.0,
     "redirection_url": "https://foodpanda.com.bd/restaurant/s1lv/tabaq-coffee-gp-house",
-    "review_number": 2784,
+    "review_number": 2786,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -810,7 +763,7 @@
         "main": true
       }
     },
-    "vendor_points": 6583,
+    "vendor_points": 6589,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -837,7 +790,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -852,8 +805,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Baridhara DOHS",
-    "_area": "Bashundhara R/A",
+    "_discovered_area": "Bashundhara",
+    "_area": "Bashundhara",
     "_area_distance_km": 0.26
   },
   {
@@ -932,42 +885,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1546",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 49.0,
+    "original_delivery_fee": 38.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Tabaq Coffee Gulshan Avenue",
@@ -976,7 +912,7 @@
     "primary_cuisine_id": 90,
     "rating": 5.0,
     "redirection_url": "https://foodpanda.com.bd/restaurant/s2tw/tabaq-coffee-gulshan-avenue",
-    "review_number": 10315,
+    "review_number": 10329,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1033,7 +969,7 @@
         "main": true
       }
     },
-    "vendor_points": 7164,
+    "vendor_points": 7155,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1075,231 +1011,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan 1",
-    "_area": "Gulshan 1",
+    "_discovered_area": "Gulshan",
+    "_area": "Gulshan",
     "_area_distance_km": 0.49
-  },
-  {
-    "id": 2480,
-    "code": "s9lp",
-    "accepts_instructions": true,
-    "address": "Shop No. 5C-027, Jamuna Future Park, Kuril, Pragati Shoroni, Dhaka",
-    "address_line2": "",
-    "budget": 3,
-    "chain": {
-      "code": "cd5iy",
-      "name": "Tabaq",
-      "main_vendor_code": "ps7w",
-      "url_key": "tabaq"
-    },
-    "city": {
-      "name": "Dhaka"
-    },
-    "cuisines": [
-      {
-        "id": 147,
-        "name": "Beverage",
-        "url_key": "beverage",
-        "main": false
-      },
-      {
-        "id": 90,
-        "name": "Cafe",
-        "url_key": "cafe",
-        "main": true
-      },
-      {
-        "id": 71,
-        "name": "Sandwiches",
-        "url_key": "sandwiches",
-        "main": false
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 151,
-        "name": "Western",
-        "url_key": "western",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 0.862,
-    "food_characteristics": [
-      {
-        "id": 252,
-        "name": "Price Match",
-        "is_halal": false,
-        "is_vegetarian": false
-      }
-    ],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s9lp-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s9lp-listing.jpg",
-    "is_new_until": "2018-08-27T00:00:00Z",
-    "premium_position": 0,
-    "latitude": 23.8127642,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cd5iy-logo.jpg",
-    "longitude": 90.42396955,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
-      "events": [
-        {
-          "id": "bd_40",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 70.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Tabaq Coffee Jamuna Future Park",
-    "payment_types": [],
-    "post_code": "1212",
-    "primary_cuisine_id": 90,
-    "rating": 5.0,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/s9lp/tabaq-coffee-jamuna-future-park",
-    "review_number": 1106,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "tabaq-coffee-jamuna-future-park",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 147,
-          "name": "Beverage",
-          "url_key": "beverage",
-          "main": false
-        },
-        {
-          "id": 90,
-          "name": "Cafe",
-          "url_key": "cafe",
-          "main": true
-        },
-        {
-          "id": 71,
-          "name": "Sandwiches",
-          "url_key": "sandwiches",
-          "main": false
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 151,
-          "name": "Western",
-          "url_key": "western",
-          "main": false
-        }
-      ],
-      "food_characteristics": [
-        {
-          "id": 252,
-          "name": "Price Match",
-          "is_halal": false,
-          "is_vegetarian": false
-        }
-      ],
-      "primary_cuisine": {
-        "id": 90,
-        "name": "Cafe",
-        "url_key": "cafe",
-        "main": true
-      }
-    },
-    "vendor_points": 5623,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/s9lp/tabaq-coffee-jamuna-future-park",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Tabaq Coffee Company Ltd.",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801799056420",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": true,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Kuril",
-    "_area": "Bashundhara R/A",
-    "_area_distance_km": 0.31
   }
 ]

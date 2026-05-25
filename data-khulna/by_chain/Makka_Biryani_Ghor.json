@@ -74,42 +74,25 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_112",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 86.0,
+    "original_delivery_fee": 72.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 10.0,
     "name": "Makka Biryani Ghor",
@@ -118,7 +101,7 @@
     "primary_cuisine_id": 195,
     "rating": 2.5,
     "redirection_url": "https://foodpanda.com.bd/restaurant/u6yc/makka-biryani-ghor",
-    "review_number": 1174,
+    "review_number": 1175,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -184,7 +167,7 @@
         "main": true
       }
     },
-    "vendor_points": 4997,
+    "vendor_points": 4985,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",

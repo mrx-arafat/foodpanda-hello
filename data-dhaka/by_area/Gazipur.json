@@ -5,7 +5,7 @@
     "accepts_instructions": true,
     "address": "Arjada building, Big Mosque Road, East side of BRT Station), Shivbari, Joydebpur, Gazipur",
     "address_line2": "",
-    "budget": 3,
+    "budget": 2,
     "chain": {
       "code": "",
       "name": "",
@@ -44,42 +44,25 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_178",
-          "name": "",
-          "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
     "original_delivery_fee": 8.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Oven Pizza & Tacos-Joydebpur",
@@ -141,7 +124,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -159,6 +142,2373 @@
     "_discovered_area": "Gazipur",
     "_area": "Gazipur",
     "_area_distance_km": 0.17
+  },
+  {
+    "id": 69846,
+    "code": "oodj",
+    "accepts_instructions": true,
+    "address": "Arjada Bhaban, Shibbari (Near BRT station), Joydebpur,  Gazipur.",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.175,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/oodj-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/oodj-listing.jpg",
+    "is_new_until": "2024-04-02T10:13:02Z",
+    "premium_position": 1,
+    "latitude": 23.9974933,
+    "logo": "",
+    "longitude": 90.41949,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 50.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 65
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fuoco Update - Gazipur",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 86,
+    "rating": 3.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/oodj/fuoco-update-gazipur",
+    "review_number": 404,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600100"
+          }
+        }
+      }
+    ],
+    "url_key": "fuoco-update-gazipur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 6088,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/oodj/fuoco-update-gazipur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600100",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fuoco Update - Gazipur",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801754748727",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "Uklrrhu8LrTYiGy9ZRDPuCDxLZYCKo5d43FBMk4qDee/MwgEk6wKUZCRsMcmvkCxdMcQZfT/IMcmCwZw4UPJP/uGkYncxx5X1v9rzVfSEj0dc3+4fA/44LZwN1XS0K3XcMqbG1R9CRgS2nHs/2BqCzpownrXqrN4VjAHIz7TliC0PIpymuXEtDkbKUEDe2KX1Kcr2UmFeaWPJLDaBq+LBqJtQIqj4e8aTk1pZVZZTmQJiCrCQlytKudT08g2DesgASFzqBJ15J7Z45xD4VMI",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.18
+  },
+  {
+    "id": 63329,
+    "code": "owor",
+    "accepts_instructions": true,
+    "address": "Prokousholi Bhaban, G-113/3, RajBari Road, Joydebpur, Gazipur-1700",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.231,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/owor-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/owor-listing.jpg",
+    "is_new_until": "2023-01-19T06:38:33Z",
+    "premium_position": 0,
+    "latitude": 24.00016,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 90.42189,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "KFC - Gazipur",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 241,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/owor/kfc-gazipur",
+    "review_number": 1213,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-gazipur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6077,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/owor/kfc-gazipur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613992222",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.23
+  },
+  {
+    "id": 73728,
+    "code": "oh4o",
+    "accepts_instructions": true,
+    "address": "Joydebpur Rd",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ca7tr",
+      "name": "Sultan's Dine",
+      "main_vendor_code": "s9ed",
+      "url_key": "sultans-dine"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": false
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.244,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/oh4o-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/oh4o-listing.jpg",
+    "is_new_until": "2025-01-10T06:16:01Z",
+    "premium_position": 0,
+    "latitude": 24.0000706,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/oh4o-logo.jpg",
+    "longitude": 90.4220929,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Sultan's Dine - Gazipur",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 193,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/oh4o/sultans-dine-gazipur",
+    "review_number": 1445,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "sultans-dine-gazipur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": false
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    },
+    "vendor_points": 6805,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/oh4o/sultans-dine-gazipur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Sultan's Dine - Gazipur",
+      "trade_register_number": "Sultan's Dine - Gazipur"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801924849292",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.24
+  },
+  {
+    "id": 46331,
+    "code": "rzv1",
+    "accepts_instructions": true,
+    "address": "14/15, Kabir Market, Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "ci7mq",
+      "name": "Food & Fun Pastry Shop",
+      "main_vendor_code": "rzv1",
+      "url_key": "food-and-fun-pastry-shop"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.271,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/rzv1-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/rzv1-listing.jpg",
+    "is_new_until": "2021-10-08T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.9999094,
+    "logo": "",
+    "longitude": 90.4224776,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Food & Fun Pastry Shop",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 86,
+    "rating": 4.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/rzv1/food-and-fun-pastry-shop",
+    "review_number": 644,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "12% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "12% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "599807"
+          }
+        }
+      },
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "food-and-fun-pastry-shop",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5442,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/rzv1/food-and-fun-pastry-shop",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "599807",
+        "value": 12
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Food & Fun Pastry Shop",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801311164768",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.27
+  },
+  {
+    "id": 57642,
+    "code": "n0ie",
+    "accepts_instructions": true,
+    "address": "House # G ,119/1 ,Mosharaf tower, Joydebpur,Gazipur 1700",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cf5ty",
+      "name": "Tasty Treat",
+      "main_vendor_code": "u6tj",
+      "url_key": "tasty-treat"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.319,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cf5ty-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cf5ty-listing.jpg",
+    "is_new_until": "2022-07-15T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.0000956,
+    "logo": "",
+    "longitude": 90.4228973,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Tasty Treat-Joydebpur-2",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 84,
+    "rating": 4.3,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/n0ie/tasty-treat-joydebpur-2",
+    "review_number": 764,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "tasty-treat-joydebpur-2",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4493,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/n0ie/tasty-treat-joydebpur-2",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Tasty Treat",
+      "trade_register_number": "N/A"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704134003",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.32
+  },
+  {
+    "id": 9565,
+    "code": "t3kk",
+    "accepts_instructions": true,
+    "address": "Opposite Of SP office, Rajbari Road",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cd5dy",
+      "name": "AFC - Joydebpur",
+      "main_vendor_code": "t3kk",
+      "url_key": "afc-joydebpur"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.345,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t3kk-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t3kk-listing.jpg",
+    "is_new_until": "2019-12-29T00:00:00Z",
+    "premium_position": 2,
+    "latitude": 23.99988845,
+    "logo": "",
+    "longitude": 90.42325005,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "AFC - Joydebpur",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 86,
+    "rating": 4.3,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t3kk/afc-joydebpur",
+    "review_number": 1630,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600119"
+          }
+        }
+      }
+    ],
+    "url_key": "afc-joydebpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5673,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t3kk/afc-joydebpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600119",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "AFC",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801674085659",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "y+gik/FDyvebexCdxAyvzI7fYXN+n4hxy6iCAaRPaTl+cD5QjkjWo5/+6TdHklLcAoNdOEsJm8ypzaSgcARcBym0pZDMTdKvR5tieE/a0MOVizwnWmYUOGwK++PNM0LuYUlJpnsHbDyOoHDDe5yfBW1REz1cufT8ASRKkZQESND9fJMfIQp7QOahNo8uzUeh+4nbwmRV92Ng9KiwIGRx23bJA/j6nZufgDQsHI8A/ZlyDauFwtUQyQ1p/y9Tr2i9togos34+ke1nNzmEpBE=",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.34
+  },
+  {
+    "id": 11365,
+    "code": "t0wi",
+    "accepts_instructions": true,
+    "address": "Beside SP Office, Rajbari Dhal, Joydebpur",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "co6sf",
+      "name": "Food Park - Joydebpur",
+      "main_vendor_code": "t9wt",
+      "url_key": "food-park-joydebpur"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 251,
+        "name": "Faluda",
+        "url_key": "faluda",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.381,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t0wi-listing.JPG",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t0wi-listing.JPG",
+    "is_new_until": "2020-02-27T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.0001108,
+    "logo": "",
+    "longitude": 90.4235446,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Castle White",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 74,
+    "rating": 4.1,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t0wi/castle-white",
+    "review_number": 1770,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 300",
+        "label_metadata": {
+          "deal": {
+            "id": "604295"
+          }
+        }
+      }
+    ],
+    "url_key": "castle-white",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 251,
+          "name": "Faluda",
+          "url_key": "faluda",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      }
+    },
+    "vendor_points": 5520,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t0wi/castle-white",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604295",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Castle White",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801309297740",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "6fqv0KoCUMKRROyEJP6D4dS4D0yW4n4gfMxYzavItkHTf8lzYajcJ7MGqr1YK3vCbb4+e9k6O6aGGLYW5r0P/gfl2FmouPkf2qhJM6TQRsXHs+eSqaGTkqaqF9o2gJ3N5IiMAJZOvxWvWSRktphYOQzYFZ0QLZE8JwLSQ1rnyEfQnoGOs9le36gvwuIcrb3kLLuZ8M0nILwaOd/3VkLQmP57R0uGgyIAEgX1u0gyoRUVCZqTc9Swq6/dyBA1cshchfmBWQ+pB1nT1G/Ggfpo",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.38
+  },
+  {
+    "id": 74482,
+    "code": "a9vu",
+    "accepts_instructions": true,
+    "address": "Rashid Market, Laxmipura Road, Bus Stand, West Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cx5ht",
+      "name": "CP Five Star",
+      "main_vendor_code": "jcl9",
+      "url_key": "cp-five-star-cx5ht"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.464,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx5ht-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx5ht-listing.jpg",
+    "is_new_until": "2025-02-21T12:32:30Z",
+    "premium_position": 0,
+    "latitude": 24.00034005,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cx5ht-logo.jpg",
+    "longitude": 90.41567874,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "CP Five Star - Araf Enterprise - Joydebpur",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 86,
+    "rating": 4.2,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/a9vu/cp-five-star-araf-enterprise-joydebpur",
+    "review_number": 223,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Up to 10% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "Up to 10% off",
+        "label_metadata": {
+          "deal": {
+            "id": "592772"
+          }
+        }
+      }
+    ],
+    "url_key": "cp-five-star-araf-enterprise-joydebpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5781,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/a9vu/cp-five-star-araf-enterprise-joydebpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "CP Five Star - Araf Enterprise - Joydebpur",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801987021034",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.46
+  },
+  {
+    "id": 75224,
+    "code": "sn0s",
+    "accepts_instructions": true,
+    "address": "Sornolota Market, Kazi Ajimuddin College Road",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.698,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/sn0s-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/sn0s-listing.jpg",
+    "is_new_until": "2025-03-27T11:46:27Z",
+    "premium_position": 0,
+    "latitude": 23.9988793,
+    "logo": "",
+    "longitude": 90.4268714,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 8.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Tasty Dot",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 123,
+    "rating": 3.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/sn0s/tasty-dot-sn0s",
+    "review_number": 67,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600126"
+          }
+        }
+      }
+    ],
+    "url_key": "tasty-dot-sn0s",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": true
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": true
+      }
+    },
+    "vendor_points": 5251,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/sn0s/tasty-dot-sn0s",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600126",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Tasty Dot",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801923622205",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.7
+  },
+  {
+    "id": 73255,
+    "code": "skom",
+    "accepts_instructions": true,
+    "address": "F/214/10,Hakkani Housing Society ,Rajbari Road (North Side Mohila College), Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "ck8tf",
+      "name": "Paragon Momo",
+      "main_vendor_code": "pvmg",
+      "url_key": "paragon-momo"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": true
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 240,
+        "name": "Dumpling",
+        "url_key": "dumpling",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.766,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/skom-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/skom-listing.jpg",
+    "is_new_until": "2024-12-14T06:09:10Z",
+    "premium_position": 0,
+    "latitude": 24.0002589,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ck8tf-logo.jpg",
+    "longitude": 90.4274099,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Paragon Momo - Shwapno Joydebpur",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 122,
+    "rating": 3.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/skom/paragon-momo-shwapno-joydebpur",
+    "review_number": 57,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 200",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 200",
+        "label_metadata": {
+          "deal": {
+            "id": "602122"
+          }
+        }
+      }
+    ],
+    "url_key": "paragon-momo-shwapno-joydebpur",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": true
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 240,
+          "name": "Dumpling",
+          "url_key": "dumpling",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": true
+      }
+    },
+    "vendor_points": 5172,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/skom/paragon-momo-shwapno-joydebpur",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "602122",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Paragon Momo - Shwapno Joydebpur",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801778009274",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.77
+  },
+  {
+    "id": 43213,
+    "code": "jfpn",
+    "accepts_instructions": true,
+    "address": "Jasmine Library goli, Jorpukur, Joydebpur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cb8bq",
+      "name": "Jafran Kacchi Biryani House",
+      "main_vendor_code": "jfpn",
+      "url_key": "jafran-kacchi-biryani-house"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.911,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jfpn-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jfpn-listing.jpg",
+    "is_new_until": "2021-07-22T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.0004783,
+    "logo": "",
+    "longitude": 90.4288225,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Jafran Kacchi Biryani House",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 195,
+    "rating": 3.3,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/jfpn/jafran-kacchi-biryani-house",
+    "review_number": 895,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "12% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "12% off",
+        "label_metadata": {
+          "deal": {
+            "id": "599277"
+          }
+        }
+      }
+    ],
+    "url_key": "jafran-kacchi-biryani-house",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 5508,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/jfpn/jafran-kacchi-biryani-house",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "599277",
+        "value": 12
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Jafran Kacchi Biryani House",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801724788015",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": false,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.91
+  },
+  {
+    "id": 50508,
+    "code": "wkzb",
+    "accepts_instructions": true,
+    "address": "Near Joydebpur Judge Court, Joydebpur, Gazipur.",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cl1ti",
+      "name": "Jom Jom Kacchi Biryani House",
+      "main_vendor_code": "wkzb",
+      "url_key": "jom-jom-kacchi-biryani-house"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": false
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.907,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/wkzb-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/wkzb-listing.jpg",
+    "is_new_until": "2022-01-11T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.00049105,
+    "logo": "",
+    "longitude": 90.4287757,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Jom Jom Kacchi Biryani House",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 193,
+    "rating": 3.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/wkzb/jom-jom-kacchi-biryani-house",
+    "review_number": 758,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 250",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 250",
+        "label_metadata": {
+          "deal": {
+            "id": "604280"
+          }
+        }
+      }
+    ],
+    "url_key": "jom-jom-kacchi-biryani-house",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": false
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": true
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    },
+    "vendor_points": 5567,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/wkzb/jom-jom-kacchi-biryani-house",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604280",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "JamJam Kacchi Biryani House",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801974788015",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 0.91
   },
   {
     "id": 46201,
@@ -236,15 +2586,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -263,7 +2613,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 18.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -325,7 +2675,7 @@
         "main": true
       }
     },
-    "vendor_points": 5264,
+    "vendor_points": 5268,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -352,7 +2702,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -370,6 +2720,213 @@
     "_discovered_area": "Gazipur",
     "_area": "Gazipur",
     "_area_distance_km": 0.98
+  },
+  {
+    "id": 77680,
+    "code": "fsma",
+    "accepts_instructions": true,
+    "address": "230/1, Uttar Chayabithi Road, Uttar Chayabithi, Janata Sharok Road, Basha no -155/2 Khan Villa, Joydebpur Sadar, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.039,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fsma-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fsma-listing.jpg",
+    "is_new_until": "2025-08-31T11:45:34Z",
+    "premium_position": 0,
+    "latitude": 24.00333,
+    "logo": "",
+    "longitude": 90.429059,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": "2026-05-26T13:00:00+0600",
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 27.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Shahnaz Kitchen",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 195,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/fsma/shahnaz-kitchen-fsma",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "shahnaz-kitchen-fsma",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 0,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/fsma/shahnaz-kitchen-fsma",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Shahnaz Kitchen",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801937316628",
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 1.04
   },
   {
     "id": 75130,
@@ -452,15 +3009,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -479,7 +3036,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 18.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -593,51 +3150,27 @@
     "_area_distance_km": 1.04
   },
   {
-    "id": 77680,
-    "code": "fsma",
+    "id": 22510,
+    "code": "m2pf",
     "accepts_instructions": true,
-    "address": "230/1, Uttar Chayabithi Road, Uttar Chayabithi, Janata Sharok Road, Basha no -155/2 Khan Villa, Joydebpur Sadar, Gazipur",
+    "address": "193/1, Chowdhury Bari, Jorpukurpar, Joydebpur, Gazipur",
     "address_line2": "",
     "budget": 1,
     "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
+      "code": "cu0cz",
+      "name": "FOOD BANK",
+      "main_vendor_code": "m2pf",
+      "url_key": "food-bank"
     },
     "city": {
       "name": "Gazipur"
     },
     "cuisines": [
       {
-        "id": 122,
-        "name": "Snacks",
-        "url_key": "snacks",
-        "main": false
-      },
-      {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
-        "main": false
-      },
-      {
-        "id": 84,
-        "name": "Dessert",
-        "url_key": "dessert",
-        "main": false
-      },
-      {
-        "id": 195,
-        "name": "Bangladeshi",
-        "url_key": "bangladeshi",
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
         "main": true
-      },
-      {
-        "id": 75,
-        "name": "Asian",
-        "url_key": "asian",
-        "main": false
       }
     ],
     "custom_location_url": "",
@@ -645,21 +3178,21 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.039,
+    "distance": 1.105,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/fsma-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/fsma-listing.jpg",
-    "is_new_until": "2025-08-31T11:45:34Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/m2pf-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/m2pf-listing.jpg",
+    "is_new_until": "2020-09-16T00:00:00Z",
     "premium_position": 0,
-    "latitude": 24.00333,
+    "latitude": 23.99999605,
     "logo": "",
-    "longitude": 90.429059,
+    "longitude": 90.43081865,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
-      "has_discount": false,
+      "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [
         "event"
@@ -667,15 +3200,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -686,7 +3219,7 @@
         }
       ],
       "is_delivery_available": false,
-      "is_pickup_available": false,
+      "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
       "is_temporary_closed": true,
@@ -694,84 +3227,75 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 27.0,
+    "original_delivery_fee": 18.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Shahnaz Kitchen",
+    "name": "FOOD BANK",
     "payment_types": [],
-    "post_code": "1700",
-    "primary_cuisine_id": 195,
-    "rating": 0.0,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/fsma/shahnaz-kitchen-fsma",
-    "review_number": 0,
+    "post_code": "1701",
+    "primary_cuisine_id": 86,
+    "rating": 3.6,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/m2pf/food-bank",
+    "review_number": 692,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "shahnaz-kitchen-fsma",
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600148"
+          }
+        }
+      }
+    ],
+    "url_key": "food-bank",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
         {
-          "id": 122,
-          "name": "Snacks",
-          "url_key": "snacks",
-          "main": false
-        },
-        {
-          "id": 123,
-          "name": "Rice Dishes",
-          "url_key": "rice-dishes",
-          "main": false
-        },
-        {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 195,
-          "name": "Bangladeshi",
-          "url_key": "bangladeshi",
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
           "main": true
-        },
-        {
-          "id": 75,
-          "name": "Asian",
-          "url_key": "asian",
-          "main": false
         }
       ],
       "food_characteristics": [],
       "primary_cuisine": {
-        "id": 195,
-        "name": "Bangladeshi",
-        "url_key": "bangladeshi",
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
         "main": true
       }
     },
-    "vendor_points": 0,
+    "vendor_points": 5429,
     "vertical": "restaurants",
-    "vertical_segment": "home_based_kitchen",
+    "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/fsma/shahnaz-kitchen-fsma",
+    "web_path": "https://foodpanda.com.bd/restaurant/m2pf/food-bank",
     "website": "",
     "has_online_payment": true,
-    "discounts_info": [],
+    "discounts_info": [
+      {
+        "id": "600148",
+        "value": 15
+      }
+    ],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Shahnaz Kitchen",
+      "legal_name": "FOOD BANK",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801937316628",
+    "customer_phone": "+8801970344300",
     "vertical_type_ids": [
-      "home_based_kitchen"
+      "restaurants"
     ],
     "loyalty_programs": [],
     "delivery_provider": "platform_delivery",
@@ -780,9 +3304,9 @@
     "is_checkout_comment_enabled": false,
     "is_delivery_enabled": true,
     "is_new": false,
-    "is_pickup_enabled": false,
+    "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -799,7 +3323,691 @@
     "is_preferred_partner": false,
     "_discovered_area": "Gazipur",
     "_area": "Gazipur",
-    "_area_distance_km": 1.04
+    "_area_distance_km": 1.1
+  },
+  {
+    "id": 5790,
+    "code": "s7uo",
+    "accepts_instructions": true,
+    "address": "193/1, Chowdhury Bari, Jorpukurpar, Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cv2ld",
+      "name": "Dhakai Nanna Biryani House",
+      "main_vendor_code": "s7uo",
+      "url_key": "dhakai-nanna-biryani-house"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.106,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s7uo-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s7uo-listing.jpg",
+    "is_new_until": "2019-07-18T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.0001079,
+    "logo": "",
+    "longitude": 90.4308153,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Dhakai Nanna Biryani House",
+    "payment_types": [],
+    "post_code": "1701",
+    "primary_cuisine_id": 74,
+    "rating": 2.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s7uo/dhakai-nanna-biryani-house",
+    "review_number": 688,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "20% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "20% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600192"
+          }
+        }
+      }
+    ],
+    "url_key": "dhakai-nanna-biryani-house",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": true
+      }
+    },
+    "vendor_points": 4923,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s7uo/dhakai-nanna-biryani-house",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600192",
+        "value": 20
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Dhakai Nanna Biryani House",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801720344300",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": false,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 1.11
+  },
+  {
+    "id": 7975,
+    "code": "t2az",
+    "accepts_instructions": true,
+    "address": "193/1, Chowdhury Bari, Jorpukurpar, Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cr7uc",
+      "name": "JFC (Jannat Fried Chicken) - Catering Service",
+      "main_vendor_code": "t2az",
+      "url_key": "jfc-jannat-fried-chicken-catering-service"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": true
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.108,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t2az-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t2az-listing.jpg",
+    "is_new_until": "2019-11-08T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.00015195,
+    "logo": "",
+    "longitude": 90.4308347,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "JFC (Jannat Fried Chicken) - Catering Service",
+    "payment_types": [],
+    "post_code": "1701",
+    "primary_cuisine_id": 100,
+    "rating": 3.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t2az/jfc-jannat-fried-chicken-catering-service",
+    "review_number": 1040,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600122"
+          }
+        }
+      }
+    ],
+    "url_key": "jfc-jannat-fried-chicken-catering-service",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": true
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5548,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t2az/jfc-jannat-fried-chicken-catering-service",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600122",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "JFC(Jannat Fried Chicken), Catering Service",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801720344300",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 1.11
+  },
+  {
+    "id": 12916,
+    "code": "t7aq",
+    "accepts_instructions": true,
+    "address": "193/1, Chowdhury Bari, Jorpukurpar, Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cz7yn",
+      "name": "RFC (Red Fried Chicken)",
+      "main_vendor_code": "t7aq",
+      "url_key": "rfc-red-fried-chicken"
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": true
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.115,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t7aq-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t7aq-listing.jpg",
+    "is_new_until": "2020-04-02T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.000117,
+    "logo": "",
+    "longitude": 90.4309043,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 10.0,
+    "name": "RFC (Red Fried Chicken)",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 100,
+    "rating": 2.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t7aq/rfc-red-fried-chicken",
+    "review_number": 678,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "20% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "20% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "600138"
+          }
+        }
+      }
+    ],
+    "url_key": "rfc-red-fried-chicken",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": true
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 5300,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t7aq/rfc-red-fried-chicken",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600138",
+        "value": 20
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "RFC",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801720344300",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 1.11
   },
   {
     "id": 76318,
@@ -882,15 +4090,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -909,7 +4117,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 18.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -986,7 +4194,7 @@
         "main": true
       }
     },
-    "vendor_points": 4875,
+    "vendor_points": 4888,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1036,6 +4244,234 @@
     "_discovered_area": "Gazipur",
     "_area": "Gazipur",
     "_area_distance_km": 1.12
+  },
+  {
+    "id": 129783,
+    "code": "e00d",
+    "accepts_instructions": true,
+    "address": "Habibullah - Gazipur City Corporation Rd, 1",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 118,
+        "name": "Fish",
+        "url_key": "fish",
+        "main": false
+      },
+      {
+        "id": 82,
+        "name": "Seafood",
+        "url_key": "seafood",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.171,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/e00d-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/e00d-listing.jpg",
+    "is_new_until": "2026-07-16T10:30:51Z",
+    "premium_position": 0,
+    "latitude": 24.0055229,
+    "logo": "",
+    "longitude": 90.4109557,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 27.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Homely Eats",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 195,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/e00d/homely-eats",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "607970"
+          }
+        }
+      },
+      {
+        "code": "NEW",
+        "text": "NEXTGEN_NEW_TAG"
+      }
+    ],
+    "url_key": "homely-eats",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 118,
+          "name": "Fish",
+          "url_key": "fish",
+          "main": false
+        },
+        {
+          "id": 82,
+          "name": "Seafood",
+          "url_key": "seafood",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 3620,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/e00d/homely-eats",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "607970",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Homely Eats",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801673368834",
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": true,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 1.17
   },
   {
     "id": 76860,
@@ -1106,15 +4542,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -1297,15 +4733,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -1420,6 +4856,203 @@
     "_area_distance_km": 1.42
   },
   {
+    "id": 114804,
+    "code": "bom1",
+    "accepts_instructions": true,
+    "address": "Near  by Ishakiya Madrasa, West Laxmipura Sattar Haji Market Polish Lince ,Gazipur, 1700 Gazipur Sadar, Gazipur, Bangladesh",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.151,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/bom1-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/bom1-listing.jpg",
+    "is_new_until": "2026-04-02T11:03:55Z",
+    "premium_position": 0,
+    "latitude": 23.99803335,
+    "logo": "",
+    "longitude": 90.39885,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 37.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Sayma's Kitchen",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 195,
+    "rating": 3.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/bom1/saymas-kitchen-bom1",
+    "review_number": 9,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "saymas-kitchen-bom1",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 4750,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/bom1/saymas-kitchen-bom1",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Sayma's Kitchen",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801910233525",
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 2.15
+  },
+  {
     "id": 80152,
     "code": "o25u",
     "accepts_instructions": true,
@@ -1470,21 +5103,19 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
+      "close_reasons": [],
+      "available_in": "2026-05-26T12:00:00+0600",
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -1498,8 +5129,8 @@
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
@@ -1649,15 +5280,15 @@
       "available_in": null,
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -1676,7 +5307,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 74.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -1729,7 +5360,7 @@
         "main": true
       }
     },
-    "vendor_points": 4236,
+    "vendor_points": 4209,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1779,6 +5410,657 @@
     "_discovered_area": "Gazipur",
     "_area": "Gazipur",
     "_area_distance_km": 3.42
+  },
+  {
+    "id": 32041,
+    "code": "kwbf",
+    "accepts_instructions": true,
+    "address": "Harinal Bazar, Hankata road, Joydebpur, Gazipur",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.892,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/kwbf-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/kwbf-listing.jpg",
+    "is_new_until": "2020-12-30T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.9895054,
+    "logo": "",
+    "longitude": 90.3831251,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 65.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Burger House & Fast Food",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 86,
+    "rating": 2.2,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/kwbf/burger-house-and-fast-food",
+    "review_number": 176,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "burger-house-and-fast-food",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4282,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/kwbf/burger-house-and-fast-food",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Burger House & Fast Food",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801726680732",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 3.89
+  },
+  {
+    "id": 24504,
+    "code": "r0fm",
+    "accepts_instructions": true,
+    "address": "Rahman shopping mall  Gazipur-1700",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.893,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/r0fm-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/r0fm-listing.jpg",
+    "is_new_until": "2020-10-01T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.9895234,
+    "logo": "",
+    "longitude": 90.3831109,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 65.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Coffee House & Fast Food",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 85,
+    "rating": 2.3,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/r0fm/coffee-house-and-fast-food-r0fm",
+    "review_number": 188,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "coffee-house-and-fast-food-r0fm",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      }
+    },
+    "vendor_points": 4104,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/r0fm/coffee-house-and-fast-food-r0fm",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Coffee House & Fast Food",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801726680732",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 3.89
+  },
+  {
+    "id": 26059,
+    "code": "f8vi",
+    "accepts_instructions": true,
+    "address": "15/16 Rahman Shopping Complex, Beside Shalban Hotel, Chowrasta, Gazipur",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Gazipur"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.894,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/f8vi-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/f8vi-listing.jpg",
+    "is_new_until": "2020-10-29T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 23.9894569,
+    "logo": "",
+    "longitude": 90.38311515,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [
+        "event"
+      ],
+      "available_in": null,
+      "events": [
+        {
+          "id": "bd_176",
+          "name": "",
+          "messages": [
+            ""
+          ],
+          "actions": [
+            {
+              "type": "message",
+              "message": ""
+            },
+            {
+              "type": "close",
+              "message": null
+            }
+          ],
+          "tags": {}
+        }
+      ],
+      "is_delivery_available": false,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 65.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 0.0,
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Spicy Food Zone",
+    "payment_types": [],
+    "post_code": "1700",
+    "primary_cuisine_id": 86,
+    "rating": 2.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/f8vi/spicy-food-zone",
+    "review_number": 102,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "spicy-food-zone",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 3802,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/f8vi/spicy-food-zone",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Spicy Food Zone",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801726680732",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Gazipur",
+    "_area": "Gazipur",
+    "_area_distance_km": 3.89
   },
   {
     "id": 96730,
@@ -1831,21 +6113,19 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
+      "close_reasons": [],
+      "available_in": "2026-05-26T10:00:00+0600",
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -1859,8 +6139,8 @@
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
@@ -1991,21 +6271,19 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
+      "close_reasons": [],
+      "available_in": "2026-05-26T09:30:00+0600",
       "events": [
         {
-          "id": "bd_178",
+          "id": "bd_176",
           "name": "",
           "messages": [
-            "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+            ""
           ],
           "actions": [
             {
               "type": "message",
-              "message": "Dear customers, our deliveries are temporarily closed due to unavoidable circumstances. Apologies for the inconvenience. We will be back as soon as possible!"
+              "message": ""
             },
             {
               "type": "close",
@@ -2019,8 +6297,8 @@
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",

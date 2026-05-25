@@ -46,7 +46,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.087,
+    "distance": 1.37,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/z0y9-listing.jpg",
@@ -76,7 +76,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 96.0,
+    "original_delivery_fee": 50.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -141,7 +141,7 @@
         "main": true
       }
     },
-    "vendor_points": 5941,
+    "vendor_points": 5938,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -188,9 +188,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Kafrul",
-    "_area": "Monipur",
-    "_area_distance_km": 0.68
+    "_discovered_area": "Mirpur",
+    "_area": "Mirpur",
+    "_area_distance_km": 1.37
   },
   {
     "id": 77828,
@@ -239,7 +239,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.505,
+    "distance": 0.643,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/oyjb-listing.jpg",
@@ -256,29 +256,10 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [
-        "event"
+        "Unreachable"
       ],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_40",
-          "name": "",
-          "messages": [
-            "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": "Uh-oh, we're extremely busy and that's why you are seeing no restaurants - operations are temporarily closed to serve you better. Please wait longer or choose Pick-Up to self-collect your order 🙏"
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
+      "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
@@ -288,7 +269,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 70.0,
+    "original_delivery_fee": 34.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 50.0,
@@ -297,9 +278,9 @@
     "payment_types": [],
     "post_code": "1229",
     "primary_cuisine_id": 121,
-    "rating": 4.2,
+    "rating": 4.1,
     "redirection_url": "https://foodpanda.com.bd/restaurant/oyjb/wrapick-bashundhara",
-    "review_number": 67,
+    "review_number": 71,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -353,7 +334,7 @@
         "main": true
       }
     },
-    "vendor_points": 5706,
+    "vendor_points": 5694,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -400,9 +381,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Kuril",
-    "_area": "Norda",
-    "_area_distance_km": 0.52
+    "_discovered_area": "Bashundhara",
+    "_area": "Bashundhara",
+    "_area_distance_km": 0.64
   },
   {
     "id": 79661,
@@ -467,21 +448,19 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
-      "available_in": null,
+      "close_reasons": [],
+      "available_in": "2026-05-26T12:45:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 34.0,
+    "original_delivery_fee": 40.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 0.0,
     "minimum_order_amount": 50.0,
@@ -492,7 +471,7 @@
     "primary_cuisine_id": 121,
     "rating": 4.6,
     "redirection_url": "https://foodpanda.com.bd/restaurant/l2wo/wrapick-uttara-14",
-    "review_number": 114,
+    "review_number": 115,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -546,7 +525,7 @@
         "main": true
       }
     },
-    "vendor_points": 5573,
+    "vendor_points": 5572,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -578,7 +557,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": false,
+    "is_preorder_enabled": true,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -593,8 +572,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Uttara Sector 1",
-    "_area": "Uttara Sector 6",
-    "_area_distance_km": 0.65
+    "_discovered_area": "Uttara",
+    "_area": "Uttara",
+    "_area_distance_km": 1.16
   }
 ]

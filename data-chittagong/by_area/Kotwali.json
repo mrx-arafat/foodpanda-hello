@@ -40,7 +40,7 @@
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mh97-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/mh97-listing.jpg",
     "is_new_until": "2024-11-21T07:51:10Z",
-    "premium_position": 2,
+    "premium_position": 0,
     "latitude": 22.33872554,
     "logo": "",
     "longitude": 91.83566596,
@@ -62,12 +62,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 99.0,
+    "original_delivery_fee": 35.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
@@ -82,13 +82,8 @@
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "NEXTGEN_FEATURED_TAG",
-    "tags": [
-      {
-        "code": "FEAT",
-        "text": "NEXTGEN_FEATURED_TAG"
-      }
-    ],
+    "tag": "",
+    "tags": [],
     "url_key": "joy-jagannath-kitchen-and-sweets",
     "vat_percentage_amount": 0,
     "characteristics": {
@@ -114,7 +109,7 @@
         "main": true
       }
     },
-    "vendor_points": 5654,
+    "vendor_points": 5657,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -140,7 +135,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": true,
+    "is_premium": false,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -153,14 +148,411 @@
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
-    "ncr_pricing_model": "cpc",
-    "ncr_token": "K1WMItzPJyRUcxU6GOGHn040fCm1zmq7z+stY8ko8EKVIfMgN8cq6aKP2TH1jidzSampTcrBKf4Ql9FVO38PbmDKpRef+cQ/oHht2NmIW4Gaw19TRj2u9UjHl49z/k4OgJNYm3m6GInqKLiGCjURNy7NMWrfPQBbZq27r/aWpuC7y4RJ4uQsQA0h8/nBH2iwNlkKzktEbS9A9q3oSEl9cCihf9zvvu0I42XGExzKYDXVxsivXldfKUbqUnUx2HYtKTXp7SFY54vexATDa8zC",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
     "_discovered_area": "GEC Circle",
     "_area": "Kotwali",
     "_area_distance_km": 0.11
+  },
+  {
+    "id": 15786,
+    "code": "u9hh",
+    "accepts_instructions": false,
+    "address": "Flat 28, R.F. Police Plaza, Nandankanan, 5th Floor",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cf5cx",
+      "name": "Chatga Hot & Cool",
+      "main_vendor_code": "u9hh",
+      "url_key": "chatga-hot-and-cool"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": false
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.624,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/u9hh-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/u9hh-listing.jpg",
+    "is_new_until": "",
+    "premium_position": 0,
+    "latitude": 22.338356,
+    "logo": "",
+    "longitude": 91.8337645,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 35.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 10.0,
+    "name": "Chatga Hot & Cool",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 193,
+    "rating": 2.3,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/u9hh/chatga-hot-and-cool",
+    "review_number": 1248,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 199",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 199",
+        "label_metadata": {
+          "deal": {
+            "id": "600697"
+          }
+        }
+      }
+    ],
+    "url_key": "chatga-hot-and-cool",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": false
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    },
+    "vendor_points": 4718,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/u9hh/chatga-hot-and-cool",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "600697",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Chatga Hot & Cool",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801889971109",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.13
+  },
+  {
+    "id": 26262,
+    "code": "m3xo",
+    "accepts_instructions": true,
+    "address": "City: Chittagong\nArea: Kotowali\n4200 k.c dey hotel,hazari lane er mukhe(sree vrindas kitchen)",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cg2wv",
+      "name": "Gopal Ji Restaurant",
+      "main_vendor_code": "m3xo",
+      "url_key": "gopal-ji-restaurant"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "Due to operation issue temporary  closing.",
+    "distance": 2.765,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/m3xo-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/m3xo-listing.jpg",
+    "is_new_until": "2024-10-16T18:00:00Z",
+    "premium_position": 0,
+    "latitude": 22.33848705,
+    "logo": "",
+    "longitude": 91.8365889,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 35.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Gopal Ji Restaurant",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 195,
+    "rating": 4.1,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/m3xo/gopal-ji-restaurant",
+    "review_number": 3405,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "gopal-ji-restaurant",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 6035,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/m3xo/gopal-ji-restaurant",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Gopal Ji Restaurant",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801830581036",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.17
   },
   {
     "id": 71940,
@@ -231,12 +623,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 99.0,
+    "original_delivery_fee": 35.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
@@ -284,7 +676,7 @@
         "main": true
       }
     },
-    "vendor_points": 5547,
+    "vendor_points": 5536,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -331,68 +723,38 @@
     "_area_distance_km": 0.17
   },
   {
-    "id": 91266,
-    "code": "zv68",
+    "id": 73756,
+    "code": "l4ge",
     "accepts_instructions": true,
-    "address": "In Front of Johur Ahmed Hawkers Market, Laldighi, Chattogram",
+    "address": "Mohol Shopping Complex , Tasty Treat",
     "address_line2": "",
-    "budget": 2,
+    "budget": 1,
     "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
+      "code": "cf5ty",
+      "name": "Tasty Treat",
+      "main_vendor_code": "u6tj",
+      "url_key": "tasty-treat"
     },
     "city": {
       "name": "Chittagong"
     },
     "cuisines": [
       {
-        "id": 122,
-        "name": "Snacks",
-        "url_key": "snacks",
-        "main": false
-      },
-      {
-        "id": 243,
-        "name": "Curry",
-        "url_key": "curry",
-        "main": false
-      },
-      {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
-        "main": true
-      },
-      {
-        "id": 147,
-        "name": "Beverage",
-        "url_key": "beverage",
-        "main": false
-      },
-      {
-        "id": 118,
-        "name": "Fish",
-        "url_key": "fish",
-        "main": false
-      },
-      {
-        "id": 82,
-        "name": "Seafood",
-        "url_key": "seafood",
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
         "main": false
       },
       {
         "id": 84,
         "name": "Dessert",
         "url_key": "dessert",
-        "main": false
+        "main": true
       },
       {
-        "id": 251,
-        "name": "Faluda",
-        "url_key": "faluda",
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
         "main": false
       }
     ],
@@ -401,16 +763,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.925,
+    "distance": 0.214,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/zv68-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/zv68-listing.jpg",
-    "is_new_until": "2025-11-19T06:37:08Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/l4ge-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/l4ge-listing.jpg",
+    "is_new_until": "2025-01-10T10:47:19Z",
     "premium_position": 0,
-    "latitude": 22.3368204,
+    "latitude": 22.33709029,
     "logo": "",
-    "longitude": 91.83668446,
+    "longitude": 91.83683481,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -429,284 +791,74 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 99.0,
+    "original_delivery_fee": 18.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 25.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
     },
-    "minimum_order_amount": 100.0,
+    "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Musafir Restaurant",
+    "name": "Tasty Treat-Laldighir Paar",
     "payment_types": [],
-    "post_code": "4000",
-    "primary_cuisine_id": 123,
-    "rating": 4.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/zv68/musafir-restaurant-zv68",
-    "review_number": 62,
+    "post_code": "4200",
+    "primary_cuisine_id": 84,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/l4ge/tasty-treat-laldighir-paar",
+    "review_number": 73,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "musafir-restaurant-zv68",
+    "url_key": "tasty-treat-laldighir-paar",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
         {
-          "id": 122,
-          "name": "Snacks",
-          "url_key": "snacks",
-          "main": false
-        },
-        {
-          "id": 243,
-          "name": "Curry",
-          "url_key": "curry",
-          "main": false
-        },
-        {
-          "id": 123,
-          "name": "Rice Dishes",
-          "url_key": "rice-dishes",
-          "main": true
-        },
-        {
-          "id": 147,
-          "name": "Beverage",
-          "url_key": "beverage",
-          "main": false
-        },
-        {
-          "id": 118,
-          "name": "Fish",
-          "url_key": "fish",
-          "main": false
-        },
-        {
-          "id": 82,
-          "name": "Seafood",
-          "url_key": "seafood",
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
           "main": false
         },
         {
           "id": 84,
           "name": "Dessert",
           "url_key": "dessert",
-          "main": false
-        },
-        {
-          "id": 251,
-          "name": "Faluda",
-          "url_key": "faluda",
-          "main": false
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
-        "main": true
-      }
-    },
-    "vendor_points": 4077,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/zv68/musafir-restaurant-zv68",
-    "website": "",
-    "has_online_payment": true,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Musafir Restaurant",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801818921082",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": false,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "GEC Circle",
-    "_area": "Kotwali",
-    "_area_distance_km": 0.22
-  },
-  {
-    "id": 71912,
-    "code": "pzwx",
-    "accepts_instructions": true,
-    "address": "Laldighi, KC Dey Road, Kotowali",
-    "address_line2": "",
-    "budget": 2,
-    "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
-    },
-    "city": {
-      "name": "Chittagong"
-    },
-    "cuisines": [
-      {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
-        "main": false
-      },
-      {
-        "id": 80,
-        "name": "Indian",
-        "url_key": "indian",
-        "main": false
-      },
-      {
-        "id": 193,
-        "name": "Biryani",
-        "url_key": "biryani",
-        "main": true
-      },
-      {
-        "id": 75,
-        "name": "Asian",
-        "url_key": "asian",
-        "main": false
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 2.806,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/pzwx-listing.JPG",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/pzwx-listing.JPG",
-    "is_new_until": "2024-09-23T11:56:47Z",
-    "premium_position": 0,
-    "latitude": 22.33841246,
-    "logo": "",
-    "longitude": 91.83717977,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 99.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
-    },
-    "minimum_order_amount": 100.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Kacchi Ghor",
-    "payment_types": [],
-    "post_code": "4203",
-    "primary_cuisine_id": 193,
-    "rating": 2.7,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/pzwx/kacchi-ghor-pzwx",
-    "review_number": 180,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "kacchi-ghor-pzwx",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 123,
-          "name": "Rice Dishes",
-          "url_key": "rice-dishes",
-          "main": false
-        },
-        {
-          "id": 80,
-          "name": "Indian",
-          "url_key": "indian",
-          "main": false
-        },
-        {
-          "id": 193,
-          "name": "Biryani",
-          "url_key": "biryani",
           "main": true
         },
         {
-          "id": 75,
-          "name": "Asian",
-          "url_key": "asian",
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
           "main": false
         }
       ],
       "food_characteristics": [],
       "primary_cuisine": {
-        "id": 193,
-        "name": "Biryani",
-        "url_key": "biryani",
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
         "main": true
       }
     },
-    "vendor_points": 5455,
+    "vendor_points": 4804,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/pzwx/kacchi-ghor-pzwx",
+    "web_path": "https://foodpanda.com.bd/restaurant/l4ge/tasty-treat-laldighir-paar",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Kacchi Ghor",
+      "legal_name": "Tasty Treat",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801818885758",
+    "customer_phone": "+8801704133657",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -734,9 +886,9 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "GEC Circle",
+    "_discovered_area": "Kotwali",
     "_area": "Kotwali",
-    "_area_distance_km": 0.23
+    "_area_distance_km": 0.21
   },
   {
     "id": 63343,
@@ -814,12 +966,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 99.0,
+    "original_delivery_fee": 35.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
@@ -827,9 +979,9 @@
     "payment_types": [],
     "post_code": "4000",
     "primary_cuisine_id": 193,
-    "rating": 3.6,
+    "rating": 3.5,
     "redirection_url": "https://foodpanda.com.bd/restaurant/twfq/degchi-bari-laldigi",
-    "review_number": 2117,
+    "review_number": 2120,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -888,7 +1040,7 @@
         "main": true
       }
     },
-    "vendor_points": 6092,
+    "vendor_points": 6097,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -940,17 +1092,190 @@
     "_area_distance_km": 0.24
   },
   {
-    "id": 83086,
-    "code": "antq",
+    "id": 126206,
+    "code": "mkqb",
     "accepts_instructions": true,
-    "address": "ABDUL MALEK SORDAR BARI ,2ND FLOOR ,37 Amjad Ali lane,Kotowali, Chittagong",
+    "address": "Laldighi ,Chittagong",
     "address_line2": "",
     "budget": 2,
     "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
+      "code": "cr6ur",
+      "name": "Mithai - Dhaka",
+      "main_vendor_code": "u6ps",
+      "url_key": "mithai-dhaka"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.25,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/mkqb-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/mkqb-listing.jpg",
+    "is_new_until": "2026-06-20T08:49:39Z",
+    "premium_position": 0,
+    "latitude": 22.3379944,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr6ur-logo.jpg",
+    "longitude": 91.8374297,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Mithai-CTG-Laldighi",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 84,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/mkqb/mithai-ctg-laldighi",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_NEW_TAG",
+    "tags": [
+      {
+        "code": "NEW",
+        "text": "NEXTGEN_NEW_TAG"
+      }
+    ],
+    "url_key": "mithai-ctg-laldighi",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 3781,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/mkqb/mithai-ctg-laldighi",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Mithai-CTG-Laldighi",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801976542439",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": true,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Kotwali",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.25
+  },
+  {
+    "id": 43663,
+    "code": "yqrg",
+    "accepts_instructions": true,
+    "address": "West side of Lal dighi, (Radhika's kitchen )",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "ca6rc",
+      "name": "Jogonath Proshadhom",
+      "main_vendor_code": "yqrg",
+      "url_key": "jogonath-proshadhom"
     },
     "city": {
       "name": "Chittagong"
@@ -960,36 +1285,18 @@
         "id": 122,
         "name": "Snacks",
         "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 94,
+        "name": "Vegetarian",
+        "url_key": "vegetarian",
         "main": true
       },
       {
-        "id": 69,
-        "name": "Italian",
-        "url_key": "italian",
-        "main": false
-      },
-      {
-        "id": 103,
-        "name": "Pasta",
-        "url_key": "pasta",
-        "main": false
-      },
-      {
-        "id": 105,
-        "name": "Mediterranean",
-        "url_key": "mediterranean",
-        "main": false
-      },
-      {
-        "id": 73,
-        "name": "Pizza",
-        "url_key": "pizza-73",
-        "main": false
-      },
-      {
-        "id": 151,
-        "name": "Western",
-        "url_key": "western",
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
         "main": false
       }
     ],
@@ -998,16 +1305,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.422,
+    "distance": 2.812,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/antq-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/antq-listing.jpg",
-    "is_new_until": "2026-01-31T00:00:00Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/yqrg-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/yqrg-listing.jpg",
+    "is_new_until": "2021-07-29T00:00:00Z",
     "premium_position": 0,
-    "latitude": 22.33195705,
-    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/antq-logo.png",
-    "longitude": 91.8372748,
+    "latitude": 22.33884005,
+    "logo": "",
+    "longitude": 91.83791155,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -1026,39 +1333,39 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 128.0,
+    "original_delivery_fee": 35.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 55.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 50,
-      "upper_limit_in_minutes": 70
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
-    "name": "Ready Meal",
+    "name": "Jogonath Proshadhom",
     "payment_types": [],
-    "post_code": "4000",
-    "primary_cuisine_id": 122,
-    "rating": 2.3,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/antq/ready-meal-antq",
-    "review_number": 7,
+    "post_code": "4200",
+    "primary_cuisine_id": 94,
+    "rating": 4.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/yqrg/jogonath-proshadhom",
+    "review_number": 1396,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "14% off Tk. 50",
+    "tag": "15% off Tk. 100",
     "tags": [
       {
         "code": "DEAL",
-        "text": "14% off Tk. 50",
+        "text": "15% off Tk. 100",
         "label_metadata": {
           "deal": {
-            "id": "601861"
+            "id": "603884"
           }
         }
       }
     ],
-    "url_key": "ready-meal-antq",
+    "url_key": "jogonath-proshadhom",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -1066,67 +1373,49 @@
           "id": 122,
           "name": "Snacks",
           "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 94,
+          "name": "Vegetarian",
+          "url_key": "vegetarian",
           "main": true
         },
         {
-          "id": 69,
-          "name": "Italian",
-          "url_key": "italian",
-          "main": false
-        },
-        {
-          "id": 103,
-          "name": "Pasta",
-          "url_key": "pasta",
-          "main": false
-        },
-        {
-          "id": 105,
-          "name": "Mediterranean",
-          "url_key": "mediterranean",
-          "main": false
-        },
-        {
-          "id": 73,
-          "name": "Pizza",
-          "url_key": "pizza-73",
-          "main": false
-        },
-        {
-          "id": 151,
-          "name": "Western",
-          "url_key": "western",
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
           "main": false
         }
       ],
       "food_characteristics": [],
       "primary_cuisine": {
-        "id": 122,
-        "name": "Snacks",
-        "url_key": "snacks",
+        "id": 94,
+        "name": "Vegetarian",
+        "url_key": "vegetarian",
         "main": true
       }
     },
-    "vendor_points": 3959,
+    "vendor_points": 5965,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/antq/ready-meal-antq",
+    "web_path": "https://foodpanda.com.bd/restaurant/yqrg/jogonath-proshadhom",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [
       {
-        "id": "601861",
-        "value": 14
+        "id": "603884",
+        "value": 15
       }
     ],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Ready Meal",
+      "legal_name": "Jogonath Proshadhom",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801770598932",
+    "customer_phone": "+8801747644744",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -1156,7 +1445,1869 @@
     "is_preferred_partner": false,
     "_discovered_area": "GEC Circle",
     "_area": "Kotwali",
-    "_area_distance_km": 0.71
+    "_area_distance_km": 0.31
+  },
+  {
+    "id": 47673,
+    "code": "w5rx",
+    "accepts_instructions": true,
+    "address": "West side of Lal dighi, beside govindas restaurant,",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.798,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/w5rx-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/w5rx-listing.jpg",
+    "is_new_until": "2021-11-06T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 22.3389497,
+    "logo": "",
+    "longitude": 91.8378346,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 35.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Radhika's Kitchen",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 195,
+    "rating": 3.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/w5rx/radhikas-kitchen",
+    "review_number": 448,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off",
+        "label_metadata": {
+          "deal": {
+            "id": "599483"
+          }
+        }
+      }
+    ],
+    "url_key": "radhikas-kitchen",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 5035,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/w5rx/radhikas-kitchen",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "599483",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Radhika's Kitchen",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801798651021",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.31
+  },
+  {
+    "id": 115378,
+    "code": "vdy3",
+    "accepts_instructions": true,
+    "address": "Court Building, Beside Zila Parishad Bhaban, Chattogram, Bangladesh.",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.058,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vdy3-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/vdy3-listing.jpg",
+    "is_new_until": "2026-04-06T06:22:31Z",
+    "premium_position": 0,
+    "latitude": 22.33550555,
+    "logo": "",
+    "longitude": 91.8368497,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 39.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Sadia's Kitchen - Court Building Road",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 195,
+    "rating": 4.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/vdy3/sadias-kitchen-court-building-road",
+    "review_number": 74,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "sadias-kitchen-court-building-road",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 5869,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/vdy3/sadias-kitchen-court-building-road",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Sadia's Kitchen - Court Building Road",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801901346240",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.34
+  },
+  {
+    "id": 73072,
+    "code": "nefd",
+    "accepts_instructions": true,
+    "address": "Teribazar, Ctg Metro",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cx5ht",
+      "name": "CP Five Star",
+      "main_vendor_code": "jcl9",
+      "url_key": "cp-five-star-cx5ht"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.355,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx5ht-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx5ht-listing.jpg",
+    "is_new_until": "2024-12-05T11:14:54Z",
+    "premium_position": 0,
+    "latitude": 22.3398819,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/nefd-logo.jpg",
+    "longitude": 91.83779115,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "CP Five star -Teribazar Fried Chicken-Chittagong",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 86,
+    "rating": 4.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/nefd/cp-five-star-teribazar-fried-chicken-chittagong",
+    "review_number": 100,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "Up to 10% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "Up to 10% off",
+        "label_metadata": {
+          "deal": {
+            "id": "592181"
+          }
+        }
+      }
+    ],
+    "url_key": "cp-five-star-teribazar-fried-chicken-chittagong",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5438,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/nefd/cp-five-star-teribazar-fried-chicken-chittagong",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "CP Five star -Teribazar Fried Chicken-Chittagong",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801860367661",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Kotwali",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.36
+  },
+  {
+    "id": 70960,
+    "code": "y962",
+    "accepts_instructions": true,
+    "address": "Raja Pukur Lane, Chairman Goli, G.A Bhaban, Unit -5,  4th floor, Flat no: B4",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": true
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.429,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/y962-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/y962-listing.jpg",
+    "is_new_until": "2024-06-27T14:55:33Z",
+    "premium_position": 0,
+    "latitude": 22.3414517,
+    "logo": "",
+    "longitude": 91.8354644,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 35.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 55.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Anandamoy Kitchen",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 243,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/y962/anandamoy-kitchen",
+    "review_number": 377,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "anandamoy-kitchen",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": true
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": true
+      }
+    },
+    "vendor_points": 4579,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/y962/anandamoy-kitchen",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Anandamoy Kitchen",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801881689129",
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.39
+  },
+  {
+    "id": 57297,
+    "code": "q8wi",
+    "accepts_instructions": true,
+    "address": "34/1 DM Market, Huseyn Shaheed Suhrawardy Road, Kotowali, Chittagong",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cr6ur",
+      "name": "Mithai - Dhaka",
+      "main_vendor_code": "u6ps",
+      "url_key": "mithai-dhaka"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 0.584,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/q8wi-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/q8wi-listing.jpg",
+    "is_new_until": "2022-07-02T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 22.3333125,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cr6ur-logo.jpg",
+    "longitude": 91.8350469,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 18.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Mithai-New Market",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 84,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/q8wi/mithai-new-market",
+    "review_number": 508,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "mithai-new-market",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4302,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/q8wi/mithai-new-market",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "BANGA BAKERS LTD.",
+      "trade_register_number": "898722566783"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704151489",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": true,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "New Market",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.52
+  },
+  {
+    "id": 126050,
+    "code": "g5jn",
+    "accepts_instructions": true,
+    "address": "Firingi Bazer, Chittagong Kotuwali",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.273,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/g5jn-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/g5jn-listing.jpg",
+    "is_new_until": "2026-06-19T10:04:41Z",
+    "premium_position": 0,
+    "latitude": 22.3332536,
+    "logo": "",
+    "longitude": 91.836833,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 39.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Tasty Sip",
+    "payment_types": [],
+    "post_code": "1212",
+    "primary_cuisine_id": 86,
+    "rating": 3.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/g5jn/tasty-sip",
+    "review_number": 13,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "603213"
+          }
+        }
+      },
+      {
+        "code": "NEW",
+        "text": "NEXTGEN_NEW_TAG"
+      }
+    ],
+    "url_key": "tasty-sip",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4771,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/g5jn/tasty-sip",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "603213",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Tasty Sip",
+      "trade_register_number": "00"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801676104915",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": true,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.56
+  },
+  {
+    "id": 73975,
+    "code": "snlz",
+    "accepts_instructions": true,
+    "address": "Equity Central (Ground Floor),  42-43, Momin Road, Chattogram-4203",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cs8gf",
+      "name": "KFC",
+      "main_vendor_code": "s6wp",
+      "url_key": "kfc"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.217,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/snlz-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/snlz-listing.jpg",
+    "is_new_until": "2025-01-21T12:53:34Z",
+    "premium_position": 0,
+    "latitude": 22.34320965,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cs8gf-logo.jpg",
+    "longitude": 91.83413925,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 128.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "KFC Jamal Khan",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 241,
+    "rating": 4.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/snlz/kfc-jamal-khan",
+    "review_number": 801,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "kfc-jamal-khan",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 241,
+          "name": "Fried Chicken",
+          "url_key": "fried-chicken",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 241,
+        "name": "Fried Chicken",
+        "url_key": "fried-chicken",
+        "main": true
+      }
+    },
+    "vendor_points": 6762,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/snlz/kfc-jamal-khan",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "KFC Jamal Khan",
+      "trade_register_number": "N/A"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8809613885599",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.59
+  },
+  {
+    "id": 12601,
+    "code": "t1vv",
+    "accepts_instructions": true,
+    "address": "Cheragi Pahar Mor, Beside of Flavours Sweets",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ck8ng",
+      "name": "Dulce",
+      "main_vendor_code": "t1vv",
+      "url_key": "dulce"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 249,
+        "name": "Sweets",
+        "url_key": "sweets",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 250,
+        "name": "Doi",
+        "url_key": "doi",
+        "main": false
+      },
+      {
+        "id": 196,
+        "name": "Bakery",
+        "url_key": "bakery",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.154,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t1vv-listing.webp",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t1vv-listing.webp",
+    "is_new_until": "2020-03-28T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 22.3434679,
+    "logo": "",
+    "longitude": 91.83392045,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 32.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Dulce - Cheragi Pahar",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 84,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t1vv/dulce-cheragi-pahar",
+    "review_number": 336,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "12% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "12% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "599649"
+          }
+        }
+      }
+    ],
+    "url_key": "dulce-cheragi-pahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 249,
+          "name": "Sweets",
+          "url_key": "sweets",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 250,
+          "name": "Doi",
+          "url_key": "doi",
+          "main": false
+        },
+        {
+          "id": 196,
+          "name": "Bakery",
+          "url_key": "bakery",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 4857,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t1vv/dulce-cheragi-pahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "599649",
+        "value": 12
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "DULCE",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801818020804",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.62
+  },
+  {
+    "id": 77822,
+    "code": "pyhn",
+    "accepts_instructions": true,
+    "address": "Cheragi Square,  Lea Cheragi Hights, Cheragi Square, Chattogram, 4000 Jamal Khan, Chittagong, Bangladesh",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 89,
+        "name": "Juice Corner",
+        "url_key": "juice-corner",
+        "main": true
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.122,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/pyhn-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/pyhn-listing.jpg",
+    "is_new_until": "2025-09-08T12:19:56Z",
+    "premium_position": 0,
+    "latitude": 22.343547,
+    "logo": "",
+    "longitude": 91.8335058,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 32.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "JUICE LOVER'S",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 89,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/pyhn/juice-lovers",
+    "review_number": 113,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "juice-lovers",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 89,
+          "name": "Juice Corner",
+          "url_key": "juice-corner",
+          "main": true
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 90,
+          "name": "Cafe",
+          "url_key": "cafe",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 89,
+        "name": "Juice Corner",
+        "url_key": "juice-corner",
+        "main": true
+      }
+    },
+    "vendor_points": 5412,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/pyhn/juice-lovers",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "JUICE LOVER'S",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801873224912",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.64
+  },
+  {
+    "id": 106445,
+    "code": "ow1a",
+    "accepts_instructions": true,
+    "address": "1/2 Brick Field Road(Beside Sobahan Soudagar Mosque) Patharghata, Kotwali, Chattogram",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 82,
+        "name": "Seafood",
+        "url_key": "seafood",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.364,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ow1a-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ow1a-listing.jpg",
+    "is_new_until": "2026-02-22T06:40:20Z",
+    "premium_position": 0,
+    "latitude": 22.3343125,
+    "logo": "",
+    "longitude": 91.8403125,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 39.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Sprinkles",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 86,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/ow1a/sprinkles",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off",
+        "label_metadata": {
+          "deal": {
+            "id": "605847"
+          }
+        }
+      }
+    ],
+    "url_key": "sprinkles",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 82,
+          "name": "Seafood",
+          "url_key": "seafood",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4488,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/ow1a/sprinkles",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "605847",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Sprinkles",
+      "trade_register_number": "n/a"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801310002723",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "GEC Circle",
+    "_area": "Kotwali",
+    "_area_distance_km": 0.68
   },
   {
     "id": 97310,
@@ -1223,7 +3374,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 66.0,
+    "original_delivery_fee": 39.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -1266,7 +3417,7 @@
         "main": true
       }
     },
-    "vendor_points": 3462,
+    "vendor_points": 3468,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -1383,7 +3534,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 66.0,
+    "original_delivery_fee": 39.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -1559,7 +3710,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 66.0,
+    "original_delivery_fee": 39.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,

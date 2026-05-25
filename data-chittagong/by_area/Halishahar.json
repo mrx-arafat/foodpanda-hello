@@ -58,7 +58,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -95,7 +95,7 @@
         "main": true
       }
     },
-    "vendor_points": 3505,
+    "vendor_points": 3553,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -186,25 +186,23 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
+      "close_reasons": [
+        "Unreachable"
+      ],
       "available_in": null,
       "events": [],
-      "is_delivery_available": true,
+      "is_delivery_available": false,
       "is_pickup_available": false,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
-    },
+    "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "The Brown Bowl",
@@ -253,7 +251,7 @@
         "main": true
       }
     },
-    "vendor_points": 4066,
+    "vendor_points": 4140,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -285,7 +283,7 @@
     "is_new": true,
     "is_pickup_enabled": false,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -350,7 +348,7 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T10:00:00+0600",
+      "available_in": "2026-05-26T10:00:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": false,
@@ -361,7 +359,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -524,7 +522,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -711,12 +709,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 68.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 50
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -726,7 +724,7 @@
     "primary_cuisine_id": 86,
     "rating": 4.5,
     "redirection_url": "https://foodpanda.com.bd/restaurant/yurr/boithok-khana-yurr",
-    "review_number": 1095,
+    "review_number": 1096,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -798,7 +796,7 @@
         "main": true
       }
     },
-    "vendor_points": 6055,
+    "vendor_points": 6061,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -848,162 +846,6 @@
     "_discovered_area": "Agrabad",
     "_area": "Halishahar",
     "_area_distance_km": 1.57
-  },
-  {
-    "id": 111496,
-    "code": "vezy",
-    "accepts_instructions": true,
-    "address": "Mahabuba Manzil, building no 18, besides of halishahar police station, north halishahar, Ground floor, 4226 Halishahar, Chittagong, Bangladesh",
-    "address_line2": "",
-    "budget": 2,
-    "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
-    },
-    "city": {
-      "name": "Chittagong"
-    },
-    "cuisines": [
-      {
-        "id": 122,
-        "name": "Snacks",
-        "url_key": "snacks",
-        "main": false
-      },
-      {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": true
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 3.92,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/vezy-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/vezy-listing.jpg",
-    "is_new_until": "2026-03-19T06:32:47Z",
-    "premium_position": 0,
-    "latitude": 22.34281216,
-    "logo": "",
-    "longitude": 91.77550188,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 35.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 45.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 40,
-      "upper_limit_in_minutes": 60
-    },
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Cheeky Buns",
-    "payment_types": [],
-    "post_code": "4226",
-    "primary_cuisine_id": 86,
-    "rating": 1.3,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/vezy",
-    "review_number": 30,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 122,
-          "name": "Snacks",
-          "url_key": "snacks",
-          "main": false
-        },
-        {
-          "id": 86,
-          "name": "Fast Food",
-          "url_key": "fast-food",
-          "main": true
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 86,
-        "name": "Fast Food",
-        "url_key": "fast-food",
-        "main": true
-      }
-    },
-    "vendor_points": 4680,
-    "vertical": "restaurants",
-    "vertical_segment": "home_based_kitchen",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/vezy",
-    "website": "",
-    "has_online_payment": false,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Cheeky Buns",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801641654641",
-    "vertical_type_ids": [
-      "home_based_kitchen"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": false,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Agrabad",
-    "_area": "Halishahar",
-    "_area_distance_km": 1.64
   },
   {
     "id": 66492,
@@ -1069,12 +911,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 35.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -1084,7 +926,7 @@
     "primary_cuisine_id": 84,
     "rating": 4.7,
     "redirection_url": "https://foodpanda.com.bd/restaurant/dlms/waffle-time-halishahar",
-    "review_number": 2196,
+    "review_number": 2197,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -1117,7 +959,7 @@
         "main": true
       }
     },
-    "vendor_points": 5638,
+    "vendor_points": 5619,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1227,7 +1069,7 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:30:00+0600",
+      "available_in": "2026-05-26T08:30:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
@@ -1238,7 +1080,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -1340,32 +1182,214 @@
     "_area_distance_km": 1.69
   },
   {
-    "id": 121183,
-    "code": "ngpr",
+    "id": 56200,
+    "code": "t8j4",
     "accepts_instructions": true,
-    "address": "Chittagong, Halishohor, a block, road no 1, lain no 7, house no 22",
+    "address": "Halishahar New A Block, Halishahar R/A, Halishahar, Chittagong",
     "address_line2": "",
     "budget": 1,
     "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
+      "code": "cf5ty",
+      "name": "Tasty Treat",
+      "main_vendor_code": "u6tj",
+      "url_key": "tasty-treat"
     },
     "city": {
       "name": "Chittagong"
     },
     "cuisines": [
       {
-        "id": 122,
-        "name": "Snacks",
-        "url_key": "snacks",
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
         "main": false
       },
       {
         "id": 84,
         "name": "Dessert",
         "url_key": "dessert",
+        "main": true
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.711,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/t8j4-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/t8j4-listing.jpg",
+    "is_new_until": "2022-05-28T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 22.33954083,
+    "logo": "",
+    "longitude": 91.78211652,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Tasty Treat - Halishahar A-Block",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 84,
+    "rating": 4.3,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/t8j4/tasty-treat-halishahar-a-block-t8j4",
+    "review_number": 904,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "tasty-treat-halishahar-a-block-t8j4",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": true
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": true
+      }
+    },
+    "vendor_points": 5011,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/t8j4/tasty-treat-halishahar-a-block-t8j4",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Tasty Treat",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801704158686",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Halishahar",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.71
+  },
+  {
+    "id": 62815,
+    "code": "injy",
+    "accepts_instructions": true,
+    "address": "H-Block, 1 Lane , 1Road , 8 Number billing, Halishahar, Chittagong",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cx7er",
+      "name": "Delicious Cooking",
+      "main_vendor_code": "injy",
+      "url_key": "delicious-cooking"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
         "main": false
       },
       {
@@ -1386,16 +1410,16 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 3.438,
+    "distance": 2.763,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/ngpr-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/ngpr-listing.jpg",
-    "is_new_until": "2026-05-14T08:42:46Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/injy-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/injy-listing.jpg",
+    "is_new_until": "2022-12-27T00:00:00Z",
     "premium_position": 0,
-    "latitude": 22.3421386,
+    "latitude": 22.3370064,
     "logo": "",
-    "longitude": 91.7804907,
+    "longitude": 91.7849161,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
@@ -1414,52 +1438,52 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 75.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 25,
-      "upper_limit_in_minutes": 40
+      "lower_limit_in_minutes": 70,
+      "upper_limit_in_minutes": 90
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Begum's Pound Kitchen",
+    "name": "Delicious Cooking",
     "payment_types": [],
     "post_code": "4216",
     "primary_cuisine_id": 195,
-    "rating": 0.0,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/ngpr/begums-pound-kitchen",
-    "review_number": 0,
+    "rating": 2.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/injy/delicious-cooking",
+    "review_number": 252,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "15% off Tk. 100",
+    "tag": "15% off Tk. 50",
     "tags": [
       {
         "code": "DEAL",
-        "text": "15% off Tk. 100",
+        "text": "15% off Tk. 50",
         "label_metadata": {
           "deal": {
-            "id": "604251"
+            "id": "598531"
           }
         }
       }
     ],
-    "url_key": "begums-pound-kitchen",
+    "url_key": "delicious-cooking",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
         {
-          "id": 122,
-          "name": "Snacks",
-          "url_key": "snacks",
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
           "main": false
         },
         {
-          "id": 84,
-          "name": "Dessert",
-          "url_key": "dessert",
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
           "main": false
         },
         {
@@ -1483,27 +1507,28 @@
         "main": true
       }
     },
-    "vendor_points": 3573,
+    "vendor_points": 5021,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/ngpr/begums-pound-kitchen",
+    "web_path": "https://foodpanda.com.bd/restaurant/injy/delicious-cooking",
     "website": "",
-    "has_online_payment": false,
+    "has_online_payment": true,
     "discounts_info": [
       {
-        "id": "604251",
+        "id": "598531",
         "value": 15
       }
     ],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Begum's Pound Kitchen",
+      "legal_name": "Delicious Cooking",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801623241511",
+    "customer_phone": "+8801646649990",
     "vertical_type_ids": [
+      "restaurants",
       "home_based_kitchen"
     ],
     "loyalty_programs": [],
@@ -1528,11 +1553,239 @@
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
     "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.77
+  },
+  {
+    "id": 74888,
+    "code": "d06y",
+    "accepts_instructions": true,
+    "address": "Beside BDR Field, J-Block, Halishahar, Chattogram",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 127,
+        "name": "Chotpoti & Fuchka",
+        "url_key": "chotpoti-and-fuchka",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.235,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/d06y-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/d06y-listing.jpg",
+    "is_new_until": "2025-03-14T10:38:14Z",
+    "premium_position": 0,
+    "latitude": 22.34121825,
+    "logo": "",
+    "longitude": 91.7821899,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 68.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Fuchka Khadok",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 86,
+    "rating": 1.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/d06y/fuchka-khadok-d06y",
+    "review_number": 331,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "fuchka-khadok-d06y",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 127,
+          "name": "Chotpoti & Fuchka",
+          "url_key": "chotpoti-and-fuchka",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5568,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/d06y/fuchka-khadok-d06y",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Fuchka Khadok & Chap Ghor",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801892048400",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
     "_discovered_area": "Agrabad",
     "_area": "Halishahar",
-    "_area_distance_km": 1.82
+    "_area_distance_km": 1.85
   },
   {
     "id": 76691,
@@ -1605,7 +1858,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
+    "original_delivery_fee": 56.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -1773,9 +2026,9 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T10:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -1784,9 +2037,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 10.0,
     "name": "LABONNO RANNAGHOR",
@@ -1843,7 +2100,7 @@
         "main": true
       }
     },
-    "vendor_points": 4350,
+    "vendor_points": 4352,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",
@@ -1894,6 +2151,198 @@
     "_discovered_area": "Agrabad",
     "_area": "Halishahar",
     "_area_distance_km": 1.89
+  },
+  {
+    "id": 111720,
+    "code": "tc11",
+    "accepts_instructions": true,
+    "address": "Foillatoli Bazar, Halishahar",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "cf2us",
+      "name": "Shawarma House",
+      "main_vendor_code": "c1gf",
+      "url_key": "shawarma-house-cf2us"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.897,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/tc11-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/tc11-listing.jpg",
+    "is_new_until": "2026-03-20T08:08:30Z",
+    "premium_position": 0,
+    "latitude": 22.3448575,
+    "logo": "",
+    "longitude": 91.7770657,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 71.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Shawarma House - Halishahar",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 195,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/tc11/shawarma-house-halishahar",
+    "review_number": 49,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "shawarma-house-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 195,
+          "name": "Bangladeshi",
+          "url_key": "bangladeshi",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 195,
+        "name": "Bangladeshi",
+        "url_key": "bangladeshi",
+        "main": true
+      }
+    },
+    "vendor_points": 5552,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/tc11/shawarma-house-halishahar",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Shawarma House",
+      "trade_register_number": "n/a"
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801824203010",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.91
   },
   {
     "id": 94985,
@@ -1947,7 +2396,7 @@
       "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T09:00:00+0600",
+      "available_in": "2026-05-26T09:00:00+0600",
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
@@ -1958,7 +2407,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
+    "original_delivery_fee": 65.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -2143,7 +2592,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 25.0,
     "delivery_duration_range": {
@@ -2156,9 +2605,9 @@
     "payment_types": [],
     "post_code": "4200",
     "primary_cuisine_id": 195,
-    "rating": 3.7,
+    "rating": 3.8,
     "redirection_url": "https://foodpanda.com.bd/restaurant/si0c/degchi-bari-halishahar",
-    "review_number": 84,
+    "review_number": 89,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -2218,7 +2667,7 @@
         "main": true
       }
     },
-    "vendor_points": 6175,
+    "vendor_points": 6144,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -2258,6 +2707,369 @@
     "is_test": false,
     "is_vat_disabled": false,
     "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.96
+  },
+  {
+    "id": 72680,
+    "code": "rj8d",
+    "accepts_instructions": true,
+    "address": "Plot - 2, Road - 5, Excess Road Moor, Baropool, Halishahar, Chattogram",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
+        "main": false
+      },
+      {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.08,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/rj8d-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/rj8d-listing.jpg",
+    "is_new_until": "2024-11-08T10:49:02Z",
+    "premium_position": 0,
+    "latitude": 22.3288661,
+    "logo": "",
+    "longitude": 91.7890177,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 20.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 10,
+      "upper_limit_in_minutes": 25
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Muslim Biriyani",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 193,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/rj8d/muslim-biriyani-rj8d",
+    "review_number": 159,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "muslim-biriyani-rj8d",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
+          "main": false
+        },
+        {
+          "id": 193,
+          "name": "Biryani",
+          "url_key": "biryani",
+          "main": true
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 193,
+        "name": "Biryani",
+        "url_key": "biryani",
+        "main": true
+      }
+    },
+    "vendor_points": 5395,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/rj8d/muslim-biriyani-rj8d",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Muslim Biriyani & Juice bar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801316529148",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.96
+  },
+  {
+    "id": 71281,
+    "code": "wxzm",
+    "accepts_instructions": true,
+    "address": "MKH Tower, Plot - 8/A, 3rd Floor, Port Connecting Road, Halishahar, Chattogram - 4216.",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 76,
+        "name": "Thai",
+        "url_key": "thai",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.142,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/wxzm-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/wxzm-listing.jpg",
+    "is_new_until": "2024-07-20T09:36:59Z",
+    "premium_position": 0,
+    "latitude": 22.3311487,
+    "logo": "",
+    "longitude": 91.7889298,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 51.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Busaba",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 76,
+    "rating": 4.7,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/wxzm/busaba",
+    "review_number": 440,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off",
+        "label_metadata": {
+          "deal": {
+            "id": "607911"
+          }
+        }
+      }
+    ],
+    "url_key": "busaba",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 76,
+          "name": "Thai",
+          "url_key": "thai",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 76,
+        "name": "Thai",
+        "url_key": "thai",
+        "main": true
+      }
+    },
+    "vendor_points": 5811,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/wxzm/busaba",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "607911",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Busaba",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801891468885",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
     "is_vat_visible": false,
     "is_voucher_enabled": true,
     "delivery_fee_discount_mov": 0.0,
@@ -2350,12 +3162,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 35.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 30,
-      "upper_limit_in_minutes": 45
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -2363,9 +3175,9 @@
     "payment_types": [],
     "post_code": "4214",
     "primary_cuisine_id": 243,
-    "rating": 4.2,
+    "rating": 4.1,
     "redirection_url": "https://foodpanda.com.bd/restaurant/keyb/degchi-dine",
-    "review_number": 282,
+    "review_number": 287,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -2425,7 +3237,7 @@
         "main": true
       }
     },
-    "vendor_points": 6417,
+    "vendor_points": 6416,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -2475,6 +3287,916 @@
     "_discovered_area": "Agrabad",
     "_area": "Halishahar",
     "_area_distance_km": 1.97
+  },
+  {
+    "id": 72201,
+    "code": "z6vc",
+    "accepts_instructions": true,
+    "address": "9th Floor, MKH Tower, Halishahar, Chattogram",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 243,
+        "name": "Curry",
+        "url_key": "curry",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.131,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/z6vc-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/z6vc-listing.jpg",
+    "is_new_until": "2024-10-15T06:45:13Z",
+    "premium_position": 0,
+    "latitude": 22.3310899,
+    "logo": "",
+    "longitude": 91.7890269,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "White Park Rooftop Lounge",
+    "payment_types": [],
+    "post_code": "4209",
+    "primary_cuisine_id": 86,
+    "rating": 2.1,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/z6vc/white-park-rooftop-lounge",
+    "review_number": 14,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "596495"
+          }
+        }
+      }
+    ],
+    "url_key": "white-park-rooftop-lounge",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 243,
+          "name": "Curry",
+          "url_key": "curry",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4631,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/z6vc/white-park-rooftop-lounge",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "596495",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "White Park",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801810004583",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.97
+  },
+  {
+    "id": 71288,
+    "code": "br00",
+    "accepts_instructions": true,
+    "address": "4Th Floor, Mkh Tower, Block-G, Port Connecting Road, Chattogram",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.13,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/br00-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/br00-listing.jpg",
+    "is_new_until": "2024-07-20T10:12:31Z",
+    "premium_position": 7,
+    "latitude": 22.33119455,
+    "logo": "",
+    "longitude": 91.7890673,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "The Centro",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 86,
+    "rating": 4.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/br00/the-centro",
+    "review_number": 379,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "605433"
+          }
+        }
+      }
+    ],
+    "url_key": "the-centro",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5698,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/br00/the-centro",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "605433",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "The Centro",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801777334232",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "idSJP7iYVdTHqGYTIG7LjphK4ss5H4Wk9FDEZY43ZP/+yQYcw9bc+obhRZ0drmGm7Ty99k/35lZrg27V8Rz8QxyTwc2Jnp+idQ0huA6t2E5XZ1BL4nQdS9OFsphdq3w2ZZhJlGnHncTiKv/KDD46TOSHKUrpZHkWp67Z0+vqrPHwsb/N8u9q+wL20NQPHK77VQ1GsEJPnNC+4hm/eN5b2i4Saa6PeCkY6EwwKdHCgOHPS0kWQHSs4fKhlTb5Hu75VXL2BHHNptlXL5gnBK3F",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.98
+  },
+  {
+    "id": 72306,
+    "code": "o14o",
+    "accepts_instructions": true,
+    "address": "Shop No. 7, Shajib Plaza, Plot No. 12/A, Lane – 4, Road – 1, Block G, Halishahar Housing Estate, PC Road, Chottogram, Bangladesh.",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ch0xx",
+      "name": "Cooper's",
+      "main_vendor_code": "t8xj",
+      "url_key": "coopers"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": true
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      },
+      {
+        "id": 251,
+        "name": "Faluda",
+        "url_key": "faluda",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.208,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/o14o-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/o14o-listing.jpg",
+    "is_new_until": "2024-10-22T11:20:44Z",
+    "premium_position": 0,
+    "latitude": 22.33271866,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ch0xx-logo.jpg",
+    "longitude": 91.78880206,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 51.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Cooper's - Halishahar",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 77,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/o14o/coopers-halishahar",
+    "review_number": 386,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_SUPER_VENDOR",
+    "tags": [
+      {
+        "code": "SUPER_VENDOR",
+        "text": "NEXTGEN_SUPER_VENDOR"
+      }
+    ],
+    "url_key": "coopers-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 77,
+          "name": "Cakes",
+          "url_key": "cakes",
+          "main": true
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        },
+        {
+          "id": 251,
+          "name": "Faluda",
+          "url_key": "faluda",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 77,
+        "name": "Cakes",
+        "url_key": "cakes",
+        "main": true
+      }
+    },
+    "vendor_points": 5443,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/o14o/coopers-halishahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Cooper's",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801713754628",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 1.98
+  },
+  {
+    "id": 66299,
+    "code": "snug",
+    "accepts_instructions": true,
+    "address": "house no : 04 , lane no : 03 , road no : 01 , block : L, chittagong Halishahar",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "cj3jh",
+      "name": "Pizza Burg",
+      "main_vendor_code": "s4ma",
+      "url_key": "pizza-burg"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.057,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/snug-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/snug-listing.jpg",
+    "is_new_until": "2023-07-22T06:12:33Z",
+    "premium_position": 3,
+    "latitude": 22.32978495,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cj3jh-logo.jpg",
+    "longitude": 91.78942755,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizza Burg - Halishahar",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 73,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/snug/pizza-burg-halishahar",
+    "review_number": 4683,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "VOUCHER",
+        "text": "Tk. 165 off Tk. 550: dealnao",
+        "label_metadata": {
+          "voucher": {
+            "code": "dealnao",
+            "construct_id": "177920897100"
+          }
+        }
+      }
+    ],
+    "url_key": "pizza-burg-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 6783,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/snug/pizza-burg-halishahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizza Burg - Halishahar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801404461242",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": true,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "rYZXR+Gg42CxsKbKwYa2v2+OohswbJkB9wDuK3uHURB8Wep1Brn/1l4igcSyuoXEKtFeF9TUGqIjepuf22jWp+UMExR6KSGvqb2/NQIcT9Pq45SSuOjEhJxbFFxNySu7r1EYvfxBXIMck9/2gmiA/RzrsMHwvqIn4Eup32CcZB1RKefwV4OBvXWchF/My//7LUSH8aVYPETXBVYd9bx41tPLhOD1XLaHITPjDEvGqTUyNQnDUj9QXPTXMfg/A4gvIXre6DKMnri0qkfCQBwc",
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.0
+  },
+  {
+    "id": 68603,
+    "code": "d1pj",
+    "accepts_instructions": true,
+    "address": "City Tower, Block G, Road 1, Halishahar, Chittagong",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.26,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/d1pj-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/d1pj-listing.jpg",
+    "is_new_until": "2024-01-08T06:07:16Z",
+    "premium_position": 0,
+    "latitude": 22.3338804,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/d1pj-logo.jpg",
+    "longitude": 91.7887495,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 51.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Milano Express - Halishahar",
+    "payment_types": [],
+    "post_code": "4216",
+    "primary_cuisine_id": 86,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/d1pj/milano-express-halishahar",
+    "review_number": 2020,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "milano-express-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 6548,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/d1pj/milano-express-halishahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Milano Express - Halishahar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801782828658",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": false,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.0
   },
   {
     "id": 73422,
@@ -2587,12 +4309,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 25.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 15,
-      "upper_limit_in_minutes": 30
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -2602,7 +4324,7 @@
     "primary_cuisine_id": 85,
     "rating": 4.2,
     "redirection_url": "https://foodpanda.com.bd/restaurant/udhn/mr-chef-halishahar",
-    "review_number": 372,
+    "review_number": 373,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -2806,12 +4528,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 20.0,
+    "minimum_delivery_time": 25.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 10,
-      "upper_limit_in_minutes": 25
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 10.0,
@@ -2863,7 +4585,7 @@
         "main": true
       }
     },
-    "vendor_points": 5714,
+    "vendor_points": 5716,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -2972,9 +4694,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T08:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -2983,9 +4705,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 25.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 15,
+      "upper_limit_in_minutes": 30
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Shumi's Hot Cake - Halishahar",
@@ -2994,7 +4720,7 @@
     "primary_cuisine_id": 77,
     "rating": 4.9,
     "redirection_url": "https://foodpanda.com.bd/restaurant/cjp5/shumis-hot-cake-halishahar",
-    "review_number": 468,
+    "review_number": 469,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -3032,7 +4758,7 @@
         "main": true
       }
     },
-    "vendor_points": 5720,
+    "vendor_points": 5717,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -3073,6 +4799,189 @@
     "is_promoted": false,
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.0
+  },
+  {
+    "id": 73873,
+    "code": "lh55",
+    "accepts_instructions": true,
+    "address": "City: Chittagong Area: Halishahar 4216 City Tower, Block G, Road 1, Halishahar, Chittagong",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cl8jn",
+      "name": "AL Forno",
+      "main_vendor_code": "",
+      "url_key": "al-forno"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.26,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/lh55-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/lh55-listing.jpg",
+    "is_new_until": "2025-01-18T06:13:39Z",
+    "premium_position": 0,
+    "latitude": 22.3338804,
+    "logo": "",
+    "longitude": 91.7887495,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 51.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "AL Forno - Halishahar",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 85,
+    "rating": 3.4,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/lh55/al-forno-halishahar",
+    "review_number": 28,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "604059"
+          }
+        }
+      }
+    ],
+    "url_key": "al-forno-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": true
+      }
+    },
+    "vendor_points": 4286,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/lh55/al-forno-halishahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "604059",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "AL-Forno - Halishahar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801782828658",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
     "is_preferred_partner": false,
     "_discovered_area": "Agrabad",
     "_area": "Halishahar",
@@ -3136,9 +5045,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T07:00:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -3147,9 +5056,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Mithai-Halishahar G Block",
@@ -3196,7 +5109,7 @@
         "main": true
       }
     },
-    "vendor_points": 4924,
+    "vendor_points": 4927,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -3241,6 +5154,227 @@
     "_discovered_area": "Halishahar",
     "_area": "Halishahar",
     "_area_distance_km": 2.0
+  },
+  {
+    "id": 62286,
+    "code": "lcmz",
+    "accepts_instructions": true,
+    "address": "RFCL C.K Tower, 'The City Bank Limited' Building, K-Block, Halishahar, Port Connecting Road, Boropole, Chittagong",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cz9xh",
+      "name": "The Pizza Co.",
+      "main_vendor_code": "mcv4",
+      "url_key": "the-pizza-co-cz9xh"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.119,
+    "food_characteristics": [
+      {
+        "id": 252,
+        "name": "Price Match",
+        "is_halal": false,
+        "is_vegetarian": false
+      }
+    ],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/lcmz-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/lcmz-listing.jpg",
+    "is_new_until": "2022-12-08T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 22.33174025,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/lcmz-logo.jpg",
+    "longitude": 91.789357,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 42.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "The Pizza Co. Flagship - Halishahar",
+    "payment_types": [],
+    "post_code": "4216",
+    "primary_cuisine_id": 73,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/lcmz/the-pizza-co-flagship-halishahar",
+    "review_number": 6267,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 550",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 550",
+        "label_metadata": {
+          "deal": {
+            "id": "607681"
+          }
+        }
+      }
+    ],
+    "url_key": "the-pizza-co-flagship-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [
+        {
+          "id": 252,
+          "name": "Price Match",
+          "is_halal": false,
+          "is_vegetarian": false
+        }
+      ],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 7008,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/lcmz/the-pizza-co-flagship-halishahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "607681",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "The Pizza Co.",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801974318866",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": false,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": true,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.01
   },
   {
     "id": 67060,
@@ -3318,12 +5452,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 25.0,
+    "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 15,
-      "upper_limit_in_minutes": 30
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -3333,7 +5467,7 @@
     "primary_cuisine_id": 86,
     "rating": 4.8,
     "redirection_url": "https://foodpanda.com.bd/restaurant/z6fg/takeout-halishahar-ctg",
-    "review_number": 4078,
+    "review_number": 4082,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -3378,7 +5512,7 @@
         "main": true
       }
     },
-    "vendor_points": 6968,
+    "vendor_points": 6960,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -3506,9 +5640,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T12:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -3517,9 +5651,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 51.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
     "name": "Burgwich Town - Halishahar",
@@ -3528,7 +5666,7 @@
     "primary_cuisine_id": 86,
     "rating": 4.6,
     "redirection_url": "https://foodpanda.com.bd/restaurant/kfz3/burgwich-town-halishahar",
-    "review_number": 286,
+    "review_number": 287,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -3590,7 +5728,7 @@
         "main": true
       }
     },
-    "vendor_points": 6448,
+    "vendor_points": 6441,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -3719,7 +5857,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -3909,7 +6047,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 51.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -4017,6 +6155,564 @@
     "_area_distance_km": 2.01
   },
   {
+    "id": 70205,
+    "code": "qcls",
+    "accepts_instructions": true,
+    "address": "H-2,R-2,Lane-1,Halishahar,Chittagong,Oppsite (A/C Mosque)",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "ck8tf",
+      "name": "Paragon Momo",
+      "main_vendor_code": "pvmg",
+      "url_key": "paragon-momo"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 74,
+        "name": "Chinese",
+        "url_key": "chinese",
+        "main": false
+      },
+      {
+        "id": 75,
+        "name": "Asian",
+        "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 240,
+        "name": "Dumpling",
+        "url_key": "dumpling",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.227,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/qcls-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/qcls-listing.jpg",
+    "is_new_until": "2024-04-26T08:34:19Z",
+    "premium_position": 0,
+    "latitude": 22.33406774,
+    "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/ck8tf-logo.jpg",
+    "longitude": 91.78918119,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 51.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 20,
+      "upper_limit_in_minutes": 35
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Paragon Momo Shwapno Halishahar",
+    "payment_types": [],
+    "post_code": "4200",
+    "primary_cuisine_id": 240,
+    "rating": 4.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/qcls/paragon-momo-shwapno-halishahar",
+    "review_number": 319,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off Tk. 200",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off Tk. 200",
+        "label_metadata": {
+          "deal": {
+            "id": "602082"
+          }
+        }
+      }
+    ],
+    "url_key": "paragon-momo-shwapno-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 74,
+          "name": "Chinese",
+          "url_key": "chinese",
+          "main": false
+        },
+        {
+          "id": 75,
+          "name": "Asian",
+          "url_key": "asian",
+          "main": false
+        },
+        {
+          "id": 240,
+          "name": "Dumpling",
+          "url_key": "dumpling",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 240,
+        "name": "Dumpling",
+        "url_key": "dumpling",
+        "main": true
+      }
+    },
+    "vendor_points": 5486,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/qcls/paragon-momo-shwapno-halishahar",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "602082",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Paragon Momo Shwapno Halishahar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801329426499",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.05
+  },
+  {
+    "id": 85869,
+    "code": "bwod",
+    "accepts_instructions": true,
+    "address": "Port Connecting Road, Wapdha Moor, Halishahar K Block",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "cb4yj",
+      "name": "Pizza & Patty .Co",
+      "main_vendor_code": "",
+      "url_key": "pizza-and-patty-co"
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": false
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 2.363,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/bwod-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/bwod-listing.jpg",
+    "is_new_until": "2025-10-23T10:26:05Z",
+    "premium_position": 0,
+    "latitude": 22.3357843,
+    "logo": "",
+    "longitude": 91.7886083,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 55.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 35.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 25,
+      "upper_limit_in_minutes": 40
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Pizza & Patty .Co - Halishahar",
+    "payment_types": [],
+    "post_code": "4000",
+    "primary_cuisine_id": 86,
+    "rating": 3.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/bwod/pizza-and-patty-co-halishahar",
+    "review_number": 40,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "pizza-and-patty-co-halishahar",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": false
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 5727,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/bwod/pizza-and-patty-co-halishahar",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Pizza & Patty .Co - Halishahar",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801923670128",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.06
+  },
+  {
+    "id": 121072,
+    "code": "q4ds",
+    "accepts_instructions": true,
+    "address": "Nurjahan Mansion, Nandan Mohajon Road/Nurjahan Mansion/3B, 4215 Halishahar, Chittagong, Bangladesh",
+    "address_line2": "",
+    "budget": 1,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Chittagong"
+    },
+    "cuisines": [
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": true
+      },
+      {
+        "id": 84,
+        "name": "Dessert",
+        "url_key": "dessert",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 3.238,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/q4ds-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/q4ds-listing.jpg",
+    "is_new_until": "2026-05-13T13:34:15Z",
+    "premium_position": 0,
+    "latitude": 22.34323,
+    "logo": "",
+    "longitude": 91.783624,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": false,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 59.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 45.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 40,
+      "upper_limit_in_minutes": 60
+    },
+    "minimum_order_amount": 50.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Habiba's Kitchen",
+    "payment_types": [],
+    "post_code": "4215",
+    "primary_cuisine_id": 122,
+    "rating": 2.8,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/q4ds/habibas-kitchen-q4ds",
+    "review_number": 22,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off",
+        "label_metadata": {
+          "deal": {
+            "id": "602810"
+          }
+        }
+      }
+    ],
+    "url_key": "habibas-kitchen-q4ds",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": true
+        },
+        {
+          "id": 84,
+          "name": "Dessert",
+          "url_key": "dessert",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": true
+      }
+    },
+    "vendor_points": 4680,
+    "vertical": "restaurants",
+    "vertical_segment": "home_based_kitchen",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/q4ds/habibas-kitchen-q4ds",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "602810",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Habiba's Kitchen",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801676967950",
+    "vertical_type_ids": [
+      "home_based_kitchen"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": false,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Agrabad",
+    "_area": "Halishahar",
+    "_area_distance_km": 2.11
+  },
+  {
     "id": 77931,
     "code": "gn6x",
     "accepts_instructions": true,
@@ -4091,19 +6787,21 @@
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T12:00:00+0600",
+      "close_reasons": [
+        "Unreachable"
+      ],
+      "available_in": null,
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 68.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -4180,7 +6878,7 @@
         "main": true
       }
     },
-    "vendor_points": 4726,
+    "vendor_points": 4718,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -4212,7 +6910,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -4296,7 +6994,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 25.0,
+    "original_delivery_fee": 42.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "minimum_order_amount": 50.0,
@@ -4386,162 +7084,6 @@
     "_area_distance_km": 2.12
   },
   {
-    "id": 99003,
-    "code": "raai",
-    "accepts_instructions": true,
-    "address": "Bow Bazar, In front of PC Park, Noyabazar Bissho Road, Halishahar, Chittagong",
-    "address_line2": "",
-    "budget": 2,
-    "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
-    },
-    "city": {
-      "name": "Chittagong"
-    },
-    "cuisines": [
-      {
-        "id": 243,
-        "name": "Curry",
-        "url_key": "curry",
-        "main": false
-      },
-      {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
-        "main": true
-      }
-    ],
-    "custom_location_url": "",
-    "customer_type": "all",
-    "delivery_box": "",
-    "delivery_fee_type": "amount",
-    "description": "",
-    "distance": 2.877,
-    "food_characteristics": [],
-    "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/raai-hero.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/raai-listing.jpg",
-    "is_new_until": "2026-01-16T22:09:43Z",
-    "premium_position": 0,
-    "latitude": 22.3430317,
-    "logo": "",
-    "longitude": 91.78794075,
-    "loyalty_percentage_amount": 0.0,
-    "loyalty_program_enabled": false,
-    "maximum_express_order_amount": 0,
-    "metadata": {
-      "has_discount": false,
-      "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": null,
-      "events": [],
-      "is_delivery_available": true,
-      "is_pickup_available": true,
-      "is_dine_in_available": false,
-      "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
-    },
-    "minimum_delivery_fee": 0.0,
-    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 29.0,
-    "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
-    "delivery_duration_range": {
-      "lower_limit_in_minutes": 20,
-      "upper_limit_in_minutes": 35
-    },
-    "minimum_order_amount": 50.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Alu Gosh",
-    "payment_types": [],
-    "post_code": "4216",
-    "primary_cuisine_id": 123,
-    "rating": 3.9,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/raai/alu-gosh",
-    "review_number": 55,
-    "review_with_comment_number": 0,
-    "score": 0.0,
-    "service_fee_percentage_amount": 0,
-    "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "alu-gosh",
-    "vat_percentage_amount": 0,
-    "characteristics": {
-      "cuisines": [
-        {
-          "id": 243,
-          "name": "Curry",
-          "url_key": "curry",
-          "main": false
-        },
-        {
-          "id": 123,
-          "name": "Rice Dishes",
-          "url_key": "rice-dishes",
-          "main": true
-        }
-      ],
-      "food_characteristics": [],
-      "primary_cuisine": {
-        "id": 123,
-        "name": "Rice Dishes",
-        "url_key": "rice-dishes",
-        "main": true
-      }
-    },
-    "vendor_points": 5498,
-    "vertical": "restaurants",
-    "vertical_segment": "restaurants",
-    "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/raai/alu-gosh",
-    "website": "",
-    "has_online_payment": false,
-    "discounts_info": [],
-    "discounts": [],
-    "vendor_legal_information": {
-      "legal_name": "Alu Gosh",
-      "trade_register_number": ""
-    },
-    "disclaimers": [],
-    "customer_phone": "+8801642777383",
-    "vertical_type_ids": [
-      "restaurants"
-    ],
-    "loyalty_programs": [],
-    "delivery_provider": "platform_delivery",
-    "is_active": true,
-    "is_best_in_city": false,
-    "is_checkout_comment_enabled": false,
-    "is_delivery_enabled": true,
-    "is_new": false,
-    "is_pickup_enabled": true,
-    "is_premium": false,
-    "is_preorder_enabled": false,
-    "is_replacement_dish_enabled": false,
-    "is_service_fee_enabled": false,
-    "is_service_tax_enabled": false,
-    "is_service_tax_visible": false,
-    "is_test": false,
-    "is_vat_disabled": false,
-    "is_vat_included_in_product_price": true,
-    "is_vat_visible": false,
-    "is_voucher_enabled": true,
-    "delivery_fee_discount_mov": 0.0,
-    "is_promoted": false,
-    "tag_ids": [],
-    "is_meal_for_one_vendor": false,
-    "is_preferred_partner": false,
-    "_discovered_area": "Agrabad",
-    "_area": "Halishahar",
-    "_area_distance_km": 2.42
-  },
-  {
     "id": 73222,
     "code": "fz8k",
     "accepts_instructions": true,
@@ -4604,12 +7146,12 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 32.0,
+    "original_delivery_fee": 59.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 50.0,
+    "minimum_delivery_time": 55.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 45,
-      "upper_limit_in_minutes": 65
+      "lower_limit_in_minutes": 50,
+      "upper_limit_in_minutes": 70
     },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
@@ -4661,7 +7203,7 @@
         "main": true
       }
     },
-    "vendor_points": 4107,
+    "vendor_points": 4126,
     "vertical": "restaurants",
     "vertical_segment": "home_based_kitchen",
     "vertical_parent": "Restaurant",

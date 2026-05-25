@@ -76,7 +76,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 28.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -246,7 +246,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 34.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -416,19 +416,21 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T14:00:00+0600",
+      "close_reasons": [
+        "Unreachable"
+      ],
+      "available_in": null,
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 28.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -495,7 +497,7 @@
         "main": true
       }
     },
-    "vendor_points": 4377,
+    "vendor_points": 4380,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -522,7 +524,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -542,12 +544,837 @@
     "_area_distance_km": 0.8
   },
   {
+    "id": 71967,
+    "code": "i9uj",
+    "accepts_instructions": true,
+    "address": "Haat, NK Trade Center, 3/3, Block-D, Uposhohor, 3100, La Bello Italiano, Sylhet, Bangladesh",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Sylhet"
+    },
+    "cuisines": [
+      {
+        "id": 69,
+        "name": "Italian",
+        "url_key": "italian",
+        "main": false
+      },
+      {
+        "id": 105,
+        "name": "Mediterranean",
+        "url_key": "mediterranean",
+        "main": false
+      },
+      {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.697,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/i9uj-hero.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/i9uj-listing.jpg",
+    "is_new_until": "2024-09-26T09:18:40Z",
+    "premium_position": 0,
+    "latitude": 24.8862372,
+    "logo": "",
+    "longitude": 91.8825533,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 28.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "La Bello Italiano",
+    "payment_types": [],
+    "post_code": "3100",
+    "primary_cuisine_id": 73,
+    "rating": 3.9,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/i9uj/la-bello-italiano",
+    "review_number": 28,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "599838"
+          }
+        }
+      }
+    ],
+    "url_key": "la-bello-italiano",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 69,
+          "name": "Italian",
+          "url_key": "italian",
+          "main": false
+        },
+        {
+          "id": 105,
+          "name": "Mediterranean",
+          "url_key": "mediterranean",
+          "main": false
+        },
+        {
+          "id": 73,
+          "name": "Pizza",
+          "url_key": "pizza-73",
+          "main": true
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 73,
+        "name": "Pizza",
+        "url_key": "pizza-73",
+        "main": true
+      }
+    },
+    "vendor_points": 4661,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/i9uj/la-bello-italiano",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "599838",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "La Bello Italiano",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801760033033",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Zindabazar",
+    "_area": "Uposhohor",
+    "_area_distance_km": 0.81
+  },
+  {
+    "id": 117186,
+    "code": "oehb",
+    "accepts_instructions": true,
+    "address": "Shahjalal Upashahar Main Rd,Haat super mall,sylhet",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Sylhet"
+    },
+    "cuisines": [
+      {
+        "id": 99,
+        "name": "Turkish",
+        "url_key": "turkish",
+        "main": false
+      },
+      {
+        "id": 121,
+        "name": "Wraps",
+        "url_key": "wraps",
+        "main": false
+      },
+      {
+        "id": 132,
+        "name": "Kebab",
+        "url_key": "kebab",
+        "main": false
+      },
+      {
+        "id": 113,
+        "name": "Middle Eastern",
+        "url_key": "middle-eastern",
+        "main": false
+      },
+      {
+        "id": 147,
+        "name": "Beverage",
+        "url_key": "beverage",
+        "main": false
+      },
+      {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": true
+      },
+      {
+        "id": 85,
+        "name": "Burgers",
+        "url_key": "burgers",
+        "main": false
+      },
+      {
+        "id": 151,
+        "name": "Western",
+        "url_key": "western",
+        "main": false
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.699,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/oehb-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/oehb-listing.jpg",
+    "is_new_until": "2026-04-19T09:44:01Z",
+    "premium_position": 0,
+    "latitude": 24.8862618,
+    "logo": "",
+    "longitude": 91.8825945,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 28.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Turkish doner",
+    "payment_types": [],
+    "post_code": "3300",
+    "primary_cuisine_id": 90,
+    "rating": 1.6,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/oehb/turkish-doner",
+    "review_number": 9,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "10% off Tk. 50",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "10% off Tk. 50",
+        "label_metadata": {
+          "deal": {
+            "id": "603830"
+          }
+        }
+      }
+    ],
+    "url_key": "turkish-doner",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 99,
+          "name": "Turkish",
+          "url_key": "turkish",
+          "main": false
+        },
+        {
+          "id": 121,
+          "name": "Wraps",
+          "url_key": "wraps",
+          "main": false
+        },
+        {
+          "id": 132,
+          "name": "Kebab",
+          "url_key": "kebab",
+          "main": false
+        },
+        {
+          "id": 113,
+          "name": "Middle Eastern",
+          "url_key": "middle-eastern",
+          "main": false
+        },
+        {
+          "id": 147,
+          "name": "Beverage",
+          "url_key": "beverage",
+          "main": false
+        },
+        {
+          "id": 90,
+          "name": "Cafe",
+          "url_key": "cafe",
+          "main": true
+        },
+        {
+          "id": 85,
+          "name": "Burgers",
+          "url_key": "burgers",
+          "main": false
+        },
+        {
+          "id": 151,
+          "name": "Western",
+          "url_key": "western",
+          "main": false
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 90,
+        "name": "Cafe",
+        "url_key": "cafe",
+        "main": true
+      }
+    },
+    "vendor_points": 3902,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/oehb/turkish-doner",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [
+      {
+        "id": "603830",
+        "value": 10
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Turkish doner",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801841052044",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Zindabazar",
+    "_area": "Uposhohor",
+    "_area_distance_km": 0.81
+  },
+  {
+    "id": 88497,
+    "code": "jisq",
+    "accepts_instructions": true,
+    "address": "3/3 Main Road, Block-D, Shahjalal Uposhohor, Sylhet, Haat Super Mall, Sylhet, Bangladesh",
+    "address_line2": "",
+    "budget": 2,
+    "chain": {
+      "code": "",
+      "name": "",
+      "main_vendor_code": "",
+      "url_key": ""
+    },
+    "city": {
+      "name": "Sylhet"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 122,
+        "name": "Snacks",
+        "url_key": "snacks",
+        "main": false
+      },
+      {
+        "id": 123,
+        "name": "Rice Dishes",
+        "url_key": "rice-dishes",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.699,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/jisq-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/jisq-listing.jpg",
+    "is_new_until": "2025-11-04T15:34:23Z",
+    "premium_position": 0,
+    "latitude": 24.8863245,
+    "logo": "",
+    "longitude": 91.8826392,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": false,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 28.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "Cravers Club - HAAT Shopping City",
+    "payment_types": [],
+    "post_code": "3100",
+    "primary_cuisine_id": 86,
+    "rating": 0.0,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/jisq/cravers-club-haat-shopping-city",
+    "review_number": 0,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "",
+    "tags": [],
+    "url_key": "cravers-club-haat-shopping-city",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 122,
+          "name": "Snacks",
+          "url_key": "snacks",
+          "main": false
+        },
+        {
+          "id": 123,
+          "name": "Rice Dishes",
+          "url_key": "rice-dishes",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4550,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/jisq/cravers-club-haat-shopping-city",
+    "website": "",
+    "has_online_payment": false,
+    "discounts_info": [],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "Cravers Club - HAAT Shopping City",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801893930060",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": true,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Zindabazar",
+    "_area": "Uposhohor",
+    "_area_distance_km": 0.82
+  },
+  {
+    "id": 30952,
+    "code": "p37g",
+    "accepts_instructions": true,
+    "address": "Haat Food Court , Beside Shahjalal Convention Center, Main Road, Block D, Shahjalal Uposhohor",
+    "address_line2": "",
+    "budget": 3,
+    "chain": {
+      "code": "ca3fp",
+      "name": "La-Mensa",
+      "main_vendor_code": "p37g",
+      "url_key": "la-mensa"
+    },
+    "city": {
+      "name": "Sylhet"
+    },
+    "cuisines": [
+      {
+        "id": 100,
+        "name": "Chicken",
+        "url_key": "chicken",
+        "main": false
+      },
+      {
+        "id": 95,
+        "name": "Meat",
+        "url_key": "meat",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    ],
+    "custom_location_url": "",
+    "customer_type": "all",
+    "delivery_box": "",
+    "delivery_fee_type": "amount",
+    "description": "",
+    "distance": 1.696,
+    "food_characteristics": [],
+    "has_delivery_provider": true,
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/p37g-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/p37g-listing.jpg",
+    "is_new_until": "2020-12-22T00:00:00Z",
+    "premium_position": 0,
+    "latitude": 24.88636445,
+    "logo": "",
+    "longitude": 91.88263965,
+    "loyalty_percentage_amount": 0.0,
+    "loyalty_program_enabled": false,
+    "maximum_express_order_amount": 0,
+    "metadata": {
+      "has_discount": true,
+      "timezone": "Asia/Dhaka",
+      "close_reasons": [],
+      "available_in": null,
+      "events": [],
+      "is_delivery_available": true,
+      "is_pickup_available": true,
+      "is_dine_in_available": false,
+      "is_express_delivery_available": false,
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
+    },
+    "minimum_delivery_fee": 0.0,
+    "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
+    "original_delivery_fee": 28.0,
+    "has_delivery_pro_discount": false,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
+    "minimum_order_amount": 100.0,
+    "minimum_pickup_time": 15.0,
+    "name": "La-Mensa",
+    "payment_types": [],
+    "post_code": "3100",
+    "primary_cuisine_id": 86,
+    "rating": 3.1,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/p37g/la-mensa-p37g",
+    "review_number": 422,
+    "review_with_comment_number": 0,
+    "score": 0.0,
+    "service_fee_percentage_amount": 0,
+    "service_tax_percentage_amount": 0,
+    "tag": "15% off",
+    "tags": [
+      {
+        "code": "DEAL",
+        "text": "15% off",
+        "label_metadata": {
+          "deal": {
+            "id": "599493"
+          }
+        }
+      }
+    ],
+    "url_key": "la-mensa-p37g",
+    "vat_percentage_amount": 0,
+    "characteristics": {
+      "cuisines": [
+        {
+          "id": 100,
+          "name": "Chicken",
+          "url_key": "chicken",
+          "main": false
+        },
+        {
+          "id": 95,
+          "name": "Meat",
+          "url_key": "meat",
+          "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": true
+        }
+      ],
+      "food_characteristics": [],
+      "primary_cuisine": {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": true
+      }
+    },
+    "vendor_points": 4929,
+    "vertical": "restaurants",
+    "vertical_segment": "restaurants",
+    "vertical_parent": "Restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/p37g/la-mensa-p37g",
+    "website": "",
+    "has_online_payment": true,
+    "discounts_info": [
+      {
+        "id": "599493",
+        "value": 15
+      }
+    ],
+    "discounts": [],
+    "vendor_legal_information": {
+      "legal_name": "La-Mensa",
+      "trade_register_number": ""
+    },
+    "disclaimers": [],
+    "customer_phone": "+8801757550603",
+    "vertical_type_ids": [
+      "restaurants"
+    ],
+    "loyalty_programs": [],
+    "delivery_provider": "platform_delivery",
+    "is_active": true,
+    "is_best_in_city": false,
+    "is_checkout_comment_enabled": false,
+    "is_delivery_enabled": true,
+    "is_new": false,
+    "is_pickup_enabled": true,
+    "is_premium": false,
+    "is_preorder_enabled": false,
+    "is_replacement_dish_enabled": false,
+    "is_service_fee_enabled": false,
+    "is_service_tax_enabled": false,
+    "is_service_tax_visible": false,
+    "is_test": false,
+    "is_vat_disabled": false,
+    "is_vat_included_in_product_price": true,
+    "is_vat_visible": false,
+    "is_voucher_enabled": false,
+    "delivery_fee_discount_mov": 0.0,
+    "is_promoted": false,
+    "tag_ids": [],
+    "is_meal_for_one_vendor": false,
+    "is_preferred_partner": false,
+    "_discovered_area": "Zindabazar",
+    "_area": "Uposhohor",
+    "_area_distance_km": 0.82
+  },
+  {
     "id": 76824,
     "code": "qm84",
     "accepts_instructions": true,
     "address": "1 Shahjalal Upashahar Main Rd, CRAVE (HAAT FOOD COURT), Shahjalal Upashahar Main Road, Sylhet, Bangladesh",
     "address_line2": "",
-    "budget": 2,
+    "budget": 3,
     "chain": {
       "code": "",
       "name": "",
@@ -593,9 +1420,9 @@
       "has_discount": false,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
-      "available_in": "2026-05-25T11:30:00+0600",
+      "available_in": null,
       "events": [],
-      "is_delivery_available": false,
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
@@ -604,9 +1431,13 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 28.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
     "minimum_order_amount": 100.0,
     "minimum_pickup_time": 15.0,
     "name": "CRAVE",
@@ -647,7 +1478,7 @@
         "main": true
       }
     },
-    "vendor_points": 4600,
+    "vendor_points": 4611,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -782,7 +1613,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 20.0,
+    "original_delivery_fee": 28.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 100.0,
@@ -896,32 +1727,44 @@
     "_area_distance_km": 0.83
   },
   {
-    "id": 105158,
-    "code": "p9h8",
+    "id": 4667,
+    "code": "s9to",
     "accepts_instructions": true,
-    "address": "Subhanighat Bishwa Rd, Sylhet near by The Sylhet Buffet House and Party Center, Bishwa Road, Sylhet, Bangladesh",
+    "address": "2nd Floor, K. K. Mansion, Beside Oasis Hospital, Bishawroad, Subhanighat, Sylhet 3100",
     "address_line2": "",
-    "budget": 1,
+    "budget": 3,
     "chain": {
-      "code": "",
-      "name": "",
-      "main_vendor_code": "",
-      "url_key": ""
+      "code": "cu7ja",
+      "name": "Kababia",
+      "main_vendor_code": "s9to",
+      "url_key": "kababia"
     },
     "city": {
       "name": "Sylhet"
     },
     "cuisines": [
       {
-        "id": 195,
-        "name": "Bangladeshi",
-        "url_key": "bangladeshi",
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
         "main": true
       },
       {
         "id": 75,
         "name": "Asian",
         "url_key": "asian",
+        "main": false
+      },
+      {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
+        "id": 251,
+        "name": "Faluda",
+        "url_key": "faluda",
         "main": false
       }
     ],
@@ -930,21 +1773,21 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.381,
+    "distance": 1.354,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/p9h8-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/p9h8-listing.jpg",
-    "is_new_until": "2026-02-16T09:19:27Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/s9to-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/s9to-listing.jpg",
+    "is_new_until": "2019-03-17T00:00:00Z",
     "premium_position": 0,
-    "latitude": 24.8883949,
+    "latitude": 24.88822,
     "logo": "",
-    "longitude": 91.88036,
+    "longitude": 91.879926,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
-      "has_discount": false,
+      "has_discount": true,
       "timezone": "Asia/Dhaka",
       "close_reasons": [],
       "available_in": null,
@@ -958,36 +1801,50 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 16.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 30.0,
+    "minimum_delivery_time": 40.0,
     "delivery_duration_range": {
-      "lower_limit_in_minutes": 20,
-      "upper_limit_in_minutes": 35
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
     },
-    "minimum_order_amount": 100.0,
-    "minimum_pickup_time": 15.0,
-    "name": "Nure Fatema Restaurant",
+    "minimum_order_amount": 75.0,
+    "minimum_pickup_time": 20.0,
+    "name": "Kababia",
     "payment_types": [],
     "post_code": "3100",
-    "primary_cuisine_id": 195,
-    "rating": 2.0,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/p9h8/nure-fatema-restaurant",
-    "review_number": 6,
+    "primary_cuisine_id": 80,
+    "rating": 4.2,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/s9to/kababia",
+    "review_number": 788,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
-    "tag": "",
-    "tags": [],
-    "url_key": "nure-fatema-restaurant",
+    "tag": "NEXTGEN_FEATURED_TAG",
+    "tags": [
+      {
+        "code": "FEAT",
+        "text": "NEXTGEN_FEATURED_TAG"
+      },
+      {
+        "code": "DEAL",
+        "text": "Up to 10% off",
+        "label_metadata": {
+          "deal": {
+            "id": "584202"
+          }
+        }
+      }
+    ],
+    "url_key": "kababia",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
         {
-          "id": 195,
-          "name": "Bangladeshi",
-          "url_key": "bangladeshi",
+          "id": 80,
+          "name": "Indian",
+          "url_key": "indian",
           "main": true
         },
         {
@@ -995,31 +1852,43 @@
           "name": "Asian",
           "url_key": "asian",
           "main": false
+        },
+        {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
+          "id": 251,
+          "name": "Faluda",
+          "url_key": "faluda",
+          "main": false
         }
       ],
       "food_characteristics": [],
       "primary_cuisine": {
-        "id": 195,
-        "name": "Bangladeshi",
-        "url_key": "bangladeshi",
+        "id": 80,
+        "name": "Indian",
+        "url_key": "indian",
         "main": true
       }
     },
-    "vendor_points": 0,
+    "vendor_points": 5925,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/p9h8/nure-fatema-restaurant",
+    "web_path": "https://foodpanda.com.bd/restaurant/s9to/kababia",
     "website": "",
-    "has_online_payment": false,
+    "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Nure Fatema Restaurant",
+      "legal_name": "Kababia",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801613045009",
+    "customer_phone": "+8801997877897",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -1031,7 +1900,7 @@
     "is_delivery_enabled": true,
     "is_new": false,
     "is_pickup_enabled": true,
-    "is_premium": false,
+    "is_premium": true,
     "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
@@ -1041,15 +1910,17 @@
     "is_vat_disabled": false,
     "is_vat_included_in_product_price": true,
     "is_vat_visible": false,
-    "is_voucher_enabled": true,
+    "is_voucher_enabled": false,
     "delivery_fee_discount_mov": 0.0,
     "is_promoted": false,
+    "ncr_pricing_model": "cpc",
+    "ncr_token": "IOgebGNfXpPDqXf8UvCyqqGb7fkezxs60CR0fnMdh+DlM96AboJ9RhGNTrJL9uTKdWUw38H7GweDXGxOWuwT/JJejlOU8MDi5om+wxXdRZMHQBTlf444aBKY6Wvk5x3WSiN6THUohRX33ds5pxbVn15X7x/XVMxFv2XwW9lqMVR2v/xHb3ywGGRL8xpL5opg/EC9Shp6Y0xUb0+jgvCCcIlcSzWtVZDRAgodzOmrLo8hG2OoWfWJTki56AP2Km2uUrQShNUtMd6be6sE319+",
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
     "_discovered_area": "Zindabazar",
     "_area": "Uposhohor",
-    "_area_distance_km": 0.89
+    "_area_distance_km": 0.86
   },
   {
     "id": 76230,
@@ -1152,7 +2023,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 16.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
     "minimum_order_amount": 75.0,
@@ -1231,7 +2102,7 @@
         "main": true
       }
     },
-    "vendor_points": 4100,
+    "vendor_points": 4104,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -1376,7 +2247,7 @@
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 16.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 30.0,
     "delivery_duration_range": {
@@ -1459,7 +2330,7 @@
         "main": true
       }
     },
-    "vendor_points": 5401,
+    "vendor_points": 5409,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",

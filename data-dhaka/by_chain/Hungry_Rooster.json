@@ -1,9 +1,9 @@
 [
   {
-    "id": 28139,
-    "code": "r8jh",
+    "id": 74314,
+    "code": "zm3m",
     "accepts_instructions": true,
-    "address": "House #90, Road # 17A, Block E, Banani, Dhaka -1213,",
+    "address": "9th floor, Suvastu Rialto Tower, 53/1, Road No. 4/A, Dhanmondi, Dhaka-1209",
     "address_line2": "",
     "budget": 2,
     "chain": {
@@ -35,6 +35,12 @@
         "main": false
       },
       {
+        "id": 86,
+        "name": "Fast Food",
+        "url_key": "fast-food",
+        "main": false
+      },
+      {
         "id": 241,
         "name": "Fried Chicken",
         "url_key": "fried-chicken",
@@ -46,74 +52,57 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 1.631,
+    "distance": 0.609,
     "food_characteristics": [],
     "has_delivery_provider": true,
-    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/r8jh-listing.jpg",
-    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/r8jh-listing.jpg",
-    "is_new_until": "2020-11-23T00:00:00Z",
+    "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/zm3m-listing.jpg",
+    "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/zm3m-listing.jpg",
+    "is_new_until": "2025-02-13T07:53:03Z",
     "premium_position": 0,
-    "latitude": 23.79201204,
+    "latitude": 23.74057675,
     "logo": "",
-    "longitude": 90.40922884,
+    "longitude": 90.3751775,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_1546",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 78.0,
+    "original_delivery_fee": 45.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 0.0,
+    "minimum_delivery_time": 40.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 35,
+      "upper_limit_in_minutes": 55
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "Hungry Rooster",
+    "name": "Hungry Rooster - Dhanmondi",
     "payment_types": [],
-    "post_code": "1213",
+    "post_code": "1209",
     "primary_cuisine_id": 241,
-    "rating": 4.7,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/r8jh/hungry-rooster",
-    "review_number": 1464,
+    "rating": 4.5,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/zm3m/hungry-rooster-dhanmondi-zm3m",
+    "review_number": 365,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
     "service_tax_percentage_amount": 0,
     "tag": "",
     "tags": [],
-    "url_key": "hungry-rooster",
+    "url_key": "hungry-rooster-dhanmondi-zm3m",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -136,6 +125,12 @@
           "main": false
         },
         {
+          "id": 86,
+          "name": "Fast Food",
+          "url_key": "fast-food",
+          "main": false
+        },
+        {
           "id": 241,
           "name": "Fried Chicken",
           "url_key": "fried-chicken",
@@ -150,21 +145,21 @@
         "main": true
       }
     },
-    "vendor_points": 6235,
+    "vendor_points": 6018,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/r8jh/hungry-rooster",
+    "web_path": "https://foodpanda.com.bd/restaurant/zm3m/hungry-rooster-dhanmondi-zm3m",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "Devour Limited",
-      "trade_register_number": "N/A"
+      "legal_name": "Hungry Rooster - Dhanmondi",
+      "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801796147397",
+    "customer_phone": "+8801707955188",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -192,8 +187,8 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Gulshan 1",
-    "_area": "Gulshan 2",
-    "_area_distance_km": 0.16
+    "_discovered_area": "Dhanmondi",
+    "_area": "Dhanmondi",
+    "_area_distance_km": 0.61
   }
 ]

@@ -1,9 +1,9 @@
 [
   {
-    "id": 75610,
-    "code": "fa7p",
+    "id": 91308,
+    "code": "dvt0",
     "accepts_instructions": true,
-    "address": "20, Ahsan Ahmed Road,",
+    "address": "Shantidham More, Sadar, Khulna",
     "address_line2": "",
     "budget": 2,
     "chain": {
@@ -39,12 +39,6 @@
         "name": "Fast Food",
         "url_key": "fast-food",
         "main": true
-      },
-      {
-        "id": 241,
-        "name": "Fried Chicken",
-        "url_key": "fried-chicken",
-        "main": false
       }
     ],
     "custom_location_url": "",
@@ -52,67 +46,50 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 4.809,
+    "distance": 4.302,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx5ht-listing.jpg",
     "hero_listing_image": "https://images.deliveryhero.io/image/fd-bd/LH/cx5ht-listing.jpg",
-    "is_new_until": "2025-05-19T00:00:00Z",
+    "is_new_until": "2025-11-20T05:23:51Z",
     "premium_position": 0,
-    "latitude": 22.80962785,
+    "latitude": 22.81205196,
     "logo": "https://images.deliveryhero.io/image/fd-bd/bd-logos/cx5ht-logo.jpg",
-    "longitude": 89.566349,
+    "longitude": 89.56121732,
     "loyalty_percentage_amount": 0.0,
     "loyalty_program_enabled": false,
     "maximum_express_order_amount": 0,
     "metadata": {
       "has_discount": true,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [
-        "event"
-      ],
+      "close_reasons": [],
       "available_in": null,
-      "events": [
-        {
-          "id": "bd_112",
-          "name": "",
-          "messages": [
-            ""
-          ],
-          "actions": [
-            {
-              "type": "message",
-              "message": ""
-            },
-            {
-              "type": "close",
-              "message": null
-            }
-          ],
-          "tags": {}
-        }
-      ],
-      "is_delivery_available": false,
+      "events": [],
+      "is_delivery_available": true,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": true,
-      "is_flood_feature_closed": true
+      "is_temporary_closed": false,
+      "is_flood_feature_closed": false
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 86.0,
+    "original_delivery_fee": 67.0,
     "has_delivery_pro_discount": false,
-    "minimum_delivery_time": 35.0,
+    "minimum_delivery_time": 30.0,
+    "delivery_duration_range": {
+      "lower_limit_in_minutes": 30,
+      "upper_limit_in_minutes": 45
+    },
     "minimum_order_amount": 50.0,
     "minimum_pickup_time": 15.0,
-    "name": "CP five star - Ahsan Ahmed RD",
+    "name": "CP Five Star - Shantidham More",
     "payment_types": [],
     "post_code": "9100",
     "primary_cuisine_id": 86,
     "rating": 4.6,
-    "redirection_url": "https://foodpanda.com.bd/restaurant/fa7p/cp-five-star-ahsan-ahmed-rd",
-    "review_number": 395,
+    "redirection_url": "https://foodpanda.com.bd/restaurant/dvt0/cp-five-star-shantidham-more",
+    "review_number": 139,
     "review_with_comment_number": 0,
     "score": 0.0,
     "service_fee_percentage_amount": 0,
@@ -124,16 +101,12 @@
         "text": "Up to 10% off",
         "label_metadata": {
           "deal": {
-            "id": "592198"
+            "id": "592199"
           }
         }
-      },
-      {
-        "code": "SUPER_VENDOR",
-        "text": "NEXTGEN_SUPER_VENDOR"
       }
     ],
-    "url_key": "cp-five-star-ahsan-ahmed-rd",
+    "url_key": "cp-five-star-shantidham-more",
     "vat_percentage_amount": 0,
     "characteristics": {
       "cuisines": [
@@ -160,12 +133,6 @@
           "name": "Fast Food",
           "url_key": "fast-food",
           "main": true
-        },
-        {
-          "id": 241,
-          "name": "Fried Chicken",
-          "url_key": "fried-chicken",
-          "main": false
         }
       ],
       "food_characteristics": [],
@@ -176,21 +143,21 @@
         "main": true
       }
     },
-    "vendor_points": 5843,
+    "vendor_points": 5662,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
-    "web_path": "https://foodpanda.com.bd/restaurant/fa7p/cp-five-star-ahsan-ahmed-rd",
+    "web_path": "https://foodpanda.com.bd/restaurant/dvt0/cp-five-star-shantidham-more",
     "website": "",
     "has_online_payment": true,
     "discounts_info": [],
     "discounts": [],
     "vendor_legal_information": {
-      "legal_name": "CP five star - Ahsan Ahmed RD",
+      "legal_name": "CP Five Star - Shantidham More",
       "trade_register_number": ""
     },
     "disclaimers": [],
-    "customer_phone": "+8801737679226",
+    "customer_phone": "+8801711504217",
     "vertical_type_ids": [
       "restaurants"
     ],
@@ -220,6 +187,6 @@
     "is_preferred_partner": false,
     "_discovered_area": "Khulna Sadar",
     "_area": "Shibbari",
-    "_area_distance_km": 2.11
+    "_area_distance_km": 1.64
   }
 ]

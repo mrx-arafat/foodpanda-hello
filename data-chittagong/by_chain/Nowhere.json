@@ -34,7 +34,7 @@
     "delivery_box": "",
     "delivery_fee_type": "amount",
     "description": "",
-    "distance": 2.281,
+    "distance": 1.442,
     "food_characteristics": [],
     "has_delivery_provider": true,
     "hero_image": "https://images.deliveryhero.io/image/fd-bd/LH/g4f7-listing.jpg",
@@ -50,22 +50,24 @@
     "metadata": {
       "has_discount": false,
       "timezone": "Asia/Dhaka",
-      "close_reasons": [],
-      "available_in": "2026-05-25T13:00:00+0600",
+      "close_reasons": [
+        "Unreachable"
+      ],
+      "available_in": null,
       "events": [],
       "is_delivery_available": false,
       "is_pickup_available": true,
       "is_dine_in_available": false,
       "is_express_delivery_available": false,
-      "is_temporary_closed": false,
-      "is_flood_feature_closed": false
+      "is_temporary_closed": true,
+      "is_flood_feature_closed": true
     },
     "minimum_delivery_fee": 0.0,
     "free_delivery_label": "NEXTGEN_HVA_ACQUISITION_FD",
-    "original_delivery_fee": 65.0,
+    "original_delivery_fee": 19.0,
     "has_delivery_pro_discount": false,
     "minimum_delivery_time": 35.0,
-    "minimum_order_amount": 100.0,
+    "minimum_order_amount": 75.0,
     "minimum_pickup_time": 15.0,
     "name": "Nowhere",
     "payment_types": [],
@@ -105,7 +107,7 @@
         "main": true
       }
     },
-    "vendor_points": 4046,
+    "vendor_points": 4050,
     "vertical": "restaurants",
     "vertical_segment": "restaurants",
     "vertical_parent": "Restaurant",
@@ -132,7 +134,7 @@
     "is_new": false,
     "is_pickup_enabled": true,
     "is_premium": false,
-    "is_preorder_enabled": true,
+    "is_preorder_enabled": false,
     "is_replacement_dish_enabled": false,
     "is_service_fee_enabled": false,
     "is_service_tax_enabled": false,
@@ -147,7 +149,7 @@
     "tag_ids": [],
     "is_meal_for_one_vendor": false,
     "is_preferred_partner": false,
-    "_discovered_area": "Nasirabad",
+    "_discovered_area": "GEC Circle",
     "_area": "Mehedibag",
     "_area_distance_km": 0.73
   }
